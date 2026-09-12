@@ -1,124 +1,56 @@
 # Feynman perspective
 
-A Richard Feynman reasoning and conversation skill: make the question concrete,
-derive a consequence, check it, and show the conditions that could make the answer
-wrong. It also covers physical problem solving, teaching, scientific integrity,
-and reflective conversation about curiosity.
+A reasoning and conversation skill drawn from Richard Feynman's public record: follow one concrete example, derive what changes, check it and preserve the conditions under which the answer holds.
 
-**2026-09-12 upgrade status: working candidate, not a verified release.**
-The runtime has been rebuilt against persona-distiller commit
-[`b57edf4`](https://github.com/ariel-lee-1023/persona-distiller/commit/b57edf4706065fef3fc520dd1521c3d66650b6a6).
-Structural compliance and actual evaluation results are reported separately.
-Unstable register evidence and evaluation timing/context limitations
-remain blockers. Several retained depth modules also exceed their computed supply; the measured deviations are preserved in `fidelity-ledger/budgets.json`. A successful example or a schema check does not remove them.
+**Working release with limited evaluation.** This version is usable as a perspective skill, but does not claim full independent validation. Evaluation was stopped at the user's request; the saved state is recorded in [release status](fidelity-ledger/release-status.json) and [the evaluation checkpoint](fidelity-ledger/evaluation-checkpoint.json).
 
-## What changed
+## What changed in this round
 
-- A scene-based core with an explicit axis, ordered question handling, eight
-  routing cases, refusal conditions, a vocabulary throttle and a stopping boundary.
-- A required [scope contract](references/scope.md): historical periods, original
-  motives, changed conditions and attestation versus a new application.
-- A new [voice module](references/voice.md) with observed English source profiles,
-  scoped lexical checks and explicit uncertainty about statistical families.
-- Layered [frameworks](references/frameworks.md), including conditional historical
-  lookups rather than timeless institutional verdicts.
-- A new [problem-solving module](references/clusters/c16-problem-solving.md),
-  recovered from the scanned *Feynman's Tips on Physics* rather than its empty
-  Markdown conversion. It adds prerequisites, signs, energy accounting,
-  learner readiness and the comparison-group problem in academic rank.
-- Existing depth modules retained and corrected: checked refutation, limits of
-  analogies, duplicate Challenger accounts, and qualified claims about smaller
-  measured effects. Unsupported old numerical voice claims were removed.
-- Previous scores preserved as **legacy records**, never promoted into current
-  evidence. Training metadata and audit artifacts now live outside runtime references.
+The seven depth modules have been rewritten to keep the source cases, execution conditions and counterexamples while removing repeated framework and voice instructions. Estimated runtime size fell from 37,824 to 26,947 tokens (28.76%) under the same declared heuristic. The worst-case load, including scope, standing modules and two depth modules, fell from 22,098 to 17,858. These are planning estimates, not model-specific tokenizer counts.
+
+The voice now follows a causal explanation through longer connected sentences, relevant qualifications and short consequences. It is not a collection of aphorisms or obligatory anecdotes. Its measured claim is deliberately limited to introductory English scientific explanation. Two lecture sources give stable pair/family decisions across three equal-length windows. Broader comparisons remain inconclusive and are preserved; no single voice is asserted for all Feynman writing.
+
+The evaluation protocol was frozen before this round's curation, with a separate sealed style supplement. Completed predictions used a separate fresh context per item and condition. The final suite was stopped before completion; all previous final tests are retained as development history.
 
 ## Use
 
-Open this repository as a project. Its discovery link is
-`.agents/skills/feynman-perspective -> ../..`; the root [SKILL.md](SKILL.md) is
-the single canonical copy. Alternatively, install that root and its `references/`
-directory together as `feynman-perspective` in a host's skill directory.
+The root [SKILL.md](SKILL.md) and `references/` are the canonical runtime. The discovery link `.agents/skills/feynman-perspective -> ../..` points to that root. The local [AGENTS.md](AGENTS.md) activates it while respecting explicit requests to leave the voice or maintain the package.
 
-The host loads the core and scope first, voice for sustained writing, and a topic
-module when needed. The [AGENTS.md](AGENTS.md) project default respects explicit
-requests to leave the voice or maintain the package. Generated speech is not an
-authentic quotation and the agent is not the historical person.
+The host loads [scope](references/scope.md) with the core, [voice](references/voice.md) for sustained prose, and [frameworks](references/frameworks.md) for procedures and historical judgments. Topic modules supply additional depth.
 
-Example requests:
+Examples:
 
-- “Help me find a test that separates these two explanations.”
-- “I can repeat this formula but don't understand its sign. Work one example.”
-- “Review this scientific claim, including the evidence that could hurt it.”
-- “Explain this in Chinese, keeping the reasoning concrete.”
+- Help me find a test that distinguishes these explanations.
+- I can repeat the formula but do not understand the sign; work one example.
+- Review this claim, including evidence that would hurt it.
+- Explain this in Chinese while keeping the reasoning concrete.
 
-## Sources and their limits
+Generated speech is not an authentic quotation. The calibrated voice scope is English explanatory lecture prose; Chinese use has no measured style validation. Historical views are dated, and current factual questions require current evidence.
 
-The user supplied seven Markdown works: *Surely You're Joking, Mr. Feynman!*,
-*What Do You Care What Other People Think?*, *The Pleasure of Finding Things Out*,
-*The Character of Physical Law*, *Six Easy Pieces*, *New Textbooks for the New
-Mathematics*, and *Feynman's Tips on Physics*.
+## Sources and evidence
 
-The last Markdown contains image references without substantive text. The local
-paired 176-page PDF was rendered and OCRed; Feynman's four lectures were separated
-from editors' material, Matthew Sands's memoir and Leighton/Vogt exercises. No
-full source text, PDF, page image or private grading target is distributed here.
+The seven user-supplied works remain the construction corpus. The image-only Tips Markdown was supplemented from its paired scanned PDF, separating Feynman's lectures from editors, students and other authors. Raw books and scans are not distributed.
 
-Repeated speeches and the Challenger report are grouped as related evidence.
-The source split conservatively reserves two early *Six Easy Pieces* lecture
-episodes and forces previously exposed material into construction. Development
-and final projection each cover **one lecture group with two correlated probes**.
-This does not establish general fidelity across all domains. The historical
-physics text is not a current reference for science, medicine or engineering.
+This round completed a development projection comparison using an original Caltech research-paper record. The final research-paper, behavioral, identity and edited-lecture style comparisons remain incomplete. These records do not establish broad lifetime fidelity. See the acquisition, protocol and result records in [the ledger](fidelity-ledger/provenance.md).
 
-## Evidence and validation
+Original scores, failures, disputed judgments and runtime snapshots are preserved under `fidelity-ledger/round1-2026-09-12/` and `legacy-2026-08/`. The current runtime never loads the ledger. Manual model evaluations are recorded as such; exact served model identifiers and provider sampling settings are unavailable, and no executable-runner provenance is claimed.
 
-The [fidelity ledger](fidelity-ledger/provenance.md) contains source locators,
-actual model answers and grading rationales, class-specific admission, budget
-measurements, split history, exact runtime hashes and validation reports.
-The original failed split, development scope failure and retired final scenarios
-remain visible. Some supplementary trials are candidate-only and unblinded.
-The served model's exact identifier was unavailable; “inherited parent model”
-records that limitation rather than inventing settings.
+## Checks and limitations
 
-The voice discovery returned `INSUFFICIENT_EVIDENCE`, including a comparison of
-longer texts. It has not been renamed `SINGLE_REGISTER`. A further seven-case behavioral comparison was frozen after assembly and passed in both conditions; it does not retroactively satisfy the before-extraction suite requirement. Prediction contexts were fresh per condition, with multiple items per batch, and the strict projection artifact conservatively marks per-item freshness false. The package does not
-claim that its repeated source themes prove an improvement over the minimal role.
+| Check | Current evidence |
+| --- | --- |
+| Package structure and current reference links | Passed: 0 structural errors or warnings; 44 relative links checked. Records in [release status](fidelity-ledger/release-status.json). |
+| Development source projection | New skill **0.75**, minimal “Think like Feynman” prompt **0.75**, on two correlated probes from one source group. No demonstrated improvement over baseline. |
+| Register discovery | Stable only within the narrowed introductory English lecture scope. Broader comparisons are inconclusive. |
+| Final evaluation | **11 of 32 planned answers saved**, with final scoring incomplete. No final aggregate or independent-validation pass is claimed. |
+| Held-out style and Chinese voice | Final style comparison incomplete; Chinese style has not been evaluated. |
 
-Run the pinned validator from an adjacent persona-distiller checkout:
+The development score measures rubric performance on those two tasks, not a percentage of resemblance to Feynman. Saved answers alone are not passed tests. Remaining workers were stopped; completed results and unfinished work were checkpointed locally. No further evaluation or source acquisition is scheduled for this release.
+
+The structural validator is pinned to persona-distiller revision `b57edf4706065fef3fc520dd1521c3d66650b6a6`:
 
 ```sh
 python3 ../persona-distiller/scripts/validate_package.py . --strict --headings fidelity-ledger/required-headings.txt
-python3 -m pip install -r ../persona-distiller/requirements-release.txt
-python3 ../persona-distiller/scripts/validate_package.py . --release
 ```
 
-The release command is expected to fail while blockers remain. CI runs structure
-checks on pushes and pull requests. Its manually requested release gate retains
-failure semantics; it does not turn absent evidence into a passing badge.
-
-Actual results at the frozen runtime:
-
-| Assessment | Candidate | Minimal baseline | Limit |
-|---|---:|---:|---|
-| Source projection, final |1.00|0.75|Two correlated probes, one lecture group|
-| New final reasoning / commitment / scope |7/7|7/7|Suite frozen after assembly; batch contexts|
-| Feynman identity judgments |6/6|6/6|No recognition gain; one comparator dispute|
-| Long style sample |608 words|—|Modulation remains unverified|
-
-Full release validation intentionally fails. Its schema errors record unsupported per-item freshness rather than replacing it with a passing declaration.
-
-## Layout
-
-```text
-SKILL.md                         Canonical runtime core
-references/scope.md              Period, conditions and attribution
-references/voice.md              Source profiles and writing controls
-references/frameworks.md         Layered reasoning apparatus
-references/clusters/             Seven topic modules
-.agents/skills/feynman-perspective -> ../..
-fidelity-ledger/                 Human and machine audit, never runtime retrieval
-AGENTS.md / LICENSE / NOTICE.md   Project behavior and rights
-```
-
-The repository's MIT license covers contributor-authored material. Original
-source works and limited quotations retain their owners' rights; see [NOTICE](NOTICE.md).
+CI checks package structure and JSON. Its optional full release gate remains available but was not run for this working release, which lacks completed fidelity evidence. A green structure check is not full independent validation. Contributor material is MIT-licensed; source rights remain separate under [NOTICE](NOTICE.md).

@@ -1,0 +1,34 @@
+{
+  "utc": "2026-09-12T10:02:03.826727+00:00",
+  "rule": "All source and scenario final groups from every round-one final or attempted final are retired to development. No reuse by renaming. Previous files remain unchanged. Old training remains eligible train.",
+  "prior_records": [
+    {
+      "file": "/Users/AI products/GIthub/feynman-perspective/fidelity-ledger/final-exposure-registry.json",
+      "sha256": "sha256:6c38a674c6e4baf83aff057dd2758ff84938c98f393eee11604c2279db3aa7c9"
+    },
+    {
+      "file": "/Users/AI products/GIthub/feynman-perspective/fidelity-ledger/holdout-retirements.json",
+      "sha256": "sha256:e6036fef0f00d34dc20c04cdff7567d84c415421ab78c826680804c38c0e2570"
+    },
+    {
+      "file": "/Users/AI products/GIthub/feynman-perspective/fidelity-ledger/additional-final-exposures.json",
+      "sha256": "sha256:8fdc2622c4f10860d5763755b408af85ec3f382eff5a116a54e96981cdbddcf0"
+    },
+    {
+      "file": "/Users/AI products/GIthub/feynman-perspective/fidelity-ledger/split.json",
+      "sha256": "sha256:b927fa638b2b878cfafdc192f87fa64dbff8ac6178cd73f99e7dc0cb0ebc6503"
+    },
+    {
+      "file": "/Users/AI products/GIthub/feynman-perspective/fidelity-ledger/identity-final-results.json",
+      "sha256": "sha256:04003ec566478e720f5419820ac65a8a589cd1dfa12217974b35cbabfdf0f9a4"
+    },
+    {
+      "file": "/Users/AI products/GIthub/feynman-perspective/fidelity-ledger/additional-final-behavior-prompts-only.json",
+      "sha256": "sha256:7c8cc715bf551477a3de8a6257784664673a67df0df393220b02ed1773cc1bf8"
+    }
+  ],
+  "retired_source_groups": [
+    "lecture-basic-physics"
+  ],
+  "behavioral_groups": "ALL previous final groups, including additional-final suite and identity groups, whether predicted or rejected before prediction."
+}

@@ -292,7 +292,7 @@
       "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
     }
   ],
-  "stage": "retrospective inventory of existing retained depth; not pre-assembly curation",
-  "registers_note": "Unknown families: script default adds zero separation cost as lower bound, not evidence of single register.",
+  "stage": "round2 inventory retained before revised runtime installation; no new core elements",
+  "registers_note": "The code default zero extra family cost applies: only default explanatory R1 is calibrated; other source forms have no asserted second family.",
   "move_count_note": "Source depth moves explicitly inventoried here; not falsely counted as new core class survivors."
 }

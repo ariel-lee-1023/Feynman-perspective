@@ -324,5 +324,6 @@
       "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
     }
   ],
-  "serialization_stage": "after-runtime-freeze; development-only ranking, no use of final results"
+  "serialization_stage": "after-runtime-freeze; development-only ranking, no use of final results",
+  "round2_review": "All ten admitted elements retained; original development mappings, chronology and limitations preserved. Reranked before installing rewritten runtime. No new traits admitted from round2 final."
 }

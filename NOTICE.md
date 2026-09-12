@@ -19,3 +19,5 @@ distinct from an event's contemporaneous record, and a present application of a
 reasoning method is kept distinct from a documented historical position.
 
 Contributed by [@ariel-lee-1023](https://github.com/ariel-lee-1023).
+
+Evaluation acquisition records also identify research papers held by Caltech and an edited lecture from The Feynman Lectures on Physics. Their source text and sealed targets remain outside this repository; the contributor license does not alter those source rights. Saved model responses are generated assessment material, not Feynman quotations.

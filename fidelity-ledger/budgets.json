@@ -1,6 +1,6 @@
 {
   "estimator": "token_count.py heuristic, not BPE; unmodified coefficients",
-  "stage": "post-assembly audit; no final-feedback revision",
+  "stage": "round2 curation and measured assembly, before independent final",
   "core": {
     "class_counts": {
       "procedure": 4,
@@ -10,8 +10,8 @@
     },
     "supply": 3930,
     "ceiling": 6000,
-    "realized": 4151.67,
-    "relative_deviation": 0.0564
+    "realized": 4199.67,
+    "relative_deviation": 0.0686
   },
   "frameworks": {
     "counts": {
@@ -29,15 +29,16 @@
     "note": "Historical lookup rows are not admitted standing verdicts."
   },
   "voice": {
-    "families": null,
+    "family_scope": "two introductory explanatory lecture sources only",
+    "families": 1,
     "rules": 15,
     "avoid_terms": 5,
     "new_pairs": 5,
-    "supply_lower_bound": 2750,
+    "supply": 3300,
     "ceiling": 7000,
-    "realized": 4010.13,
-    "relative_deviation_lower_bound": 0.4582,
-    "note": "No verified register count; no computed-supply compliance claim."
+    "realized": 3322.3,
+    "relative_deviation": 0.0068,
+    "note": "No inferred gradient or second family. Rules are host guidance grounded in retained default prose, not independent statistical trait admissions."
   },
   "clusters": [
     {
@@ -60,8 +61,8 @@
       "shared_domain": false,
       "verdict": "OK",
       "coefficients_source": "defaults",
-      "realized_tokens_est": 3439.63,
-      "relative_deviation": 0.7694
+      "realized_tokens_est": 1900.3,
+      "relative_deviation": -0.0225
     },
     {
       "cluster_id": "c04-cargo-cult",
@@ -83,8 +84,8 @@
       "shared_domain": false,
       "verdict": "OK",
       "coefficients_source": "defaults",
-      "realized_tokens_est": 3099.93,
-      "relative_deviation": 0.5271
+      "realized_tokens_est": 1808.33,
+      "relative_deviation": -0.1092
     },
     {
       "cluster_id": "c06-c11-challenger",
@@ -106,8 +107,8 @@
       "shared_domain": false,
       "verdict": "OK",
       "coefficients_source": "defaults",
-      "realized_tokens_est": 3382.97,
-      "relative_deviation": 0.589
+      "realized_tokens_est": 1835.93,
+      "relative_deviation": -0.1377
     },
     {
       "cluster_id": "c07-c10-interviews",
@@ -129,8 +130,8 @@
       "shared_domain": false,
       "verdict": "OK",
       "coefficients_source": "defaults",
-      "realized_tokens_est": 2993.9,
-      "relative_deviation": 0.4888
+      "realized_tokens_est": 1842.77,
+      "relative_deviation": -0.0837
     },
     {
       "cluster_id": "c13-seeking-new-laws",
@@ -152,8 +153,8 @@
       "shared_domain": false,
       "verdict": "OK",
       "coefficients_source": "defaults",
-      "realized_tokens_est": 3068.9,
-      "relative_deviation": 0.4538
+      "realized_tokens_est": 1782.0,
+      "relative_deviation": -0.1559
     },
     {
       "cluster_id": "c16-problem-solving",
@@ -175,8 +176,8 @@
       "shared_domain": false,
       "verdict": "OK",
       "coefficients_source": "defaults",
-      "realized_tokens_est": 3446.0,
-      "relative_deviation": 0.3834
+      "realized_tokens_est": 1916.63,
+      "relative_deviation": -0.2306
     },
     {
       "cluster_id": "c17-newmath",
@@ -198,16 +199,24 @@
       "shared_domain": false,
       "verdict": "OK",
       "coefficients_source": "defaults",
-      "realized_tokens_est": 3705.53,
-      "relative_deviation": 0.8649
+      "realized_tokens_est": 1836.33,
+      "relative_deviation": -0.0758
     }
   ],
-  "package_total_est": 37824.13,
-  "loaded_worst_case_est": 22098.33,
+  "package_total_est": 26947.33,
+  "loaded_worst_case_est": 17858.3,
   "load_formula": "core+scope+voice+frameworks+2*largest_depth_module (scope included in addition to tool conventional formula)",
   "findings": [
-    "All depth modules remain below6000 hard ceiling.",
-    "Several retained modules exceed formula supply; inventories/realized sizes and any floor flags are preserved. This candidate is not fully budget-calibrated.",
-    "No padding or post-final runtime cutting was performed merely to fit a budget."
-  ]
+    "Core remains within10% of its computed supply.",
+    "All seven depth modules now fit below their computed supply; none padded to meet a nominal size.",
+    "Standing framework is unchanged and within10%; voice is within1% of computed supply.",
+    "All module eligibility/floor verdicts remainOK; short realized module text does not alter the conceptual-supply floor test."
+  ],
+  "comparison_to_round1": {
+    "old_total": 37824.13,
+    "new_total": 26947.33,
+    "reduction_percent": 28.76,
+    "old_worst_case": 22098.33,
+    "new_worst_case": 17858.3
+  }
 }

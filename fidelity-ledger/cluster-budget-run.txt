@@ -11,4 +11,4 @@ c17-newmath              1987     1987               OK   frame 600 + app 90 + m
 Runtime load, not package size: one module loads at a time (two on a close
 secondary ranking). Worst case = core_budget + 2 x 2491 + voice.md + frameworks.md.
 
-wrote /private/tmp/feynman-upgrade-20260912/cluster-budgets.json (7 clusters) — paste as scores.json's 'cluster_budgets'
+wrote /private/tmp/feynman-opt2-20260912/cluster-budgets.json (7 clusters) — paste as scores.json's 'cluster_budgets'

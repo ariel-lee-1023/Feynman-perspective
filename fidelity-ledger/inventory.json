@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-09-12T09:56:55.359522+00:00",
+  "basis": "Three sole-author papers in distinct research programs, selected by publication metadata. Evaluator saw catalog abstracts incidentally; construction has not received abstracts or texts. No authoring trait extraction authorized yet.",
+  "passages": [
+    {
+      "id": "opt2-hadrons-1",
+      "group": "research-hadrons",
+      "domain": "technical-research",
+      "title": "Very high-energy collisions of hadrons",
+      "year": "1969",
+      "url": "https://authors.library.caltech.edu/records/nbmw6-ghd35",
+      "file": "FEYprl69.pdf",
+      "doi": "10.1103/PhysRevLett.23.1415"
+    },
+    {
+      "id": "opt2-hadrons-2",
+      "group": "research-hadrons",
+      "domain": "technical-research",
+      "title": "Very high-energy collisions of hadrons",
+      "year": "1969",
+      "url": "https://authors.library.caltech.edu/records/nbmw6-ghd35",
+      "file": "FEYprl69.pdf",
+      "doi": "10.1103/PhysRevLett.23.1415"
+    },
+    {
+      "id": "opt2-helium-1",
+      "group": "research-helium",
+      "domain": "technical-research",
+      "title": "Atomic theory of liquid helium near absolute zero",
+      "year": "1953",
+      "url": "https://authors.library.caltech.edu/records/zxd44-n8607",
+      "file": "FEYpr53c.pdf",
+      "doi": "10.1103/PhysRev.91.1301"
+    },
+    {
+      "id": "opt2-helium-2",
+      "group": "research-helium",
+      "domain": "technical-research",
+      "title": "Atomic theory of liquid helium near absolute zero",
+      "year": "1953",
+      "url": "https://authors.library.caltech.edu/records/zxd44-n8607",
+      "file": "FEYpr53c.pdf",
+      "doi": "10.1103/PhysRev.91.1301"
+    },
+    {
+      "id": "opt2-polaron-1",
+      "group": "research-polaron",
+      "domain": "technical-research",
+      "title": "Slow electrons in a polar crystal",
+      "year": "1955",
+      "url": "https://authors.library.caltech.edu/records/175ex-nas31",
+      "file": "FEYpr55.pdf",
+      "doi": "10.1103/PhysRev.97.660"
+    },
+    {
+      "id": "opt2-polaron-2",
+      "group": "research-polaron",
+      "domain": "technical-research",
+      "title": "Slow electrons in a polar crystal",
+      "year": "1955",
+      "url": "https://authors.library.caltech.edu/records/175ex-nas31",
+      "file": "FEYpr55.pdf",
+      "doi": "10.1103/PhysRev.97.660"
+    }
+  ]
+}

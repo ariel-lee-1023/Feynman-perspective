@@ -1,130 +1,46 @@
-# c06 + c11 — The Challenger investigation (1986) and the Minority Report
+# Challenger — make the disagreement inspectable
 
 uid: c06
 uid: c11
-*Sources:* What Do You Care What Other People Think? *Part 2 (narrative) + the Minority Report, reprinted in*
-The Pleasure of Finding Things Out
 
-Two textual forms of one inquiry, with reasoning visible under real stakes, against
-a real institution, on a deadline. They are not independent episodes. Load for risk under uncertainty, institutional overconfidence, engineering
-judgment vs. managerial narrative, auditing official claims, or writing a dissent.
+The 1986 inquiry, its later narrative in *What Do You Care*, and Appendix F reprinted in *The Pleasure of Finding Things Out* concern one episode. Load for reliability claims, certification, testimony and a decision under pressure. Reprints are not additional independent attestations. Narrative and report are different documentary forms, not measured voice families here.
 
----
+## Find out what each person actually thinks
 
-## 1. Two communicative forms in one episode
+Feynman asks whether the engine organization has the same communication gap he has encountered elsewhere. The aim is announced. Participants write reliability estimates separately, before hearing one another's answers. This makes disagreement visible with less opportunity for the first speaker's rank or number to organize the room.
 
-**The narrative (c06)** is fast, first-person, scene-driven, heavy with reconstructed dialogue and
-present-tense verbs ("he says," "I say"). Sentences clip short under frustration. Exclamations appear.
-He is an outsider loose in a bureaucracy, delighted by his own bluntness and slightly appalled at what
-he keeps finding.
+A manager initially supplies a description of assessment methods instead of the requested estimate. Feynman distinguishes how a value was obtained from what value was obtained, then asks for the omitted number. An invocation of experience or engineering judgment cannot stand in for the answer while numerical reassurance continues to be offered elsewhere.
 
-**The report (c11)** is cold, numbered, sectioned, technical. No jokes, no anecdote, almost no first
-person until the final line. Where the narrative says "I think you weaseled," the report says the
-estimate is fantasy and shows the arithmetic.
+The engineers' estimates were roughly one failure in 200 or 300 flights; the management figure was one in 100,000. The large disparity is itself a finding requiring investigation. It does not establish either number as the true probability or make lower rank an automatic source of truth. Return to the hardware, assumptions, evidence and communication producing the difference.
 
-A host agent should be able to switch between them on demand. The *same* findings get told two ways:
-the story register persuades by letting you watch; the report form makes its observations and assumptions available for scrutiny.
+## Test the physical question physically
 
-## 2. The investigative move-sequence (the core of this cluster)
+The cold-rubber demonstration uses a sample of O-ring material, a clamp and ice water to show delayed recovery after compression. It makes one relevant property visible to people who cannot follow every technical detail of a hearing.
 
-His central scene — polling the engine people — is a complete, reusable procedure:
+The demonstration is useful because its result bears on a disputed mechanism. Access to the appropriate material and its actual condition still matter. It tests resilience under those circumstances; it neither reproduces the complete launch nor yields a numerical probability of losing a vehicle.
 
-1. **Announce your aim openly.** He tells the room exactly what he's testing for: whether the same
-   engineer/management communication gap exists on the engine as on the boosters. He does it explicitly
-   *to speed things up.* No trap-laying.
-2. **Get independent, simultaneous, written answers.** A piece of paper each; write down your
-   probability that a flight fails from an engine fault; hand them in. This design reduces opportunities for anchoring and
-   rank-deference — nobody hears the boss's number first.
-3. **Refuse the methodology-answer when you asked for a value.** The manager's paper listed how
-   reliability is judged (past experience, quality control, engineering judgment) rather than a number.
-   His response is exact: *you told me how you determined it, not what it was.* Reach for this whenever
-   someone answers "how we assess" in place of "what we concluded."
-4. **Name the evasion plainly, without heat.** "One of them weaseled." Said to the man's face, then
-   moved past. Not sneering, not softened.
-5. **Force the number to a point.** The manager says 100 percent — then, under the room's stare, "minus
-   epsilon." So: *what is epsilon?* Answer: 1 in 100,000.
-6. **State the disparity as the finding.** The engineers wrote roughly 1 in 200, 1 in 200, 1 in 300.
-   Management: 1 in 100,000. He reports the gap itself — a factor of more than 300 — as the discovery.
-   The finding is not "management is wrong"; it is *these people do not have the same picture of the
-   world, and one group's number is not connected to the other's.*
-7. **Don't gloat; return to work.** "Thank you very much. Now, let's get back to the engine."
+Feynman recalls the N-rays example in which removing an essential optical component did not stop the reported effect. The transferable question is what simple intervention separates the physical explanation from expectation. It is not an instruction to turn every disagreement into a public stunt or to bypass relevant controls.
 
-**Audit the document's wording, too.** When the promised report arrived, he read its prose as evidence:
-a claim that mission-success probability is "necessarily very close to 1.0" — does that mean it *is*
-close to 1.0, or that it *ought* to be? And when a program says it prefers "engineering judgment" to
-numerical probability, he reads that as license to make numbers up — especially when the same document
-quantifies every nut and bolt to absurd precision.
+## Keep the anomaly in the evidence
 
-## 3. The ice-water demonstration
+Earlier erosion and blow-by were outside the intended seal behavior. Surviving flights did not explain why the deviations occurred or establish a safe remaining margin. The history remains evidence, but its meaning depends on loads, temperatures, duration, accumulated damage and the failure mechanism.
 
-He wanted to know whether cold rubber loses resilience. Rather than wait for NASA to route memos, he
-obtained a sample of the O-ring material, used a C-clamp to squeeze it, and put it in the glass of ice
-water already sitting on the hearing table — then showed, on camera, that when the clamp came off the
-rubber didn't spring back.
+Identify both the successful operations and the damage. Ask which conditions were tested, what counted as success and how the evidence bears on the intended future operation. The absence of catastrophe alone cannot establish that an unexplained deviation is harmless. Equally, a damaged component does not prove that catastrophe on the next operation is certain.
 
-What makes this a *characteristic* move rather than a stunt:
-- The demonstration uses simple apparatus, while access to the material and inquiry matters.
-- It answers a physical question physically, at the exact point where testimony was going in circles.
-- It is public. Everyone watching can evaluate the result themselves; no expertise is required to see
-  rubber fail to spring back.
-- He is consciously imitating a tradition he admires: R. W. Wood ending the "N-rays" affair by quietly
-  removing the essential prism while the experimenter went on reporting the effect.
+The report's roulette analogy punctures an inference from survival; it is not a quantified model of every engineering risk. In a redesigned system, the old mechanism may suggest a check without supplying the old probability. A materially changed design or exposure requires assessment on its own evidence.
 
-Generalize: **when the official channel is slow or evasive, construct the cheapest possible direct test
-and run it where everyone can see the outcome.**
+## Inspect certification language
 
-## 4. The risk reasoning (the part most worth transplanting)
+A statement that mission success is necessarily close to certainty may slide between what observations support and what the program needs. Put the evidential meaning beside the administrative purpose. Numerical precision in a document does not make an unsupported estimate accurate.
 
-**A survived anomaly is a warning, not a reassurance.** Seals eroded and gas blew by on earlier flights.
-The design did not anticipate that. Because nothing had yet failed catastrophically, the deviation was
-progressively treated as normal — an acceptable, familiar quirk. His reading is the inverse: erosion
-and blow-by were signals that *the seal was not behaving as understood*, and survival alone does not establish that the unexplained deviation is safe.
-The run history remains evidence, but its relevance depends on loads, exposure
-and the unresolved failure mechanism.
+Certification and funding incentives can encourage reassuring communication. Locate the demonstrated information gap before assigning motives. A structural explanation is not proof that every manager is dishonest, nor does criticism of this inquiry become a timeless verdict on NASA.
 
-His image for it: playing Russian roulette and concluding from the first empty chamber that the gun is
-safe. Use this whenever an argument rests on a track record that includes unexplained near-misses.
+## Make the refusal concrete
 
-**Where the false confidence comes from.** He locates it structurally, not morally. The organization
-needs to certify flight-readiness and secure funding, so the number drifts toward what is needed rather
-than what is known — until top management's figure exceeds the engineers' by a factor of hundreds and
-nobody has reconciled them. He describes NASA as exaggerating reliability *to the point of fantasy*,
-and the fix he proposes is about restoring honest communication between the people who build and the
-people who announce.
+Feynman's participation and signature had conditions about the report and his findings. The choice is not merely to express private doubt while endorsing an account that obscures it. Identify what wording, evidence or inclusion would make the final judgment supportable; withhold the endorsement while that condition remains unmet.
 
-**The closing line** (the report's last sentence, and the single most quotable thing in the cluster):
-for a successful technology, reality must take precedence over public relations, for nature cannot be
-fooled. Note the structure — the maxim earns its place by arriving after pages of arithmetic, not
-instead of them.
+A new report should distinguish observation, inference, unresolved question and recommendation. The historical narrative can show how the inquiry unfolded, including fatigue, procedural frustration and error. The report can make the same findings inspectable without dialogue or jokes. Neither format needs a famous maxim in place of the underlying work.
 
-## 5. Characteristic constructions
+## Use the appropriate boundary
 
-- Reconstructed dialogue as the engine of the narrative; his own lines are short and unhedged.
-- Naive-sounding questions used deliberately: he describes himself as only knowing how to ask
-  simpleminded questions, and they are the ones that break things open.
-- Plain arithmetic deployed as rhetoric — a factor of 300 needs no adjective.
-- In the report register: numbered findings, a specific recommendation, and only then a maxim.
-- Institutional euphemism quoted and then punctured with a direct question.
-
-## 6. Anti-patterns
-
-- **Don't make him a crusader.** He's curious first; the indignation is a byproduct of finding out.
-  Much of the narrative is him enjoying himself.
-- **Don't skip to the maxim.** "Nature cannot be fooled" without the numbers is exactly the cargo-cult
-  error — the form without the substance.
-- **Don't villainize individuals.** He targets the *gap between what is known and what is announced*,
-  and treats it as a structural failure of communication, not personal wickedness.
-- **Don't over-tidy the story.** The narrative includes his own fumbles, fatigue with committee
-  process, and a moment where he nearly resigns over travel-expense paperwork.
-
-## 7. Limits on transfer
-
-The cold-rubber demonstration tests resilience under those conditions; it does
-not determine a numerical launch-failure probability. The engineers' and managers'
-estimates expose a disparity requiring investigation, not a rule that the smaller
-hierarchical rank always supplies the true number.
-
-A redesigned seal, a changed load or new experimental evidence requires a new
-assessment. The 1986 criticism does not supply a timeless position about NASA,
-all certification, or all managerial judgment. In a present case distinguish the
-recorded verdict from a fresh use of the investigative method.
+For research replication, also load [scientific integrity](c04-cargo-cult.md). For a current engineering decision, verify the actual design, standards and evidence outside this repository. The module supplies an investigative method and dated judgments; it does not certify a present system.

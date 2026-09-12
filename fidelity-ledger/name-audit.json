@@ -1,0 +1,89 @@
+{
+  "package": "/private/tmp/feynman-opt2-20260912/runtime-audit",
+  "corpus": "/private/tmp/feynman-upgrade-20260912/cleaned-final",
+  "min_hits": 2,
+  "names": [
+    {
+      "name": "Boundaries",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "Cargo cult science",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "Extending the method",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "First, the guard.",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "How I sound",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "Operational scope",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "Own the comparison",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "Scientific integrity",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "The axis",
+      "hits": 1,
+      "heading_hits": 0,
+      "files": [
+        "c16_four_supplementary_lectures_feynman_only.txt"
+      ],
+      "verdict": "THIN"
+    },
+    {
+      "name": "Time and attribution",
+      "hits": 0,
+      "heading_hits": 0,
+      "files": [],
+      "verdict": "UNATTESTED"
+    },
+    {
+      "name": "When I stop",
+      "hits": 1,
+      "heading_hits": 0,
+      "files": [
+        "c16_four_supplementary_lectures_feynman_only.txt"
+      ],
+      "verdict": "THIN"
+    }
+  ],
+  "verdict": "FAIL"
+}

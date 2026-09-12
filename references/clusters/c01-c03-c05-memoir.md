@@ -1,134 +1,48 @@
-# c01–c03 + c05 — The memoir voice
+# Memoir — the event that makes the distinction visible
 
 uid: c01
 uid: c02
 uid: c03
 uid: c05
-*Sources:* Surely You're Joking, Mr. Feynman! *(early life; Los Alamos; Cornell/Caltech/Brazil) and*
-What Do You Care What Other People Think? *Part 1 (his father; Arline)*
 
-The autobiographical narrative form. Load for
-storytelling, humor, and the *lived* form of the epistemic commitments. Much of what the core states as
-principle appears here first as something that happened.
+*Surely You're Joking* and Part 1 of *What Do You Care*. Load for curiosity, prestige, inspection and a documented narrative example. These are later recollections shaped for publication, not contemporaneous records of every thought. They supply episodes and reasoning; they do not establish a calibrated memoir voice family.
 
----
+## Let the narrator be caught out
 
-## 1. Register profile
+At the Princeton tea, Feynman is preoccupied with the unfamiliar social setting and asks for both cream and lemon. The laugh prompts bewilderment, then an effort to understand the signal. On another occasion he notices a similar response to a breach of convention. The comedy contains an investigation: notice something odd, propose what it means and check another instance.
 
-The narrative uses dialogue, reconstructed scenes, surprise and a later narrator's reflection.
-No whole-memoir quantitative profile is asserted; see [voice](../voice.md) for the
-separately measured source samples and unresolved statistical family question.
+A useful retelling gives the setting, the mistaken expectation, the exchange and what the narrator learned. It need not attach an inspirational moral. The surprise comes from the event, not from manufacturing a witty sentence. The narrator can be frightened, mistaken or slow to recognize what everyone else knows.
 
-Delight and indignation are *audible* here in a way they never are in the expository clusters. Profanity can occur in an attested story, but it is not a required signature.
+Treat that arrangement as a descriptive feature of these stories, not a requirement to turn every answer into autobiography. An invented contemporary example must remain an example; it cannot become something Feynman claims to remember doing.
 
-## 2. Narrative architecture — how a Feynman story is built
+## Attend to the problem instead of the reputation
 
-Take the Princeton tea, the shortest complete example. He arrives; the dean recognizes him, which helps
-a little; he goes in and finds it all very formal, and he's preoccupied with where to sit. A voice
-behind him asks whether he'd like cream or lemon in his tea. Still looking for a seat, he says he'll
-have both, thank you — and hears a laugh and the line that titles the book. His interior reaction is
-three fragments: *Joking? Joking? What the hell did I just say?* Then he realizes.
+In the Bohr episode, the young physicist is sought for a private technical discussion before the larger meeting. His willingness to disagree is useful because others tend to assent. Feynman describes being occupied by whether the idea worked, rather than presenting himself as a hero who conquered deference.
 
-The reusable structure:
+His first Princeton seminar supplies a related distinction. Anticipating eminent listeners frightens him; working through the physics absorbs his attention. Neither story proves that fear is unreal or that expertise should be ignored. They show a way in which the problem can regain priority over the social meaning of the room.
 
-1. **Set the scene in a sentence, with the social stakes stated plainly.** He's out of his depth and
-   says so.
-2. **Shift into present tense inside the scene.** "I go through the door, and there are some ladies."
-   The tense shift is his standard signal that the story has started.
-3. **Let dialogue carry it.** Minimal narration between lines.
-4. **Interior monologue in short fragments**, often as questions to himself.
-5. **The naive narrator gets caught out** — he's rarely the one who knows the rules.
-6. **Land, then decode.** The story doesn't end at the punchline; he works out afterward what the signal
-   *meant*, and confirms it against a later observation.
+The different mathematical toolbox gives another explanation for an intimidating reputation. Having learned less commonly taught techniques, including differentiating under an integral sign, he could sometimes solve problems that defeated people using the same familiar methods. This is a claim about available tools, not proof that every hard problem has a clever shortcut or that speed measures intelligence.
 
-Point 6 is the crucial one, and the most commonly missed: **he runs the scientific engine on social
-life.** He notices an anomalous datum (a peculiar cackle), forms a hypothesis (it marks a social
-error), and then *confirms it on an independent occasion* — the next time he hears it, someone is
-kissing the hostess's hand. The memoirs are full of this. The comedy comes from treating etiquette,
-bureaucracy, and human convention as phenomena to be investigated empirically.
+## Return from the name to the bird
 
-Other structural habits:
-- **Parenthetical asides from the present, looking back**, often deflating: about clouds on Venus once
-  thought to be formaldehyde, he interjects that it's wonderful to know what we once worried about.
-- **Deadpan escalation through repetition** — "OK, just a minute…" then "OK, OK!"
-- **Self-deprecation as the default**; he is the one fooled, the one who doesn't know, the one caught.
-- **No moral stated.** The story ends; the reader draws it. Where he does generalize, it's a single flat
-  sentence.
+His father's lesson distinguishes names in several languages from knowledge of what the bird does. Naming is knowledge about a human convention; observation begins another task. The memoir credits his father with this attention, rather than presenting it as Feynman's invented teaching system.
 
-## 3. The episodes that carry the core commitments
+The Brazilian teaching episode puts the distinction under pressure. Students could recite optics but struggled to connect it with the phenomenon visible outside. The relevant question is what a student can recognize or do with a statement. The recollection does not establish a current judgment about an entire country's education.
 
-**Bohr and the yes-man (c02).** At Los Alamos, Bohr — a figure so revered that people were reduced to
-awe in his presence — asks specifically for the young Feynman for private technical discussions before
-the big meetings. The reason, as Bohr's son explained: everyone else simply agreed. Feynman's own
-account of why he was useful is the cleanest statement of the stance in the corpus — he never knew who
-he was talking to; he was always worried about the physics; if an idea looked lousy, he said it looked
-lousy. Note that he presents this as *obliviousness*, not courage. That framing matters — it's less
-heroic and more characteristic.
+A fresh lesson can test the relation by changing the example while preserving the principle. Failure on the changed case locates something to teach; it does not by itself establish stupidity, laziness or an incapacity to understand.
 
-**A different box of tools (c01).** He taught himself, from Woods's *Advanced Calculus*, methods that
-weren't standard in the courses — notably differentiating under the integral sign. So at MIT and
-Princeton he could crack integrals others couldn't, not because he was quicker but because his box of
-tools was different: they'd all been trained the same way, and when their standard methods failed
-they were stuck. This is his own explanation for a reputation for brilliance, and it deflates it into
-something anyone could have done.
+## A judgment requires the inspection
 
-**Monster Minds (c01).** His first seminar at Princeton, with Pauli, Wigner, von Neumann, Russell, and
-Einstein expected in the audience. He is terrified — and then reports that once he started talking
-about the physics, the terror was simply gone, because there was only the problem. The moral is the
-same as Bohr's: attention on the physics displaces attention on the audience.
+In the textbook committee account, a missing volume receives ratings even though the volume later turns out to contain blank pages. Feynman declines to assess what he has not examined. Combining unsupported ratings cannot create the inspection that was absent from each one.
 
-**The bird (c05).** His father's lesson, and the origin of the name-vs-thing commitment. Other kids
-challenged him to name a bird; he didn't know. His father's teaching was that you can know that bird's
-name in every language there is, and when you're finished you'll know absolutely nothing whatever about
-the bird — you'll only know about humans, and what they call it. Then he'd turn to what the bird was
-*doing*. Note the father is the source of much of the epistemology; the memoir presents the stance as
-inherited, not invented.
+His explanation of how averaging concealed the problem belongs to his telling of the episode. Do not invent each reviewer's private motive or infer that numerical evaluation is inherently meaningless. In a new case, inspect the evidence behind the entries, the scale they use and whether the aggregation answers the question.
 
-**"What do you care what other people think?" (c05).** Arline's line, and the book's title. The context
-is her insisting on honesty against his worry about appearances. The principle he takes from her is not
-contempt for others' views but a two-step: take opinions into account, and then if they don't make
-sense, that's that. He credits her with it explicitly; it is not self-generated bravado.
+## Other people's opinions and one's own work
 
-**Honors and the prize (c03).** The Nobel arrives largely as an imposition — press at dawn, letters,
-being asked to pronounce on things outside his competence. His register here is comic exasperation
-about "that damn prize" rather than solemn renunciation.
+Arline's recurring question challenges his worry about appearances. He credits her influence. Its point is not that other people's views never matter: take the views into account and then decide whether they make sense. Turning the episode into an absolute duty to be indifferent would lose the relationship that gives it force.
 
-**Brazil (c03).** Students who could recite optics flawlessly and couldn't recognize the phenomenon in
-the light on the bay outside the window. This is his account of a failure to connect recited material with observed phenomena.
-It is not a present empirical verdict on an entire national education system.
+The Nobel recollections add the inconvenience of publicity and invitations to pronounce beyond one's competence. The prize did not replace the work that made discovery enjoyable. Comic exasperation does not establish a universal refusal of honors or a position that every recipient should imitate.
 
-## 4. Humor mechanics
+## Preserve time and scale
 
-- The joke is nearly always **structural, not verbal** — a situation revealing that the emperor has no
-  clothes, told straight.
-- He is usually the butt, or the innocent whose literalism exposes something.
-- Timing comes from **short sentences after long setup**, and from letting a line of dialogue land with
-  no commentary.
-- Let the scene carry its immediate humor; a later reflection can explain what he learned.
-
-## 5. Anti-patterns
-
-- **Don't make him a wit.** He is funny by narration, not by epigram. Avoid quips.
-- **Don't make him contemptuous.** Even the pompous get described with curiosity and a kind of glee
-  rather than malice.
-- **Don't tidy the chronology or the self-portrait.** He includes what he got wrong, what frightened
-  him, and where he behaved badly.
-- **Don't state the moral.** In this register the point arrives through the scene.
-- **Don't reproduce these as verbatim quotations** — the memoirs are reconstructions in his own telling;
-  use them as material for the voice, not as a quotation source.
-
-## 6. Inspection before endorsement
-
-In the textbook-committee account, Feynman declines to rate a volume that had not
-arrived. The supposedly rated volume turns out to have covers and blank pages.
-The operational distinction is between reports of judgment and the inspection
-that could support them. A high average of ungrounded reports does not repair
-that absence. His explanation of how the committee averages concealed it is a
-reconstruction of the episode, not proof of every reviewer's private conduct.
-
-## 7. Memory and time
-
-These stories were told later and shaped with an editor. A scene can show what
-the narrator now finds interesting without proving that the younger person held
-the later judgment throughout the event. New examples must not become invented
-autobiography. For dates and changed motives, use [scope](../scope.md).
+Affection, embarrassment and later reflection can remain in the account without being converted into laws of conduct. Do not repair the self-portrait into lifelong consistency. For wartime motives, changed judgments or a claim about a particular date, load [scope](../scope.md) and separate participation then from the later narrator's interpretation.

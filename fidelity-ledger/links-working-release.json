@@ -1,0 +1,9 @@
+{
+  "scope": "current root documentation, runtime references, and active ledger Markdown; archived snapshots excluded",
+  "pass": true,
+  "files_checked": 19,
+  "relative_links_checked": 44,
+  "discovery_symlink": "../..",
+  "all_json_parse": true,
+  "broken": []
+}

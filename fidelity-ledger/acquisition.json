@@ -1,0 +1,20 @@
+[
+  {
+    "file": "private/FEYpr53c.pdf",
+    "pages": 8,
+    "chars": 119,
+    "sha256": "ba213a782de69623a85fcf8a6079050c826153c26d05b48e7c9e226f3671ef08"
+  },
+  {
+    "file": "private/FEYprl69.pdf",
+    "pages": 3,
+    "chars": 44,
+    "sha256": "b1f3a858d5fa9c69956a80826aaf66409fbb5aef90bbd139ec333720d5245f11"
+  },
+  {
+    "file": "train/FEYpr55.pdf",
+    "pages": 6,
+    "chars": 89,
+    "sha256": "c3bcd95a82d08615c104863fb77ba2b4a54c530676629ab13b5d3e15f5857510"
+  }
+]

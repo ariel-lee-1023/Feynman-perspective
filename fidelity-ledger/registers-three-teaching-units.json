@@ -1,0 +1,292 @@
+{
+  "generated": "2026-09-12T10:03:51+00:00",
+  "lang": "en",
+  "n_units": 3,
+  "n_registers": 0,
+  "thresholds": {
+    "ratio": 3.0,
+    "dims": 3,
+    "min_tokens": 600,
+    "min_events": 5,
+    "min_rate_delta": 10
+  },
+  "stability": {
+    "adequate": true,
+    "stable": false,
+    "subsamples": 3,
+    "tokens_per_subsample": 3085,
+    "minimum_agreement": 0.8,
+    "pairs": [
+      {
+        "indices": [
+          0,
+          1
+        ],
+        "split": false,
+        "agreement": 1.0
+      },
+      {
+        "indices": [
+          0,
+          2
+        ],
+        "split": false,
+        "agreement": 0.6666666666666666
+      },
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "split": false,
+        "agreement": 1.0
+      }
+    ],
+    "family_agreement": 0.6666666666666666
+  },
+  "units": [
+    {
+      "unit_id": "intro_physics",
+      "label": "intro_physics.txt",
+      "chars": 150232,
+      "features": {
+        "mean_sentence_len": 22.271452,
+        "median_sentence_len": 20.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.231848,
+        "question_rate": 31.119179,
+        "connective_rate": 55.569963,
+        "hedge_rate": 61.497425,
+        "booster_rate": 42.974104,
+        "second_person_rate": 27.044048,
+        "first_person_rate": 288.222873,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "observations": {
+        "tokens": 26993,
+        "sentences": 1212,
+        "events": {
+          "question_rate": 84,
+          "connective_rate": 150,
+          "hedge_rate": 166,
+          "booster_rate": 116,
+          "second_person_rate": 73,
+          "first_person_rate": 778,
+          "title_mark_rate": 0,
+          "core_term_density": 0,
+          "flagship_term_density": 0
+        }
+      }
+    },
+    {
+      "unit_id": "law_explanation",
+      "label": "law_explanation.txt",
+      "chars": 51935,
+      "features": {
+        "mean_sentence_len": 21.93128,
+        "median_sentence_len": 19.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.229858,
+        "question_rate": 24.851432,
+        "connective_rate": 27.012426,
+        "hedge_rate": 124.257158,
+        "booster_rate": 64.829822,
+        "second_person_rate": 163.155051,
+        "first_person_rate": 287.41221,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "observations": {
+        "tokens": 9255,
+        "sentences": 422,
+        "events": {
+          "question_rate": 23,
+          "connective_rate": 25,
+          "hedge_rate": 115,
+          "booster_rate": 60,
+          "second_person_rate": 151,
+          "first_person_rate": 266,
+          "title_mark_rate": 0,
+          "core_term_density": 0,
+          "flagship_term_density": 0
+        }
+      }
+    },
+    {
+      "unit_id": "review_teaching",
+      "label": "review_teaching.txt",
+      "chars": 87198,
+      "features": {
+        "mean_sentence_len": 25.683881,
+        "median_sentence_len": 22.0,
+        "p90_sentence_len": 50.0,
+        "long_sentence_share": 0.316119,
+        "question_rate": 48.135511,
+        "connective_rate": 51.182062,
+        "hedge_rate": 36.558616,
+        "booster_rate": 35.339995,
+        "second_person_rate": 204.728248,
+        "first_person_rate": 268.705825,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "observations": {
+        "tokens": 16412,
+        "sentences": 639,
+        "events": {
+          "question_rate": 79,
+          "connective_rate": 84,
+          "hedge_rate": 60,
+          "booster_rate": 58,
+          "second_person_rate": 336,
+          "first_person_rate": 441,
+          "title_mark_rate": 0,
+          "core_term_density": 0,
+          "flagship_term_density": 0
+        }
+      }
+    }
+  ],
+  "distance_matrix": {
+    "units": [
+      "intro_physics",
+      "law_explanation",
+      "review_teaching"
+    ],
+    "z_distance": [
+      [
+        0.0,
+        0.7151494273567516,
+        1.208244799920413
+      ],
+      [
+        0.7151494273567516,
+        0.0,
+        1.579850426617496
+      ],
+      [
+        1.208244799920413,
+        1.579850426617496,
+        0.0
+      ]
+    ],
+    "ratio_exceedances": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "families": [],
+  "gap_table": [
+    {
+      "dimension": "mean_sentence_len",
+      "by_family": {
+        "R1": 23.295538
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "median_sentence_len",
+      "by_family": {
+        "R1": 20.333333
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "p90_sentence_len",
+      "by_family": {
+        "R1": 43.333333
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "long_sentence_share",
+      "by_family": {
+        "R1": 0.259275
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "question_rate",
+      "by_family": {
+        "R1": 34.702041
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "connective_rate",
+      "by_family": {
+        "R1": 44.58815
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "hedge_rate",
+      "by_family": {
+        "R1": 74.1044
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "booster_rate",
+      "by_family": {
+        "R1": 47.71464
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "second_person_rate",
+      "by_family": {
+        "R1": 131.642449
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "first_person_rate",
+      "by_family": {
+        "R1": 281.446969
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "title_mark_rate",
+      "by_family": {
+        "R1": 0.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "core_term_density",
+      "by_family": {
+        "R1": 0.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "flagship_term_density",
+      "by_family": {
+        "R1": 0.0
+      },
+      "max_ratio": 1.0
+    }
+  ],
+  "forced_splits": [],
+  "verdict": "INSUFFICIENT_EVIDENCE",
+  "notes": "Too little comparable text or unstable equal-length subsamples; no register conclusion."
+}

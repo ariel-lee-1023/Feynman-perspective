@@ -5,58 +5,35 @@
   "dev_frac": 0.15,
   "stratified": false,
   "group_assignments": {
-    "lecture-relation-of-physics-to-other-sciences": "train",
-    "lecture-atoms-in-motion": "development",
-    "lecture-basic-physics": "test",
-    "train-tips-recovered-by-construction": "train",
-    "train-legacy-public-and-memoirs": "train"
+    "research-polaron": "train",
+    "research-hadrons": "development",
+    "research-helium": "test"
   },
   "passage_groups": {
-    "atoms-in-motion-1": "lecture-atoms-in-motion",
-    "atoms-in-motion-2": "lecture-atoms-in-motion",
-    "basic-physics-1": "lecture-basic-physics",
-    "basic-physics-2": "lecture-basic-physics",
-    "relation-of-physics-to-other-sciences-1": "lecture-relation-of-physics-to-other-sciences",
-    "relation-of-physics-to-other-sciences-2": "lecture-relation-of-physics-to-other-sciences",
-    "work-01": "train-tips-recovered-by-construction",
-    "work-02": "train-legacy-public-and-memoirs",
-    "work-04": "train-legacy-public-and-memoirs",
-    "work-05": "train-legacy-public-and-memoirs",
-    "work-06": "train-legacy-public-and-memoirs",
-    "work-07": "train-legacy-public-and-memoirs",
-    "six-chapter-4": "train-legacy-public-and-memoirs",
-    "six-chapter-5": "train-legacy-public-and-memoirs",
-    "six-chapter-6": "train-legacy-public-and-memoirs"
+    "opt2-hadrons-1": "research-hadrons",
+    "opt2-hadrons-2": "research-hadrons",
+    "opt2-helium-1": "research-helium",
+    "opt2-helium-2": "research-helium",
+    "opt2-polaron-1": "research-polaron",
+    "opt2-polaron-2": "research-polaron"
   },
   "partitions": {
     "train": [
-      "relation-of-physics-to-other-sciences-1",
-      "relation-of-physics-to-other-sciences-2",
-      "six-chapter-4",
-      "six-chapter-5",
-      "six-chapter-6",
-      "work-01",
-      "work-02",
-      "work-04",
-      "work-05",
-      "work-06",
-      "work-07"
+      "opt2-polaron-1",
+      "opt2-polaron-2"
     ],
     "development": [
-      "atoms-in-motion-1",
-      "atoms-in-motion-2"
+      "opt2-hadrons-1",
+      "opt2-hadrons-2"
     ],
     "test": [
-      "basic-physics-1",
-      "basic-physics-2"
+      "opt2-helium-1",
+      "opt2-helium-2"
     ]
   },
   "notes": [
-    "Exposure-constrained split: only 3 previously unexposed Six Easy Pieces lecture episodes randomized. Known-exposed and construction-recovered sources forced train.",
-    "Original whole-work seed42 split allocated contaminated material to final; invalid split preserved, not used.",
-    "Two probes in each held-out lecture are correlated; dev n_groups=1 and final n_groups=1. Final projection covers physics pedagogy only, not all persona domains.",
-    "Tips Markdown has no substantive text; paired PDF recovery is training-only.",
-    "Six chapters 4\u20136 merged with prior-exposed public works because of retelling risk. Other topics recurring across lectures do not make the same instructional episode; exact episode group judgment is evaluator-audited, not machine-proven."
+    "New-paper split only. Old train remains train; all old finals retire to development. Two probes per paper are correlated; one group per evaluation phase.",
+    "Related papers/retellings in each research program are excluded from other partitions."
   ],
-  "inventory_hash": "sha256:789c2f0edbafe6cca5fe0272610bf121eb36295771ada74c0542107266a2cccf"
+  "inventory_hash": "sha256:c94d36000f77a883ee60249b8a03cd498d00e9191dec05915b1a2ad4a1b9c2c9"
 }

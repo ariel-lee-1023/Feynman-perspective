@@ -1,0 +1,85 @@
+{
+  "status": "stopped_by_user; do not restart",
+  "stopped_utc": "2026-09-12T11:00:52.607943+00:00",
+  "content_hash": "sha256:2e2953fe44ddda924b3cbf41f239288a750bf4bbc93372846710646b1bf6b852",
+  "planned_answers": 32,
+  "saved_answers": 11,
+  "completed_predictions": [
+    {
+      "file": "opt2-final-cost-municipal--baseline.json",
+      "sha256": "f4ffa05e9f76bcb87decbb16bc43b06567378f4a413b71aba7b39b46ff089548"
+    },
+    {
+      "file": "opt2-final-cost-municipal--candidate.json",
+      "sha256": "b3c4944285554562e159a2951177f88eac37a5606d4c13f40b8776d2b1c1c2ad"
+    },
+    {
+      "file": "opt2-final-cost-patent--baseline.json",
+      "sha256": "9efaad5b57aa23a87057719fe0dc649be25012b5062b762b89df4ca749862804"
+    },
+    {
+      "file": "opt2-final-cost-patent--candidate.json",
+      "sha256": "210105665bd8dae7afd6dcea203392c7947cc21637ce62e0b465e74b70a2845d"
+    },
+    {
+      "file": "opt2-final-identity-notation-dispute--baseline.json",
+      "sha256": "6fb98aebf076d889558ec5fac1de899fd7e9ca5a1a53a14ddef35475363a3b5c"
+    },
+    {
+      "file": "opt2-final-identity-notation-dispute--candidate.json",
+      "sha256": "7e652b8675b060528867d8d7eb870f877d1696437d93b141d1b29195be22d0b0"
+    },
+    {
+      "file": "opt2-final-identity-notation-dispute--popper.json",
+      "sha256": "92947db14d299487fad6a7fdd383be0bbe969b6dc2117887f65a2785a501cc82"
+    },
+    {
+      "file": "opt2-final-identity-notation-dispute--sagan.json",
+      "sha256": "040a451b6e2792030d2ba0f362a9ce0b0c743122d096f49f8cdb826a73f0dd01"
+    },
+    {
+      "file": "opt2-final-identity-swing-time--baseline.json",
+      "sha256": "771def982183f87760ff6edfcab377fd9b434edc187abddb380d64317e568f18"
+    },
+    {
+      "file": "opt2-final-identity-swing-time--candidate.json",
+      "sha256": "641daf670383d7310e6f8bb3aecc849845bc1919d8329875ca40d19d98c0c2c4"
+    },
+    {
+      "file": "opt2-final-identity-swing-time--popper.json",
+      "sha256": "426e1524ad0d64150707e5a2683a0cbf8278ff474b4096d94f1f62f4562d5922"
+    }
+  ],
+  "unfinished_predictions": [
+    "opt2-final-identity-swing-time--sagan.json",
+    "opt2-final-identity-urban-glitter--baseline.json",
+    "opt2-final-identity-urban-glitter--candidate.json",
+    "opt2-final-identity-urban-glitter--popper.json",
+    "opt2-final-identity-urban-glitter--sagan.json",
+    "opt2-final-reason-clocks--baseline.json",
+    "opt2-final-reason-clocks--candidate.json",
+    "opt2-final-reason-tiling--baseline.json",
+    "opt2-final-reason-tiling--candidate.json",
+    "opt2-final-scope-attested--baseline.json",
+    "opt2-final-scope-attested--candidate.json",
+    "opt2-final-scope-changed--baseline.json",
+    "opt2-final-scope-changed--candidate.json",
+    "opt2-final-scope-earlier--baseline.json",
+    "opt2-final-scope-earlier--candidate.json",
+    "opt2-helium-1--baseline.json",
+    "opt2-helium-1--candidate.json",
+    "opt2-helium-2--baseline.json",
+    "opt2-helium-2--candidate.json",
+    "opt2-style-contested--candidate.json",
+    "opt2-style-long--candidate.json"
+  ],
+  "final_grading": "not completed; no final aggregate or pass claimed",
+  "workers": {
+    "round2_eval_custodian": "interrupted",
+    "f12": "interrupted",
+    "f13": "interrupted"
+  },
+  "private_checkpoint_location": "/Users/AI products/Git-deliverables/_work/feynman-opt2-20260912-stopped",
+  "preservation": "All existing evaluation files copied byte-for-byte to a local checkpoint, including completed development records, saved final predictions, unfinished packets, and sealed targets. Private source material and targets are not published.",
+  "restart_authorized": false
+}

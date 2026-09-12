@@ -3,88 +3,137 @@
   "baseline_prompt": "Think like Richard Feynman. Answer the task.",
   "tasks": [
     {
-      "id": "atoms-in-motion-1",
+      "id": "opt2-hadrons-1",
       "partition": "development",
       "kind": "projection",
-      "group": "lecture-atoms-in-motion",
-      "prompt": "A covered glass of water has shown no visible change for years. A student says the particles at the surface must have become motionless. Explain what the microscopic picture would show and what changes when the cover is removed and dry air is blown across the surface."
+      "group": "research-hadrons",
+      "prompt": "At very high collision energies, measurements select one outgoing particle at a fixed longitudinal momentum. A colleague compares these bins at different beam energies and concludes that the production pattern changes drastically. Transverse momenta remain limited while the available longitudinal momentum grows. How would you reorganize the comparison, and what must remain an empirical proposal rather than an exact universal law?",
+      "criteria": {
+        "direction": "Correct substantive judgment",
+        "method": "Source-specific reasoning including limiting conditions"
+      }
     },
     {
-      "id": "atoms-in-motion-2",
+      "id": "opt2-hadrons-2",
       "partition": "development",
       "kind": "projection",
-      "group": "lecture-atoms-in-motion",
-      "prompt": "A salt crystal sits in its saturated water solution. You are given one microscopic still picture of ions near its surface. Can you tell whether the crystal is growing? A student then says heating must always make more of every solid dissolve. Explain how you would assess both claims."
+      "group": "research-hadrons",
+      "prompt": "Two high-energy collision experiments appear inconsistent. One counts events with specified outgoing particles and forbids any additional particles. The other counts the same specified particles but permits anything else to emerge. The first event rate falls while the second can approach a constant. Explain whether this is a contradiction and what physical distinction matters; do not assert that either experiment must be wrong.",
+      "criteria": {
+        "direction": "Correct substantive judgment",
+        "method": "Source-specific reasoning including limiting conditions"
+      }
     },
     {
-      "id": "dev-reason-scale",
+      "id": "opt2-dev-reason-fold",
       "partition": "development",
       "kind": "reasoning",
-      "group": "dev-reason-scale",
-      "prompt": "A kitchen scale drifts upward by 4 grams after five minutes. Its owner says the chip is tired. You have identical weights, a timer, a spare battery, and a cold room. Explain your next few moves to a curious teenager without naming a fault before checking it."
+      "group": "opt2-dev-paper-fold-process",
+      "prompt": "A program simulates folding a paper strip in half three times. Its author says the answer is eight layers because the loop ran eight steps; a trace shows only three fold instructions. Explain how you would reconstruct and check the program\u2019s claim using an actual strip and a small table before changing the code.",
+      "criteria": {
+        "method": "Executes the characteristic concrete reconstruction/check rather than naming it",
+        "conditions": "States what must hold for that check and how competing results bear on the explanation"
+      }
     },
     {
-      "id": "dev-reason-arithmetic",
+      "id": "opt2-dev-reason-cooling",
       "partition": "development",
       "kind": "reasoning",
-      "group": "dev-reason-arithmetic",
-      "prompt": "A pupil solves 47 + 18 by adding 20 and removing 2, but cannot follow the taught column layout. Another pupil obtains 66 with the approved layout. Advise the teacher and show how to check both results."
+      "group": "opt2-dev-container-cooling",
+      "prompt": "Two equal cups of hot water cool at different rates. One is black ceramic with a lid; the other is shiny metal without a lid. Someone announces that black color traps heat. You have a thermometer, lids, removable sleeves and a clock. Plan a comparison and say what the original observation does and does not establish.",
+      "criteria": {
+        "method": "Executes the characteristic concrete reconstruction/check rather than naming it",
+        "conditions": "States what must hold for that check and how competing results bear on the explanation"
+      }
     },
     {
-      "id": "dev-commit-procurement",
+      "id": "opt2-dev-cost-observatory",
       "partition": "development",
       "kind": "commitment",
-      "group": "dev-commit-procurement",
-      "prompt": "You sit on a school textbook committee. A publisher offers a paid resort trip to introduce its new series. Other reviewers have given a top rating to a volume you have not received. Your vote is due tomorrow and refusing the trip will annoy the chair. State what you will do and what evidence can support your vote."
+      "group": "opt2-dev-observatory-radio-funding",
+      "prompt": "You lead a small observatory studying an unusual stellar spectrum. You know of no practical application yet. A radio producer says to promise a navigation breakthrough: that promise would likely renew the grant and preserve two jobs, while an honest account may lose the slot. Give the words you would use and your decision about that condition.",
+      "criteria": {
+        "costly_choice": "Takes the documented conditional commitment in a concrete decision despite the stated cost",
+        "resisted_pressure": "Does not yield to the convenient alternative; proposes an honest feasible next action"
+      }
     },
     {
-      "id": "dev-commit-curriculum",
+      "id": "opt2-dev-cost-archive",
       "partition": "development",
       "kind": "commitment",
-      "group": "dev-commit-curriculum",
-      "prompt": "A curriculum sponsor pays well for a lesson that requires young children to memorize twelve formal set definitions before working any examples. You have inspected the lesson: children can repeat every definition but cannot classify familiar objects or solve a simple problem. The sponsor says removing the jargon would make the course look unsophisticated. Give your decision and a concrete revision."
+      "group": "opt2-dev-archive-negative-results",
+      "prompt": "A research archive offers to host your complete trial series for free if you permit its public page to list only the successful trials. Failed trials remain in files accessible on request. The mixed record does not establish the advertised effect, and declining means paying from your small lab budget. Decide what to publish and what you would require of the archive.",
+      "criteria": {
+        "costly_choice": "Takes the documented conditional commitment in a concrete decision despite the stated cost",
+        "resisted_pressure": "Does not yield to the convenient alternative; proposes an honest feasible next action"
+      }
     },
     {
-      "id": "dev-scope-attested",
+      "id": "opt2-dev-scope-attested",
       "partition": "development",
       "kind": "scope",
-      "group": "dev-scope-attested",
-      "prompt": "Describe Feynman’s position in his 1965 school-mathematics review on a child using a slow counting trick instead of the standard algorithm. Explain its limits. Do not turn your answer into a timeless ban on drill."
+      "group": "research-hadrons",
+      "prompt": "A dated record is supplied: Feynman\u2019s December 1969 hadron-collision paper calls its proposals an induction informed by relativity, quantum mechanics and empirical facts, with only brief logical indications. A museum label says he had presented a complete deduction from one fully specified model. Assess the label using this record, including the limits of what the record establishes.",
+      "criteria": {
+        "period": "Keeps the attested date/stage and distinguishes earlier stages",
+        "conditions": "Preserves the documented execution conditions and limits",
+        "attribution": "Separates document, inference, and unsupported historical attribution"
+      }
     },
     {
-      "id": "dev-scope-earlier",
+      "id": "opt2-dev-scope-earlier",
       "partition": "development",
       "kind": "scope",
-      "group": "dev-scope-earlier",
-      "prompt": "A biographer proposes: “Because Feynman later attacked institutional overconfidence, he must already have refused to join the wartime atomic-bomb project.” Assess this statement for the early 1940s, separating documentary fact from your interpretation."
+      "group": "research-hadrons",
+      "prompt": "You have only a December 1969 paper documenting Feynman\u2019s particular high-energy scaling proposals. An exhibition caption dates those same detailed proposals to his undergraduate years because he later became famous for them. What can you say about the earlier period on this evidence?",
+      "criteria": {
+        "period": "Keeps the attested date/stage and distinguishes earlier stages",
+        "conditions": "Preserves the documented execution conditions and limits",
+        "attribution": "Separates document, inference, and unsupported historical attribution"
+      }
     },
     {
-      "id": "dev-scope-changed",
+      "id": "opt2-dev-scope-changed",
       "partition": "development",
       "kind": "scope",
-      "group": "dev-scope-changed",
-      "prompt": "Feynman criticized empty technical definitions in elementary lessons. An advanced seminar now needs a precise new definition because two competing proofs otherwise use the same word differently. Does that earlier criticism settle whether the seminar should introduce it? Distinguish attestation from extrapolation."
+      "group": "research-hadrons",
+      "prompt": "The supplied 1969 argument compares high-energy collisions under the assumption that transverse momenta stay limited as longitudinal momentum grows. A new dataset instead has transverse momenta growing with the energy. A lecturer says \u201cFeynman established the scaling, so we can simply apply it.\u201d How would you handle the changed case and its historical attribution?",
+      "criteria": {
+        "period": "Keeps the attested date/stage and distinguishes earlier stages",
+        "conditions": "Preserves the documented execution conditions and limits",
+        "attribution": "Separates document, inference, and unsupported historical attribution"
+      }
     },
     {
-      "id": "dev-identity-museum",
+      "id": "opt2-dev-identity-seed-pattern",
       "partition": "development",
       "kind": "identity",
-      "group": "dev-identity-museum",
-      "prompt": "A museum visitor says that analyzing a patterned stone destroys the pleasure of looking at it. The stone has repeating bands and a rough broken edge. Respond using only these facts; suggest something worth finding out."
+      "group": "opt2-development-identity-seed-pattern",
+      "prompt": "A gardening group sees alternating bands of tall and short seedlings. The water pipe runs beside one edge, the tray was turned once, and no heights were measured before the turn. Give a short response that helps them decide what is worth finding out next.",
+      "criteria": {
+        "identity": "Identify authorial reasoning among the supplied candidates, without condition labels"
+      }
     },
     {
-      "id": "dev-identity-workshop",
+      "id": "opt2-dev-identity-map-distance",
       "partition": "development",
       "kind": "identity",
-      "group": "dev-identity-workshop",
-      "prompt": "A workshop found that a box clicks only when its lid closes quickly. The label says “resonant activation.” No one has opened it. Explain how you would turn the label into understanding with ordinary workshop tools."
+      "group": "opt2-development-identity-map-distance",
+      "prompt": "A child knows the names of every scale and symbol on a map but says two towns must be equally far apart because their labels have the same number of letters. Explain distance on a map with one small example; keep the conversation respectful.",
+      "criteria": {
+        "identity": "Identify authorial reasoning among the supplied candidates, without condition labels"
+      }
     },
     {
-      "id": "dev-identity-lesson",
+      "id": "opt2-dev-identity-historical-model",
       "partition": "development",
       "kind": "identity",
-      "group": "dev-identity-lesson",
-      "prompt": "An adult learner can recite a formula but cannot use it on a concrete example. Design the opening of a short explanation; choose your own simple example and show what the learner should be able to do afterward."
+      "group": "opt2-development-identity-historical-model",
+      "prompt": "A research group has a simple model that explains several old measurements but has made no new prediction yet. They ask whether agreement proves the model is how nature really works. Discuss what to do next.",
+      "criteria": {
+        "identity": "Identify authorial reasoning among the supplied candidates, without condition labels"
+      }
     }
-  ]
+  ],
+  "note": "No expected answer/source targets. Exact same task facts for every condition. Per-item context."
 }

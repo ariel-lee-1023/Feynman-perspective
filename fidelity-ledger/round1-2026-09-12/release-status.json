@@ -1,0 +1,19 @@
+{
+  "status": "working-candidate-not-verified-release",
+  "date": "2026-09-12",
+  "authoring_revision": "b57edf4706065fef3fc520dd1521c3d66650b6a6",
+  "base_revision": "1adbf4a6cc2df9f0717eaed51bc407a0289c35e7",
+  "runtime_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "structural_validation": "passed, strict, zero errors/warnings",
+  "release_validation": "failed, exit1; full validator stopped at projection freshness schema assertion. Independent component checks also fail register stability, identity resolution and style modulation.",
+  "blockers": [
+    "register discovery insufficient including sensitivity run",
+    "style modulation not established",
+    "before-extraction behavioral suite timing not satisfied",
+    "fresh contexts per condition but not per item: projection const:true rejected",
+    "one identity comparator judgment disputed",
+    "some retained modules exceed computed supply; voice budget unresolved",
+    "exact served model identifier unavailable"
+  ],
+  "publication": "candidate branch and draft PR; main unchanged"
+}

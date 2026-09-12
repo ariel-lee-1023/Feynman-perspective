@@ -1,97 +1,21 @@
 {
-  "case_insensitive": true,
+  "scope": "two instructional default units, not lifetime absence",
   "whole_word": true,
-  "per_source": {
-    "c04.txt": {
+  "case_insensitive": true,
+  "counts": {
+    "intro_physics": {
       "leverage": 0,
       "stakeholder": 0,
       "synergy": 0,
       "delve": 0,
-      "in conclusion": 0,
-      "state": 2,
-      "social": 0,
-      "cargo cult": 6,
-      "fool yourself": 2
+      "in conclusion": 0
     },
-    "c07.txt": {
+    "law_explanation": {
       "leverage": 0,
       "stakeholder": 0,
       "synergy": 0,
       "delve": 0,
-      "in conclusion": 0,
-      "state": 1,
-      "social": 1,
-      "cargo cult": 0,
-      "fool yourself": 0
-    },
-    "c09.txt": {
-      "leverage": 0,
-      "stakeholder": 0,
-      "synergy": 0,
-      "delve": 0,
-      "in conclusion": 0,
-      "state": 0,
-      "social": 2,
-      "cargo cult": 0,
-      "fool yourself": 0
-    },
-    "c11.txt": {
-      "leverage": 0,
-      "stakeholder": 0,
-      "synergy": 0,
-      "delve": 0,
-      "in conclusion": 0,
-      "state": 0,
-      "social": 0,
-      "cargo cult": 0,
-      "fool yourself": 0
-    },
-    "c13.txt": {
-      "leverage": 0,
-      "stakeholder": 0,
-      "synergy": 0,
-      "delve": 0,
-      "in conclusion": 0,
-      "state": 2,
-      "social": 0,
-      "cargo cult": 0,
-      "fool yourself": 0
-    },
-    "c16.txt": {
-      "leverage": 0,
-      "stakeholder": 0,
-      "synergy": 0,
-      "delve": 0,
-      "in conclusion": 0,
-      "state": 0,
-      "social": 0,
-      "cargo cult": 0,
-      "fool yourself": 0
+      "in conclusion": 0
     }
-  },
-  "generated": {
-    "A.txt": {
-      "leverage": 0,
-      "stakeholder": 0,
-      "synergy": 0,
-      "delve": 0,
-      "in conclusion": 0,
-      "state": 0,
-      "social": 0,
-      "cargo cult": 0,
-      "fool yourself": 0
-    },
-    "B.txt": {
-      "leverage": 0,
-      "stakeholder": 0,
-      "synergy": 0,
-      "delve": 0,
-      "in conclusion": 0,
-      "state": 0,
-      "social": 0,
-      "cargo cult": 0,
-      "fool yourself": 0
-    }
-  },
-  "claims": "Only these six sample units; zero observations do not establish lifetime absence."
+  }
 }

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-12T08:51:19+00:00",
+  "generated": "2026-09-12T10:04:55+00:00",
   "lang": "en",
-  "n_units": 6,
-  "n_registers": 0,
+  "n_units": 2,
+  "n_registers": 1,
   "thresholds": {
     "ratio": 3.0,
     "dims": 3,
@@ -12,9 +12,9 @@
   },
   "stability": {
     "adequate": true,
-    "stable": false,
+    "stable": true,
     "subsamples": 3,
-    "tokens_per_subsample": 621,
+    "tokens_per_subsample": 3085,
     "minimum_agreement": 0.8,
     "pairs": [
       {
@@ -23,268 +23,16 @@
           1
         ],
         "split": false,
-        "agreement": 0.6666666666666666
-      },
-      {
-        "indices": [
-          0,
-          2
-        ],
-        "split": false,
-        "agreement": 1.0
-      },
-      {
-        "indices": [
-          0,
-          3
-        ],
-        "split": false,
-        "agreement": 1.0
-      },
-      {
-        "indices": [
-          0,
-          4
-        ],
-        "split": false,
-        "agreement": 1.0
-      },
-      {
-        "indices": [
-          0,
-          5
-        ],
-        "split": false,
-        "agreement": 1.0
-      },
-      {
-        "indices": [
-          1,
-          2
-        ],
-        "split": false,
-        "agreement": 0.3333333333333333
-      },
-      {
-        "indices": [
-          1,
-          3
-        ],
-        "split": false,
-        "agreement": 0.3333333333333333
-      },
-      {
-        "indices": [
-          1,
-          4
-        ],
-        "split": false,
-        "agreement": 0.6666666666666666
-      },
-      {
-        "indices": [
-          1,
-          5
-        ],
-        "split": false,
-        "agreement": 1.0
-      },
-      {
-        "indices": [
-          2,
-          3
-        ],
-        "split": true,
-        "agreement": 0.3333333333333333
-      },
-      {
-        "indices": [
-          2,
-          4
-        ],
-        "split": false,
-        "agreement": 0.6666666666666666
-      },
-      {
-        "indices": [
-          2,
-          5
-        ],
-        "split": false,
-        "agreement": 0.6666666666666666
-      },
-      {
-        "indices": [
-          3,
-          4
-        ],
-        "split": false,
-        "agreement": 1.0
-      },
-      {
-        "indices": [
-          3,
-          5
-        ],
-        "split": false,
-        "agreement": 1.0
-      },
-      {
-        "indices": [
-          4,
-          5
-        ],
-        "split": false,
         "agreement": 1.0
       }
     ],
-    "family_agreement": 0.0
+    "family_agreement": 1.0
   },
   "units": [
     {
-      "unit_id": "c04",
-      "label": "c04.txt",
-      "chars": 18693,
-      "features": {
-        "mean_sentence_len": 21.145455,
-        "median_sentence_len": 17.0,
-        "p90_sentence_len": 40.0,
-        "long_sentence_share": 0.236364,
-        "question_rate": 20.063055,
-        "connective_rate": 17.196905,
-        "hedge_rate": 117.512181,
-        "booster_rate": 34.393809,
-        "second_person_rate": 226.42591,
-        "first_person_rate": 286.615076,
-        "title_mark_rate": 0.0,
-        "core_term_density": 0.0,
-        "flagship_term_density": 0.0
-      },
-      "observations": {
-        "tokens": 3489,
-        "sentences": 165,
-        "events": {
-          "question_rate": 7,
-          "connective_rate": 6,
-          "hedge_rate": 41,
-          "booster_rate": 12,
-          "second_person_rate": 79,
-          "first_person_rate": 100,
-          "title_mark_rate": 0,
-          "core_term_density": 0,
-          "flagship_term_density": 0
-        }
-      }
-    },
-    {
-      "unit_id": "c07",
-      "label": "c07.txt",
-      "chars": 40845,
-      "features": {
-        "mean_sentence_len": 39.137931,
-        "median_sentence_len": 28.0,
-        "p90_sentence_len": 77.0,
-        "long_sentence_share": 0.472906,
-        "question_rate": 35.242291,
-        "connective_rate": 23.914412,
-        "hedge_rate": 85.58842,
-        "booster_rate": 25.173065,
-        "second_person_rate": 153.555695,
-        "first_person_rate": 509.754563,
-        "title_mark_rate": 0.0,
-        "core_term_density": 0.0,
-        "flagship_term_density": 0.0
-      },
-      "observations": {
-        "tokens": 7945,
-        "sentences": 203,
-        "events": {
-          "question_rate": 28,
-          "connective_rate": 19,
-          "hedge_rate": 68,
-          "booster_rate": 20,
-          "second_person_rate": 122,
-          "first_person_rate": 405,
-          "title_mark_rate": 0,
-          "core_term_density": 0,
-          "flagship_term_density": 0
-        }
-      }
-    },
-    {
-      "unit_id": "c09",
-      "label": "c09.txt",
-      "chars": 13479,
-      "features": {
-        "mean_sentence_len": 18.38806,
-        "median_sentence_len": 15.0,
-        "p90_sentence_len": 35.0,
-        "long_sentence_share": 0.134328,
-        "question_rate": 52.75974,
-        "connective_rate": 12.175325,
-        "hedge_rate": 121.753247,
-        "booster_rate": 68.993506,
-        "second_person_rate": 28.409091,
-        "first_person_rate": 377.435065,
-        "title_mark_rate": 0.0,
-        "core_term_density": 0.0,
-        "flagship_term_density": 0.0
-      },
-      "observations": {
-        "tokens": 2464,
-        "sentences": 134,
-        "events": {
-          "question_rate": 13,
-          "connective_rate": 3,
-          "hedge_rate": 30,
-          "booster_rate": 17,
-          "second_person_rate": 7,
-          "first_person_rate": 93,
-          "title_mark_rate": 0,
-          "core_term_density": 0,
-          "flagship_term_density": 0
-        }
-      }
-    },
-    {
-      "unit_id": "c11",
-      "label": "c11.txt",
-      "chars": 29191,
-      "features": {
-        "mean_sentence_len": 22.759434,
-        "median_sentence_len": 20.0,
-        "p90_sentence_len": 37.0,
-        "long_sentence_share": 0.198113,
-        "question_rate": 24.870466,
-        "connective_rate": 37.305699,
-        "hedge_rate": 78.756477,
-        "booster_rate": 22.797927,
-        "second_person_rate": 2.072539,
-        "first_person_rate": 68.393782,
-        "title_mark_rate": 0.0,
-        "core_term_density": 0.0,
-        "flagship_term_density": 0.0
-      },
-      "observations": {
-        "tokens": 4825,
-        "sentences": 212,
-        "events": {
-          "question_rate": 12,
-          "connective_rate": 18,
-          "hedge_rate": 38,
-          "booster_rate": 11,
-          "second_person_rate": 1,
-          "first_person_rate": 33,
-          "title_mark_rate": 0,
-          "core_term_density": 0,
-          "flagship_term_density": 0
-        }
-      }
-    },
-    {
-      "unit_id": "c13",
-      "label": "c13.txt",
-      "chars": 51958,
+      "unit_id": "law_explanation",
+      "label": "General-audience lecture: Seeking New Laws",
+      "chars": 51935,
       "features": {
         "mean_sentence_len": 21.93128,
         "median_sentence_len": 19.0,
@@ -317,34 +65,34 @@
       }
     },
     {
-      "unit_id": "c16",
-      "label": "c16.txt",
-      "chars": 9751,
+      "unit_id": "intro_physics",
+      "label": "Introductory physics lectures: chapters3–6",
+      "chars": 150232,
       "features": {
-        "mean_sentence_len": 32.701754,
-        "median_sentence_len": 25.0,
-        "p90_sentence_len": 72.0,
-        "long_sentence_share": 0.368421,
-        "question_rate": 21.459227,
-        "connective_rate": 37.553648,
-        "hedge_rate": 64.377682,
-        "booster_rate": 37.553648,
-        "second_person_rate": 268.240343,
-        "first_person_rate": 295.064378,
+        "mean_sentence_len": 22.271452,
+        "median_sentence_len": 20.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.231848,
+        "question_rate": 31.119179,
+        "connective_rate": 55.569963,
+        "hedge_rate": 61.497425,
+        "booster_rate": 42.974104,
+        "second_person_rate": 27.044048,
+        "first_person_rate": 288.222873,
         "title_mark_rate": 0.0,
         "core_term_density": 0.0,
         "flagship_term_density": 0.0
       },
       "observations": {
-        "tokens": 1864,
-        "sentences": 57,
+        "tokens": 26993,
+        "sentences": 1212,
         "events": {
-          "question_rate": 4,
-          "connective_rate": 7,
-          "hedge_rate": 12,
-          "booster_rate": 7,
-          "second_person_rate": 50,
-          "first_person_rate": 55,
+          "question_rate": 84,
+          "connective_rate": 150,
+          "hedge_rate": 166,
+          "booster_rate": 116,
+          "second_person_rate": 73,
+          "first_person_rate": 778,
           "title_mark_rate": 0,
           "core_term_density": 0,
           "flagship_term_density": 0
@@ -354,239 +102,149 @@
   ],
   "distance_matrix": {
     "units": [
-      "c04",
-      "c07",
-      "c09",
-      "c11",
-      "c13",
-      "c16"
+      "law_explanation",
+      "intro_physics"
     ],
     "z_distance": [
       [
         0.0,
-        1.1906032804147904,
-        0.7884133126404346,
-        0.7863685164515579,
-        0.3611710327216659,
-        0.8903999806804416
+        1.3846153846153846
       ],
       [
-        1.1906032804147904,
-        0.0,
-        1.5507521117197802,
-        1.2620366944436427,
-        1.190904327344645,
-        0.7551074819057445
-      ],
-      [
-        0.7884133126404346,
-        1.5507521117197802,
-        0.0,
-        1.115961523625547,
-        0.688416597441202,
-        1.6232045168949827
-      ],
-      [
-        0.7863685164515579,
-        1.2620366944436427,
-        1.115961523625547,
-        0.0,
-        0.7283065252970504,
-        0.9391522921777398
-      ],
-      [
-        0.3611710327216659,
-        1.190904327344645,
-        0.688416597441202,
-        0.7283065252970504,
-        0.0,
-        0.9601945088685179
-      ],
-      [
-        0.8903999806804416,
-        0.7551074819057445,
-        1.6232045168949827,
-        0.9391522921777398,
-        0.9601945088685179,
+        1.3846153846153846,
         0.0
       ]
     ],
     "ratio_exceedances": [
       [
         0,
-        0,
-        1,
-        2,
-        0,
-        0
-      ],
-      [
-        0,
-        0,
-        2,
-        2,
-        0,
-        0
+        1
       ],
       [
         1,
-        2,
-        0,
-        4,
-        1,
-        2
-      ],
-      [
-        2,
-        2,
-        4,
-        0,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        1,
-        2,
-        0,
-        0
-      ],
-      [
-        0,
-        0,
-        2,
-        2,
-        0,
         0
       ]
     ]
   },
-  "families": [],
+  "families": [
+    {
+      "family_id": "R1",
+      "label": "Introductory scientific explanation",
+      "members": [
+        "intro_physics",
+        "law_explanation"
+      ],
+      "centroid": {
+        "mean_sentence_len": 22.101366,
+        "median_sentence_len": 19.5,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.230853,
+        "question_rate": 27.985305,
+        "connective_rate": 41.291195,
+        "hedge_rate": 92.877291,
+        "booster_rate": 53.901963,
+        "second_person_rate": 95.099549,
+        "first_person_rate": 287.817542,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      }
+    }
+  ],
   "gap_table": [
-    {
-      "dimension": "booster_rate",
-      "by_family": {
-        "R1": 56.072379,
-        "R2": 28.508213
-      },
-      "max_ratio": 1.9668850867642946
-    },
-    {
-      "dimension": "connective_rate",
-      "by_family": {
-        "R1": 18.794885,
-        "R2": 32.924586
-      },
-      "max_ratio": 1.7517843817613141
-    },
-    {
-      "dimension": "long_sentence_share",
-      "by_family": {
-        "R1": 0.200183,
-        "R2": 0.34648
-      },
-      "max_ratio": 1.7308163030826793
-    },
-    {
-      "dimension": "p90_sentence_len",
-      "by_family": {
-        "R1": 38.333333,
-        "R2": 62.0
-      },
-      "max_ratio": 1.6173913184120983
-    },
-    {
-      "dimension": "hedge_rate",
-      "by_family": {
-        "R1": 121.174195,
-        "R2": 76.24086
-      },
-      "max_ratio": 1.5893602852853443
-    },
     {
       "dimension": "mean_sentence_len",
       "by_family": {
-        "R1": 20.488265,
-        "R2": 31.53304
+        "R1": 22.101366
       },
-      "max_ratio": 1.5390781015376365
+      "max_ratio": 1.0
     },
     {
       "dimension": "median_sentence_len",
       "by_family": {
-        "R1": 17.0,
-        "R2": 24.333333
+        "R1": 19.5
       },
-      "max_ratio": 1.4313725294117647
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "p90_sentence_len",
+      "by_family": {
+        "R1": 40.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "long_sentence_share",
+      "by_family": {
+        "R1": 0.230853
+      },
+      "max_ratio": 1.0
     },
     {
       "dimension": "question_rate",
       "by_family": {
-        "R1": 32.558076,
-        "R2": 27.190661
+        "R1": 27.985305
       },
-      "max_ratio": 1.1973992099713944
+      "max_ratio": 1.0
     },
     {
-      "dimension": "first_person_rate",
+      "dimension": "connective_rate",
       "by_family": {
-        "R1": 317.154117,
-        "R2": 291.070908
+        "R1": 41.291195
       },
-      "max_ratio": 1.0896111850518568
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "hedge_rate",
+      "by_family": {
+        "R1": 92.877291
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "booster_rate",
+      "by_family": {
+        "R1": 53.901963
+      },
+      "max_ratio": 1.0
     },
     {
       "dimension": "second_person_rate",
       "by_family": {
-        "R1": 139.330017,
-        "R2": 141.289526
+        "R1": 95.099549
       },
-      "max_ratio": 1.014063796461031
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "first_person_rate",
+      "by_family": {
+        "R1": 287.817542
+      },
+      "max_ratio": 1.0
     },
     {
       "dimension": "title_mark_rate",
       "by_family": {
-        "R1": 0.0,
-        "R2": 0.0
+        "R1": 0.0
       },
       "max_ratio": 1.0
     },
     {
       "dimension": "core_term_density",
       "by_family": {
-        "R1": 0.0,
-        "R2": 0.0
+        "R1": 0.0
       },
       "max_ratio": 1.0
     },
     {
       "dimension": "flagship_term_density",
       "by_family": {
-        "R1": 0.0,
-        "R2": 0.0
+        "R1": 0.0
       },
       "max_ratio": 1.0
     }
   ],
-  "forced_splits": [
-    {
-      "a": "c09",
-      "b": "c11",
-      "dimensions": [
-        "connective_rate",
-        "booster_rate",
-        "second_person_rate",
-        "first_person_rate"
-      ],
-      "ratios": {
-        "connective_rate": 3.064041329492231,
-        "booster_rate": 3.0263061198502825,
-        "second_person_rate": 13.70738548225148,
-        "first_person_rate": 5.518558178285857
-      }
-    }
-  ],
-  "verdict": "INSUFFICIENT_EVIDENCE",
-  "notes": "Too little comparable text or unstable equal-length subsamples; no register conclusion."
+  "forced_splits": [],
+  "verdict": "SINGLE_REGISTER",
+  "notes": " Scoped to edited introductory physics lectures only. Remedial review, memoir, public exhortation and technical report not included; broad analyses are retained separately."
 }

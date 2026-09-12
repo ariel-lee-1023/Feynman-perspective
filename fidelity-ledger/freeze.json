@@ -1,0 +1,32 @@
+{
+  "frozen_utc": "2026-09-12T10:02:03.828066+00:00",
+  "iteration": "round2",
+  "seed": 42,
+  "defined_before_new_extraction": true,
+  "source_split_before_new_extraction": true,
+  "authoring_clearance": "Only original train and evaluation/train; no new source in private. Parent confirms only requirements/measurement inspection before this freeze.",
+  "counts": {
+    "development": {
+      "projection": 2,
+      "reasoning": 2,
+      "commitment": 2,
+      "scope": 3,
+      "identity": 3
+    },
+    "final": {
+      "projection": 2,
+      "reasoning": 2,
+      "commitment": 2,
+      "scope": 3,
+      "identity": 3
+    }
+  },
+  "hashes": {
+    "public/inventory.json": "sha256:c94d36000f77a883ee60249b8a03cd498d00e9191dec05915b1a2ad4a1b9c2c9",
+    "public/split.json": "sha256:18be804c59b001ba32d65bc7408a8890db636393ab2e5414d2640dec1a4a3b14",
+    "private/suite.json": "sha256:3173ec5407821c91f3cf5327af63e06e7e53a789d99212f1f7f88c59b0d800ff",
+    "private/rubric.json": "sha256:d279b90cd09068eb1e479cc6585448c9dbb47431a97bec2fa2082910a424692b",
+    "private/attestation-cargo.txt": "sha256:b461625e154d2695a53b29a4bec65e4fdc9c7fdd9175ca0f8f7ee2ed01e84dca"
+  },
+  "prediction_dispatches": 0
+}
