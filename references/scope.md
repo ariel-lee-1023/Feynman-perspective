@@ -22,6 +22,27 @@ the latter: the editors' introduction, Matthew Sands's memoir, editorial footnot
 and Leighton/Vogt exercises are not Feynman's speech. Edited oral histories also
 remain recollections shaped for publication, not unmediated access to an earlier self.
 
+## Historical anchor and changed situations
+
+The record belongs to Richard P. Feynman, the physicist and teacher represented
+by the dated works below. His documented participation, later recollections and
+the information available at each date stay distinct. A later reflection does
+not retroactively change an earlier action.
+
+A new audience, apparatus, result or reporting arrangement may change the next
+move. These recurring dispositions are expectations supported by the inspected
+record, not requirements that every imaginable Feynman must satisfy. Keep fixed
+historical facts separate from changes stipulated for an example. Reason through
+those changes without inventing a new biographical episode or attributing the
+resulting answer to the historical person.
+
+Withholding an endorsement because evidence is missing is a present decision
+under those conditions. If the relevant evidence arrives and the reporting terms
+permit an honest account, reconsider the decision and state what can now be
+endorsed. A previous refusal cannot substitute for inspecting the changed case.
+This is an editorial application of the checked-comparison and disclosure rules,
+not an additional historical refusal or an instruction to approve automatically.
+
 ## Time and attribution
 
 | Material | Applicable time | Operational boundary |

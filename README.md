@@ -1,56 +1,75 @@
-# Feynman perspective
+# Richard Feynman perspective — 1.0
 
-A reasoning and conversation skill drawn from Richard Feynman's public record: follow one concrete example, derive what changes, check it and preserve the conditions under which the answer holds.
+**Candidate.** This release uses persona-distiller's current incremental migration
+format. Package and bounded source checks are recorded in
+[validation.json](transworld-identity/validation.json). **Machine recognition was
+not run:** the user explicitly requested no new evaluation and Candidate publication.
+The version number is a release label, not a fidelity certification.
 
-**Working release with limited evaluation.** This version is usable as a perspective skill, but does not claim full independent validation. Evaluation was stopped at the user's request; the saved state is recorded in [release status](fidelity-ledger/release-status.json) and [the evaluation checkpoint](fidelity-ledger/evaluation-checkpoint.json).
+The perspective supports scientific reasoning, concrete explanation, learning,
+scrutiny of evidence and reflective conversation about curiosity and uncertainty.
+It draws on Feynman's dated lectures, interviews and memoirs; generated speech is
+not an authentic quotation or a claim to be the historical person.
 
-## What changed in this round
+## What changed in 1.0
 
-The seven depth modules have been rewritten to keep the source cases, execution conditions and counterexamples while removing repeated framework and voice instructions. Estimated runtime size fell from 37,824 to 26,947 tokens (28.76%) under the same declared heuristic. The worst-case load, including scope, standing modules and two depth modules, fell from 22,098 to 17,858. These are planning estimates, not model-specific tokenizer counts.
+- Migrated all old evidence to `transworld-identity/`, preserving original bytes,
+  result scope and source lineage. Historical outcomes are indexed in
+  [applicability-1.0.json](transworld-identity/applicability-1.0.json).
+- Added situated evidence, core-claim decisions, a bounded source review and an
+  unexecuted recognition profile. No new model evaluation was performed.
+- Clarified fixed historical background, stipulated changes and conditions for
+  reconsidering an endorsement in [scope](references/scope.md).
+- Preserved the core, frameworks, voice and all seven source-oriented topic modules;
+  updated CI to persona-distiller revision `a010b3ed320a6edf7273d1510908c9540501f6dc`.
 
-The voice now follows a causal explanation through longer connected sentences, relevant qualifications and short consequences. It is not a collection of aphorisms or obligatory anecdotes. Its measured claim is deliberately limited to introductory English scientific explanation. Two lecture sources give stable pair/family decisions across three equal-length windows. Broader comparisons remain inconclusive and are preserved; no single voice is asserted for all Feynman writing.
+## Use and installation
 
-The evaluation protocol was frozen before this round's curation, with a separate sealed style supplement. Completed predictions used a separate fresh context per item and condition. The final suite was stopped before completion; all previous final tests are retained as development history.
+Clone this repository, check out tag `1.0`, and open it as a conversation workspace.
+The local [AGENTS.md](AGENTS.md) activates the perspective while honoring explicit
+requests to leave the voice or maintain the package. For another skill host, install
+the root [SKILL.md](SKILL.md) with its `references/` directory. The relative discovery
+link `.agents/skills/feynman-perspective -> ../..` points to that single runtime copy.
 
-## Use
+The host loads [scope](references/scope.md) with the core, [voice](references/voice.md)
+before sustained prose, and [frameworks](references/frameworks.md) for procedures
+and historical judgments. Seven topic modules provide deeper source examples.
 
-The root [SKILL.md](SKILL.md) and `references/` are the canonical runtime. The discovery link `.agents/skills/feynman-perspective -> ../..` points to that root. The local [AGENTS.md](AGENTS.md) activates it while respecting explicit requests to leave the voice or maintain the package.
+Examples: find a test that distinguishes two explanations; recover a formula's
+sign from one physical example; examine the evidence that could hurt a favored
+claim; explain in Chinese while keeping the reasoning concrete.
 
-The host loads [scope](references/scope.md) with the core, [voice](references/voice.md) for sustained prose, and [frameworks](references/frameworks.md) for procedures and historical judgments. Topic modules supply additional depth.
+## Sources and limits
 
-Examples:
+The seven user-supplied works remain the corpus: *Surely You're Joking, Mr. Feynman!*,
+*What Do You Care What Other People Think?*, *The Pleasure of Finding Things Out*,
+*The Character of Physical Law*, *Six Easy Pieces*, *Feynman's Tips on Physics*,
+and *New Textbooks for the “New” Mathematics*. Sources span public material from
+1955–1986 and later memoir publication. Feynman's lecture text is distinguished
+from editors, students and other authors. Full books and scans are not distributed.
 
-- Help me find a test that distinguishes these explanations.
-- I can repeat the formula but do not understand the sign; work one example.
-- Review this claim, including evidence that would hurt it.
-- Explain this in Chinese while keeping the reasoning concrete.
+The 1.0 source review inspected 21 located excerpts within a 24-unit, zero-OCR
+boundary and reviewed all retained core claims. It is machine-assisted editorial
+review, not independent historical auditing. See [provenance](transworld-identity/provenance.md)
+and [source review](transworld-identity/source-review-1.0.json).
 
-Generated speech is not an authentic quotation. The calibrated voice scope is English explanatory lecture prose; Chinese use has no measured style validation. Historical views are dated, and current factual questions require current evidence.
+Historical development performance was **0.75 for both the persona and a minimal
+Feynman prompt**, on two correlated probes. Earlier finals stopped at **11 of 32
+planned answers**, with scoring incomplete. Those records remain history, not
+current acceptance. Introductory English lecture measurements are narrow;
+broader register comparisons remain inconclusive, and Chinese voice is unvalidated.
+Modern factual applications need current evidence and clear attribution boundaries.
 
-## Sources and evidence
+## Validation
 
-The seven user-supplied works remain the construction corpus. The image-only Tips Markdown was supplemented from its paired scanned PDF, separating Feynman's lectures from editors, students and other authors. Raw books and scans are not distributed.
-
-This round completed a development projection comparison using an original Caltech research-paper record. The final research-paper, behavioral, identity and edited-lecture style comparisons remain incomplete. These records do not establish broad lifetime fidelity. See the acquisition, protocol and result records in [the ledger](fidelity-ledger/provenance.md).
-
-Original scores, failures, disputed judgments and runtime snapshots are preserved under `fidelity-ledger/round1-2026-09-12/` and `legacy-2026-08/`. The current runtime never loads the ledger. Manual model evaluations are recorded as such; exact served model identifiers and provider sampling settings are unavailable, and no executable-runner provenance is claimed.
-
-## Checks and limitations
-
-| Check | Current evidence |
-| --- | --- |
-| Package structure and current reference links | Passed: 0 structural errors or warnings; 44 relative links checked. Records in [release status](fidelity-ledger/release-status.json). |
-| Development source projection | New skill **0.75**, minimal “Think like Feynman” prompt **0.75**, on two correlated probes from one source group. No demonstrated improvement over baseline. |
-| Register discovery | Stable only within the narrowed introductory English lecture scope. Broader comparisons are inconclusive. |
-| Final evaluation | **11 of 32 planned answers saved**, with final scoring incomplete. No final aggregate or independent-validation pass is claimed. |
-| Held-out style and Chinese voice | Final style comparison incomplete; Chinese style has not been evaluated. |
-
-The development score measures rubric performance on those two tasks, not a percentage of resemblance to Feynman. Saved answers alone are not passed tests. Remaining workers were stopped; completed results and unfinished work were checkpointed locally. No further evaluation or source acquisition is scheduled for this release.
-
-The structural validator is pinned to persona-distiller revision `b57edf4706065fef3fc520dd1521c3d66650b6a6`:
+With the pinned persona-distiller checkout beside this repository:
 
 ```sh
-python3 ../persona-distiller/scripts/validate_package.py . --strict --headings fidelity-ledger/required-headings.txt
+python3 ../persona-distiller/scripts/validate_package.py . --strict --headings transworld-identity/required-headings.txt
+python3 scripts/check_release.py
 ```
 
-CI checks package structure and JSON. Its optional full release gate remains available but was not run for this working release, which lacks completed fidelity evidence. A green structure check is not full independent validation. Contributor material is MIT-licensed; source rights remain separate under [NOTICE](NOTICE.md).
+CI checks structure, portable release evidence, JSON, runtime hashes, historical
+byte preservation and the skill symlink. It makes no model calls. A passing CI run
+does not convert this Candidate into Standard accepted. Contributor material is
+MIT-licensed; source rights remain separate under [NOTICE](NOTICE.md).

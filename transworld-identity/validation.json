@@ -1,0 +1,629 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "mode": "standard",
+  "timestamp": 1789220850.016038,
+  "delivery_status": "candidate",
+  "summary": "Incremental 1.0 Candidate upgrade: lossless evidence migration, historical/conditional scope clarified, retained core claims reviewed, no new evaluation as explicitly requested.",
+  "runtime_error": null,
+  "runtime_hash": "sha256:bc9e0630e1d0ddc27fd835422610fb1d1f9cf987ae1dcda431a0ec4ef2de4b4a",
+  "module_hashes": {
+    "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+    "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+    "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+    "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+    "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+    "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+    "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+    "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+    "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+    "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+    "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186"
+  },
+  "revision": {
+    "baseline": "39587f17002820f6437dd6c54002c30a476417f4",
+    "tool": "a010b3ed320a6edf7273d1510908c9540501f6dc",
+    "release": "1.0"
+  },
+  "hashes": null,
+  "gates": {
+    "package": "passed",
+    "source": "passed",
+    "machine_recognition": "not_run"
+  },
+  "package_checks": {
+    "strict": false,
+    "checks": [
+      {
+        "check": "S1",
+        "level": "error",
+        "ok": true,
+        "detail": "one discoverable skill exists under .agents/skills/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S2",
+        "level": "error",
+        "ok": true,
+        "detail": "SKILL.md exists inside the discovered skill directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "S3",
+        "level": "error",
+        "ok": true,
+        "detail": "references/, voice.md, and frameworks.md present",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "error",
+        "ok": true,
+        "detail": "transworld-identity/provenance.md present outside .agents/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "warn",
+        "ok": true,
+        "detail": "transworld-identity/episodic.md present",
+        "effective_level": "warn"
+      },
+      {
+        "check": "S5",
+        "level": "error",
+        "ok": true,
+        "detail": "no ledger files under references/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S6",
+        "level": "warn",
+        "ok": true,
+        "detail": "cluster modules directory is references/clusters/",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C1",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter has name and description",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1b",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter name matches .agents/skills directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "C2",
+        "level": "error",
+        "ok": true,
+        "detail": "description is non-empty and runtime-facing",
+        "effective_level": "error"
+      },
+      {
+        "check": "C3",
+        "level": "warn",
+        "ok": true,
+        "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C4",
+        "level": "error",
+        "ok": true,
+        "detail": "no banned implementation strings in core",
+        "effective_level": "error"
+      },
+      {
+        "check": "S7",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime/evaluation separation",
+        "effective_level": "error"
+      },
+      {
+        "check": "S8",
+        "level": "error",
+        "ok": true,
+        "detail": "no detected raw books or local paths",
+        "effective_level": "error"
+      },
+      {
+        "check": "C5",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime links and disk agree",
+        "effective_level": "error"
+      },
+      {
+        "check": "C6",
+        "level": "error",
+        "ok": true,
+        "detail": "all cNN citations resolve to a module",
+        "effective_level": "error"
+      },
+      {
+        "check": "L1",
+        "level": "warn",
+        "ok": true,
+        "detail": "no second-person or bare-English-imperative lines found",
+        "effective_level": "warn"
+      },
+      {
+        "check": "L2",
+        "level": "error",
+        "ok": true,
+        "detail": "provenance records the build contract and source/editorial lineage; content requires source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "L3",
+        "level": "error",
+        "ok": true,
+        "detail": "episodic.md exceeds near-empty floor",
+        "effective_level": "error"
+      },
+      {
+        "check": "X1",
+        "level": "error",
+        "ok": true,
+        "detail": "references contain no numeric composite/probe score pattern",
+        "effective_level": "error"
+      }
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "verdict": "PASS"
+  },
+  "source_review": {
+    "summary": "Incremental 1.0 Candidate upgrade: lossless evidence migration, historical/conditional scope clarified, retained core claims reviewed, no new evaluation as explicitly requested.",
+    "reviewer": "Codex authoring agent; machine-assisted editorial review, not an independent panel",
+    "revision": {
+      "baseline": "39587f17002820f6437dd6c54002c30a476417f4",
+      "tool": "a010b3ed320a6edf7273d1510908c9540501f6dc",
+      "release": "1.0"
+    },
+    "reviewed_all_core_claims": true,
+    "limitations": [
+      "The user explicitly declined new evaluation and requested Candidate publication as 1.0; machine recognition is not_run and evaluation calls are zero.",
+      "Source review is a bounded machine-assisted editorial pass over retained evidence and 21 located excerpts, not a new comprehensive extraction or independent historical audit.",
+      "Existing OCR has interleaved columns, damaged formulas and editorial/speaker boundaries; only attributable prose supports the reviewed claims.",
+      "English introductory lecture measurements remain historical descriptive evidence; broader register comparisons and Chinese voice remain unvalidated.",
+      "Prior development tie (0.75 versus 0.75 on two correlated probes) and incomplete finals (11 of 32 planned answers) retain their original inputs and protocol; none is a current recognition pass.",
+      "The changed scope module invalidates whole-runtime reuse for answers that would load scope; no previous result is rebound to the new hashes."
+    ],
+    "source_checks": [
+      {
+        "claim": "Opening, axis and guard: observed operation before a label",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Distinguishes names from observed behavior, tests a bird hypothesis, then checks the wagon from the side. Acknowledges uncertain biological details.",
+        "condition_or_exception": "Names can be useful; the remembered biological details are not current biological evidence",
+        "evidence_ids": [
+          "FY-FATHER"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Translation: lollipops, useful precision and mathematical language",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Accepts slow correct routes, checks the result, translates lollipops and sick lizards into an operation, and welcomes precision where a real ambiguity requires it.",
+        "condition_or_exception": "Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave",
+        "evidence_ids": [
+          "FY-NEWMATH"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "First-move table: unexpected radio result",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Corrects his first impression, proposes heating order as a cause, reverses interchangeable tubes, and checks that the noise stops.",
+        "condition_or_exception": "One successful repair is not proof of a universal troubleshooting recipe",
+        "evidence_ids": [
+          "FY-RADIO"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "First-move table: theory, experiment and checked calculation",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Requires checked derivation and experiment before rejecting a theory; lets unexpected experiments initiate inquiry; agreement never proves universal truth.",
+        "condition_or_exception": "Uncalculated consequences are not a failed empirical test; established approximations remain useful",
+        "evidence_ids": [
+          "FY-GUESS"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "First-move table: recover physical signs",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Reconstructs the restoring sign and positive stored energy from motion and work, then distinguishes friction over a cycle.",
+        "condition_or_exception": "Read prose, not corrupted OCR formulas, as source evidence; modern physical explanation must still be correct",
+        "evidence_ids": [
+          "FY-SPRING"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "First-move table: legitimate learner routes and prerequisites",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Accepts slow correct routes, checks the result, translates lollipops and sick lizards into an operation, and welcomes precision where a real ambiguity requires it. Contrasts independent exploration with remedial review; uses pointed humor about relative rank and encourages useful work.",
+        "condition_or_exception": "Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave Historical gendered assumptions and emphatic career reassurance are not universal guarantees; runtime intentionally bounds the assurance",
+        "evidence_ids": [
+          "FY-NEWMATH",
+          "FY-RANK"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "First-move table: survival is not an explained safety margin",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Rejects survival as sufficient evidence that unexplained erosion is a safety margin; separates design criteria, anomalies and uncertainty.",
+        "condition_or_exception": "Does not establish certain next-flight failure or a timeless NASA verdict; redesign requires reassessment",
+        "evidence_ids": [
+          "FY-SEAL"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499"
+        }
+      },
+      {
+        "claim": "First-move table and refusal: inspect before rating",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Declines to rate the unseen volume. Explains how averaging received ratings could conceal missing inspection, explicitly as his own theory of the event.",
+        "condition_or_exception": "A missing volume is not bad merely because unseen; reviewer motives are not established facts",
+        "evidence_ids": [
+          "FY-INSPECTION"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Guess/compute/compare permits observation first and explicit bottlenecks",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Requires checked derivation and experiment before rejecting a theory; lets unexpected experiments initiate inquiry; agreement never proves universal truth. Seeks rough qualitative understanding as a route toward calculable consequences; identifies the bottleneck precisely.",
+        "condition_or_exception": "Uncalculated consequences are not a failed empirical test; established approximations remain useful The 1981 account is not a statement of today’s frontier",
+        "evidence_ids": [
+          "FY-GUESS",
+          "FY-QUARKS"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Beauty, provisional success and extension beyond Newtonian tests",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Requires checked derivation and experiment before rejecting a theory; lets unexpected experiments initiate inquiry; agreement never proves universal truth. Speaks strongly about recognizing truth by simplicity, then requires agreement with known observations and a new consequence that agrees with nature. Allows bias while rejecting certainty that nature must meet a prior condition.",
+        "condition_or_exception": "Uncalculated consequences are not a failed empirical test; established approximations remain useful His rhetoric here is stronger than a neutral heuristic; it does not erase his explicit checked-experiment requirement An initial preference need not be suspended before any work can start",
+        "evidence_ids": [
+          "FY-GUESS",
+          "FY-BEAUTY",
+          "FY-BIAS"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Disclosure of alternatives and sponsor-dependent publicity",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Calls for reporting defects, competing explanations and checks so others can judge. Rejects advice publicized only when favorable to the sponsor.",
+        "condition_or_exception": "Not a refusal of all funded investigation; the senator example is explicitly hypothetical, not a documented commission he refused",
+        "evidence_ids": [
+          "FY-DISCLOSURE"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499"
+        }
+      },
+      {
+        "claim": "Symmetric self-scrutiny after a welcome result",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Uses the measurement history to demand searching for defects in favored results too.",
+        "condition_or_exception": "This is Feynman’s historical account, not an independently reaudited history of every experiment",
+        "evidence_ids": [
+          "FY-MILLIKAN"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Conditional signature, changed design and new assessment",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Makes signature contingent on removal of the tenth recommendation and preservation of version 23; considers offered arguments and finds them inadequate. Rejects survival as sufficient evidence that unexplained erosion is a safety margin; separates design criteria, anomalies and uncertainty. Allows bias while rejecting certainty that nature must meet a prior condition.",
+        "condition_or_exception": "A new supported report may warrant another judgment; this was one negotiation, not lifelong noncooperation Does not establish certain next-flight failure or a timeless NASA verdict; redesign requires reassessment An initial preference need not be suspended before any work can start",
+        "evidence_ids": [
+          "FY-SIGNATURE",
+          "FY-SEAL",
+          "FY-BIAS"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Concede the flower’s beauty, then locate the disputed inference",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Concedes aesthetic perception and asks how added structure and questions subtract from it.",
+        "condition_or_exception": "Unsolicited explanation is not required when someone only wants to share an experience",
+        "evidence_ids": [
+          "FY-FLOWER"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186"
+        }
+      },
+      {
+        "claim": "Make zoo-keeper terminology do an operation; retain useful precision",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Accepts slow correct routes, checks the result, translates lollipops and sick lizards into an operation, and welcomes precision where a real ambiguity requires it.",
+        "condition_or_exception": "Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave",
+        "evidence_ids": [
+          "FY-NEWMATH"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Ask for the number, its conditions and meaning; separate private estimates",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Asks for separate written answers, distinguishes the numerical judgment from how it was made, and makes the disparity visible.",
+        "condition_or_exception": "These are estimates of an uncompleted flight due to engine failure in the narrative, not measured whole-shuttle failure probabilities",
+        "evidence_ids": [
+          "FY-ESTIMATES"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Cold-rubber demonstration has a limited inference",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Shows delayed resilience of the particular sample, says it bears on the problem, and later notes reporters initially needed explanation.",
+        "condition_or_exception": "Not a simulation of the entire launch or a measured catastrophic probability; source OCR omits a temperature number, which is not reconstructed here",
+        "evidence_ids": [
+          "FY-RUBBER"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Explanatory chain, local qualifications and questions at genuine forks",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Requires checked derivation and experiment before rejecting a theory; lets unexpected experiments initiate inquiry; agreement never proves universal truth. Reconstructs the restoring sign and positive stored energy from motion and work, then distinguishes friction over a cycle. Seeks rough qualitative understanding as a route toward calculable consequences; identifies the bottleneck precisely.",
+        "condition_or_exception": "Uncalculated consequences are not a failed empirical test; established approximations remain useful Read prose, not corrupted OCR formulas, as source evidence; modern physical explanation must still be correct The 1981 account is not a statement of today’s frontier",
+        "evidence_ids": [
+          "FY-GUESS",
+          "FY-SPRING",
+          "FY-QUARKS"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+        }
+      },
+      {
+        "claim": "Corrections and humor belong to a real exchange, not a quota",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Corrects his first impression, proposes heating order as a cause, reverses interchangeable tubes, and checks that the noise stops. Contrasts independent exploration with remedial review; uses pointed humor about relative rank and encourages useful work. Concedes aesthetic perception and asks how added structure and questions subtract from it.",
+        "condition_or_exception": "One successful repair is not proof of a universal troubleshooting recipe Historical gendered assumptions and emphatic career reassurance are not universal guarantees; runtime intentionally bounds the assurance Unsolicited explanation is not required when someone only wants to share an experience",
+        "evidence_ids": [
+          "FY-RADIO",
+          "FY-RANK",
+          "FY-FLOWER"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+        }
+      },
+      {
+        "claim": "Vocabulary has a use; cargo-cult is tied to the missing check",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Calls for reporting defects, competing explanations and checks so others can judge. Rejects advice publicized only when favorable to the sponsor. Accepts slow correct routes, checks the result, translates lollipops and sick lizards into an operation, and welcomes precision where a real ambiguity requires it.",
+        "condition_or_exception": "Not a refusal of all funded investigation; the senator example is explicitly hypothetical, not a documented commission he refused Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave",
+        "evidence_ids": [
+          "FY-DISCLOSURE",
+          "FY-NEWMATH"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Finding out rather than honors supplies the particular reward",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Locates reward in discovering and seeing the work used, expressing comic irritation with honors.",
+        "condition_or_exception": "Does not mean all honors are worthless or obligations may always be abandoned",
+        "evidence_ids": [
+          "FY-PRIZE"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Relative rank, selected group and concrete work; no universal career promise",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Contrasts independent exploration with remedial review; uses pointed humor about relative rank and encourages useful work.",
+        "condition_or_exception": "Historical gendered assumptions and emphatic career reassurance are not universal guarantees; runtime intentionally bounds the assurance",
+        "evidence_ids": [
+          "FY-RANK"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Consequences versus final values; love sentence as editorial extension",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Separates what will happen from whether it should be wanted; admits an unresolved problem of inspiration.",
+        "condition_or_exception": "The runtime’s sentence about love is editorial application, not an attributed quotation or a denial of relevant empirical inquiry",
+        "evidence_ids": [
+          "FY-VALUES"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Historical anchor, earlier participation and later reflection",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Says he failed to reconsider his reason after Germany’s defeat; later moral reflection is distinct from the earlier action.",
+        "condition_or_exception": "No inferred earlier refusal or consistent lifetime antiwar stance",
+        "evidence_ids": [
+          "FY-HISTORY"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+        }
+      },
+      {
+        "claim": "New audience or evidence may change the judgment without changing fixed history",
+        "outcome": "passed",
+        "assessment": "Machine-assisted editorial review of the retained runtime against the cited situated records and located supplied passages; this is not independent historical auditing. Allows bias while rejecting certainty that nature must meet a prior condition. Says he failed to reconsider his reason after Germany’s defeat; later moral reflection is distinct from the earlier action. Calls for reporting defects, competing explanations and checks so others can judge. Rejects advice publicized only when favorable to the sponsor.",
+        "condition_or_exception": "An initial preference need not be suspended before any work can start No inferred earlier refusal or consistent lifetime antiwar stance Not a refusal of all funded investigation; the senator example is explicitly hypothetical, not a documented commission he refused",
+        "evidence_ids": [
+          "FY-BIAS",
+          "FY-HISTORY",
+          "FY-DISCLOSURE"
+        ],
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        }
+      },
+      {
+        "claim": "Loading routes, user precedence, present-fact retrieval and no invented quotation/memory",
+        "outcome": "passed",
+        "assessment": "Explicit implementation safeguards; runtime routes resolve to scope, methods, voice and seven preserved topic modules. These instructions are not attributed as historical utterances.",
+        "condition_or_exception": "Current facts require independent retrieval; maintainers do not adopt source instructions as their working role; generated examples are not autobiographical testimony.",
+        "evidence_ids": [],
+        "implementation_safeguard": true,
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186"
+        }
+      }
+    ]
+  },
+  "recognition": {
+    "outcome": "not_run",
+    "judges": []
+  },
+  "assessment_records": {},
+  "assessment_errors": [],
+  "budget": {
+    "budget": 0,
+    "consumed": 0,
+    "remaining": 0,
+    "calls": [],
+    "deadline": 1789223685.801578,
+    "repair_pass": 0,
+    "reuse_lineage": []
+  },
+  "research": {
+    "assessed": false,
+    "outcome": "not_run"
+  },
+  "claim": "Candidate; required acceptance is incomplete, failed or inconclusive.",
+  "limitations": [
+    "The user explicitly declined new evaluation and requested Candidate publication as 1.0; machine recognition is not_run and evaluation calls are zero.",
+    "Source review is a bounded machine-assisted editorial pass over retained evidence and 21 located excerpts, not a new comprehensive extraction or independent historical audit.",
+    "Existing OCR has interleaved columns, damaged formulas and editorial/speaker boundaries; only attributable prose supports the reviewed claims.",
+    "English introductory lecture measurements remain historical descriptive evidence; broader register comparisons and Chinese voice remain unvalidated.",
+    "Prior development tie (0.75 versus 0.75 on two correlated probes) and incomplete finals (11 of 32 planned answers) retain their original inputs and protocol; none is a current recognition pass.",
+    "The changed scope module invalidates whole-runtime reuse for answers that would load scope; no previous result is rebound to the new hashes.",
+    "Machine recognition is not a calibrated probability of human acceptance; generic control does not establish added value over a minimal persona prompt."
+  ]
+}
