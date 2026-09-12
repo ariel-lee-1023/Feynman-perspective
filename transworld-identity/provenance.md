@@ -78,3 +78,71 @@ handles, including guess/derive/compare; no proprietary four-step Feynman Techni
 is attributed. Voice variation is descriptive, not a universal quota. English
 measurements do not establish Chinese voice fidelity. Full sources and scratch
 are excluded; source rights and existing license terms remain unchanged.
+
+## README reader-experience revision — 2026-09-12
+
+This documentation-only pass follows persona-distiller
+`49df17f36eaf4e4b65019e2108710b1387b27a15`, specifically its independent
+reader-experience guidance. The baseline is `c46cddd`; local README history at
+`39587f1` and `1adbf4a` was inspected alongside the current core, scope, methods,
+voice and source modules. No fresh sources, OCR, model answers or judges were used.
+The runtime, evidence packet, recognition profile and validation records remain
+byte-identical. Current assessment applicability and Candidate status are unchanged.
+The published `1.0` tag stays attached to its original commit; this is a later
+documentation commit on the existing release branch.
+
+### Passage decisions
+
+| Passage | Decision and reason |
+| --- | --- |
+| Candidate, migration and validation opening | Replace the administrative introduction with a concrete difficulty involving a formula or reassuring report. Preserve the actual status in the visible confidence section. |
+| Earlier concrete-example and wonder introduction | Recover its concerns selectively, supported by FY-FATHER and FY-FLOWER. The new prose is editorial writing, not restored historical wording or Feynman's speech. |
+| Earlier formula-sign prompt | Develop into a clearly labeled suggested spring prompt, supported by FY-SPRING. The following explanation describes intended operation; it is not saved package output. |
+| Earlier incident-review and jargon use cases | Qualify through current FY-SEAL, FY-NEWMATH and FY-MILLIKAN conditions. No universal claim that every survived anomaly proves danger or that precision is undesirable is restored. |
+| Current installation and source rights | Preserve the workspace activation, canonical runtime and discovery link. Make the clone command select the actual current release branch; distinguish the immutable 1.0 snapshot. |
+| Detailed migration counts, tool revision, calls and old scores | Remove from the introductory path and retain in linked maintainer records. Keep the practical consequence of incomplete recognition and broader assessment visible in the README. |
+
+### Four editorial outcomes
+
+- **Particularity:** The opening joins the father-and-bird distinction, physical
+  interpretation of a sign and the flower discussion. FY-FATHER, FY-SPRING and
+  FY-FLOWER support these particular concerns; a name substitution would lose the
+  connection to the documented episodes.
+- **Encounter:** The spring paragraph stays with the hand, restoring force and
+  work account. The reliability and favored-conclusion examples show resistance
+  to unsupported reassurance, with changed-condition and symmetric-scrutiny limits
+  from FY-SEAL and FY-MILLIKAN. These are promises about supported methods, not
+  observations from an unperformed demonstration.
+- **Entry:** A labeled starting prompt supplies a concrete problem; the use
+  section gives a clone command for the current branch and explains workspace
+  activation and the portable skill files. The four use cases describe material
+  to bring and what work the perspective is designed to do with it.
+- **Honesty:** The opening distinguishes the skill from present-day testimony and
+  authentic quotation. The source section bounds English/Chinese voice and dated
+  factual claims. The confidence section preserves Candidate, states recognition
+  has not run, and acknowledges the inconclusive earlier work without treating
+  mechanical checks as a personality assessment.
+
+These are authorial editorial judgments, not human validation or numerical
+readability scores. Mechanical verification covers unchanged assessment/runtime
+bytes, local links, structure and zero evaluation-call consumption. It does not
+establish the literary success of the introduction.
+
+## Maintenance checks
+
+From the repository root, with persona-distiller checked out beside it:
+
+```sh
+python3 ../persona-distiller/scripts/validate_package.py . --strict --headings transworld-identity/required-headings.txt
+python3 scripts/check_release.py
+```
+
+CI remains pinned to the 1.0 structural validator. The newer reader-experience
+guidance adds an editorial obligation; it does not retrospectively change the
+recognition protocol or authorize new evaluation calls.
+
+Completed checks for this documentation pass: strict structure passed with zero
+errors and warnings; 46 current relative links and the maintenance anchor resolve.
+The release-integrity check verified all 148 historical files. All files other
+than README and this provenance remain byte-identical to the documentation
+baseline, including every runtime and assessment input; evaluation calls remain zero.
