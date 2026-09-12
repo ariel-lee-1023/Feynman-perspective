@@ -1,0 +1,232 @@
+{
+  "aggregate": {
+    "counts": {
+      "words": 680,
+      "sentences": 32,
+      "paragraphs": 2
+    },
+    "sentence_length": {
+      "n": 32,
+      "mean": 21.25,
+      "median": 17.0,
+      "stdev": 15.36,
+      "p10": 6,
+      "p90": 40,
+      "min": 3,
+      "max": 67
+    },
+    "paragraph_length": {
+      "n": 2,
+      "mean": 340,
+      "median": 340.0,
+      "stdev": 82.0,
+      "p10": 258,
+      "p90": 422,
+      "min": 258,
+      "max": 422
+    },
+    "lexical_diversity_mattr500": 0.438,
+    "hedges_per_1k": 10.29,
+    "boosters_per_1k": 4.41,
+    "hedge_booster_ratio": 2.33,
+    "punctuation_per_1k": {
+      "em_dash": 1.47,
+      "semicolon": 7.35,
+      "colon": 2.94,
+      "question": 13.24,
+      "exclamation": 0.0,
+      "parenthetical": 1.47
+    },
+    "person_reference_pct": {
+      "first": 85.0,
+      "second": 7.5,
+      "third": 7.5
+    },
+    "top_content_words": [
+      [
+        "things",
+        9
+      ],
+      [
+        "rules",
+        9
+      ],
+      [
+        "understand",
+        6
+      ],
+      [
+        "game",
+        6
+      ],
+      [
+        "different",
+        5
+      ],
+      [
+        "fundamental",
+        4
+      ],
+      [
+        "sand",
+        4
+      ],
+      [
+        "complicated",
+        4
+      ],
+      [
+        "shall",
+        3
+      ],
+      [
+        "ideas",
+        3
+      ],
+      [
+        "physics",
+        3
+      ],
+      [
+        "nature",
+        3
+      ],
+      [
+        "know",
+        3
+      ],
+      [
+        "ourselves",
+        3
+      ],
+      [
+        "water",
+        3
+      ],
+      [
+        "sloshing",
+        3
+      ],
+      [
+        "rocks",
+        3
+      ],
+      [
+        "try",
+        3
+      ],
+      [
+        "number",
+        3
+      ],
+      [
+        "great",
+        3
+      ],
+      [
+        "able",
+        3
+      ],
+      [
+        "method",
+        3
+      ],
+      [
+        "something",
+        3
+      ],
+      [
+        "see",
+        2
+      ],
+      [
+        "time",
+        2
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "fundamental ideas",
+        2
+      ],
+      [
+        "sloshing motion",
+        2
+      ],
+      [
+        "motion water",
+        2
+      ],
+      [
+        "sand rocks",
+        2
+      ],
+      [
+        "scientific method",
+        2
+      ],
+      [
+        "limit ourselves",
+        2
+      ],
+      [
+        "fundamental physics",
+        2
+      ],
+      [
+        "something like",
+        2
+      ],
+      [
+        "rules game",
+        2
+      ],
+      [
+        "chapter shall",
+        1
+      ],
+      [
+        "shall examine",
+        1
+      ],
+      [
+        "examine fundamental",
+        1
+      ],
+      [
+        "ideas physics",
+        1
+      ],
+      [
+        "physics nature",
+        1
+      ],
+      [
+        "nature things",
+        1
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "people",
+      "life",
+      "work",
+      "thing",
+      "part",
+      "point",
+      "fact",
+      "problem",
+      "idea",
+      "system",
+      "power",
+      "order",
+      "sense",
+      "state",
+      "good",
+      "important",
+      "possible",
+      "human",
+      "social",
+      "political"
+    ]
+  }
+}

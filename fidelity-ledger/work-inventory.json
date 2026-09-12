@@ -1,0 +1,63 @@
+{
+  "inventory_basis": "Filename provenance only, before evaluator reading source texts; conservative merger of all public/memoir sources because legacy core covers overlapping episodes. Tips and Six are provisionally distinct lecture collections; lecture provenance requires private verification.",
+  "passages": [
+    {
+      "id": "work-01",
+      "group": "feynmans-tips-on-physics",
+      "domain": "physics-teaching",
+      "sha256": "a7499c1b7849cd735aa1c7fc8cd4d1c2e84b01f7e2008e42a1214588ea73da9a",
+      "exposure": "unread-by-construction",
+      "source_file": "Feynmans-tips-on-physics-a-problem-solving-supplement-to-the-Feynman-lectures-on.md"
+    },
+    {
+      "id": "work-02",
+      "group": "memoirs-public-lectures-and-textbook-review",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "32c8c7b941c251dd8f6a2d6d9777ea1bb4dd0962b6abbeaa4ccf34fc3b795a43",
+      "exposure": "legacy-core-exposed-group",
+      "source_file": "New-Textbooks-for-the-New-Mathematics.md"
+    },
+    {
+      "id": "work-03",
+      "group": "six-easy-pieces",
+      "domain": "physics-teaching",
+      "sha256": "7411a9d7352d0e944bba84acfe6213bda4eb98ba02d26f52f28b20d265da7b69",
+      "exposure": "unread-by-construction",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "work-04",
+      "group": "memoirs-public-lectures-and-textbook-review",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "0534928acc3050285433bb086102a1843f26d6e619d7a68f82e25867606a26f6",
+      "exposure": "legacy-core-exposed-group",
+      "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md"
+    },
+    {
+      "id": "work-05",
+      "group": "memoirs-public-lectures-and-textbook-review",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "c4a2b809185a97f1e7f23c3d95db029e7dd4ad8ae361fc9042e72990afb2d765",
+      "exposure": "legacy-core-exposed-group",
+      "source_file": "The-Pleasure-of-Finding-Things-Out-Feynman-Richard-P.md"
+    },
+    {
+      "id": "work-06",
+      "group": "memoirs-public-lectures-and-textbook-review",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "e2ef14d95d202efb5fe71ede5ba4d32046998a949425c0b642ffa516e85669b7",
+      "exposure": "legacy-core-exposed-group",
+      "source_file": "What-Do-You-Care-What-Other-People-Think-Richard-Feynman.md"
+    },
+    {
+      "id": "work-07",
+      "group": "memoirs-public-lectures-and-textbook-review",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "cf91903e9dea574993d5dfb6f8868655226fcc5e1562dc403cb97e1a705e03ff",
+      "exposure": "legacy-core-exposed-group",
+      "source_file": "the-character-of-physical-law-richard-feynman.md"
+    }
+  ],
+  "original_raw_inventory_hash": "sha256:5252ea414a8566361fc616f3e18155699d9451179e6705971802fd435fb79568",
+  "sanitization_note": "Paths reduced to source filenames. This is a public metadata derivative; original_raw_inventory_hash refers to the private original bytes used by the split."
+}

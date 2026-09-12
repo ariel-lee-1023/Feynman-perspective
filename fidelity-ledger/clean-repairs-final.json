@@ -1,0 +1,173 @@
+{
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c01_radio_repair_memoir.txt": {
+    "f_rate": 1.852765058119056,
+    "words": 3575,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 18,
+    "top_suspects": {},
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c02_bohr_exchange_memoir.txt": {
+    "f_rate": 1.8877551020408163,
+    "words": 518,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {
+      "ll": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c04_cargo_cult_science_address.txt": {
+    "f_rate": 2.128093554528148,
+    "words": 3361,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "ll": 3,
+      "nal": 1
+    },
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c05_father_and_observation.txt": {
+    "f_rate": 2.088421052631579,
+    "words": 2981,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 26,
+    "top_suspects": {
+      "ll": 3
+    },
+    "verdict": "HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c06_rogers_commission_investigation.txt": {
+    "f_rate": 1.815807904817079,
+    "words": 27736,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 312,
+    "top_suspects": {
+      "ll": 40,
+      "nal": 1,
+      "tries": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c07_bbc_reflective_interview.txt": {
+    "f_rate": 1.881779250414179,
+    "words": 7677,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "ll": 8
+    },
+    "verdict": "f-low(screen only)"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c09_value_of_science_address.txt": {
+    "f_rate": 2.03335832083958,
+    "words": 2455,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c10_omni_interview.txt": {
+    "f_rate": 1.954647077610987,
+    "words": 3520,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "ll": 12
+    },
+    "verdict": "f-low(screen only)"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c11_appendix_f_technical_assessment.txt": {
+    "f_rate": 3.253944499080686,
+    "words": 4895,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {
+      "tries": 1
+    },
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c13_seeking_new_laws_public_lecture.txt": {
+    "f_rate": 1.7355051386465,
+    "words": 9400,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 102,
+    "top_suspects": {},
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c14_relation_of_physics_to_other_sciences.txt": {
+    "f_rate": 2.232172470978441,
+    "words": 6836,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c15_energy_gravitation_quantum_lectures.txt": {
+    "f_rate": 2.2854007569480213,
+    "words": 20917,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 0.5,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {
+      "nally": 1,
+      "ance": 1,
+      "sta": 1
+    },
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c16_four_supplementary_lectures_feynman_only.txt": {
+    "f_rate": 2.449151444487628,
+    "words": 37706,
+    "ligature_unambiguous": 2,
+    "ligature_per_10k": 0.5,
+    "markup_hits": 0,
+    "hyphen_splits": 288,
+    "top_suspects": {
+      "ll": 70,
+      "tries": 3,
+      "nal": 2,
+      "ne": 1,
+      "nite": 1,
+      "rm": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/segmented-final/clusters/c17_new_mathematics_textbook_criticism.txt": {
+    "f_rate": 2.4540992546809672,
+    "words": 5084,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 2.0,
+    "markup_hits": 0,
+    "hyphen_splits": 47,
+    "top_suspects": {
+      "nd": 1,
+      "nite": 1
+    },
+    "verdict": "HYPHEN"
+  }
+}

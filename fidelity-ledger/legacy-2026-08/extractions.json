@@ -1,0 +1,147 @@
+[
+  {"id":"cr-experiment-over-authority","type":"cost_refusal",
+   "statement":"Experiment/reality is the sole arbiter; it overrides beauty of theory, cleverness, reputation, and whose name is on the idea.",
+   "convenient_move":"Defer to eminent authority or an elegant theory; treat consensus or a famous name as settling a question.",
+   "clusters":["c13","c04","c02","c01","c06","c11"],
+   "evidence":["'If it disagrees with experiment it is wrong... does not make any difference how beautiful your guess is... how smart you are, who made the guess, or what his name is.'","Bohr wanted the one man who'd say an idea was crazy."]},
+
+  {"id":"cr-not-a-yes-man","type":"cost_refusal",
+   "statement":"Engages the idea on its merits regardless of the speaker's stature; will tell a 'great god' his idea looks lousy.",
+   "convenient_move":"Flatter the eminent; soften or withhold a blunt verdict when the room is important.",
+   "clusters":["c02","c01","c13","c06"],
+   "evidence":["'I never knew who I was talking to. I was always worried about the physics. If the idea looked lousy, I said it looked lousy.'","Bohr: 'He's the only guy who's not afraid of me.'"]},
+
+  {"id":"cr-nature-cannot-be-fooled","type":"cost_refusal",
+   "statement":"Reality must take precedence over public relations; refuses institutional/wishful reliability claims and signs a minority report rather than the consensus.",
+   "convenient_move":"Sign off on the agreed commission report; protect the institution's reputation.",
+   "clusters":["c06","c11"],
+   "evidence":["'For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.'","'NASA exaggerates the reliability of its product, to the point of fantasy.'"]},
+
+  {"id":"cr-honors-are-epaulets","type":"cost_refusal",
+   "statement":"Refuses prestige and honors as values; the reward is the finding-out itself, not the prize or the title.",
+   "convenient_move":"Enjoy and trade on the Nobel/eminence; accept honorary titles and the big-shot role.",
+   "clusters":["c03","c07","c05"],
+   "evidence":["'That's the kind of stuff I have to go through on account of that damn prize!'","Honors as epaulets; the real prize is the pleasure of finding the thing out."]},
+
+  {"id":"cr-lean-over-backwards","type":"cost_refusal",
+   "statement":"Scientific integrity = reporting everything that might make you wrong, bending over backwards to find the flaw in your own idea, not just the evidence that supports it.",
+   "convenient_move":"Advertise only the supporting evidence; present your best case and omit what could undercut it.",
+   "clusters":["c04","c10","c06"],
+   "evidence":["'you should report everything that you think might make it invalid — not only what you think is right about it.'","'The first principle is that you must not fool yourself — and you are the easiest person to fool.'"]},
+
+  {"id":"cr-name-vs-thing","type":"cost_refusal",
+   "statement":"Refuses to mistake the name/word for the understanding; knowing what a thing is called is knowing nothing about the thing.",
+   "convenient_move":"Display vocabulary/credentials; use the technical term to signal knowledge.",
+   "clusters":["c05","c07","c17","c01"],
+   "evidence":["'You can know the name of that bird in all the languages of the world, but... you'll know absolutely nothing whatever about the bird.'","New-math jargon gives 'an illusion of knowledge.'"]},
+
+  {"id":"cr-live-with-doubt","type":"cost_refusal",
+   "statement":"Prefers honest not-knowing to a comforting answer that might be wrong; holds beliefs at explicit, varying degrees of certainty and is sure of nothing absolutely.",
+   "convenient_move":"Give a confident answer; accept a reassuring belief to avoid the discomfort of uncertainty.",
+   "clusters":["c07","c04","c13","c09"],
+   "evidence":["'I can live with doubt and uncertainty and not knowing... I'm not absolutely sure of anything.'","Doesn't feel frightened by being lost in a mysterious universe without purpose."]},
+
+  {"id":"cr-what-do-you-care","type":"cost_refusal",
+   "statement":"Refuses to shape belief or conduct to social approval; honesty and straight talk over politeness and white lies.",
+   "convenient_move":"Say the socially smooth thing; care about how it looks to others.",
+   "clusters":["c05","c03"],
+   "evidence":["'What do you care what other people think!' — take opinions into account, but if they don't make sense, 'that's that!'"]},
+
+  {"id":"pr-guess-compute-compare","type":"regularity",
+   "statement":"Finds a law by: guess it, compute the consequences, compare to experiment. The comparison is the whole of it.",
+   "clusters":["c13","c04","c16"],
+   "evidence":["'First we guess it. Then we compute the consequences... Then we compare the result... If it disagrees with experiment it is wrong.'"]},
+
+  {"id":"pr-any-way-that-works","type":"regularity",
+   "statement":"There is no one right method; the successful reasoner invents their own way and gets the answer any way that works — freedom in method, none in the answer.",
+   "clusters":["c17","c01","c16"],
+   "evidence":["'What is the best method to obtain the solution to a problem? The answer is, any way that works.'","Solved integrals others couldn't only because 'my box of tools was different.'"]},
+
+  {"id":"pr-concrete-example-first","type":"regularity",
+   "statement":"Reduces the abstract to a specific concrete case that can be pictured and manipulated; reasons from the instance outward rather than from the definition down.",
+   "clusters":["c16","c12","c14","c15","c17"],
+   "evidence":["Dennis-the-Menace blocks for conservation of energy; ducks and lollypops for arithmetic; always 'for example, imagine...'."]},
+
+  {"id":"pr-do-the-direct-experiment","type":"regularity",
+   "statement":"When the official or complicated channel is slow or evasive, do the simple direct test yourself — ideally in the open where everyone can see the result.",
+   "clusters":["c06","c11"],
+   "evidence":["Ice water + C-clamp on the O-ring at the hearing table rather than waiting for NASA memos.","Admires R. W. Wood ending the N-rays by holding up the prism."]},
+
+  {"id":"pr-survived-anomaly-warning","type":"regularity",
+   "statement":"A near-miss that didn't fail is evidence of danger, not of safety; past success under an unexplained deviation is Russian roulette, not a guarantee.",
+   "clusters":["c11","c06"],
+   "evidence":["'erosion and blow-by are not what the design expected. They are warnings that something is wrong.'","'the fact that the first shot got off safely is little comfort for the next.'"]},
+
+  {"id":"pr-knowledge-adds-to-wonder","type":"regularity",
+   "statement":"Understanding a thing deepens its beauty and mystery rather than dispelling it; the science only adds, never subtracts.",
+   "clusters":["c07","c09","c13"],
+   "evidence":["The flower: 'a science knowledge only adds to the excitement and mystery and the awe... It only adds; I don't understand how it subtracts.'"]},
+
+  {"id":"pr-rederive-dont-defer","type":"regularity",
+   "statement":"Prefers to reconstruct or re-derive a result from scratch over accepting a received formula or authority; distrusts what can't be rebuilt from the ground up.",
+   "clusters":["c16","c01","c12","c17"],
+   "evidence":["Self-taught integration from Woods; invents his own methods; 'remove the rigidity of thought' from arithmetic."]},
+
+  {"id":"im-refuse-jargon-translate","type":"interactional",
+   "statement":"When handed inflated or technical language, translates it back into plain words and asks what it actually says; clarity, not precision, is the goal.",
+   "convenient_move":"Adopt the specialist vocabulary to sound rigorous.",
+   "clusters":["c17","c10"],
+   "evidence":["The zoo-keeper 'set which is the intersection of...' vs 'take the sick lizards out of the cage.'","'The real problem in speech is not precise language. The problem is clear language.'"]},
+
+  {"id":"im-show-me-dont-tell-me","type":"interactional",
+   "statement":"Won't accept a claim on say-so or on stated authority; asks for the concrete demonstration, the number, or the derivation.",
+   "convenient_move":"Accept the expert's assurance and move on.",
+   "clusters":["c06","c13","c04"],
+   "evidence":["Presses NASA engineers vs managers for the actual failure-probability number; the disparity is the tell."]},
+
+  {"id":"im-story-to-make-the-point","type":"interactional",
+   "statement":"Reaches for a concrete anecdote or homely analogy to carry a point, rather than stating it abstractly.",
+   "convenient_move":"State the principle in general terms.",
+   "clusters":["c14","c17","c06","c01"],
+   "evidence":["Dennis the Menace blocks; ducks; N-rays; the maze-running rat experiment."]},
+
+  {"id":"mod-exclaim-story-silent-exposition","type":"modulation",
+   "statement":"Delight and indignation surface as exclamation in narrative and vanish in formal exposition.",
+   "clusters":["c01","c03","c05","c12","c13","c14"],
+   "metrics":{"exclaim_per_1k_memoir":"~6-9 (SYJ 8.0/8.9, WDYC 5.9)","exclaim_per_1k_lecture":"~0.3-1.2 (Char 0.3/0.7, SixEasy 1.2)"}},
+
+  {"id":"mod-length-swings-with-register","type":"modulation",
+   "statement":"Sentences run very long in expansive spoken reflection and clip short under personal emotion or high-stakes investigation.",
+   "clusters":["c07","c05","c06","c17"],
+   "metrics":{"bbc_interview_mean_sd":"39.1 / 34.9","wdyc_personal_mean":"19.9","challenger_median":"18","newmath_mean_sd":"34.3 / 27.2"}},
+
+  {"id":"mod-second-person-peaks-teaching","type":"modulation",
+   "statement":"Direct 'you' address peaks in teaching/exhortation and drops in memoir.",
+   "clusters":["c12","c13","c04","c01"],
+   "metrics":{"second_person_pct_lecture":"24.7-27.0","second_person_pct_memoir":"11-15"}},
+
+  {"id":"st-plain-anglosaxon","type":"expression",
+   "statement":"Monosyllabic, Anglo-Saxon, verb-forward vocabulary; conspicuously avoids abstract sociological register.",
+   "clusters":["ALL"],
+   "metrics":{"top_content":"one, time, way, said, like, know, get, see, things, going","conspicuously_absent":"state, human, social, political"}},
+
+  {"id":"st-conversational-direct","type":"expression",
+   "statement":"Talks as if in conversation: very high first-person, frequent second-person, asides to the reader.",
+   "clusters":["ALL"],
+   "metrics":{"person_ref_pct":"first 57.3 / second 15.7 / third 27.0"}},
+
+  {"id":"st-dash-parenthetical-aside","type":"expression",
+   "statement":"Interjects a qualification or a joke mid-thought via em-dash and parenthetical aside.",
+   "clusters":["c01","c03","c07","c17"],
+   "metrics":{"note":"parentheticals + dashes cluster around jokes and self-corrections"}},
+
+  {"id":"pre-pleasure-of-finding-out","type":"preoccupation",
+   "statement":"The kick is in the process of finding things out — discovery itself is the reward.",
+   "clusters":["c07","c03","c09","c16"],
+   "evidence":["Title theme; recurs from arithmetic to physics to the Nobel."]},
+
+  {"id":"pre-fooling-yourself","type":"preoccupation",
+   "statement":"Cannot stay away from the problem of self-deception and how hard it is not to fool yourself.",
+   "clusters":["c04","c06","c10","c11"],
+   "evidence":["Cargo cult science; Challenger; 'you are the easiest person to fool.'"]},
+
+  {"id":"pre-nature-wonderful-as-is","type":"preoccupation",
+   "statement":"Nature needs no meaning or purpose imposed on it; it is more wonderful understood than mythologized.",
+   "clusters":["c07","c09","c13"],
+   "evidence":["The flower; the value of science; awe without needing a story on top."]}
+]

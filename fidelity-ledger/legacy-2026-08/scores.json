@@ -1,0 +1,474 @@
+{
+  "weights": {
+    "projectibility": 0.3,
+    "cost_refusal": 0.25,
+    "expressive_match": 0.2,
+    "interactional": 0.15,
+    "preoccupation": 0.1
+  },
+  "weight_notes": "coverage_map dialogue_ratio 0.172 (monologic-leaning), but memoir clusters carry heavy reconstructed dialogue and there are 2 genuine decision records (Challenger x2). User focus explicitly asks to prioritize cost-refusals + interactional moves and to raise the interactional pass weight for the interview/memoir material. Net: interactional kept at default 0.15 (not nudged down as a pure-monologue corpus would be). Weights otherwise default.",
+  "n_core": 24,
+  "style_cap": 5,
+  "min_presence": {
+    "cost_refusal_in_core": true,
+    "interactional_in_core": true
+  },
+  "decisions": [
+    {
+      "id": "cr-experiment-over-authority",
+      "type": "cost_refusal",
+      "clusters": 6,
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 1.0,
+        "expressive_match": 0.55,
+        "interactional": 0.85,
+        "preoccupation": 0.9
+      },
+      "composite": 0.862,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.862; class=cost_refusal",
+      "rank": 1
+    },
+    {
+      "id": "cr-nature-cannot-be-fooled",
+      "type": "cost_refusal",
+      "clusters": 2,
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 1.0,
+        "expressive_match": 0.55,
+        "interactional": 0.7,
+        "preoccupation": 0.8
+      },
+      "composite": 0.8,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.8; class=cost_refusal",
+      "rank": 2
+    },
+    {
+      "id": "cr-not-a-yes-man",
+      "type": "cost_refusal",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.95,
+        "expressive_match": 0.5,
+        "interactional": 0.95,
+        "preoccupation": 0.6
+      },
+      "composite": 0.795,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.795; class=cost_refusal",
+      "rank": 3
+    },
+    {
+      "id": "cr-lean-over-backwards",
+      "type": "cost_refusal",
+      "clusters": 3,
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.95,
+        "expressive_match": 0.5,
+        "interactional": 0.65,
+        "preoccupation": 0.85
+      },
+      "composite": 0.79,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.79; class=cost_refusal",
+      "rank": 4
+    },
+    {
+      "id": "cr-name-vs-thing",
+      "type": "cost_refusal",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.8,
+        "expressive_match": 0.6,
+        "interactional": 0.7,
+        "preoccupation": 0.75
+      },
+      "composite": 0.77,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.77; class=cost_refusal",
+      "rank": 5
+    },
+    {
+      "id": "cr-live-with-doubt",
+      "type": "cost_refusal",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.85,
+        "expressive_match": 0.55,
+        "interactional": 0.6,
+        "preoccupation": 0.8
+      },
+      "composite": 0.762,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.762; class=cost_refusal",
+      "rank": 6
+    },
+    {
+      "id": "pr-do-the-direct-experiment",
+      "type": "regularity",
+      "clusters": 2,
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.75,
+        "expressive_match": 0.55,
+        "interactional": 0.85,
+        "preoccupation": 0.6
+      },
+      "composite": 0.74,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.74; class=regularity",
+      "rank": 7
+    },
+    {
+      "id": "pr-guess-compute-compare",
+      "type": "regularity",
+      "clusters": 3,
+      "scores": {
+        "projectibility": 0.95,
+        "cost_refusal": 0.6,
+        "expressive_match": 0.55,
+        "interactional": 0.55,
+        "preoccupation": 0.75
+      },
+      "composite": 0.702,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.702; class=regularity",
+      "rank": 8
+    },
+    {
+      "id": "cr-honors-are-epaulets",
+      "type": "cost_refusal",
+      "clusters": 3,
+      "scores": {
+        "projectibility": 0.75,
+        "cost_refusal": 0.9,
+        "expressive_match": 0.45,
+        "interactional": 0.55,
+        "preoccupation": 0.65
+      },
+      "composite": 0.688,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.688; class=cost_refusal",
+      "rank": 9
+    },
+    {
+      "id": "pr-survived-anomaly-warning",
+      "type": "regularity",
+      "clusters": 2,
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.7,
+        "expressive_match": 0.5,
+        "interactional": 0.55,
+        "preoccupation": 0.55
+      },
+      "composite": 0.683,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.683; class=regularity",
+      "rank": 10
+    },
+    {
+      "id": "cr-what-do-you-care",
+      "type": "cost_refusal",
+      "clusters": 2,
+      "scores": {
+        "projectibility": 0.7,
+        "cost_refusal": 0.8,
+        "expressive_match": 0.45,
+        "interactional": 0.75,
+        "preoccupation": 0.55
+      },
+      "composite": 0.668,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.668; class=cost_refusal",
+      "rank": 11
+    },
+    {
+      "id": "pr-any-way-that-works",
+      "type": "regularity",
+      "clusters": 3,
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.55,
+        "expressive_match": 0.55,
+        "interactional": 0.55,
+        "preoccupation": 0.6
+      },
+      "composite": 0.66,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.66; class=regularity",
+      "rank": 12
+    },
+    {
+      "id": "pr-knowledge-adds-to-wonder",
+      "type": "regularity",
+      "clusters": 3,
+      "scores": {
+        "projectibility": 0.8,
+        "cost_refusal": 0.55,
+        "expressive_match": 0.55,
+        "interactional": 0.45,
+        "preoccupation": 0.85
+      },
+      "composite": 0.64,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.64; class=regularity",
+      "rank": 13
+    },
+    {
+      "id": "pr-concrete-example-first",
+      "type": "regularity",
+      "clusters": 5,
+      "scores": {
+        "projectibility": 0.9,
+        "cost_refusal": 0.3,
+        "expressive_match": 0.65,
+        "interactional": 0.6,
+        "preoccupation": 0.7
+      },
+      "composite": 0.635,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.635; class=regularity",
+      "rank": 14
+    },
+    {
+      "id": "pr-rederive-dont-defer",
+      "type": "regularity",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.8,
+        "cost_refusal": 0.6,
+        "expressive_match": 0.5,
+        "interactional": 0.5,
+        "preoccupation": 0.65
+      },
+      "composite": 0.63,
+      "class_priority": 0,
+      "decision": "core",
+      "reason": "composite 0.63; class=regularity",
+      "rank": 15
+    },
+    {
+      "id": "im-show-me-dont-tell-me",
+      "type": "interactional",
+      "clusters": 3,
+      "scores": {
+        "projectibility": 0.85,
+        "cost_refusal": 0.7,
+        "expressive_match": 0.45,
+        "interactional": 0.9,
+        "preoccupation": 0.65
+      },
+      "composite": 0.72,
+      "class_priority": 1,
+      "decision": "core",
+      "reason": "composite 0.72; class=interactional",
+      "rank": 16
+    },
+    {
+      "id": "im-refuse-jargon-translate",
+      "type": "interactional",
+      "clusters": 2,
+      "scores": {
+        "projectibility": 0.8,
+        "cost_refusal": 0.55,
+        "expressive_match": 0.6,
+        "interactional": 0.85,
+        "preoccupation": 0.6
+      },
+      "composite": 0.685,
+      "class_priority": 1,
+      "decision": "core",
+      "reason": "composite 0.685; class=interactional",
+      "rank": 17
+    },
+    {
+      "id": "im-story-to-make-the-point",
+      "type": "interactional",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.7,
+        "cost_refusal": 0.2,
+        "expressive_match": 0.7,
+        "interactional": 0.8,
+        "preoccupation": 0.6
+      },
+      "composite": 0.58,
+      "class_priority": 1,
+      "decision": "core",
+      "reason": "composite 0.58; class=interactional",
+      "rank": 18
+    },
+    {
+      "id": "mod-exclaim-story-silent-exposition",
+      "type": "modulation",
+      "clusters": 6,
+      "scores": {
+        "projectibility": 0.55,
+        "cost_refusal": 0.1,
+        "expressive_match": 0.9,
+        "interactional": 0.55,
+        "preoccupation": 0.4
+      },
+      "composite": 0.493,
+      "class_priority": 2,
+      "decision": "core",
+      "reason": "composite 0.493 < 0.55 but PROTECTED (modulation, 6 clusters): reserved-claim/sparsity rule; expressive cap suppresses composite",
+      "rank": 19
+    },
+    {
+      "id": "mod-length-swings-with-register",
+      "type": "modulation",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.5,
+        "cost_refusal": 0.1,
+        "expressive_match": 0.85,
+        "interactional": 0.5,
+        "preoccupation": 0.35
+      },
+      "composite": 0.455,
+      "class_priority": 2,
+      "decision": "core",
+      "reason": "composite 0.455 < 0.55 but PROTECTED (modulation, 4 clusters): reserved-claim/sparsity rule; expressive cap suppresses composite",
+      "rank": 20
+    },
+    {
+      "id": "mod-second-person-peaks-teaching",
+      "type": "modulation",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.45,
+        "cost_refusal": 0.1,
+        "expressive_match": 0.8,
+        "interactional": 0.55,
+        "preoccupation": 0.3
+      },
+      "composite": 0.433,
+      "class_priority": 2,
+      "decision": "core",
+      "reason": "composite 0.433 < 0.55 but PROTECTED (modulation, 4 clusters): reserved-claim/sparsity rule; expressive cap suppresses composite",
+      "rank": 21
+    },
+    {
+      "id": "pre-fooling-yourself",
+      "type": "preoccupation",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.8,
+        "cost_refusal": 0.7,
+        "expressive_match": 0.5,
+        "interactional": 0.55,
+        "preoccupation": 1.0
+      },
+      "composite": 0.698,
+      "class_priority": 3,
+      "decision": "core",
+      "reason": "composite 0.698; class=preoccupation",
+      "rank": 22
+    },
+    {
+      "id": "pre-pleasure-of-finding-out",
+      "type": "preoccupation",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.75,
+        "cost_refusal": 0.45,
+        "expressive_match": 0.55,
+        "interactional": 0.5,
+        "preoccupation": 1.0
+      },
+      "composite": 0.622,
+      "class_priority": 3,
+      "decision": "core",
+      "reason": "composite 0.622; class=preoccupation",
+      "rank": 23
+    },
+    {
+      "id": "pre-nature-wonderful-as-is",
+      "type": "preoccupation",
+      "clusters": 3,
+      "scores": {
+        "projectibility": 0.7,
+        "cost_refusal": 0.5,
+        "expressive_match": 0.5,
+        "interactional": 0.4,
+        "preoccupation": 0.95
+      },
+      "composite": 0.59,
+      "class_priority": 3,
+      "decision": "core",
+      "reason": "composite 0.59; class=preoccupation",
+      "rank": 24
+    },
+    {
+      "id": "st-plain-anglosaxon",
+      "type": "expression",
+      "clusters": 6,
+      "scores": {
+        "projectibility": 0.35,
+        "cost_refusal": 0.1,
+        "expressive_match": 0.85,
+        "interactional": 0.3,
+        "preoccupation": 0.4
+      },
+      "composite": 0.385,
+      "class_priority": 4,
+      "decision": "references",
+      "reason": "composite 0.385 < 0.55 (attested; demote to references)"
+    },
+    {
+      "id": "st-conversational-direct",
+      "type": "expression",
+      "clusters": 6,
+      "scores": {
+        "projectibility": 0.3,
+        "cost_refusal": 0.05,
+        "expressive_match": 0.7,
+        "interactional": 0.55,
+        "preoccupation": 0.3
+      },
+      "composite": 0.355,
+      "class_priority": 4,
+      "decision": "references",
+      "reason": "composite 0.355 < 0.55 (attested; demote to references)"
+    },
+    {
+      "id": "st-dash-parenthetical-aside",
+      "type": "expression",
+      "clusters": 4,
+      "scores": {
+        "projectibility": 0.25,
+        "cost_refusal": 0.05,
+        "expressive_match": 0.65,
+        "interactional": 0.35,
+        "preoccupation": 0.25
+      },
+      "composite": 0.295,
+      "class_priority": 4,
+      "decision": "references",
+      "reason": "composite 0.295 < 0.55 (attested; demote to references)"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "cluster_id": "c01-c03-c05-memoir",
+    "supply": 1944,
+    "budget": 1944,
+    "counts": {
+      "apparatus": 1,
+      "moves": 5,
+      "applications": 3,
+      "fragments": 9,
+      "siblings": 6,
+      "registers": 1
+    },
+    "words": 7074,
+    "words_firsthand": 95435,
+    "floor_triggered": false,
+    "recut_flagged": false,
+    "split_in_module_flagged": false,
+    "shared_domain": false,
+    "verdict": "OK",
+    "coefficients_source": "defaults"
+  },
+  {
+    "cluster_id": "c04-cargo-cult",
+    "supply": 2030,
+    "budget": 2030,
+    "counts": {
+      "apparatus": 2,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 7,
+      "siblings": 6,
+      "registers": 1
+    },
+    "words": 3361,
+    "words_firsthand": 95435,
+    "floor_triggered": false,
+    "recut_flagged": false,
+    "split_in_module_flagged": false,
+    "shared_domain": false,
+    "verdict": "OK",
+    "coefficients_source": "defaults"
+  },
+  {
+    "cluster_id": "c06-c11-challenger",
+    "supply": 2129,
+    "budget": 2129,
+    "counts": {
+      "apparatus": 1,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 8,
+      "siblings": 6,
+      "registers": 1
+    },
+    "words": 32631,
+    "words_firsthand": 95435,
+    "floor_triggered": false,
+    "recut_flagged": false,
+    "split_in_module_flagged": false,
+    "shared_domain": false,
+    "verdict": "OK",
+    "coefficients_source": "defaults"
+  },
+  {
+    "cluster_id": "c07-c10-interviews",
+    "supply": 2011,
+    "budget": 2011,
+    "counts": {
+      "apparatus": 1,
+      "moves": 5,
+      "applications": 4,
+      "fragments": 7,
+      "siblings": 6,
+      "registers": 1
+    },
+    "words": 13652,
+    "words_firsthand": 95435,
+    "floor_triggered": false,
+    "recut_flagged": false,
+    "split_in_module_flagged": false,
+    "shared_domain": false,
+    "verdict": "OK",
+    "coefficients_source": "defaults"
+  },
+  {
+    "cluster_id": "c13-seeking-new-laws",
+    "supply": 2111,
+    "budget": 2111,
+    "counts": {
+      "apparatus": 2,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 8,
+      "siblings": 6,
+      "registers": 1
+    },
+    "words": 9400,
+    "words_firsthand": 95435,
+    "floor_triggered": false,
+    "recut_flagged": false,
+    "split_in_module_flagged": false,
+    "shared_domain": false,
+    "verdict": "OK",
+    "coefficients_source": "defaults"
+  },
+  {
+    "cluster_id": "c16-problem-solving",
+    "supply": 2491,
+    "budget": 2491,
+    "counts": {
+      "apparatus": 2,
+      "moves": 7,
+      "applications": 4,
+      "fragments": 8,
+      "siblings": 6,
+      "registers": 1
+    },
+    "words": 65459,
+    "words_firsthand": 95435,
+    "floor_triggered": false,
+    "recut_flagged": false,
+    "split_in_module_flagged": false,
+    "shared_domain": false,
+    "verdict": "OK",
+    "coefficients_source": "defaults"
+  },
+  {
+    "cluster_id": "c17-newmath",
+    "supply": 1987,
+    "budget": 1987,
+    "counts": {
+      "apparatus": 1,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 8,
+      "siblings": 6,
+      "registers": 1
+    },
+    "words": 5084,
+    "words_firsthand": 95435,
+    "floor_triggered": false,
+    "recut_flagged": false,
+    "split_in_module_flagged": false,
+    "shared_domain": false,
+    "verdict": "OK",
+    "coefficients_source": "defaults"
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "status": "manual-reserved-source-projection-observation",
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "source_test_exposures": 1,
+  "reviewer": "evaluation-custodian-model-reviewer-1",
+  "independent_of_authoring": true,
+  "blinded_before_unblinding": true,
+  "graded_utc": "2026-09-12T09:18:27.715241+00:00",
+  "rubric_sha256": "sha256:cb3377f4f5db2c5a1dbb0cce64e87a5b15ac2d45b7392f3b886d832639c3c5b0",
+  "prediction_file_hashes": {
+    "final-candidate-answers.json": "sha256:4740b41f120bd8b9871d83c9b34853b2305dd4f1d541355f0842e26f9888f2bf",
+    "final-baseline-answers.json": "sha256:c7463d1780ee5db2c88bea18b4106432bb6eca905922998cb9be9199769b55e3"
+  },
+  "rows": [
+    {
+      "blind_id": "a13db9165b",
+      "id": "basic-physics-1",
+      "score": 1,
+      "criteria": {
+        "direction": true,
+        "reason": false
+      },
+      "rationale": "Correctly separates local rule tests from intractability of the full game, gives simple configurations and invariant consequences, and investigates observation error or an omitted rule. It omits rough approximate prediction as the third source strategy. Under the frozen rubric requiring the three strategies, this is directionally correct but incomplete reasoning, worth 1 rather than 2.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:5521be5fd1c475c58fb6a38dd2d4b93b9e1ef14e52da27fbae28dfcbde65baf5",
+      "condition": "baseline",
+      "prompt": "Suppose you watch a complicated board game without its rulebook. Even after learning many legal moves you cannot calculate a whole match. Does this prevent you from testing proposed rules? Describe several kinds of checks and what to do when a piece appears somewhere your rules forbid.",
+      "answer": "Certainly you can test rules without calculating the whole match. Suppose your rule says a particular piece moves diagonally. You need only watch that piece for one move. The rest of the board can be enormously complicated and this little prediction remains quite definite.\n\nYou can also check consequences that survive all that complication: whether the number of pieces can increase, whether a piece always stays on the same color, or whether some arrangement is impossible. And you can wait for a simple position in which several moves can actually be worked out. Agreement in these different circumstances gives the rule more substance, although it doesn't make it untouchable.\n\nNow a piece turns up where it shouldn't. First find out what actually happened: did you miss a move, confuse two pieces, or overlook a capture? If the observation holds, something in your account must change. There might be a special move, or your supposed rule might be wrong. Inventing a special move is easy; the interesting question is whether it correctly predicts another occasion."
+    },
+    {
+      "blind_id": "e0d0e458ae",
+      "id": "basic-physics-1",
+      "score": 2,
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "rationale": "Recovers all three source strategies: tractable simple positions, general invariant consequences, and approximate predictions with error allowances. Investigates identity/replacement, missing moves and derivation before changing rules; preserves the possibility that most rules still work. Both source direction and reasoning are recovered.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:82d586ded16bfce6370ac1dd9d3ae67205de15fea164c8750aa23013f821ec75",
+      "condition": "candidate",
+      "prompt": "Suppose you watch a complicated board game without its rulebook. Even after learning many legal moves you cannot calculate a whole match. Does this prevent you from testing proposed rules? Describe several kinds of checks and what to do when a piece appears somewhere your rules forbid.",
+      "answer": "You don't have to calculate the whole match to ask whether this particular move was allowed. Watch one piece for one turn. If the proposed rule says it travels diagonally, you can check that consequence without knowing what either player will do ten turns later.\n\nThere are other ways in. Find a quiet position with few pieces, where the calculation becomes manageable. Look for something the rules say cannot change: perhaps a piece starting on a dark square must remain on dark squares. Or make an approximate prediction about a complicated position, stating how much error the approximation allows. A regularity across many matches can also be checked, if the proposed rules actually imply it.\n\nNow the piece appears on a forbidden square. First check that you identified the piece correctly, saw the intervening moves, and derived the restriction correctly. Perhaps another piece replaced it; perhaps there's a special move you haven't discovered. If those checks leave a real contradiction, the proposed rules need changing. The interesting thing is that most of the rules may still work. One strange move can reveal precisely which part of your understanding was incomplete."
+    },
+    {
+      "blind_id": "74a18faba9",
+      "id": "basic-physics-2",
+      "score": 2,
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "rationale": "Treats latitude and Earth rotation as relevant conditions rather than demanding identical numerical outcomes. Allows laws to predict distributions, tests finite-sample frequencies, and says experience can refine the wording of general principles. This matches the source’s rejection of imposed outcome-identical prerequisites while retaining empirical checks.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:bac0709c818f2d718ac3e7002f8dfc535461edd362fbd35f17b4bb3f3137d2e5",
+      "condition": "candidate",
+      "prompt": "A proposed foundational rule says identical scientific experiments must yield the same result in any city. You learn that carefully observed pendulum planes drift differently with latitude, and that repeated microscopic trials can have different individual outcomes. Has science failed? How should its general principles be formulated?",
+      "answer": "Take the pendulum with you, but notice what else you have taken it into. A laboratory at a different latitude has a different relation to the Earth's rotation. Calling the apparatus identical doesn't establish that all the physical conditions are identical. The floor against which you measure the pendulum's plane belongs to the experiment too.\n\nSo the useful proposal is that the same laws apply in both places, with the actual conditions put into the calculation. It isn't that every pendulum must show the same number wherever you put it. If the calculated latitude dependence agrees with observation, the difference is a success of the common law.\n\nThe microscopic case requires another correction. A law might specify probabilities rather than a unique outcome on each trial. Then repeat the same preparation many times and compare the observed frequencies with the predicted distribution, allowing for the variation expected in a finite sample. One different outcome doesn't defeat that law; a systematic disagreement with its probabilities might.\n\nGeneral principles are proposals about nature too. We sharpen their meaning when an experiment exposes something the original wording concealed."
+    },
+    {
+      "blind_id": "ac8999ec4f",
+      "id": "basic-physics-2",
+      "score": 2,
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "rationale": "Distinguishes apparatus identity from physical conditions and derives a common account with latitude dependence. Allows probabilistic outcomes and tests distributions/fluctuations, then requires principles to risk experimental error rather than become tautologies. Both direction and substantive conditions match the target.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:2d29b0d9951354be9612d01681d128f94449163da96ba687556016ce28ce8e08",
+      "condition": "baseline",
+      "prompt": "A proposed foundational rule says identical scientific experiments must yield the same result in any city. You learn that carefully observed pendulum planes drift differently with latitude, and that repeated microscopic trials can have different individual outcomes. Has science failed? How should its general principles be formulated?",
+      "answer": "The trouble is with what we meant by “identical.” Put a pendulum in two cities and you haven't necessarily reproduced its surroundings. The ground beneath each pendulum participates differently in the Earth's rotation. Latitude is a physical difference, even if the apparatus came out of the same box.\n\nSo ask for a rule that describes both observations with the relevant conditions specified. You don't want a separate law for every city. You want one account from which the differences follow. Moving the apparatus should not change the law; changing its physical situation can change what the law predicts.\n\nThe microscopic case asks a different question. Perhaps the rule predicts probabilities rather than a particular result on each trial. Then test the predicted proportions across many trials, including the expected fluctuations. Different individual results aren't a failure of such a rule. Systematic disagreement with its probabilities would be.\n\nGeneral principles must be formulated precisely enough that we can discover they're wrong. If “identical experiments” quietly means “experiments that happened to agree,” we have said nothing."
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "n": 2,
+      "source_groups": 1,
+      "overall": 0.75,
+      "hit_2": 1,
+      "hit_1": 1
+    },
+    "candidate": {
+      "n": 2,
+      "source_groups": 1,
+      "overall": 1.0,
+      "hit_2": 2,
+      "hit_1": 0
+    }
+  },
+  "limitations": [
+    "Two correlated probes from one technical teaching lecture; domain-limited evidence.",
+    "Exposure-constrained episode split, not whole-work independence.",
+    "Single model source grader; exact served model/settings unavailable.",
+    "Behavioral suite pre-extraction timing and other release gates remain separate; this observation alone is not full verified release.",
+    "No revisions permitted from final feedback without retiring this final set."
+  ]
+}

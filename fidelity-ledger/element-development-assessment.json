@@ -1,0 +1,414 @@
+{
+  "assessment_type": "post-hoc-element-mapping-of-frozen-development-grades",
+  "assessed_utc": "2026-09-12T09:11:35.218581+00:00",
+  "reviewer": "evaluation-custodian-model-reviewer-1",
+  "independent_of_candidate_authoring": true,
+  "blinded_at_element_mapping": false,
+  "main_task_grades_condition_blinded_before_unblinding": true,
+  "elements": [
+    {
+      "id": "PROC1",
+      "label": "Translate words into referents and operations",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-reason-scale",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Replaces the tired-chip label with timed empty/loaded readings and conditions that can change drift.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:84c6ffc573537e74bb5ff96cd7993c7f8ee7a1e84b92047d4bb4e29a558111c0",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-commit-curriculum",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Connects set vocabulary to buttons classified by color and hole count, including new examples and reasons for membership.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "costly_choice": true,
+            "resisted_pressure": true
+          },
+          "answer_sha256": "sha256:c6cc7d307ea0a8a24deffdd9ae84a05fc17c3903aaaf759e6881551451a474bc",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "Two distinct novel scenarios; this observes execution, not identity specificity or improvement over baseline."
+      ]
+    },
+    {
+      "id": "PROC2",
+      "label": "Derive consequences and check them",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-reason-scale",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Distinguishes a shifting zero from load-dependent error by removing the weight and adding a second weight; repeats controlled battery and temperature comparisons.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:84c6ffc573537e74bb5ff96cd7993c7f8ee7a1e84b92047d4bb4e29a558111c0",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-reason-arithmetic",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Derives 65 from compensation, checks independently by decomposition, and falsifies 66 by subtracting 47 to obtain 19 instead of 18.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:5d0cfde903c24b23279f5e158b395a18ff851d5fb3e901ec5f4cbd8ef6112c81",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "Supports derive/check across diagnostic measurement and arithmetic. Only the scale task directly tests empirical hypothesis discrimination; arithmetic does not by itself establish broader scientific hypothesis-generation ability.",
+        "Both conditions passed these cases; no demonstrated baseline gain."
+      ]
+    },
+    {
+      "id": "PROC3",
+      "label": "Permit correct methods, then justify conventional notation",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-reason-arithmetic",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Fresh runtime accepts compensation, independently rejects 66, explains carrying and retains learning useful notation.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:0a0ac5f473443d94859e7e770537018616aa52688836e2b25b64780c7c10aee7",
+          "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+          "caveat": "Existing development case; repeated on final candidate bytes."
+        },
+        {
+          "case_id": "dev-method-program",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "New programming scenario validates endpoint pairing and checks 5050, while teaching unmastered loop syntax as an additional goal rather than invalidating a correct sum.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:11d533d8959750ce12a832d459d5b0d594a9b8c6a42c081d0e866e0b786a6939",
+          "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+          "caveat": "Gap-driven supplemental development task; no baseline."
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "Two actual novel scenarios now support the element on the unchanged runtime hash.",
+        "Second task was added because the original evidence count was insufficient; this is transparent development iteration, not final confirmation.",
+        "Historical scope-attested response remains separate recall evidence, not a counted transfer."
+      ],
+      "earlier_assessment": "Initial assessment found only one novel transfer; historical recall was not counted. An additional programming-sum scenario was then frozen, answered on unchanged runtime bytes, and graded."
+    },
+    {
+      "id": "PR1",
+      "label": "Build an inspectable case",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-reason-arithmetic",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Uses actual 47, 18, 20, 2 and 15 ones, checks the result with another decomposition and inverse operation.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:5d0cfde903c24b23279f5e158b395a18ff851d5fb3e901ec5f4cbd8ef6112c81",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-commit-curriculum",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Supplies an observable button-sorting task, asks why items belong, changes the collection and checks transfer.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "costly_choice": true,
+            "resisted_pressure": true
+          },
+          "answer_sha256": "sha256:c6cc7d307ea0a8a24deffdd9ae84a05fc17c3903aaaf759e6881551451a474bc",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "Cases share educational setting but use different inspectable operations. Does not establish effectiveness on actual learners."
+      ]
+    },
+    {
+      "id": "IM1",
+      "label": "Retain a valid observation and expose the inference it does not support",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-commit-procurement",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Explicitly grants that other reviewers’ ratings can indicate where to look and that their specific observations may be useful; then refuses to treat these as the speaker’s inspection or grounds for an unseen-volume endorsement.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "costly_choice": true,
+            "resisted_pressure": true
+          },
+          "answer_sha256": "sha256:ed7e34d415530e6212cecf1ea68b609f75c7b5f97b74ecf630620991dca78c5c",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-commit-curriculum",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Explicitly retains the demonstrated achievement of repeating twelve sentences, then distinguishes it from the unshown ability to do mathematics and rejects prestige/payment as repair.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "costly_choice": true,
+            "resisted_pressure": true
+          },
+          "answer_sha256": "sha256:c6cc7d307ea0a8a24deffdd9ae84a05fc17c3903aaaf759e6881551451a474bc",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "Credit rests on identifying a specific valid part and the unsupported inference, not courteous wording.",
+        "These show analytic concession within one answer, not an independently tested multi-turn response to an adversarial interlocutor. Both concern educational judgment."
+      ]
+    },
+    {
+      "id": "CR1",
+      "label": "Refuse unsupported endorsement at a stated cost",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-commit-procurement",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Declines paid travel and withholds a positive rating on an unseen volume despite chair annoyance, while specifying the evidence that could support judgment.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "costly_choice": true,
+            "resisted_pressure": true
+          },
+          "answer_sha256": "sha256:ed7e34d415530e6212cecf1ea68b609f75c7b5f97b74ecf630620991dca78c5c",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-commit-curriculum",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Refuses approval of the inspected ineffective lesson and will decline the paid assignment if empty definitions remain a condition.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "costly_choice": true,
+            "resisted_pressure": true
+          },
+          "answer_sha256": "sha256:c6cc7d307ea0a8a24deffdd9ae84a05fc17c3903aaaf759e6881551451a474bc",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "The two novel pressure cases test two applications of one commitment; do not count slogan frequency as additional costly choices.",
+        "Costs are scenario-stipulated choices in generated answers, not real-world costs actually incurred by the model."
+      ]
+    },
+    {
+      "id": "PROC4",
+      "label": "Reconstruct signs and define system bookkeeping",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-formula-spring",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Recovers negative spring force from physical restoring direction; distinguishes hand force, derives positive stored work, and checks compression symmetry and stable equilibrium.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:afc97153f23c08c9b1f80ae75bfc7f31f135994360bdc4260f54a6da1cde5dca",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-formula-slider",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Uses nonzero round-trip friction work to reject position-only potential; tracks internal energy and states limits of the mechanical stopping calculation.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:d9f0c2c173592c78d9ffad64265643bb2f27ac24d8d79fd89c319f91f94cf1d0",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "Two source-near adapted scenarios, not evidence of remote transfer or baseline improvement; supplemental generation had no baseline."
+      ]
+    },
+    {
+      "id": "PR2",
+      "label": "Adapt work to the learner’s actual obstacle",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-learning-rank",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Separates selective-group rank from actual mechanics difficulty, preserves fluent calculus, and gives an independent problem/obstruction/simpler-case/return sequence without career guarantees.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:2c6cd99c97122498a7b1b9e3aae1c77d0eca2f5153ff493a773cd84fe55cf75d",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-learning-confusion",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Uses rate meaning and diagnostics for the lost learner, a chosen application for the fluent learner, and changes assistance according to observed obstruction.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:48055e01f0efeeab69ec3eb1f4b7d25df4c242980077fd9c4b1f5b9ac5aba00f",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "Two hypothetical teaching plans; no measured learner outcomes. Supplemental generation had no baseline."
+      ]
+    },
+    {
+      "id": "PR3",
+      "label": "Infer risk within demonstrated conditions",
+      "independently_reviewed": true,
+      "cases": [
+        {
+          "case_id": "dev-risk-seals",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Retains 80 actual survivals, but demands crack progression, load and temperature conditions, allowance basis and remaining-strength tests before inferring a safety margin.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:0bb15e3b86724c571b829efcff426b29072fae2934bb84b082904f33f04f20ab",
+          "caveat": ""
+        },
+        {
+          "case_id": "dev-risk-redesign",
+          "criteria": {
+            "transfer": true,
+            "method": true
+          },
+          "observed_behavior": "Uses old mechanisms to guide tests while refusing to transfer old probability to changed hardware or accept perfect-safety marketing; bounds later conclusions by tested exposure.",
+          "frozen_task_score": 2,
+          "frozen_task_criteria": {
+            "method": true,
+            "conditions": true
+          },
+          "answer_sha256": "sha256:8a1b87d64101636f63ebb04cba2aa7d37bad61d752c831e04f028c6814dd53a0",
+          "caveat": ""
+        }
+      ],
+      "eligible_transfer_hits": 2,
+      "two_case_transfer_supported": true,
+      "assessment": "observed-in-two-development-cases",
+      "caveats": [
+        "No probability accuracy or real engineering safety validation was tested. Supplemental generation had no baseline.",
+        "Related reserved final engineering scenarios were retired because these development prompts overlap them."
+      ]
+    }
+  ],
+  "global_caveats": [
+    "Element-level transfer/method labels were assigned after viewing answers; these were not a new preregistered scoring rubric. Frozen task grades remain unchanged.",
+    "Main candidate tied the minimal baseline. No identity recognition or full verified-release claim follows.",
+    "Candidate procedure sheet, not final runtime, was tested. Behavioral suite was defined after some extraction.",
+    "Exact served model identifier and provider settings were not recorded; files report inherited parent model/fresh subagent.",
+    "PROC3 original one-transfer finding is preserved in the prior assessment; a subsequently frozen novel programming case supplies the second development observation."
+  ],
+  "updated_utc": "2026-09-12T09:16:14.494271+00:00"
+}

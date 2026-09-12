@@ -1,0 +1,20 @@
+{
+  "stage": "post-freeze metadata boundary review; runtime unchanged",
+  "corrections": [
+    {
+      "id": "c01",
+      "change": "Start at first-person radio narrative; exclude preceding chronology/Hibbs framing."
+    },
+    {
+      "id": "c10",
+      "change": "Exclude Omni editorial introduction; dialogue remains mixed, interviewer questions are context only."
+    },
+    {
+      "id": "c16",
+      "change": "Extend selection to complete final response on PDF147; lecture/dialogue span29–147 is mixed because students and editor footnotes occur. Only Feynman turns support persona traits."
+    }
+  ],
+  "voice_units_changed": false,
+  "new_traits_added_after_final": false,
+  "frozen_runtime_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2"
+}

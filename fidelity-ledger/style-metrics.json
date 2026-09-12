@@ -1,0 +1,1516 @@
+{
+  "aggregate": {
+    "counts": {
+      "words": 29842,
+      "sentences": 1182,
+      "paragraphs": 267
+    },
+    "sentence_length": {
+      "n": 1182,
+      "mean": 25.25,
+      "median": 20.0,
+      "stdev": 21.04,
+      "p10": 8,
+      "p90": 49,
+      "min": 1,
+      "max": 209
+    },
+    "paragraph_length": {
+      "n": 267,
+      "mean": 111.77,
+      "median": 77,
+      "stdev": 108.8,
+      "p10": 11,
+      "p90": 291,
+      "min": 1,
+      "max": 419
+    },
+    "lexical_diversity_mattr500": 0.436,
+    "hedges_per_1k": 10.19,
+    "boosters_per_1k": 4.26,
+    "hedge_booster_ratio": 2.39,
+    "punctuation_per_1k": {
+      "em_dash": 1.84,
+      "semicolon": 2.45,
+      "colon": 1.47,
+      "question": 2.92,
+      "exclamation": 0.7,
+      "parenthetical": 2.21
+    },
+    "person_reference_pct": {
+      "first": 50.6,
+      "second": 21.8,
+      "third": 27.7
+    },
+    "top_content_words": [
+      [
+        "one",
+        119
+      ],
+      [
+        "time",
+        94
+      ],
+      [
+        "know",
+        90
+      ],
+      [
+        "way",
+        85
+      ],
+      [
+        "things",
+        81
+      ],
+      [
+        "like",
+        77
+      ],
+      [
+        "don",
+        71
+      ],
+      [
+        "new",
+        70
+      ],
+      [
+        "get",
+        66
+      ],
+      [
+        "something",
+        66
+      ],
+      [
+        "say",
+        63
+      ],
+      [
+        "make",
+        63
+      ],
+      [
+        "people",
+        60
+      ],
+      [
+        "think",
+        59
+      ],
+      [
+        "now",
+        57
+      ],
+      [
+        "experiment",
+        56
+      ],
+      [
+        "find",
+        55
+      ],
+      [
+        "laws",
+        55
+      ],
+      [
+        "right",
+        54
+      ],
+      [
+        "thing",
+        54
+      ],
+      [
+        "wrong",
+        54
+      ],
+      [
+        "theory",
+        53
+      ],
+      [
+        "different",
+        52
+      ],
+      [
+        "good",
+        49
+      ],
+      [
+        "idea",
+        48
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "don know",
+        25
+      ],
+      [
+        "character physical",
+        15
+      ],
+      [
+        "something like",
+        14
+      ],
+      [
+        "new laws",
+        14
+      ],
+      [
+        "physical law",
+        14
+      ],
+      [
+        "seeking new",
+        13
+      ],
+      [
+        "nobel prize",
+        11
+      ],
+      [
+        "little bit",
+        10
+      ],
+      [
+        "different kinds",
+        9
+      ],
+      [
+        "neutrons protons",
+        9
+      ],
+      [
+        "space shuttle",
+        8
+      ],
+      [
+        "safety factor",
+        8
+      ],
+      [
+        "nobody knows",
+        7
+      ],
+      [
+        "long time",
+        7
+      ],
+      [
+        "didn understand",
+        7
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "state",
+      "social",
+      "political"
+    ]
+  },
+  "per_file": {
+    "c04.txt": {
+      "counts": {
+        "words": 3489,
+        "sentences": 162,
+        "paragraphs": 45
+      },
+      "sentence_length": {
+        "n": 162,
+        "mean": 21.54,
+        "median": 18.0,
+        "stdev": 13.68,
+        "p10": 6,
+        "p90": 40,
+        "min": 1,
+        "max": 65
+      },
+      "paragraph_length": {
+        "n": 45,
+        "mean": 77.53,
+        "median": 72,
+        "stdev": 44.64,
+        "p10": 15,
+        "p90": 132,
+        "min": 12,
+        "max": 187
+      },
+      "lexical_diversity_mattr500": 0.454,
+      "hedges_per_1k": 11.75,
+      "boosters_per_1k": 3.44,
+      "hedge_booster_ratio": 3.42,
+      "punctuation_per_1k": {
+        "em_dash": 0.0,
+        "semicolon": 2.29,
+        "colon": 1.15,
+        "question": 2.01,
+        "exclamation": 0.0,
+        "parenthetical": 1.43
+      },
+      "person_reference_pct": {
+        "first": 33.6,
+        "second": 26.5,
+        "third": 39.9
+      },
+      "top_content_words": [
+        [
+          "something",
+          16
+        ],
+        [
+          "experiment",
+          16
+        ],
+        [
+          "rats",
+          16
+        ],
+        [
+          "one",
+          15
+        ],
+        [
+          "scientific",
+          15
+        ],
+        [
+          "things",
+          15
+        ],
+        [
+          "like",
+          14
+        ],
+        [
+          "kind",
+          13
+        ],
+        [
+          "way",
+          11
+        ],
+        [
+          "science",
+          10
+        ],
+        [
+          "example",
+          10
+        ],
+        [
+          "don",
+          10
+        ],
+        [
+          "tell",
+          10
+        ],
+        [
+          "little",
+          9
+        ],
+        [
+          "idea",
+          8
+        ],
+        [
+          "see",
+          8
+        ],
+        [
+          "think",
+          8
+        ],
+        [
+          "right",
+          8
+        ],
+        [
+          "thing",
+          8
+        ],
+        [
+          "make",
+          8
+        ],
+        [
+          "fool",
+          8
+        ],
+        [
+          "another",
+          7
+        ],
+        [
+          "didn",
+          7
+        ],
+        [
+          "work",
+          7
+        ],
+        [
+          "now",
+          7
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "cargo cult",
+          6
+        ],
+        [
+          "cult science",
+          5
+        ],
+        [
+          "scientific integrity",
+          4
+        ],
+        [
+          "rats tell",
+          4
+        ],
+        [
+          "airplanes land",
+          3
+        ],
+        [
+          "things like",
+          3
+        ],
+        [
+          "don land",
+          3
+        ],
+        [
+          "little bit",
+          3
+        ],
+        [
+          "one little",
+          3
+        ],
+        [
+          "light hydrogen",
+          3
+        ],
+        [
+          "still rats",
+          3
+        ],
+        [
+          "middle ages",
+          2
+        ],
+        [
+          "method discovered",
+          2
+        ],
+        [
+          "now scientific",
+          2
+        ],
+        [
+          "scientific age",
+          2
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "part",
+        "point",
+        "power",
+        "sense",
+        "social",
+        "political"
+      ]
+    },
+    "c07.txt": {
+      "counts": {
+        "words": 7945,
+        "sentences": 203,
+        "paragraphs": 57
+      },
+      "sentence_length": {
+        "n": 203,
+        "mean": 39.14,
+        "median": 28,
+        "stdev": 35.31,
+        "p10": 8,
+        "p90": 77,
+        "min": 1,
+        "max": 209
+      },
+      "paragraph_length": {
+        "n": 57,
+        "mean": 139.39,
+        "median": 123,
+        "stdev": 85.01,
+        "p10": 35,
+        "p90": 286,
+        "min": 12,
+        "max": 332
+      },
+      "lexical_diversity_mattr500": 0.402,
+      "hedges_per_1k": 8.56,
+      "boosters_per_1k": 2.52,
+      "hedge_booster_ratio": 3.4,
+      "punctuation_per_1k": {
+        "em_dash": 0.0,
+        "semicolon": 2.14,
+        "colon": 1.51,
+        "question": 3.52,
+        "exclamation": 0.0,
+        "parenthetical": 1.13
+      },
+      "person_reference_pct": {
+        "first": 56.8,
+        "second": 17.1,
+        "third": 26.1
+      },
+      "top_content_words": [
+        [
+          "don",
+          43
+        ],
+        [
+          "know",
+          34
+        ],
+        [
+          "way",
+          32
+        ],
+        [
+          "things",
+          31
+        ],
+        [
+          "one",
+          29
+        ],
+        [
+          "like",
+          26
+        ],
+        [
+          "different",
+          26
+        ],
+        [
+          "time",
+          25
+        ],
+        [
+          "think",
+          23
+        ],
+        [
+          "see",
+          21
+        ],
+        [
+          "people",
+          21
+        ],
+        [
+          "didn",
+          20
+        ],
+        [
+          "theory",
+          20
+        ],
+        [
+          "say",
+          19
+        ],
+        [
+          "work",
+          19
+        ],
+        [
+          "thing",
+          18
+        ],
+        [
+          "something",
+          18
+        ],
+        [
+          "find",
+          18
+        ],
+        [
+          "says",
+          17
+        ],
+        [
+          "understand",
+          17
+        ],
+        [
+          "little",
+          17
+        ],
+        [
+          "now",
+          17
+        ],
+        [
+          "got",
+          16
+        ],
+        [
+          "get",
+          16
+        ],
+        [
+          "trying",
+          16
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "don know",
+          16
+        ],
+        [
+          "different kinds",
+          8
+        ],
+        [
+          "didn understand",
+          7
+        ],
+        [
+          "nobel prize",
+          7
+        ],
+        [
+          "little bit",
+          6
+        ],
+        [
+          "don understand",
+          5
+        ],
+        [
+          "something like",
+          5
+        ],
+        [
+          "don think",
+          5
+        ],
+        [
+          "new york",
+          5
+        ],
+        [
+          "practical man",
+          5
+        ],
+        [
+          "says know",
+          4
+        ],
+        [
+          "trying find",
+          4
+        ],
+        [
+          "los alamos",
+          4
+        ],
+        [
+          "quantum electrodynamics",
+          4
+        ],
+        [
+          "didn want",
+          3
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "system",
+        "power",
+        "state",
+        "social",
+        "political"
+      ]
+    },
+    "c09.txt": {
+      "counts": {
+        "words": 2464,
+        "sentences": 134,
+        "paragraphs": 48
+      },
+      "sentence_length": {
+        "n": 134,
+        "mean": 18.39,
+        "median": 15.0,
+        "stdev": 11.93,
+        "p10": 7,
+        "p90": 35,
+        "min": 1,
+        "max": 64
+      },
+      "paragraph_length": {
+        "n": 48,
+        "mean": 51.33,
+        "median": 42.5,
+        "stdev": 35.44,
+        "p10": 17,
+        "p90": 110,
+        "min": 9,
+        "max": 152
+      },
+      "lexical_diversity_mattr500": 0.469,
+      "hedges_per_1k": 12.18,
+      "boosters_per_1k": 6.9,
+      "hedge_booster_ratio": 1.76,
+      "punctuation_per_1k": {
+        "em_dash": 0.0,
+        "semicolon": 2.84,
+        "colon": 1.22,
+        "question": 5.28,
+        "exclamation": 1.62,
+        "parenthetical": 0.81
+      },
+      "person_reference_pct": {
+        "first": 68.9,
+        "second": 5.2,
+        "third": 25.9
+      },
+      "top_content_words": [
+        [
+          "value",
+          13
+        ],
+        [
+          "science",
+          11
+        ],
+        [
+          "good",
+          10
+        ],
+        [
+          "one",
+          10
+        ],
+        [
+          "know",
+          9
+        ],
+        [
+          "atoms",
+          9
+        ],
+        [
+          "scientific",
+          8
+        ],
+        [
+          "things",
+          8
+        ],
+        [
+          "people",
+          8
+        ],
+        [
+          "idea",
+          8
+        ],
+        [
+          "men",
+          8
+        ],
+        [
+          "think",
+          7
+        ],
+        [
+          "man",
+          7
+        ],
+        [
+          "new",
+          7
+        ],
+        [
+          "great",
+          7
+        ],
+        [
+          "seems",
+          6
+        ],
+        [
+          "problems",
+          6
+        ],
+        [
+          "scientist",
+          6
+        ],
+        [
+          "now",
+          6
+        ],
+        [
+          "dance",
+          6
+        ],
+        [
+          "doubt",
+          6
+        ],
+        [
+          "future",
+          6
+        ],
+        [
+          "time",
+          5
+        ],
+        [
+          "don",
+          5
+        ],
+        [
+          "get",
+          5
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "value science",
+          4
+        ],
+        [
+          "good bad",
+          4
+        ],
+        [
+          "scientific knowledge",
+          3
+        ],
+        [
+          "either good",
+          3
+        ],
+        [
+          "know don",
+          2
+        ],
+        [
+          "kinds things",
+          2
+        ],
+        [
+          "instructions use",
+          2
+        ],
+        [
+          "buddhist religion",
+          2
+        ],
+        [
+          "value key",
+          2
+        ],
+        [
+          "clear instructions",
+          2
+        ],
+        [
+          "fact science",
+          2
+        ],
+        [
+          "value society",
+          2
+        ],
+        [
+          "many times",
+          2
+        ],
+        [
+          "atoms consciousness",
+          2
+        ],
+        [
+          "don know",
+          2
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "part",
+        "sense",
+        "state",
+        "political"
+      ]
+    },
+    "c11.txt": {
+      "counts": {
+        "words": 4825,
+        "sentences": 206,
+        "paragraphs": 66
+      },
+      "sentence_length": {
+        "n": 206,
+        "mean": 23.42,
+        "median": 21.0,
+        "stdev": 14.4,
+        "p10": 10,
+        "p90": 39,
+        "min": 4,
+        "max": 114
+      },
+      "paragraph_length": {
+        "n": 66,
+        "mean": 73.11,
+        "median": 44.5,
+        "stdev": 70.89,
+        "p10": 4,
+        "p90": 199,
+        "min": 2,
+        "max": 272
+      },
+      "lexical_diversity_mattr500": 0.479,
+      "hedges_per_1k": 7.88,
+      "boosters_per_1k": 2.28,
+      "hedge_booster_ratio": 3.45,
+      "punctuation_per_1k": {
+        "em_dash": 0.0,
+        "semicolon": 1.04,
+        "colon": 0.21,
+        "question": 2.49,
+        "exclamation": 0.21,
+        "parenthetical": 8.29
+      },
+      "person_reference_pct": {
+        "first": 50.0,
+        "second": 1.5,
+        "third": 48.5
+      },
+      "top_content_words": [
+        [
+          "time",
+          32
+        ],
+        [
+          "flight",
+          28
+        ],
+        [
+          "safety",
+          27
+        ],
+        [
+          "failure",
+          25
+        ],
+        [
+          "engine",
+          22
+        ],
+        [
+          "system",
+          20
+        ],
+        [
+          "engines",
+          17
+        ],
+        [
+          "one",
+          16
+        ],
+        [
+          "nasa",
+          14
+        ],
+        [
+          "flights",
+          13
+        ],
+        [
+          "erosion",
+          13
+        ],
+        [
+          "cracks",
+          13
+        ],
+        [
+          "computer",
+          13
+        ],
+        [
+          "shuttle",
+          12
+        ],
+        [
+          "main",
+          12
+        ],
+        [
+          "rocket",
+          12
+        ],
+        [
+          "crack",
+          12
+        ],
+        [
+          "used",
+          11
+        ],
+        [
+          "turbine",
+          11
+        ],
+        [
+          "etc",
+          11
+        ],
+        [
+          "blades",
+          11
+        ],
+        [
+          "seconds",
+          11
+        ],
+        [
+          "found",
+          10
+        ],
+        [
+          "certification",
+          10
+        ],
+        [
+          "space",
+          10
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "space shuttle",
+          8
+        ],
+        [
+          "safety factor",
+          8
+        ],
+        [
+          "shuttle main",
+          7
+        ],
+        [
+          "solid rocket",
+          7
+        ],
+        [
+          "rocket booster",
+          6
+        ],
+        [
+          "power level",
+          6
+        ],
+        [
+          "seconds efpl",
+          6
+        ],
+        [
+          "flight readiness",
+          4
+        ],
+        [
+          "readiness reviews",
+          4
+        ],
+        [
+          "turbine blades",
+          4
+        ],
+        [
+          "main engine",
+          4
+        ],
+        [
+          "probability failure",
+          3
+        ],
+        [
+          "range safety",
+          3
+        ],
+        [
+          "safety officer",
+          3
+        ],
+        [
+          "main engines",
+          3
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "people",
+        "world",
+        "thing",
+        "sense",
+        "state",
+        "social",
+        "political"
+      ]
+    },
+    "c13.txt": {
+      "counts": {
+        "words": 9255,
+        "sentences": 422,
+        "paragraphs": 25
+      },
+      "sentence_length": {
+        "n": 422,
+        "mean": 21.93,
+        "median": 19.0,
+        "stdev": 14.46,
+        "p10": 7,
+        "p90": 40,
+        "min": 1,
+        "max": 117
+      },
+      "paragraph_length": {
+        "n": 25,
+        "mean": 370.2,
+        "median": 381,
+        "stdev": 50.9,
+        "p10": 261,
+        "p90": 411,
+        "min": 219,
+        "max": 419
+      },
+      "lexical_diversity_mattr500": 0.43,
+      "hedges_per_1k": 12.43,
+      "boosters_per_1k": 6.48,
+      "hedge_booster_ratio": 1.92,
+      "punctuation_per_1k": {
+        "em_dash": 4.11,
+        "semicolon": 3.03,
+        "colon": 0.86,
+        "question": 2.49,
+        "exclamation": 0.86,
+        "parenthetical": 0.43
+      },
+      "person_reference_pct": {
+        "first": 51.0,
+        "second": 28.9,
+        "third": 20.1
+      },
+      "top_content_words": [
+        [
+          "laws",
+          48
+        ],
+        [
+          "one",
+          41
+        ],
+        [
+          "guess",
+          39
+        ],
+        [
+          "wrong",
+          35
+        ],
+        [
+          "experiment",
+          35
+        ],
+        [
+          "new",
+          34
+        ],
+        [
+          "right",
+          34
+        ],
+        [
+          "law",
+          31
+        ],
+        [
+          "get",
+          30
+        ],
+        [
+          "consequences",
+          30
+        ],
+        [
+          "know",
+          29
+        ],
+        [
+          "say",
+          29
+        ],
+        [
+          "way",
+          29
+        ],
+        [
+          "particles",
+          27
+        ],
+        [
+          "theory",
+          27
+        ],
+        [
+          "make",
+          25
+        ],
+        [
+          "like",
+          25
+        ],
+        [
+          "things",
+          24
+        ],
+        [
+          "something",
+          23
+        ],
+        [
+          "always",
+          22
+        ],
+        [
+          "time",
+          22
+        ],
+        [
+          "known",
+          21
+        ],
+        [
+          "ideas",
+          21
+        ],
+        [
+          "thing",
+          21
+        ],
+        [
+          "idea",
+          21
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "new laws",
+          14
+        ],
+        [
+          "character physical",
+          14
+        ],
+        [
+          "physical law",
+          14
+        ],
+        [
+          "seeking new",
+          13
+        ],
+        [
+          "neutrons protons",
+          9
+        ],
+        [
+          "new law",
+          7
+        ],
+        [
+          "compute consequences",
+          7
+        ],
+        [
+          "high energy",
+          6
+        ],
+        [
+          "something like",
+          6
+        ],
+        [
+          "nuclear forces",
+          6
+        ],
+        [
+          "agree experiment",
+          6
+        ],
+        [
+          "throw away",
+          6
+        ],
+        [
+          "neutron proton",
+          5
+        ],
+        [
+          "compared experiment",
+          5
+        ],
+        [
+          "completely different",
+          5
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "part",
+        "system",
+        "power",
+        "human",
+        "social",
+        "political"
+      ]
+    },
+    "c16.txt": {
+      "counts": {
+        "words": 1864,
+        "sentences": 57,
+        "paragraphs": 26
+      },
+      "sentence_length": {
+        "n": 57,
+        "mean": 32.7,
+        "median": 25,
+        "stdev": 24.18,
+        "p10": 6,
+        "p90": 72,
+        "min": 2,
+        "max": 95
+      },
+      "paragraph_length": {
+        "n": 26,
+        "mean": 71.69,
+        "median": 60.0,
+        "stdev": 68.07,
+        "p10": 1,
+        "p90": 165,
+        "min": 1,
+        "max": 258
+      },
+      "lexical_diversity_mattr500": 0.417,
+      "hedges_per_1k": 6.44,
+      "boosters_per_1k": 3.76,
+      "hedge_booster_ratio": 1.71,
+      "punctuation_per_1k": {
+        "em_dash": 9.12,
+        "semicolon": 4.29,
+        "colon": 8.58,
+        "question": 2.15,
+        "exclamation": 4.29,
+        "parenthetical": 3.22
+      },
+      "person_reference_pct": {
+        "first": 36.9,
+        "second": 33.6,
+        "third": 29.5
+      },
+      "top_content_words": [
+        [
+          "find",
+          11
+        ],
+        [
+          "don",
+          11
+        ],
+        [
+          "people",
+          10
+        ],
+        [
+          "school",
+          10
+        ],
+        [
+          "lectures",
+          9
+        ],
+        [
+          "good",
+          8
+        ],
+        [
+          "best",
+          8
+        ],
+        [
+          "course",
+          8
+        ],
+        [
+          "one",
+          8
+        ],
+        [
+          "know",
+          8
+        ],
+        [
+          "caltech",
+          7
+        ],
+        [
+          "themselves",
+          7
+        ],
+        [
+          "bottom",
+          7
+        ],
+        [
+          "class",
+          7
+        ],
+        [
+          "physics",
+          6
+        ],
+        [
+          "come",
+          6
+        ],
+        [
+          "make",
+          6
+        ],
+        [
+          "yourself",
+          6
+        ],
+        [
+          "even",
+          6
+        ],
+        [
+          "anything",
+          6
+        ],
+        [
+          "now",
+          6
+        ],
+        [
+          "get",
+          6
+        ],
+        [
+          "guys",
+          6
+        ],
+        [
+          "number",
+          6
+        ],
+        [
+          "way",
+          5
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "don know",
+          7
+        ],
+        [
+          "high school",
+          4
+        ],
+        [
+          "number one",
+          4
+        ],
+        [
+          "find themselves",
+          3
+        ],
+        [
+          "many people",
+          2
+        ],
+        [
+          "time think",
+          2
+        ],
+        [
+          "piddle around",
+          2
+        ],
+        [
+          "find interesting",
+          2
+        ],
+        [
+          "new course",
+          2
+        ],
+        [
+          "physics course",
+          2
+        ],
+        [
+          "anything like",
+          2
+        ],
+        [
+          "people don",
+          2
+        ],
+        [
+          "bottom class",
+          2
+        ],
+        [
+          "class don",
+          2
+        ],
+        [
+          "advantage certain",
+          2
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "life",
+        "part",
+        "reason",
+        "power",
+        "order",
+        "state",
+        "important",
+        "different",
+        "human",
+        "social",
+        "political"
+      ]
+    }
+  }
+}

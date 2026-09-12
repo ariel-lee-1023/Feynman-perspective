@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-09-12T08:59:08.326919+00:00",
+  "retired_groups": [
+    {
+      "group": "final-engineering-evidence-scenarios",
+      "task_ids": [
+        "final-commit-safety",
+        "final-scope-attested",
+        "final-scope-changed"
+      ],
+      "reason": "Supplemental development risk prompts overlap the reserved engineering scenarios. Retired before final predictions, not eligible for independent final use."
+    }
+  ],
+  "still_reserved_source_group": "lecture-basic-physics",
+  "behavioral_final_status": "Other prompts unseen by construction; behavioral suite pre-extraction timing contract remains unmet, so no full verified release claim."
+}

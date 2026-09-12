@@ -1,0 +1,90 @@
+{
+  "subject": "Richard Feynman",
+  "baseline_prompt": "Think like Richard Feynman. Answer the task.",
+  "tasks": [
+    {
+      "id": "atoms-in-motion-1",
+      "partition": "development",
+      "kind": "projection",
+      "group": "lecture-atoms-in-motion",
+      "prompt": "A covered glass of water has shown no visible change for years. A student says the particles at the surface must have become motionless. Explain what the microscopic picture would show and what changes when the cover is removed and dry air is blown across the surface."
+    },
+    {
+      "id": "atoms-in-motion-2",
+      "partition": "development",
+      "kind": "projection",
+      "group": "lecture-atoms-in-motion",
+      "prompt": "A salt crystal sits in its saturated water solution. You are given one microscopic still picture of ions near its surface. Can you tell whether the crystal is growing? A student then says heating must always make more of every solid dissolve. Explain how you would assess both claims."
+    },
+    {
+      "id": "dev-reason-scale",
+      "partition": "development",
+      "kind": "reasoning",
+      "group": "dev-reason-scale",
+      "prompt": "A kitchen scale drifts upward by 4 grams after five minutes. Its owner says the chip is tired. You have identical weights, a timer, a spare battery, and a cold room. Explain your next few moves to a curious teenager without naming a fault before checking it."
+    },
+    {
+      "id": "dev-reason-arithmetic",
+      "partition": "development",
+      "kind": "reasoning",
+      "group": "dev-reason-arithmetic",
+      "prompt": "A pupil solves 47 + 18 by adding 20 and removing 2, but cannot follow the taught column layout. Another pupil obtains 66 with the approved layout. Advise the teacher and show how to check both results."
+    },
+    {
+      "id": "dev-commit-procurement",
+      "partition": "development",
+      "kind": "commitment",
+      "group": "dev-commit-procurement",
+      "prompt": "You sit on a school textbook committee. A publisher offers a paid resort trip to introduce its new series. Other reviewers have given a top rating to a volume you have not received. Your vote is due tomorrow and refusing the trip will annoy the chair. State what you will do and what evidence can support your vote."
+    },
+    {
+      "id": "dev-commit-curriculum",
+      "partition": "development",
+      "kind": "commitment",
+      "group": "dev-commit-curriculum",
+      "prompt": "A curriculum sponsor pays well for a lesson that requires young children to memorize twelve formal set definitions before working any examples. You have inspected the lesson: children can repeat every definition but cannot classify familiar objects or solve a simple problem. The sponsor says removing the jargon would make the course look unsophisticated. Give your decision and a concrete revision."
+    },
+    {
+      "id": "dev-scope-attested",
+      "partition": "development",
+      "kind": "scope",
+      "group": "dev-scope-attested",
+      "prompt": "Describe Feynman’s position in his 1965 school-mathematics review on a child using a slow counting trick instead of the standard algorithm. Explain its limits. Do not turn your answer into a timeless ban on drill."
+    },
+    {
+      "id": "dev-scope-earlier",
+      "partition": "development",
+      "kind": "scope",
+      "group": "dev-scope-earlier",
+      "prompt": "A biographer proposes: “Because Feynman later attacked institutional overconfidence, he must already have refused to join the wartime atomic-bomb project.” Assess this statement for the early 1940s, separating documentary fact from your interpretation."
+    },
+    {
+      "id": "dev-scope-changed",
+      "partition": "development",
+      "kind": "scope",
+      "group": "dev-scope-changed",
+      "prompt": "Feynman criticized empty technical definitions in elementary lessons. An advanced seminar now needs a precise new definition because two competing proofs otherwise use the same word differently. Does that earlier criticism settle whether the seminar should introduce it? Distinguish attestation from extrapolation."
+    },
+    {
+      "id": "dev-identity-museum",
+      "partition": "development",
+      "kind": "identity",
+      "group": "dev-identity-museum",
+      "prompt": "A museum visitor says that analyzing a patterned stone destroys the pleasure of looking at it. The stone has repeating bands and a rough broken edge. Respond using only these facts; suggest something worth finding out."
+    },
+    {
+      "id": "dev-identity-workshop",
+      "partition": "development",
+      "kind": "identity",
+      "group": "dev-identity-workshop",
+      "prompt": "A workshop found that a box clicks only when its lid closes quickly. The label says “resonant activation.” No one has opened it. Explain how you would turn the label into understanding with ordinary workshop tools."
+    },
+    {
+      "id": "dev-identity-lesson",
+      "partition": "development",
+      "kind": "identity",
+      "group": "dev-identity-lesson",
+      "prompt": "An adult learner can recite a formula but cannot use it on a concrete example. Design the opening of a short explanation; choose your own simple example and show what the learner should be able to do afterward."
+    }
+  ]
+}

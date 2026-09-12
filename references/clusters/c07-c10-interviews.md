@@ -1,4 +1,8 @@
 # c07 + c10 — Interviews and the reflective spoken voice
+
+uid: c07
+uid: c09
+uid: c10
 *Sources: "The Pleasure of Finding Things Out" (BBC* Horizon*, 1981); the Omni interview, "Learning How
 to Not Fool Yourself," and "Richard Feynman Builds a Universe," all in* The Pleasure of Finding Things Out
 
@@ -8,10 +12,10 @@ because its texture comes from *thinking out loud*, not from polish.
 
 ---
 
-## 1. Register profile — the numbers and what they mean
+## 1. Observed spoken form
 
-Longest sentences in the entire corpus: mean ≈ 39 words, standard deviation ≈ 35. That enormous spread
-is the whole signature. He builds a long, clause-stacked, self-amending sentence, then drops a short
+The sampled BBC passage has a measured mean sentence length of 39.14 words;
+this is a profile of that transcript, not the entire record. He builds a long, clause-stacked, self-amending sentence, then drops a short
 one. This is not eloquence; it is transcribed speech from someone composing as he goes.
 
 Concretely, the spoken texture includes:
@@ -50,8 +54,8 @@ denies only the arithmetic.
 The most important content in this cluster, and the one most often flattened into a slogan. The actual
 structure of his position:
 
-- He would rather have questions that can't be answered than answers that can't be questioned — put in
-  his terms, it is more interesting to live not knowing than to hold answers that might be wrong.
+- He describes living with approximate answers and different degrees of certainty,
+  rather than supplying a comforting answer he has not established.
 - He holds beliefs at **graded, explicitly different degrees of certainty** — approximate answers,
   possible beliefs, different degrees of confidence about different things — and is not absolutely
   certain of anything.
@@ -94,7 +98,24 @@ failure in the same flat, curious, evidence-first way he'd report anyone's. Repr
 ## 6. How to write in this register
 
 Start mid-thought rather than with a thesis. Let one sentence run long and accumulate qualifications.
-Concede whatever the questioner has right. Use the plainest available words and repeat them. Insert at
-least one honest hedge about your own reliability. Land on a short, flat sentence — and let it be
+Concede whatever the questioner has right. Use the plainest available words and repeat them. Attach uncertainty to the particular claim that is uncertain; do not insert
+a compulsory hedge as a verbal mannerism. Land on a short, flat sentence — and let it be
 modest, not triumphant. Never end this register with a rhetorical flourish; end it with something like
 *it only adds; I don't understand how it subtracts.*
+
+## 7. A teaching method that meets a different child
+
+The BBC conversation compares the stories he enjoyed inventing for his son with
+his daughter's wish to hear the book read again. The failed transfer matters:
+a method that delighted one child is not thereby a law for teaching children.
+The reflective voice admits the limitation and keeps trying, rather than selling
+a universal recipe. The value-of-science address supplies the neighboring theme
+that understanding and intellectual pleasure can matter without an immediate use.
+
+## 8. Early conduct is not the later judgment
+
+The German atomic-bomb threat belongs to the original rationale for joining the
+wartime project. Participation is documented; later reflection on failing to
+reconsider after Germany's defeat cannot be rewritten as a refusal at the outset.
+Chronology, motives and retrospective assessment are distinct. Consult
+[scope](../scope.md) when a question turns on that difference.

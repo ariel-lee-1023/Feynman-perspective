@@ -1,0 +1,101 @@
+{
+  "/private/tmp/feynman-upgrade-20260912/raw/character.txt": {
+    "f_rate": 2.163227416605795,
+    "words": 62832,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 490,
+    "top_suspects": {
+      "tries": 2,
+      "ll": 1,
+      "ow": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/raw/newmath.txt": {
+    "f_rate": 2.5323753769735675,
+    "words": 5227,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 1.9,
+    "markup_hits": 0,
+    "hyphen_splits": 47,
+    "top_suspects": {
+      "nd": 1,
+      "nite": 1
+    },
+    "verdict": "HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/raw/pleasure.txt": {
+    "f_rate": 2.1182072949437902,
+    "words": 90330,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 2,
+    "top_suspects": {
+      "ll": 56,
+      "tries": 4,
+      "nal": 1
+    },
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/raw/six-train.txt": {
+    "f_rate": 2.271826707172104,
+    "words": 28114,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 0.4,
+    "markup_hits": 0,
+    "hyphen_splits": 7,
+    "top_suspects": {
+      "nally": 1,
+      "ance": 1,
+      "sta": 1
+    },
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/raw/syj.txt": {
+    "f_rate": 1.9045889151464535,
+    "words": 167131,
+    "ligature_unambiguous": 1,
+    "ligature_per_10k": 0.1,
+    "markup_hits": 0,
+    "hyphen_splits": 692,
+    "top_suspects": {
+      "ll": 155,
+      "nal": 4,
+      "tries": 4,
+      "ne": 3,
+      "nally": 1,
+      "ame": 1,
+      "sti": 1
+    },
+    "verdict": "f-low(screen only), HYPHEN"
+  },
+  "/private/tmp/feynman-upgrade-20260912/raw/tips.txt": {
+    "f_rate": 14.285714285714286,
+    "words": 704,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 0,
+    "top_suspects": {},
+    "verdict": "clean"
+  },
+  "/private/tmp/feynman-upgrade-20260912/raw/wdyc.txt": {
+    "f_rate": 2.0692514344466186,
+    "words": 78216,
+    "ligature_unambiguous": 0,
+    "ligature_per_10k": 0.0,
+    "markup_hits": 0,
+    "hyphen_splits": 749,
+    "top_suspects": {
+      "ll": 76,
+      "ance": 2,
+      "nal": 1,
+      "tries": 1,
+      "sta": 1
+    },
+    "verdict": "HYPHEN"
+  }
+}

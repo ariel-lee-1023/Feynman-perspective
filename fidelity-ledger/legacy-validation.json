@@ -1,0 +1,143 @@
+{
+  "package": "/Users/AI products/GIthub/feynman-perspective",
+  "skill_root": "/Users/AI products/GIthub/feynman-perspective/.agents/skills/feynman-perspective",
+  "strict": false,
+  "checks": [
+    {
+      "check": "S1",
+      "level": "error",
+      "ok": true,
+      "detail": "one discoverable skill exists under .agents/skills/",
+      "effective_level": "error"
+    },
+    {
+      "check": "S2",
+      "level": "error",
+      "ok": true,
+      "detail": "SKILL.md exists inside the discovered skill directory",
+      "effective_level": "error"
+    },
+    {
+      "check": "S3",
+      "level": "error",
+      "ok": false,
+      "detail": "need references/ with voice.md and frameworks.md",
+      "effective_level": "error"
+    },
+    {
+      "check": "S4",
+      "level": "error",
+      "ok": true,
+      "detail": "fidelity-ledger/provenance.md present outside .agents/",
+      "effective_level": "error"
+    },
+    {
+      "check": "S4",
+      "level": "warn",
+      "ok": true,
+      "detail": "fidelity-ledger/episodic.md present",
+      "effective_level": "warn"
+    },
+    {
+      "check": "S5",
+      "level": "error",
+      "ok": true,
+      "detail": "no ledger files under references/",
+      "effective_level": "error"
+    },
+    {
+      "check": "S6",
+      "level": "error",
+      "ok": true,
+      "detail": "cluster modules directory is references/clusters/",
+      "effective_level": "error"
+    },
+    {
+      "check": "C1",
+      "level": "error",
+      "ok": true,
+      "detail": "frontmatter has name and description",
+      "effective_level": "error"
+    },
+    {
+      "check": "C1b",
+      "level": "error",
+      "ok": true,
+      "detail": "frontmatter name matches .agents/skills directory",
+      "effective_level": "error"
+    },
+    {
+      "check": "C2",
+      "level": "error",
+      "ok": true,
+      "detail": "description is non-empty and runtime-facing",
+      "effective_level": "error"
+    },
+    {
+      "check": "C3",
+      "level": "warn",
+      "ok": true,
+      "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
+      "effective_level": "warn"
+    },
+    {
+      "check": "C4",
+      "level": "error",
+      "ok": false,
+      "detail": "banned strings in core: provenance, episodic.md",
+      "effective_level": "error"
+    },
+    {
+      "check": "C5",
+      "level": "error",
+      "ok": true,
+      "detail": "runtime links and disk agree",
+      "effective_level": "error"
+    },
+    {
+      "check": "C6",
+      "level": "error",
+      "ok": false,
+      "detail": "unresolved cluster citations: c02, c03, c05, c08, c09, c10, c11, c12, c14, c15, c16",
+      "effective_level": "error"
+    },
+    {
+      "check": "L1",
+      "level": "warn",
+      "ok": false,
+      "detail": "possible second-person/imperative line(s): 8, 9, 29",
+      "effective_level": "warn"
+    },
+    {
+      "check": "L2",
+      "level": "error",
+      "ok": false,
+      "detail": "first provenance heading must identify admission rules or legacy weights (found: Corpus & clusters)",
+      "effective_level": "error"
+    },
+    {
+      "check": "L3",
+      "level": "error",
+      "ok": true,
+      "detail": "episodic.md exceeds near-empty floor",
+      "effective_level": "error"
+    },
+    {
+      "check": "X1",
+      "level": "error",
+      "ok": true,
+      "detail": "references contain no numeric composite/probe score pattern",
+      "effective_level": "error"
+    },
+    {
+      "check": "R0",
+      "level": "error",
+      "ok": false,
+      "detail": "[Errno 2] No such file or directory: '/Users/AI products/GIthub/feynman-perspective/fidelity-ledger/split.json'",
+      "effective_level": "error"
+    }
+  ],
+  "errors": 5,
+  "warnings": 1,
+  "verdict": "FAIL"
+}

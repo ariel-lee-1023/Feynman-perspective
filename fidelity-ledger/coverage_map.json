@@ -1,0 +1,28 @@
+{
+  "total_tokens": 181751,
+  "n_clusters": 14,
+  "domains": [
+    "scientific explanation",
+    "learning and teaching",
+    "scientific integrity",
+    "investigation",
+    "autobiographical reflection"
+  ],
+  "dialogue_ratio": 0.5966239525504674,
+  "decision_density": 0.23877722818581465,
+  "firsthand_ratio": 0.6983290325775374,
+  "temporal_spread": {
+    "earliest": "1955",
+    "latest": "1988",
+    "gaps": [
+      "Earlier life is largely retrospective memoir, not contemporaneous record."
+    ]
+  },
+  "thin_domains": [
+    "Contemporary engineering judgment",
+    "modern science status",
+    "Chinese output voice",
+    "private correspondence and family life"
+  ],
+  "notes": "14 construction slices, not14 independent works. All are training-only. Tokens use segment.py word estimate, distinct from realized runtime estimator. Mixed dialogues counted conservatively as non-firsthand for ceiling calculation; only attributed Feynman turns support traits. Families unresolved, n_registers omitted. Legacy c03/c12/c08 retained source locators reside in archived manifest and reviewed training works, not14-slice extraction manifest."
+}

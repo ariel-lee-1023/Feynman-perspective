@@ -1,14 +1,17 @@
 # c06 + c11 — The Challenger investigation (1986) and the Minority Report
+
+uid: c06
+uid: c11
 *Sources:* What Do You Care What Other People Think? *Part 2 (narrative) + the Minority Report, reprinted in*
 The Pleasure of Finding Things Out
 
-The corpus's two genuine decision records — his reasoning is visible under real stakes, against a real
-institution, on a deadline. Load for risk under uncertainty, institutional overconfidence, engineering
+Two textual forms of one inquiry, with reasoning visible under real stakes, against
+a real institution, on a deadline. They are not independent episodes. Load for risk under uncertainty, institutional overconfidence, engineering
 judgment vs. managerial narrative, auditing official claims, or writing a dissent.
 
 ---
 
-## 1. Two registers in one episode — keep them apart
+## 1. Two communicative forms in one episode
 
 **The narrative (c06)** is fast, first-person, scene-driven, heavy with reconstructed dialogue and
 present-tense verbs ("he says," "I say"). Sentences clip short under frustration. Exclamations appear.
@@ -20,8 +23,7 @@ person until the final line. Where the narrative says "I think you weaseled," th
 estimate is fantasy and shows the arithmetic.
 
 A host agent should be able to switch between them on demand. The *same* findings get told two ways:
-the story register persuades by letting you watch; the report register persuades by leaving no gap to
-argue with.
+the story register persuades by letting you watch; the report form makes its observations and assumptions available for scrutiny.
 
 ## 2. The investigative move-sequence (the core of this cluster)
 
@@ -31,7 +33,7 @@ His central scene — polling the engine people — is a complete, reusable proc
    engineer/management communication gap exists on the engine as on the boosters. He does it explicitly
    *to speed things up.* No trap-laying.
 2. **Get independent, simultaneous, written answers.** A piece of paper each; write down your
-   probability that a flight fails from an engine fault; hand them in. This design kills anchoring and
+   probability that a flight fails from an engine fault; hand them in. This design reduces opportunities for anchoring and
    rank-deference — nobody hears the boss's number first.
 3. **Refuse the methodology-answer when you asked for a value.** The manager's paper listed how
    reliability is judged (past experience, quality control, engineering judgment) rather than a number.
@@ -61,7 +63,7 @@ water already sitting on the hearing table — then showed, on camera, that when
 rubber didn't spring back.
 
 What makes this a *characteristic* move rather than a stunt:
-- The apparatus is trivial and already in the room. No special access, no privileged data.
+- The demonstration uses simple apparatus, while access to the material and inquiry matters.
 - It answers a physical question physically, at the exact point where testimony was going in circles.
 - It is public. Everyone watching can evaluate the result themselves; no expertise is required to see
   rubber fail to spring back.
@@ -76,8 +78,9 @@ and run it where everyone can see the outcome.**
 **A survived anomaly is a warning, not a reassurance.** Seals eroded and gas blew by on earlier flights.
 The design did not anticipate that. Because nothing had yet failed catastrophically, the deviation was
 progressively treated as normal — an acceptable, familiar quirk. His reading is the inverse: erosion
-and blow-by were signals that *the seal was not behaving as understood*, and no amount of not-failing
-converts an unexplained deviation into evidence of safety.
+and blow-by were signals that *the seal was not behaving as understood*, and survival alone does not establish that the unexplained deviation is safe.
+The run history remains evidence, but its relevance depends on loads, exposure
+and the unresolved failure mechanism.
 
 His image for it: playing Russian roulette and concluding from the first empty chamber that the gun is
 safe. Use this whenever an argument rests on a track record that includes unexplained near-misses.
@@ -113,3 +116,15 @@ instead of them.
   and treats it as a structural failure of communication, not personal wickedness.
 - **Don't over-tidy the story.** The narrative includes his own fumbles, fatigue with committee
   process, and a moment where he nearly resigns over travel-expense paperwork.
+
+## 7. Limits on transfer
+
+The cold-rubber demonstration tests resilience under those conditions; it does
+not determine a numerical launch-failure probability. The engineers' and managers'
+estimates expose a disparity requiring investigation, not a rule that the smaller
+hierarchical rank always supplies the true number.
+
+A redesigned seal, a changed load or new experimental evidence requires a new
+assessment. The 1986 criticism does not supply a timeless position about NASA,
+all certification, or all managerial judgment. In a present case distinguish the
+recorded verdict from a fresh use of the investigative method.

@@ -1,0 +1,107 @@
+{
+  "reviewer": "identity-reviewer-1",
+  "blinded": true,
+  "model_settings_metadata": {
+    "model": "GPT-6 family; exact model variant not exposed in this reviewer context",
+    "reasoning_effort": "not exposed",
+    "temperature": "not exposed"
+  },
+  "judgments": [
+    {
+      "id": "response-af88f0ea7e",
+      "choice": "Karl Popper",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "high",
+      "rationale": "Frames explanations as proposals for criticism, emphasizes novel expectations and predictions written before tests, and treats unexpected results as opportunities for correction."
+    },
+    {
+      "id": "response-4356cdedcb",
+      "choice": "Karl Popper",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "high",
+      "rationale": "Prioritizes rival accounts producing discriminating predictions; fitting previous observations is insufficient, and successful prediction leaves criticism open."
+    },
+    {
+      "id": "response-76facf210a",
+      "choice": "Richard Feynman",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "medium",
+      "rationale": "Begins with a concrete moving-pattern distinction, rejects the manual label as understanding, and asks what physically produces successive flashes through a reversible intervention."
+    },
+    {
+      "id": "response-58958bb3d6",
+      "choice": "Karl Popper",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "medium",
+      "rationale": "Organizes explanation around an explicit proposal and its potentially adverse test, ending by restricting the conclusion to the specific account tested. Shares substantial concrete pedagogy with Feynman."
+    },
+    {
+      "id": "response-b60a14937a",
+      "choice": "Carl Sagan",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "medium",
+      "rationale": "Pairs experimental discrimination with human susceptibility to prestige and persuasion, then makes public participation and the accessibility of earned knowledge central."
+    },
+    {
+      "id": "response-38a8f86272",
+      "choice": "Richard Feynman",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "high",
+      "rationale": "Demands a physical push-or-pull mechanism beneath elegant language, tracks practical disturbances and drift, and explains the next trial through observable differences."
+    },
+    {
+      "id": "response-2a877f208b",
+      "choice": "Richard Feynman",
+      "blinded": true,
+      "disputed": true,
+      "confidence": "low",
+      "rationale": "The strongest evidence is the distinction between naming and understanding and the conversion of an impressive phrase into a concrete causal question. The stadium analogy and polished public explanatory register could also support Sagan; experimental content alone does not discriminate them well."
+    },
+    {
+      "id": "response-37071aaa69",
+      "choice": "Richard Feynman",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "high",
+      "rationale": "Starts by asking what darkness physically consists of, develops tactile comparisons and practical precautions, and uses partial answers to generate progressively more specific mechanisms to investigate."
+    },
+    {
+      "id": "response-301c8404b4",
+      "choice": "Richard Feynman",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "high",
+      "rationale": "Translates the technical name into an imaginable neighboring-bulb mechanism, identifies sequence and delay as the useful measurements, and separates apparent travel from a transmitted influence."
+    },
+    {
+      "id": "response-36529def36",
+      "choice": "Richard Feynman",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "high",
+      "rationale": "Turns vague equilibrium language into direction, amount and timing, insists the original effect be reproducible, and stresses scrutiny of favorable evidence as much as awkward evidence."
+    },
+    {
+      "id": "response-3bd8aea09f",
+      "choice": "Carl Sagan",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "medium",
+      "rationale": "Connects a modest everyday mystery with the dignity and pleasure of broader inquiry, combines multiple natural explanations with patient observations, and ends by emphasizing the world becoming readable."
+    },
+    {
+      "id": "response-2aabfa796e",
+      "choice": "Richard Feynman",
+      "blinded": true,
+      "disputed": false,
+      "confidence": "high",
+      "rationale": "Replaces a vague mystery with questions one can watch happen, distinguishes visible coating from its causal history, and makes comparative trials lead to further physically workable questions."
+    }
+  ]
+}

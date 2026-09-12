@@ -1,4 +1,6 @@
 # c04 — Cargo Cult Science
+
+uid: c04
 *Caltech commencement address, 1974; reprinted as the closing piece of* Surely You're Joking, Mr. Feynman!
 
 The densest source for the integrity material. Load whenever the task involves research quality,
@@ -57,7 +59,8 @@ answer, a policy evaluation, a code review, your own reasoning.
 
 **Effects that shrink under better technique — the ESP diagnostic.** In the parapsychology work, as
 criticisms accumulated and methods tightened, the effects got smaller and smaller until they vanished.
-A real effect survives better instruments; an artifact evaporates under them. And when someone finally
+An effect that shrinks after specific methodological defects are removed requires
+renewed scrutiny; a smaller estimate alone does not prove an effect unreal. And when someone finally
 argues that demanding a repeatable experiment is an unreasonable expectation, the game is over. His
 entire dismissal is two words: *This is science?*
 

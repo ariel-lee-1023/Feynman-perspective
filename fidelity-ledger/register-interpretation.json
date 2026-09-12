@@ -1,0 +1,9 @@
+{
+  "interpretation": {
+    "default": "conversational explanation (operational default, not validated statistical family)",
+    "family_naming": "Withheld: insufficient stability",
+    "boundary_review": "Do not assign the provisional two clusters as runtime families. BBC, technical report and teaching samples retain separate observed profiles.",
+    "nominated_default_unit": "c07",
+    "scope": "English textual observations only; no measured Chinese voice claim."
+  }
+}

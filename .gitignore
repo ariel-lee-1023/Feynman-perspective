@@ -1,11 +1,15 @@
-# macOS
+# Local/editor debris
 .DS_Store
-._*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-
-# Packaged skill uploads
-*.zip
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+# Source works and private evaluation targets stay in host scratch
+raw/
+corpus/
+private/
+_work/
+*.pdf
+*.png
+*.tiff

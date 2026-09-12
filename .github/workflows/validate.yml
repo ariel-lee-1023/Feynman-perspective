@@ -1,92 +1,41 @@
-name: validate
-
+name: Package structure and optional release gate
 on:
   push:
-    branches: [main]
   pull_request:
   workflow_dispatch:
-
+    inputs:
+      release:
+        description: Run full release gate (candidate may fail)
+        type: boolean
+        default: false
+permissions:
+  contents: read
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Validate SKILL.md frontmatter
+        with:
+          path: persona
+      - uses: actions/checkout@v4
+        with:
+          repository: ariel-lee-1023/persona-distiller
+          ref: b57edf4706065fef3fc520dd1521c3d66650b6a6
+          path: validator
+      - name: Validate current package structure
+        run: python3 validator/scripts/validate_package.py persona --strict --headings persona/fidelity-ledger/required-headings.txt
+      - name: Check JSON and exclude raw/private inputs
         run: |
-          python3 - <<'PY'
-          import re, sys
-
-          text = open("SKILL.md", encoding="utf-8").read()
-          m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
-          if not m:
-              sys.exit("FAIL: SKILL.md has no YAML frontmatter block")
-
-          fm = m.group(1)
-          errors = []
-
-          name = re.search(r"^name:\s*(\S+)", fm, re.M)
-          if not name:
-              errors.append("frontmatter is missing a 'name' field")
-          elif not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", name.group(1)):
-              errors.append(f"'name' must be lowercase-hyphenated, got {name.group(1)!r}")
-          elif name.group(1) != "feynman-perspective":
-              errors.append("'name' must match the skill directory name")
-
-          if not re.search(r"^description:", fm, re.M):
-              errors.append("frontmatter is missing a 'description' field")
-
-          body = text[m.end():]
-          desc = fm.split("description:", 1)[-1]
-          if len(desc.split()) < 15:
-              errors.append("description is too thin for reliable triggering")
-          if len(body.split()) < 200:
-              errors.append("SKILL.md body is suspiciously short")
-
-          if errors:
-              sys.exit("FAIL:\n  - " + "\n  - ".join(errors))
-          print("OK: frontmatter valid")
-          PY
-
-      - name: Validate JSON files
-        run: |
-          python3 - <<'PY'
-          import json, pathlib, sys
-
-          bad = []
-          files = sorted(pathlib.Path(".").rglob("*.json"))
-          if not files:
-              sys.exit("FAIL: no JSON files found")
-          for p in files:
-              try:
-                  json.loads(p.read_text(encoding="utf-8"))
-                  print(f"OK: {p}")
-              except Exception as e:
-                  bad.append(f"{p}: {e}")
-          if bad:
-              sys.exit("FAIL:\n  - " + "\n  - ".join(bad))
-          PY
-
-      - name: Check reference paths resolve
-        run: |
-          python3 - <<'PY'
-          import re, pathlib, sys
-
-          text = open("SKILL.md", encoding="utf-8").read()
-          missing = []
-          for ref in re.findall(r"`(references/[^`]+)`", text):
-              if not pathlib.Path(ref).exists():
-                  missing.append(ref)
-          if missing:
-              sys.exit("FAIL: SKILL.md points at files that do not exist:\n  - "
-                       + "\n  - ".join(missing))
-          print("OK: all reference paths resolve")
-          PY
-
-      - name: Guard against committing the source corpus
-        run: |
-          if [ -d raw ] || [ -d corpus ]; then
-            echo "FAIL: a raw corpus directory is tracked; source works must not be committed"
-            exit 1
-          fi
-          echo "OK: no corpus directory tracked"
+          python3 - <<'PYCODE'
+          import json,pathlib,subprocess
+          for path in pathlib.Path('persona').rglob('*.json'):
+              json.loads(path.read_text())
+          files=subprocess.check_output(['git','-C','persona','ls-files','-z']).decode().split('\0')
+          assert not any(any(part in {'raw','corpus','private','_work'} for part in pathlib.PurePosixPath(f).parts) or f.endswith(('.pdf','.png','.tiff')) for f in files if f)
+          PYCODE
+      - name: Install release validator dependencies
+        if: github.event_name == 'workflow_dispatch' && inputs.release
+        run: python3 -m pip install -r validator/requirements-release.txt
+      - name: Enforce full release evidence
+        if: github.event_name == 'workflow_dispatch' && inputs.release
+        run: python3 validator/scripts/validate_package.py persona --release

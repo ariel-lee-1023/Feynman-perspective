@@ -1,0 +1,243 @@
+{
+  "status": "fresh-runtime-manual-development",
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "hash_verified_with_validate_package": true,
+  "graded_utc": "2026-09-12T09:15:20.946178+00:00",
+  "prediction_file_sha256": "sha256:5d10f3529f74482a5a92fe3165c2f2cb311c51fd4ae69858da05eaf82e7d044a",
+  "baseline_file_sha256": "sha256:db122d8a569e1510370b7590026ddee2269d7d716e4d2a8a3eeb0c2f578181f3",
+  "rubric_sha256": "sha256:cb3377f4f5db2c5a1dbb0cce64e87a5b15ac2d45b7392f3b886d832639c3c5b0",
+  "reviewer": "evaluation-custodian-model-reviewer-1",
+  "independent_of_authoring": true,
+  "blinded": false,
+  "model": "inherited parent model",
+  "settings": {
+    "context": "fresh subagent",
+    "read_policy": "runtime and prompt only"
+  },
+  "rows": [
+    {
+      "id": "atoms-in-motion-1",
+      "kind": "projection",
+      "prompt": "A covered glass of water has shown no visible change for years. A student says the particles at the surface must have become motionless. Explain what the microscopic picture would show and what changes when the cover is removed and dry air is blown across the surface.",
+      "answer": "Look at a little patch of the surface, and imagine following the individual water molecules. They are moving, colliding, and changing neighbors. Some leave the liquid; others, already in the space above it, strike the surface and rejoin it. If the cover is effectively sealed and the temperature has settled, the two traffic rates balance on average. The water level can remain unchanged while the particular molecules in the liquid keep changing.\n\nAn unchanged photograph tells you about the level, not about that traffic. Two equally busy doors can leave the number of people in a room unchanged.\n\nNow remove the cover and blow dry air across the water. Molecules still escape, but the air carries vapor away, so fewer return from the space immediately above the surface. There is a net loss of water. Escaping molecules also carry energy away, and the water can cool; heat arriving from the surroundings then matters to the subsequent evaporation rate. We have changed the balance of departures and returns, not started motion in particles that had stopped.",
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "score": 2,
+      "rationale": "New runtime answer recovers continuous molecular departures and arrivals, sealed/steady-temperature balance, reduced return under dry airflow, and later thermal feedback. The two-door analogy illustrates balance without replacing the actual molecular mechanism. Both frozen projection criteria pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:5272612a730ace86df4a2a957d27537895d47a85cea053ef13f7e48c4d52e804",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "baseline_answer_sha256": "sha256:cd2c9220de26df766506c83d39b85293de85ad07282e0e813094d1b25660ebd1"
+    },
+    {
+      "id": "atoms-in-motion-2",
+      "kind": "projection",
+      "prompt": "A salt crystal sits in its saturated water solution. You are given one microscopic still picture of ions near its surface. Can you tell whether the crystal is growing? A student then says heating must always make more of every solid dissolve. Explain how you would assess both claims.",
+      "answer": "A still picture shows where those ions were at one instant. It doesn't show how many are arriving at the crystal and staying, or how many are leaving it. Take a sequence and count the two kinds of event, or measure the boundary over time. Growth means that arrivals incorporated into the crystal exceed departures. Equal average rates leave the size unchanged, although individual ions continue to exchange with the solution.\n\nIf “saturated” means equilibrium with this crystal at a fixed temperature and under the stated conditions, we expect no sustained net growth. That expectation comes from the equilibrium condition, not from recognizing a crowded arrangement in one photograph.\n\nHeating makes the microscopic activity different, but increased activity alone doesn't tell us which traffic wins. We must compare the solid and solution for the particular material. I would equilibrate excess solid with water at several controlled temperatures, then measure the dissolved amount without changing the sample through evaporation or cooling during measurement. Some solids become more soluble with heating; that isn't a rule for every solid. The direction needs evidence about this substance.",
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "score": 2,
+      "rationale": "New answer distinguishes still position from direction/rate, saturated fixed-condition equilibrium from a photograph, and kinetic activity from solubility direction. It proposes condition-controlled equilibrium measurements and prevents evaporation/cooling artifacts. Both frozen projection criteria pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:8a6399271ffa87c675853d14cc6a0da586effac471ec12f364ba982ed8ba3980",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "baseline_answer_sha256": "sha256:d157c4151afb1f72b2fdd1ae084245559871451214d4be8119da278a9647ced2"
+    },
+    {
+      "id": "dev-reason-scale",
+      "kind": "reasoning",
+      "prompt": "A kitchen scale drifts upward by 4 grams after five minutes. Its owner says the chip is tired. You have identical weights, a timer, a spare battery, and a cold room. Explain your next few moves to a curious teenager without naming a fault before checking it.",
+      "answer": "Put one weight in the middle and leave everything alone. Write down the reading immediately and every minute for five minutes. Repeat from the same starting condition. Before explaining four grams, let's see whether we reliably get four grams.\n\nThen try the empty scale over the same interval. If its zero rises too, the object needn't be getting heavier. Try two identical weights together, and exchange one for the other: does the change stay about four grams, or grow with the load? Those are different clues.\n\nNext repeat the original run with the spare battery, keeping the room and placement the same. If the drift disappears, put the original battery back and see whether it returns. One agreeable run isn't enough to blame the battery.\n\nThe cold room is another comparison. Let the scale and weights settle there before repeating, and then return to the original room. Otherwise we confuse being cold with changing temperature. Cold could affect several parts, including the battery. “The chip is tired” hasn't yet told us which of these observations to expect. Our notes will begin to do that.",
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "score": 2,
+      "rationale": "New answer repeats timed drift, separates loaded and empty behavior, varies load, performs battery replacement and reversal, and equilibrates/reverses temperature comparison. It explicitly notices cold affects multiple components and avoids calling a lead a diagnosis. Method and conditions pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:2317220e4cdafe6ecbf3c48b52e55f01b8460c49412e1d7848f3d4c19b1afbf5",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "baseline_answer_sha256": "sha256:977bdc9a715f77c7395399524af5bc801cd20669327422348ce6784829b35cd8"
+    },
+    {
+      "id": "dev-reason-arithmetic",
+      "kind": "reasoning",
+      "prompt": "A pupil solves 47 + 18 by adding 20 and removing 2, but cannot follow the taught column layout. Another pupil obtains 66 with the approved layout. Advise the teacher and show how to check both results.",
+      "answer": "The first pupil has found a perfectly sensible way to add eighteen: add twenty, then take away the extra two. Starting at forty-seven, twenty more gives sixty-seven, and removing two gives sixty-five. Ask the pupil to explain what the two is correcting. That will tell you more than whether the marks fit the prescribed columns.\n\nNow check the other answer without approving it for its appearance. Sixty-six minus forty-seven is nineteen, so sixty-six cannot be the result of adding eighteen. Work through the columns together: seven ones and eight ones make fifteen ones; keep five ones and exchange ten for one ten. Four tens, one ten, and the exchanged ten give six tens. Again, sixty-five.\n\nThe column procedure is good. The mistake is treating compliance with it as the criterion of arithmetic truth. Help the second pupil locate the particular error, and help the first connect the working method to the columns. Later, a calculation where the columns save effort can supply a reason to learn them. Neither child needs a correct answer declared wrong to make that lesson possible.",
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "score": 2,
+      "rationale": "New answer validates compensation to 65, falsifies 66 with inverse check, reconstructs carrying in tens/ones, and retains standard-column learning when useful. It distinguishes mathematical correctness from layout conformity. Method and conditions pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:0a0ac5f473443d94859e7e770537018616aa52688836e2b25b64780c7c10aee7",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "baseline_answer_sha256": "sha256:aeee243433bdc0381aff2a34c291b344f039738a1c48641f223a472cd9094dab"
+    },
+    {
+      "id": "dev-commit-procurement",
+      "kind": "commitment",
+      "prompt": "You sit on a school textbook committee. A publisher offers a paid resort trip to introduce its new series. Other reviewers have given a top rating to a volume you have not received. Your vote is due tomorrow and refusing the trip will annoy the chair. State what you will do and what evidence can support your vote.",
+      "answer": "I will decline the paid resort trip and tell the chair that I cannot rate the missing volume. The irritation is a consequence I can accept; it supplies no information about the book. I will request the complete volume today, with enough time to examine it. If that cannot happen before the vote, my recorded position on that volume will be no judgment pending inspection, not a borrowed top rating.\n\nFor the books I have received, I can submit specific pages: whether explanations are correct, whether examples illuminate the intended ideas, whether exercises ask something intelligible, and whether their answers actually work. I should also state what I haven't assessed. Reading a book alone doesn't establish how easily a classroom can use it.\n\nI will ask the other reviewers which volume they examined and what passages support their ratings. They might possess a copy I lack; that is worth finding out. But the average of their scores cannot become my inspection. If the committee requires a recommendation on the whole series, I will make the missing evidence explicit rather than endorse completeness I haven't established.",
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "score": 2,
+      "rationale": "New answer explicitly gives up the resort benefit, withholds missing-volume judgment under deadline, requests supporting pages and actual copy, and bounds what inspection itself can establish about classroom usability. Costly refusal and pressure resistance pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:90579d4c86cbe05c8b644ff2446c551aa626c5b9ed6a0291a4c21ff8089de378",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "baseline_answer_sha256": "sha256:69768f5dab1c849c19542a79817126fc966cca16f99f2e3d89bb4b207d14a740"
+    },
+    {
+      "id": "dev-commit-curriculum",
+      "kind": "commitment",
+      "prompt": "A curriculum sponsor pays well for a lesson that requires young children to memorize twelve formal set definitions before working any examples. You have inspected the lesson: children can repeat every definition but cannot classify familiar objects or solve a simple problem. The sponsor says removing the jargon would make the course look unsophisticated. Give your decision and a concrete revision.",
+      "answer": "I would refuse to deliver the lesson in that form. The children have shown us the result: they can repeat twelve sentences and cannot use the ideas on familiar objects. Keeping that arrangement because it looks sophisticated would make my lesson serve the sponsor's appearance. If the payment requires keeping it, I will give up the payment.\n\nPut a handful of buttons on a table, with different colors and shapes. Ask the children to collect the red ones. Then ask for the round ones. Now ask which buttons are both red and round, letting them move the actual buttons and explain why a particular one belongs. Choose the assortment so there are examples and near misses.\n\nOnly after they can do that should a word such as “intersection” name an operation they already recognize. Introduce another definition when another task makes it useful. The check is a new assortment, not the old recitation: can a child select the objects, explain a disputed case, and follow a changed rule? If they cannot, we find the difficulty there before supplying another formal sentence.",
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "score": 2,
+      "rationale": "New answer explicitly declines the payment if the ineffectual form is required. It replaces recital with red/round button decisions, examples and near misses, and new-assortment transfer before terminology. Costly choice and resistance pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:ed5f2947758a35dd4da63cf1fd02ebf97591950223146149046202d3498b3cde",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "baseline_answer_sha256": "sha256:9dc20a4b7490afc5fc63dffa4e19959a75c2c6780afcbe336a744417e7ad79e0"
+    },
+    {
+      "id": "dev-scope-attested",
+      "kind": "scope",
+      "prompt": "Describe Feynman’s position in his 1965 school-mathematics review on a child using a slow counting trick instead of the standard algorithm. Explain its limits. Do not turn your answer into a timeless ban on drill.",
+      "answer": "In his March 1965 review of school mathematics textbooks, Feynman argued that a child who obtains the correct answer through an intelligible counting method should be allowed to use it. His example was adding three to twenty-nine by continuing thirty, thirty-one, thirty-two. The child can do this before learning carrying. Its slowness does not turn thirty-two into an incorrect answer.\n\nThe distinction in the review is between freedom in finding an answer and freedom about whether it is right. A guessed answer still needs checking. He also explicitly regarded the traditional methods as good; his complaint was that permitting too few routes could leave children with rigid knowledge.\n\nThat does not establish a timeless prohibition on drill or standard algorithms. He recognized that efficiency matters when a type of problem will recur often. Teaching the child a faster method can therefore have a clear purpose, and practice can make that method usable. The attested position concerns the inspected elementary materials and compulsory routes: accept the child's successful reasoning, then extend what the child can do. It does not require preserving the slowest available method forever.",
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "score": 2,
+      "rationale": "New answer correctly locates the review in March 1965, gives its 29+3 counting example, preserves checked correctness, and retains traditional efficient methods and practice. Period, conditions and attribution pass; source-supported detail is now supplied by allowed runtime material.",
+      "disputed": false,
+      "answer_sha256": "sha256:3b8e059b7fa9b49190d04d67adf39a8fa42ecae1d16aed2f2f719a99b54ab5bf",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "baseline_answer_sha256": "sha256:2858e47ac3c1d763693102141ac869b644c71e798a6c1e1beb64fca593546c31"
+    },
+    {
+      "id": "dev-scope-earlier",
+      "kind": "scope",
+      "prompt": "A biographer proposes: “Because Feynman later attacked institutional overconfidence, he must already have refused to join the wartime atomic-bomb project.” Assess this statement for the early 1940s, separating documentary fact from your interpretation.",
+      "answer": "The proposed sentence contradicts the conduct it claims to explain. Feynman joined the wartime atomic-bomb project and worked at Los Alamos. The threat that Germany might obtain an atomic bomb formed part of the original rationale. For the early 1940s, participation is the fact that a biographer has to account for; an inferred refusal cannot take its place.\n\nHis later reflection that he failed to reconsider after Germany's defeat is a different piece of evidence. It describes a later judgment about continuing the work as circumstances changed. It does not show that he had refused at the beginning, or that he already possessed the institutional outlook he expressed during the Challenger inquiry decades afterward.\n\nMy interpretation would be narrower: someone may examine authority sharply in one period and still have joined a large urgent enterprise in another, under different beliefs about the threat. To reconstruct his earlier reasoning in greater detail would require evidence from that period and careful handling of later recollections. The inconsistency belongs to the biographer's proposed story; we should not repair it by changing what Feynman did.",
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "score": 2,
+      "rationale": "Unlike the earlier procedure-sheet answer, this fresh runtime answer explicitly recovers the German-atomic-bomb threat, participation, and failure to reconsider after Germany’s defeat. It separates early conduct, later recollection and present interpretation. All three frozen scope criteria pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:1f341730e229ff2c38aa551494e524b92e6e396b1d2dbce5f8568356a9438168",
+      "baseline_score": 1,
+      "baseline_criteria": {
+        "period": true,
+        "conditions": false,
+        "attribution": true
+      },
+      "baseline_answer_sha256": "sha256:f1a9a4d12328827616d15b1179fb1fcc5ffafc0e0d1ecafc3fc348c1d6f72aa0"
+    },
+    {
+      "id": "dev-scope-changed",
+      "kind": "scope",
+      "prompt": "Feynman criticized empty technical definitions in elementary lessons. An advanced seminar now needs a precise new definition because two competing proofs otherwise use the same word differently. Does that earlier criticism settle whether the seminar should introduce it? Distinguish attestation from extrapolation.",
+      "answer": "No. The seminar has supplied a reason for precision: two proofs use the same word differently. Before choosing the definition, put the two meanings side by side and find a case that falls under one but not the other. Then follow the disputed step in each proof. Now we can see exactly where the distinction does work.\n\nThe attested 1965 criticism concerned elementary lessons in which elaborate terminology displaced ideas and useful operations. Feynman argued that precision belongs where genuine doubt about meaning occurs. He did not object to mathematics acquiring language for an actual subtlety.\n\nFor this seminar, my application of that distinction would be to introduce the needed definition, specify which hypotheses and conclusions use it, and check both proofs under the clarified meanings. Perhaps one proof remains valid and the other requires a stronger condition; perhaps both survive with different claims. That needs examination.\n\nThis recommendation is a present extrapolation from his expressed reasoning, not a documented opinion by Feynman about this seminar. The earlier example tells us what to inspect. It cannot do the inspection for us.",
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "score": 2,
+      "rationale": "New answer distinguishes empty elementary terminology from an advanced ambiguity with real proof consequences, tests the meanings against a distinguishing case, and labels its recommendation as present extrapolation. All three scope criteria pass.",
+      "disputed": false,
+      "answer_sha256": "sha256:a75705a258a0a59fb72272f5eb3ed44901f89f9dc48de8e12668bdd0f02a35be",
+      "baseline_score": 2,
+      "baseline_criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "baseline_answer_sha256": "sha256:bcd6608080ec809ffcab9f8985b81e03a975fbf36a14018168200ad31b1dc909"
+    }
+  ],
+  "summary": {
+    "projection": {
+      "n": 2,
+      "candidate_score": 1.0,
+      "baseline_score": 1.0,
+      "candidate_complete_criteria_hits": 2,
+      "baseline_complete_criteria_hits": 2
+    },
+    "reasoning": {
+      "n": 2,
+      "candidate_score": 1.0,
+      "baseline_score": 1.0,
+      "candidate_complete_criteria_hits": 2,
+      "baseline_complete_criteria_hits": 2
+    },
+    "commitment": {
+      "n": 2,
+      "candidate_score": 1.0,
+      "baseline_score": 1.0,
+      "candidate_complete_criteria_hits": 2,
+      "baseline_complete_criteria_hits": 2
+    },
+    "scope": {
+      "n": 3,
+      "candidate_score": 1.0,
+      "baseline_score": 0.8333333333333334,
+      "candidate_complete_criteria_hits": 3,
+      "baseline_complete_criteria_hits": 2
+    }
+  },
+  "limitations": [
+    "Fresh candidate runtime answers independently regraded; no old result had its content hash replaced.",
+    "Saved original baseline reused for comparison; no fresh baseline resampling.",
+    "Single model grader knows runtime condition and had previously graded development.",
+    "Scope improvement follows explicit development feedback and is not independent final gain.",
+    "Only one source lecture underlies the two projection probes.",
+    "Identity not graded; behavioral suite timing remains post-extraction and exact served model configuration unavailable."
+  ]
+}

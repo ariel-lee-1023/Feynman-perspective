@@ -1,8 +1,13 @@
 # c01–c03 + c05 — The memoir voice
+
+uid: c01
+uid: c02
+uid: c03
+uid: c05
 *Sources:* Surely You're Joking, Mr. Feynman! *(early life; Los Alamos; Cornell/Caltech/Brazil) and*
 What Do You Care What Other People Think? *Part 1 (his father; Arline)*
 
-The narrative register — and the largest body of material in the corpus (~128k words). Load for
+The autobiographical narrative form. Load for
 storytelling, humor, and the *lived* form of the epistemic commitments. Much of what the core states as
 principle appears here first as something that happened.
 
@@ -10,12 +15,11 @@ principle appears here first as something that happened.
 
 ## 1. Register profile
 
-Highest exclamation rate in the corpus: ≈ 8/1k in *Surely You're Joking*, ≈ 6/1k in *WDYC* — against
-≈ 0.3–0.7/1k in the lectures. Em-dashes ≈ 7.8/1k. Sentences moderate (mean ≈ 23) but with wide spread;
-second person low (≈ 11–15%) because he's narrating, not teaching. Dialogue-heavy.
+The narrative uses dialogue, reconstructed scenes, surprise and a later narrator's reflection.
+No whole-memoir quantitative profile is asserted; see [voice](../voice.md) for the
+separately measured source samples and unresolved statistical family question.
 
-Delight and indignation are *audible* here in a way they never are in the expository clusters. This is
-the register where "Damn it!" belongs.
+Delight and indignation are *audible* here in a way they never are in the expository clusters. Profanity can occur in an attested story, but it is not a required signature.
 
 ## 2. Narrative architecture — how a Feynman story is built
 
@@ -90,8 +94,8 @@ being asked to pronounce on things outside his competence. His register here is 
 about "that damn prize" rather than solemn renunciation.
 
 **Brazil (c03).** Students who could recite optics flawlessly and couldn't recognize the phenomenon in
-the light on the bay outside the window. This is name-vs-thing scaled up to an entire education system,
-and it's where he says so publicly, to the ministry, at cost.
+the light on the bay outside the window. This is his account of a failure to connect recited material with observed phenomena.
+It is not a present empirical verdict on an entire national education system.
 
 ## 4. Humor mechanics
 
@@ -100,7 +104,7 @@ and it's where he says so publicly, to the ministry, at cost.
 - He is usually the butt, or the innocent whose literalism exposes something.
 - Timing comes from **short sentences after long setup**, and from letting a line of dialogue land with
   no commentary.
-- He never explains the joke, and never signals it in advance.
+- Let the scene carry its immediate humor; a later reflection can explain what he learned.
 
 ## 5. Anti-patterns
 
@@ -112,3 +116,19 @@ and it's where he says so publicly, to the ministry, at cost.
 - **Don't state the moral.** In this register the point arrives through the scene.
 - **Don't reproduce these as verbatim quotations** — the memoirs are reconstructions in his own telling;
   use them as material for the voice, not as a quotation source.
+
+## 6. Inspection before endorsement
+
+In the textbook-committee account, Feynman declines to rate a volume that had not
+arrived. The supposedly rated volume turns out to have covers and blank pages.
+The operational distinction is between reports of judgment and the inspection
+that could support them. A high average of ungrounded reports does not repair
+that absence. His explanation of how the committee averages concealed it is a
+reconstruction of the episode, not proof of every reviewer's private conduct.
+
+## 7. Memory and time
+
+These stories were told later and shaped with an editor. A scene can show what
+the narrator now finds interesting without proving that the younger person held
+the later judgment throughout the event. New examples must not become invented
+autobiography. For dates and changed motives, use [scope](../scope.md).

@@ -1,160 +1,124 @@
-# feynman-perspective
+# Feynman perspective
 
-A distilled **perspective skill** for Claude: reason and explain in Richard Feynman's frame.
+A Richard Feynman reasoning and conversation skill: make the question concrete,
+derive a consequence, check it, and show the conditions that could make the answer
+wrong. It also covers physical problem solving, teaching, scientific integrity,
+and reflective conversation about curiosity.
 
-Check every claim against what actually happens rather than who says it. Work from a concrete
-example you can picture. Translate inflated language back into plain words. Refuse false
-certainty. Treat understanding a thing as adding to its wonder rather than subtracting from it.
+**2026-09-12 upgrade status: working candidate, not a verified release.**
+The runtime has been rebuilt against persona-distiller commit
+[`b57edf4`](https://github.com/ariel-lee-1023/persona-distiller/commit/b57edf4706065fef3fc520dd1521c3d66650b6a6).
+Structural compliance and actual evaluation results are reported separately.
+Unstable register evidence and evaluation timing/context limitations
+remain blockers. Several retained depth modules also exceed their computed supply; the measured deviations are preserved in `fidelity-ledger/budgets.json`. A successful example or a schema check does not remove them.
 
----
+## What changed
 
-## What this is
+- A scene-based core with an explicit axis, ordered question handling, eight
+  routing cases, refusal conditions, a vocabulary throttle and a stopping boundary.
+- A required [scope contract](references/scope.md): historical periods, original
+  motives, changed conditions and attestation versus a new application.
+- A new [voice module](references/voice.md) with observed English source profiles,
+  scoped lexical checks and explicit uncertainty about statistical families.
+- Layered [frameworks](references/frameworks.md), including conditional historical
+  lookups rather than timeless institutional verdicts.
+- A new [problem-solving module](references/clusters/c16-problem-solving.md),
+  recovered from the scanned *Feynman's Tips on Physics* rather than its empty
+  Markdown conversion. It adds prerequisites, signs, energy accounting,
+  learner readiness and the comparison-group problem in academic rank.
+- Existing depth modules retained and corrected: checked refutation, limits of
+  analogies, duplicate Challenger accounts, and qualified claims about smaller
+  measured effects. Unsupported old numerical voice claims were removed.
+- Previous scores preserved as **legacy records**, never promoted into current
+  evidence. Training metadata and audit artifacts now live outside runtime references.
 
-A [Claude Skill](https://docs.claude.com) — a `SKILL.md` plus a `references/` package that a host
-agent loads on demand. The core file carries the persona in first-person voice at roughly 1.9k
-tokens; the reference modules carry register-specific detail, worked argumentative procedures, and
-the honesty ledger.
+## Use
 
-It was built by distilling ~444,000 words of Feynman's published work into 24 core elements scored
-on projectibility, cost-bearing refusals, expressive match, interactional moves, and preoccupations.
-The distillation method and the audit trail are documented in
-[`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md).
+Open this repository as a project. Its discovery link is
+`.agents/skills/feynman-perspective -> ../..`; the root [SKILL.md](SKILL.md) is
+the single canonical copy. Alternatively, install that root and its `references/`
+directory together as `feynman-perspective` in a host's skill directory.
 
-## Installation
+The host loads the core and scope first, voice for sustained writing, and a topic
+module when needed. The [AGENTS.md](AGENTS.md) project default respects explicit
+requests to leave the voice or maintain the package. Generated speech is not an
+authentic quotation and the agent is not the historical person.
 
-**Claude Code / Claude Desktop (personal skill):**
+Example requests:
 
-```bash
-git clone https://github.com/ariel-lee-1023/feynman-perspective.git
-mkdir -p ~/.claude/skills
-cp -r feynman-perspective ~/.claude/skills/
+- “Help me find a test that separates these two explanations.”
+- “I can repeat this formula but don't understand its sign. Work one example.”
+- “Review this scientific claim, including the evidence that could hurt it.”
+- “Explain this in Chinese, keeping the reasoning concrete.”
+
+## Sources and their limits
+
+The user supplied seven Markdown works: *Surely You're Joking, Mr. Feynman!*,
+*What Do You Care What Other People Think?*, *The Pleasure of Finding Things Out*,
+*The Character of Physical Law*, *Six Easy Pieces*, *New Textbooks for the New
+Mathematics*, and *Feynman's Tips on Physics*.
+
+The last Markdown contains image references without substantive text. The local
+paired 176-page PDF was rendered and OCRed; Feynman's four lectures were separated
+from editors' material, Matthew Sands's memoir and Leighton/Vogt exercises. No
+full source text, PDF, page image or private grading target is distributed here.
+
+Repeated speeches and the Challenger report are grouped as related evidence.
+The source split conservatively reserves two early *Six Easy Pieces* lecture
+episodes and forces previously exposed material into construction. Development
+and final projection each cover **one lecture group with two correlated probes**.
+This does not establish general fidelity across all domains. The historical
+physics text is not a current reference for science, medicine or engineering.
+
+## Evidence and validation
+
+The [fidelity ledger](fidelity-ledger/provenance.md) contains source locators,
+actual model answers and grading rationales, class-specific admission, budget
+measurements, split history, exact runtime hashes and validation reports.
+The original failed split, development scope failure and retired final scenarios
+remain visible. Some supplementary trials are candidate-only and unblinded.
+The served model's exact identifier was unavailable; “inherited parent model”
+records that limitation rather than inventing settings.
+
+The voice discovery returned `INSUFFICIENT_EVIDENCE`, including a comparison of
+longer texts. It has not been renamed `SINGLE_REGISTER`. A further seven-case behavioral comparison was frozen after assembly and passed in both conditions; it does not retroactively satisfy the before-extraction suite requirement. Prediction contexts were fresh per condition, with multiple items per batch, and the strict projection artifact conservatively marks per-item freshness false. The package does not
+claim that its repeated source themes prove an improvement over the minimal role.
+
+Run the pinned validator from an adjacent persona-distiller checkout:
+
+```sh
+python3 ../persona-distiller/scripts/validate_package.py . --strict --headings fidelity-ledger/required-headings.txt
+python3 -m pip install -r ../persona-distiller/requirements-release.txt
+python3 ../persona-distiller/scripts/validate_package.py . --release
 ```
 
-**Project-scoped:** copy the folder into `.claude/skills/` inside your project.
+The release command is expected to fail while blockers remain. CI runs structure
+checks on pushes and pull requests. Its manually requested release gate retains
+failure semantics; it does not turn absent evidence into a passing badge.
 
-**claude.ai:** zip the folder and upload it via Settings → Capabilities → Skills.
+Actual results at the frozen runtime:
 
-The skill directory name must match the `name` field in the `SKILL.md` frontmatter
-(`feynman-perspective`).
+| Assessment | Candidate | Minimal baseline | Limit |
+|---|---:|---:|---|
+| Source projection, final |1.00|0.75|Two correlated probes, one lecture group|
+| New final reasoning / commitment / scope |7/7|7/7|Suite frozen after assembly; batch contexts|
+| Feynman identity judgments |6/6|6/6|No recognition gain; one comparator dispute|
+| Long style sample |608 words|—|Modulation remains unverified|
 
-## Usage
+Full release validation intentionally fails. Its schema errors record unsupported per-item freshness rather than replacing it with a passing declaration.
 
-The skill triggers on its own when a task fits its description — scientific method, evaluating a
-claim, explaining something to a beginner, auditing confident institutional language, cutting
-jargon. You can also invoke it explicitly:
+## Layout
 
-```
-Use the feynman-perspective skill: our incident review says the system has 99.99% availability.
-Pull that apart.
-```
-
-```
-Explain gradient descent in the feynman-perspective frame — concrete case first, no jargon.
-```
-
-Good fits:
-
-- **Auditing a confident claim.** Asymmetric-scrutiny check, demand the number rather than the
-  methodology, read the wording for what temperature it stops being true at.
-- **Risk under uncertainty.** A survived anomaly is a warning, not a reassurance.
-- **Teaching and documentation.** Clear beats precise; added precision can *lower* clarity.
-- **Research and analysis quality.** Leaning over backwards, replication before variation, naming
-  the specific missing check rather than sneering "cargo cult."
-
-## Repository layout
-
-```
-feynman-perspective/
-├── SKILL.md                          # the core persona (always loaded)
-├── references/                        # host-agent-facing, loaded at runtime, never contains
-│   │                                #   provenance or episodic material
-│   ├── frameworks.md                 # his named constructs, defined
-│   └── clusters/                     # register modules, loaded on demand
-│       ├── c01-c03-c05-memoir.md     #   narrative/storytelling voice
-│       ├── c04-cargo-cult.md         #   scientific integrity, self-deception
-│       ├── c06-c11-challenger.md     #   institutional critique, risk, dissent
-│       ├── c07-c10-interviews.md     #   reflective spoken voice (doubt, wonder)
-│       ├── c13-seeking-new-laws.md   #   method, authority vs. evidence
-│       ├── c17-newmath.md            #   teaching, clarity, jargon
-│       ├── manifest.json             #   17-cluster corpus segmentation
-│       └── coverage_map.json         #   domain/temporal coverage
-├── fidelity-ledger/                    # human-facing, never loaded by the host agent
-│   ├── provenance.md                 # source map, fidelity gates, where to trust it less
-│   ├── episodic.md                   # lower-priority colour + coverage limits
-│   ├── extractions.json              #   the extracted elements
-│   ├── scores.json                   #   scoring and core/reference decisions
-│   └── fidelity.json                 #   projection, cost, and style gate results
-├── CHANGELOG.md
-├── LICENSE
-├── NOTICE.md
-└── .github/workflows/validate.yml    # frontmatter + JSON sanity check
+```text
+SKILL.md                         Canonical runtime core
+references/scope.md              Period, conditions and attribution
+references/voice.md              Source profiles and writing controls
+references/frameworks.md         Layered reasoning apparatus
+references/clusters/             Seven topic modules
+.agents/skills/feynman-perspective -> ../..
+fidelity-ledger/                 Human and machine audit, never runtime retrieval
+AGENTS.md / LICENSE / NOTICE.md   Project behavior and rights
 ```
 
-Nothing in `fidelity-ledger/` is needed at runtime. It ships so the claims in the README are
-checkable rather than asserted — which is rather the point of the skill.
-
-## How faithful is it?
-
-Measured, not asserted. Full numbers in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md);
-the summary:
-
-| Domain | Projection score |
-|---|---|
-| Epistemology / method / authority | 0.98 |
-| Scientific integrity, not fooling yourself | 0.95 |
-| Teaching, clarity, jargon | 0.92 |
-| Institutional critique (risk, overconfidence) | 0.90 |
-| Reflective personal philosophy (doubt, wonder) | 0.85 |
-| Physics detail beyond the famous set-pieces | 0.55 |
-| Politics, economics, social theory | out of scope |
-
-The **projection gate** masks a fraction of the extracted stances and asks whether the remainder
-predicts them; it scored 1.00 pre-assembly, 0.90 on the assembled core. The **cost gate** requires
-that every attested case where Feynman paid a price for a commitment survives into the core; all
-8 did. The **style gate** checks that sentence-length shape and register modulation match the
-originals rather than flattening into one voice.
-
-## Scope and limits
-
-- **Strong on how he thinks and argues** — method, authority, integrity, clarity, risk, wonder.
-- **Weak as a source of physics content** beyond the famous set-pieces. Don't use it as a textbook.
-- **Silent on organized politics, economics, and social theory.** The corpus is silent there, and
-  that silence is itself in character. Don't push it.
-- **Memoir dialogue is reconstructed**, not verbatim transcript — faithful in spirit only.
-- **No forged quotations.** The skill explicitly instructs against presenting invented statements as
-  Feynman's real words. If you need a real quote, go to the source and cite it.
-
-## Sources and copyright
-
-The persona was distilled from seven published works: *Surely You're Joking, Mr. Feynman!*, *What Do
-You Care What Other People Think?*, *The Pleasure of Finding Things Out*, *The Character of Physical
-Law*, *Six Easy Pieces*, *Feynman's Tips on Physics*, and the 1965 essay "New Textbooks for the
-'New' Mathematics."
-
-**The corpus itself is not distributed here and never will be.** Those works remain in copyright.
-This repository contains only original analytical description of patterns of reasoning, register,
-and argumentative structure — the kind of thing a critical essay contains. Cluster modules
-deliberately paraphrase rather than quote, and the memoir module states outright that its material
-must not be used as a quotation source.
-
-Richard Feynman's name and works are the property of their respective rights holders. This project
-is unaffiliated with and unendorsed by the Feynman estate, Caltech, or any publisher.
-
-## Contributing
-
-Issues and pull requests are welcome. Two rules, both inherited from the subject:
-
-1. **Say which check is missing.** A report that the persona sounds off should name the specific
-   move it got wrong or the source it contradicts — not just "this doesn't feel like him."
-2. **Lean over backwards.** If you propose an addition, include what argues against it: the cluster
-   where he does the opposite, the register where it wouldn't apply.
-
-Changes to `SKILL.md` should say which element in `fidelity-ledger/scores.json` they refine, and
-whether any gate is affected.
-
-## License
-
-MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
-
-This license covers the original text in this repository. It does not extend to any referenced source books, which remain the property of their respective copyright holders.
-
+The repository's MIT license covers contributor-authored material. Original
+source works and limited quotations retain their owners' rights; see [NOTICE](NOTICE.md).

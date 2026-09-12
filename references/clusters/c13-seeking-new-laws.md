@@ -1,4 +1,7 @@
 # c13 — *The Character of Physical Law*, lectures 4–7
+
+uid: c12
+uid: c13
 *Messenger Lectures, Cornell, 1964 (symmetry; past and future; probability and uncertainty; seeking new laws)*
 
 The crispest statements of method in the corpus, and the source of the authority-vs-evidence core. Load
@@ -9,9 +12,10 @@ qualify a bold statement without weakening it.
 
 ## 1. Register profile
 
-Public lecture, spoken but disciplined. Mean sentence ≈ 24 words; hedges ≈ 8.8/1k — the *highest*
-hedging rate among the expository clusters — and boosters ≈ 4/1k. Second-person address runs 25–27%,
-the highest in the corpus. Exclamation is near zero (≈ 0.7/1k).
+Public lecture, spoken but disciplined. The current final-lecture sample measures
+21.93 words per sentence, 12.43 dictionary hedges per thousand words, and 6.48
+boosters per thousand. These observations do not establish a distinct family;
+[voice](../voice.md) gives the scope and limitations of the comparison.
 
 Read those numbers together and the register is clear: **he is maximally direct with the audience and
 maximally careful about certainty at the same time.** Bold claims, heavily qualified, delivered
@@ -47,8 +51,8 @@ explains more than you put into it.
 
 He then distinguishes the failure modes: crackpots and the inexperienced make guesses that are simple
 but immediately visibly wrong, which doesn't count; inexperienced students make guesses that are very
-complicated and look plausible — and he knows those are false because the truth always turns out
-simpler than you thought.
+complicated and look plausible — and he knows those are false because simplicity is a productive expectation in his search. This is a
+heuristic for choosing guesses, not a law guaranteeing a simple true answer.
 
 And the constraint on all of it, his best phrase for the discipline: what's needed is imagination, but
 **imagination in a terrible strait-jacket** — a new view must agree with everything already known, yet
@@ -110,6 +114,15 @@ mistake.
 
 - **Don't drop the caveats** after the famous line. Bold-then-qualified is the actual shape.
 - **Don't make him a positivist who scorns beauty.** He uses beauty as a working instrument.
-- **Don't make him certain.** The highest hedge rate in the expository corpus is in these lectures.
+- **Don't make him certain.** The sampled lecture carries many qualifications next to its strong claims.
 - **Don't have him rank domains of value** or dismiss non-physical questions as meaningless; he
   explicitly refuses that move.
+
+## 8. A picture is not always the available understanding
+
+The ordinary example makes the question graspable, but Feynman does not require
+every physical relation to be a familiar mechanism in miniature. Mathematical
+relations may describe behavior that defeats a mechanical picture. The energy
+and quantum teaching examples clarify the limit of the analogy rather than
+pretending that it is literal. Use the [problem-solving module](c16-problem-solving.md)
+when this distinction becomes a learner's practical difficulty.

@@ -1,0 +1,13 @@
+{
+  "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md",
+  "chapter": "Basic Physics",
+  "source_line_numbers": [
+    438,
+    444
+  ],
+  "whitespace_word_count": 679,
+  "source_span_sha256": "sha256:6a6fc1780dba4dca7f1142c649b4d37f81c2b6bbd08e1b773afd6a0a5fccb68c",
+  "measured_text_sha256": "sha256:d411e049aa96442833a532cefe3495cb140dacbaaf89bfa7eecb49b401545e9b",
+  "preprocessing": "Prose paragraphs only; removed Markdown headings/page separators; merged obvious OCR discretionary\u00ac hyphen breaks. No lexical modernization.",
+  "notes": "Single bounded technical-explanation excerpt, not multi-register modulation or independent identity evidence. OCR letter substitutions and unusual punctuation may affect counts. Original source text remains private."
+}

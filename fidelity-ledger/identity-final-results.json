@@ -1,0 +1,426 @@
+{
+  "status": "manual-reserved-identity-observation",
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "graded_utc": "2026-09-12T09:22:54.003141+00:00",
+  "identity": {
+    "candidates": [
+      "Richard Feynman",
+      "Carl Sagan",
+      "Karl Popper"
+    ],
+    "cases": [
+      {
+        "id": "final-identity-dark-pattern",
+        "anonymous_response_id": "response-2aabfa796e",
+        "prompt": "A gardener is puzzled by a dark crescent that develops on damp paving after several sunny afternoons. You have a hand lens, ruler, water and a notebook. Talk through how curiosity could become an investigation without claiming the cause is known.",
+        "answer": "First I'd draw the crescent and put down its width, where it lies relative to the paving joints, and the time. Does it stay dark when the surrounding paving dries? That's already a better question than “What is this mysterious stuff?” because we can watch it happen.\n\nUse the lens on the dark part and on an ordinary part beside it. Perhaps there's a coating, perhaps loose grains, perhaps no visible difference except the darkness. Write what you see before deciding what it means. A coating could have several origins; seeing one wouldn't yet tell us its history.\n\nNow wet two small, comparable patches, one crossing the crescent and one outside it, with similar amounts of water. Leave nearby patches alone. Record how their edges and darkness change as they dry, and repeat on another afternoon. Does the crescent disappear when everything is wet and return during drying? Does the water collect along that curve? Those observations would give different guesses something to explain.\n\nI'd also trace where shade passes during the afternoon. A matching curve would be interesting, but we'd still need to find whether changing sunlight or moisture changes the developing mark. We've acquired questions we can actually work on.",
+        "truth": "Richard Feynman",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Richard Feynman",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Replaces a vague mystery with questions one can watch happen, distinguishes visible coating from its causal history, and makes comparative trials lead to further physically workable questions."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Richard Feynman",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "medium",
+            "rationale": "Replaces a broad mysterious-stuff question with something one can watch happen, then tests tangible moisture and shade possibilities without pretending that a visible coating explains its history. The pragmatic progression toward workable questions favors Feynman, though much is generic good inquiry."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-committee-model",
+        "anonymous_response_id": "response-36529def36",
+        "prompt": "A committee has two accounts of why a tabletop balance tips when a cover is added. One is fashionable and elegantly phrased; both can fit last week’s observations. Describe what to do next and how to explain the uncertainty to visitors.",
+        "answer": "Put the two accounts beside the balance and ask each author to say what will happen in one new arrangement. “The cover changes the equilibrium” won't do unless we can turn it into something about which way the beam moves, by how much, or when.\n\nFirst repeat last week's observation. Record the uncovered position, add the cover in the same way, and remove it again. If the effect won't repeat, that difficulty belongs in the investigation before we explain it away.\n\nThen look for a condition on which the accounts disagree. Perhaps they predict different responses when the cover is moved sideways, held clear of the apparatus, or added over the other pan. Which change is useful depends on what the accounts actually say; I can't promise one of these will separate them without hearing them. Write the predictions before trying the change, and inspect the result favorable to our preferred account just as carefully as the awkward one.\n\nTo visitors I'd show the tipping and say: “We can reproduce this. We have two explanations that fit what we've measured so far. Here is the next measurement on which they differ.” The elegant wording can remain elegant while its physical claim waits for a test.",
+        "truth": "Richard Feynman",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Richard Feynman",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Turns vague equilibrium language into direction, amount and timing, insists the original effect be reproducible, and stresses scrutiny of favorable evidence as much as awkward evidence."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Richard Feynman",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Turns an abstract equilibrium phrase into direction, magnitude, and timing of motion, first checks the phenomenon, and demands equal scrutiny of evidence favoring the preferred account. Concrete physical meaning and resistance to self-deception carry the identification."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-toy-network",
+        "anonymous_response_id": "response-76facf210a",
+        "prompt": "A toy network of ten connected bulbs sometimes flashes in waves. The manual names a “collective mode,” but the learner wants to understand. Give a short first explanation and one concrete investigation using only the observable bulbs and switches.",
+        "answer": "Watch one bulb light, then the next. The wave is a pattern moving across the bulbs; a bulb doesn't have to travel for that to happen. Now, saying “collective mode” gives us a convenient name for the pattern, but it hasn't told us whether one bulb's change starts the next, or whether something we cannot see is telling several bulbs when to flash. Both could look like a wave.\n\nChoose a run that you can repeat from the same switch positions. Number the bulbs and record their flashing order over several repetitions. Then, if a switch lets you disable a bulb halfway along the apparent route, change only that switch and repeat. Does the wave stop there, pass the gap, take another route, or change its timing? Restore the switch afterward and check that the original pattern returns.\n\nA stopped wave would support the idea that this part of the network matters to transmission, but it wouldn't by itself prove that visible light carries the signal. Passing the gap would rule out the simplest story in which every visible flash must trigger the very next one. Either result makes the explanation more definite.",
+        "truth": "Richard Feynman",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Richard Feynman",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "medium",
+            "rationale": "Begins with a concrete moving-pattern distinction, rejects the manual label as understanding, and asks what physically produces successive flashes through a reversible intervention."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Richard Feynman",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "medium",
+            "rationale": "Starts with a visible event one can picture, distinguishes a pattern from moving objects, and presses beyond the manual's name into causal possibilities. The hands-on switch intervention serves a more definite physical account; the careful qualification is shared with the other candidates."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-dark-pattern",
+        "anonymous_response_id": "response-3bd8aea09f",
+        "prompt": "A gardener is puzzled by a dark crescent that develops on damp paving after several sunny afternoons. You have a hand lens, ruler, water and a notebook. Talk through how curiosity could become an investigation without claiming the cause is known.",
+        "answer": "A crescent on a paving stone is a small mystery, but it deserves the same courtesy as a much larger one: a patient look before an explanation. Its shape is already a clue. What could give otherwise ordinary sunlight and water a curved boundary?\n\nI would draw the crescent, measure its width, and note the hour, the dampness, and any nearby objects casting shadows. With the lens, compare its darkest part, its edge, and an unaffected patch. Are there grains, a film, tiny structures, or simply a difference in how the surface reflects light? Record what is visible separately from what we imagine it means.\n\nPerhaps moisture persists there; perhaps something grows; perhaps water deposits material as it retreats. These possibilities need not be exclusive. Wet small comparable patches, leaving another untouched, and follow them through drying. Does the darkness vanish, persist, or return gradually? Repeat observations across afternoons.\n\nThe pleasure is that an overlooked patch of ground becomes readable. Even an unsuccessful explanation can teach us which question to ask next.",
+        "truth": "Carl Sagan",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Carl Sagan",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "medium",
+            "rationale": "Connects a modest everyday mystery with the dignity and pleasure of broader inquiry, combines multiple natural explanations with patient observations, and ends by emphasizing the world becoming readable."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Carl Sagan",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Frames an ordinary patch of ground as a worthy small mystery, combines disciplined observation with an invitation to wonder, and ends in the pleasure of making the overlooked world readable. This public scientific sensibility is stronger than its otherwise shared experimental method."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-committee-model",
+        "anonymous_response_id": "response-b60a14937a",
+        "prompt": "A committee has two accounts of why a tabletop balance tips when a cover is added. One is fashionable and elegantly phrased; both can fit last week’s observations. Describe what to do next and how to explain the uncertainty to visitors.",
+        "answer": "The elegant account has a real advantage in attracting people, but that is an advantage in persuasion, not yet in explaining the balance. We are all susceptible to confusing the two, especially when respected colleagues share the enthusiasm.\n\nAsk the advocates of each account to specify what should happen under a new, precisely described condition. Could the cover be held just above the balance rather than touching it? Could its position be reversed? Choose a change for which the accounts predict different outcomes, and write those predictions down before trying it. Repeat the original arrangement as well, so an unnoticed alteration does not masquerade as a discovery. If neither account offers a distinguishing prediction, acknowledge that these proposed explanations remain experimentally indistinguishable here.\n\nTell visitors: “We have observed the tipping, and we have two possible explanations. So far, our measurements do not choose between them. Here is the experiment we hope will help.”\n\nLet visitors see the uncertainty and the test together. Science is more inviting when they can witness knowledge being earned rather than encounter a polished verdict without its supporting evidence.",
+        "truth": "Carl Sagan",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Carl Sagan",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "medium",
+            "rationale": "Pairs experimental discrimination with human susceptibility to prestige and persuasion, then makes public participation and the accessibility of earned knowledge central."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Carl Sagan",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Connects experimental skepticism with shared human susceptibility to persuasive prestige and a public invitation to witness knowledge being earned. The visitor-facing, inclusive presentation is central to its reasoning priorities."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-toy-network",
+        "anonymous_response_id": "response-2a877f208b",
+        "prompt": "A toy network of ten connected bulbs sometimes flashes in waves. The manual names a “collective mode,” but the learner wants to understand. Give a short first explanation and one concrete investigation using only the observable bulbs and switches.",
+        "answer": "Watch one bulb, then its neighbors. A traveling wave means that a recognizable pattern of lighting appears at successive places. It does not necessarily mean that anything luminous travels between the bulbs: each bulb may simply turn on at its appointed moment. A stadium audience can produce a wave while every spectator stays near the same seat.\n\n“Collective mode” gives the pattern a name. To understand it, we need to discover how much of the behavior depends on the connections, and how much might come from a common signal directing everything.\n\nFirst observe several waves and record the order in which the ten bulbs flash. Then, if the switches permit it, turn off one bulb that normally lies along the apparent route. Does the next bulb flash on schedule, flash late, or remain dark? Restore the switch and repeat, comparing with undisturbed waves.\n\nA surviving wave would not prove the bulbs are independent; there might be another route, or the switch might hide the light without stopping its circuitry. But we would have replaced an impressive phrase with a specific question about a visible event.",
+        "truth": "Carl Sagan",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Richard Feynman",
+            "blinded": true,
+            "disputed": true,
+            "confidence": "low",
+            "rationale": "The strongest evidence is the distinction between naming and understanding and the conversion of an impressive phrase into a concrete causal question. The stadium analogy and polished public explanatory register could also support Sagan; experimental content alone does not discriminate them well."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Carl Sagan",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "low",
+            "rationale": "The stadium analogy and patient public-facing translation from an impressive label to an observable question slightly favor Sagan. Concrete mechanism and resistance to mere naming also fit Feynman well, so the identity signal is weak."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-dark-pattern",
+        "anonymous_response_id": "response-af88f0ea7e",
+        "prompt": "A gardener is puzzled by a dark crescent that develops on damp paving after several sunny afternoons. You have a hand lens, ruler, water and a notebook. Talk through how curiosity could become an investigation without claiming the cause is known.",
+        "answer": "Begin by making the puzzle precise. Does the paving remain dark when it dries, or does the crescent merely dry more slowly? Draw its outline, measure its width, and record when the paving was wetted and when the darkness appeared. Examine points inside and outside the crescent with the lens. Record differences without immediately deciding what they mean.\n\nNow offer several possible explanations: a surface deposit, living growth, or an uneven distribution of moisture. These are proposals to criticize, not discoveries to announce. Ask what each would lead us to expect in a circumstance we have not yet observed.\n\nFor example, wet a small patch crossing the crescent’s boundary with a measured amount of water, leaving a nearby patch untouched. Watch both through drying. If the boundary disappears when wet and returns during drying, that challenges some simple accounts of a permanent stain, although it does not settle the matter.\n\nWrite predictions before the trial. An unexpected result is particularly useful: it reveals where an explanation needs correction. Preserve the puzzle wherever the observations still leave alternatives open.",
+        "truth": "Karl Popper",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Karl Popper",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Frames explanations as proposals for criticism, emphasizes novel expectations and predictions written before tests, and treats unexpected results as opportunities for correction."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Karl Popper",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Organizes inquiry around proposals open to criticism, predictions beyond existing observations, and unexpected results as opportunities for correction. This conjecture-and-criticism priority is more diagnostic than the practical observations themselves."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-committee-model",
+        "anonymous_response_id": "response-4356cdedcb",
+        "prompt": "A committee has two accounts of why a tabletop balance tips when a cover is added. One is fashionable and elegantly phrased; both can fit last week’s observations. Describe what to do next and how to explain the uncertainty to visitors.",
+        "answer": "Ask each advocate to say what the cover changes and under what conditions their account would give a different result from its rival. Elegant language earns no exemption from this requirement. An account that fits last week’s tipping may simply have been adjusted to describe it.\n\nThe next experiment should therefore address a disagreement. Perhaps the accounts imply different effects when the cover’s position, orientation, or contact with the apparatus is changed. The committee must derive the predictions from the actual accounts; we cannot choose a decisive manipulation without knowing their content. Agree on the predicted outcomes before running the trial, repeat it, and check whether adding the cover also introduces an overlooked disturbance.\n\nIf the accounts make identical predictions for every accessible trial, say that the present apparatus cannot distinguish them. Fashion cannot resolve that limitation.\n\nTell visitors: “Both explanations accommodate what we have observed. We are now arranging a test on which their expectations differ. Even a successful prediction will leave further questions; a failed prediction will tell us where to look for an error.”",
+        "truth": "Karl Popper",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Karl Popper",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Prioritizes rival accounts producing discriminating predictions; fitting previous observations is insufficient, and successful prediction leaves criticism open."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Karl Popper",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "high",
+            "rationale": "Emphasizes the weakness of retrospective fit, rival predictions, and the asymmetry between a successful prediction and an informative failure. Its main concern is the logical standing of competing accounts."
+          }
+        ]
+      },
+      {
+        "id": "final-identity-toy-network",
+        "anonymous_response_id": "response-58958bb3d6",
+        "prompt": "A toy network of ten connected bulbs sometimes flashes in waves. The manual names a “collective mode,” but the learner wants to understand. Give a short first explanation and one concrete investigation using only the observable bulbs and switches.",
+        "answer": "A wave means that bulbs tend to light in a changing order: the bright region travels, although each bulb stays where it is. “Collective mode” gives the pattern a name. An explanation must also propose how that order arises. One possibility is that activity at one bulb influences connected bulbs after a delay. Another is that several bulbs respond to a shared signal. The visible wave alone does not decide between them.\n\nChoose one bulb with an accessible switch. First record several waves, including their direction and the sequence around that bulb. Then switch it off before a wave arrives and record what happens beyond it. Restore it and repeat, comparing these trials with uninterrupted waves.\n\nA simple account in which each bulb relays activity through its own operation predicts interruption along that route. Continued waves would count against that account, but would not prove a shared signal: another route may exist, or the switch may extinguish the light without disabling the relay.\n\nThat limitation belongs in the result. We have tested a specific proposal, not uncovered everything happening inside the network.",
+        "truth": "Karl Popper",
+        "judgments": [
+          {
+            "reviewer": "identity-reviewer-1",
+            "choice": "Karl Popper",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "medium",
+            "rationale": "Organizes explanation around an explicit proposal and its potentially adverse test, ending by restricting the conclusion to the specific account tested. Shares substantial concrete pedagogy with Feynman."
+          },
+          {
+            "reviewer": "identity-reviewer-2",
+            "choice": "Karl Popper",
+            "blinded": true,
+            "disputed": false,
+            "confidence": "medium",
+            "rationale": "Frames the experiment explicitly as testing a specific proposal and specifies what would count against it while refusing to infer a rival's truth. The explanatory style is close to Feynman's, but the conclusion centers the epistemic scope of the test rather than a physical intuition."
+          }
+        ]
+      }
+    ],
+    "baseline_accuracy": 1.0
+  },
+  "baseline_cases": [
+    {
+      "id": "final-identity-dark-pattern",
+      "anonymous_response_id": "response-37071aaa69",
+      "prompt": "A gardener is puzzled by a dark crescent that develops on damp paving after several sunny afternoons. You have a hand lens, ruler, water and a notebook. Talk through how curiosity could become an investigation without claiming the cause is known.",
+      "answer": "First I'd like to know what “dark” consists of. Is there a coating on the stone, something growing in its pits, or simply water making the surface look different? Look through the lens at the crescent and immediately outside it. Draw what you see before giving it a name.\n\nMeasure the boundary from a fixed joint in the paving. Record it at several times through an afternoon, along with which parts are wet and which are shaded. A shape that moves with the shade is a different problem from a deposit that remains after the stone dries.\n\nNow wet two small comparable patches, one inside and one outside the crescent, leaving neighboring patches alone. Does the contrast disappear, increase, or return as they dry? Repeat on another day. Don't flood the whole thing and destroy the comparison.\n\nSuppose wetting makes both patches equally dark. That would make moisture interesting, but it wouldn't explain why one place retains it. The crescent itself may be a clue to drainage or illumination. Each answer should give us a more particular question to try.",
+      "truth": "Richard Feynman",
+      "judgments": [
+        {
+          "reviewer": "identity-reviewer-1",
+          "choice": "Richard Feynman",
+          "blinded": true,
+          "disputed": false,
+          "confidence": "high",
+          "rationale": "Starts by asking what darkness physically consists of, develops tactile comparisons and practical precautions, and uses partial answers to generate progressively more specific mechanisms to investigate."
+        },
+        {
+          "reviewer": "identity-reviewer-2",
+          "choice": "Richard Feynman",
+          "blinded": true,
+          "disputed": false,
+          "confidence": "high",
+          "rationale": "Unpacks what darkness physically consists of, compares neighboring pieces of the actual object, and follows a tentative moisture result into the next mechanistic question. The practical warning against flooding away the comparison reinforces its direct experimental stance."
+        }
+      ]
+    },
+    {
+      "id": "final-identity-committee-model",
+      "anonymous_response_id": "response-38a8f86272",
+      "prompt": "A committee has two accounts of why a tabletop balance tips when a cover is added. One is fashionable and elegantly phrased; both can fit last week’s observations. Describe what to do next and how to explain the uncertainty to visitors.",
+      "answer": "I'd ask each person to stop at the moment before the balance tips and describe what is supposed to push or pull on what. Does the cover touch anything? Does adding it disturb the air? Does the account depend on where the cover sits? Elegant wording can conceal that nobody has specified a mechanism.\n\nThen get predictions before doing another trial. Move the cover sideways, vary its height, or put it in place before balancing the apparatus. Choose a change for which the two accounts predict different observable behavior. Repeat the uncovered case between trials, because the balance itself may be drifting.\n\nIf neither account gives different predictions under any change we can make, say that. We haven't yet found a way to distinguish them; another week of the same observation won't settle the matter.\n\nTo visitors: “We've reliably seen the balance tip under these conditions. We have two possible explanations. This next change is useful because one predicts this direction and the other predicts something else.” Let them see the prediction written down beforehand.",
+      "truth": "Richard Feynman",
+      "judgments": [
+        {
+          "reviewer": "identity-reviewer-1",
+          "choice": "Richard Feynman",
+          "blinded": true,
+          "disputed": false,
+          "confidence": "high",
+          "rationale": "Demands a physical push-or-pull mechanism beneath elegant language, tracks practical disturbances and drift, and explains the next trial through observable differences."
+        },
+        {
+          "reviewer": "identity-reviewer-2",
+          "choice": "Richard Feynman",
+          "blinded": true,
+          "disputed": false,
+          "confidence": "high",
+          "rationale": "Demands a concrete moment-by-moment mechanical account of what pushes or pulls what, then ties changes in physical arrangement to observations. This distrust of verbal explanation in favor of pictured mechanism is particularly characteristic."
+        }
+      ]
+    },
+    {
+      "id": "final-identity-toy-network",
+      "anonymous_response_id": "response-301c8404b4",
+      "prompt": "A toy network of ten connected bulbs sometimes flashes in waves. The manual names a “collective mode,” but the learner wants to understand. Give a short first explanation and one concrete investigation using only the observable bulbs and switches.",
+      "answer": "“Collective mode” names a pattern involving several bulbs together. It doesn't yet tell you how the pattern happens. Imagine that one bulb lighting somehow makes a neighboring bulb more likely to light a moment later. Repeating that process could make a wave. That's a possible mechanism, not something we've established by looking at the wave.\n\nNumber the bulbs and watch which one lights first, which follows, and whether the order repeats. The interesting measurement is the sequence and delay, not just the impression that they flash together.\n\nFor an investigation, use a switch that disables one bulb or connection, if the available switches permit that. First record several ordinary waves; then interrupt that part and watch what happens beyond it. Restore the switch and check again. Does the wave stop, arrive by another route, or continue at the same time as before?\n\nContinuing unchanged would weaken the simple neighbor-to-neighbor story. Perhaps an unseen common driver times the bulbs. The switches let us start separating a traveling influence from a pattern that merely looks as though something travels.",
+      "truth": "Richard Feynman",
+      "judgments": [
+        {
+          "reviewer": "identity-reviewer-1",
+          "choice": "Richard Feynman",
+          "blinded": true,
+          "disputed": false,
+          "confidence": "high",
+          "rationale": "Translates the technical name into an imaginable neighboring-bulb mechanism, identifies sequence and delay as the useful measurements, and separates apparent travel from a transmitted influence."
+        },
+        {
+          "reviewer": "identity-reviewer-2",
+          "choice": "Richard Feynman",
+          "blinded": true,
+          "disputed": false,
+          "confidence": "high",
+          "rationale": "Builds an imaginable neighbor-to-neighbor mechanism, translates a vague impression into sequence and delay, and distinguishes a traveling influence from an apparent traveling pattern. Explanation is treated as working out how it happens rather than acquiring terminology."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "per_candidate": {
+      "Richard Feynman": {
+        "answers": 3,
+        "reviewer_votes": 6,
+        "correct_votes": 6,
+        "accuracy": 1.0
+      },
+      "Carl Sagan": {
+        "answers": 3,
+        "reviewer_votes": 6,
+        "correct_votes": 5,
+        "accuracy": 0.8333333333333334
+      },
+      "Karl Popper": {
+        "answers": 3,
+        "reviewer_votes": 6,
+        "correct_votes": 6,
+        "accuracy": 1.0
+      }
+    },
+    "macro_accuracy": 0.9444444444444445,
+    "primary_reviewer_agreement": 0.8888888888888888,
+    "baseline_recognition": {
+      "answers": 3,
+      "reviewer_votes": 6,
+      "correct_votes": 6,
+      "accuracy": 1.0
+    },
+    "numeric_thresholds_met": true,
+    "disputed_response_ids": [
+      "response-2a877f208b"
+    ],
+    "all_judgments_resolved": false,
+    "release_eligible_identity_evidence": false
+  },
+  "reviewers": [
+    {
+      "file": "identity-review-one.json",
+      "reviewer": "identity-reviewer-1",
+      "metadata": {
+        "model": "GPT-6 family; exact model variant not exposed in this reviewer context",
+        "reasoning_effort": "not exposed",
+        "temperature": "not exposed"
+      },
+      "file_hash": "sha256:23744d9394461f10a21c3e765f0759c87ec14784f6d344132c0bee2158d78d75"
+    },
+    {
+      "file": "identity-review-two.json",
+      "reviewer": "identity-reviewer-2",
+      "metadata": null,
+      "file_hash": "sha256:12d06001d86e1db79aa84e237412abcb52d4edfb1713e84279be159559daa95a"
+    }
+  ],
+  "generation_metadata": [
+    {
+      "file": "final-candidate-answers.json",
+      "file_sha256": "sha256:4740b41f120bd8b9871d83c9b34853b2305dd4f1d541355f0842e26f9888f2bf",
+      "model": "inherited parent model",
+      "settings": {
+        "context": "fresh subagent",
+        "allowed_reads": "runtime plus assigned prompt-only file"
+      },
+      "condition": "candidate",
+      "runtime_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2"
+    },
+    {
+      "file": "final-sagan-answers.json",
+      "file_sha256": "sha256:88cd253310ca3b2e64427a0e4da34e2e2dafe2cd7c35bfc22b7a81307edd8b6e",
+      "model": "inherited parent model",
+      "settings": {
+        "context": "fresh subagent",
+        "allowed_reads": "assigned prompt-only file"
+      },
+      "condition": "neighbor-sagan",
+      "runtime_hash": null
+    },
+    {
+      "file": "final-popper-answers.json",
+      "file_sha256": "sha256:81e47998cf30c94040c6bf28a991d1eb0eb4e9fc49ce8102e6a4cbfda6da42b4",
+      "model": "inherited parent model",
+      "settings": {
+        "context": "fresh subagent",
+        "allowed_reads": "assigned prompt-only file"
+      },
+      "condition": "neighbor-popper",
+      "runtime_hash": null
+    },
+    {
+      "file": "final-baseline-answers.json",
+      "file_sha256": "sha256:c7463d1780ee5db2c88bea18b4106432bb6eca905922998cb9be9199769b55e3",
+      "model": "inherited parent model",
+      "settings": {
+        "context": "fresh subagent",
+        "allowed_reads": "assigned prompt-only file"
+      },
+      "condition": "baseline",
+      "runtime_hash": null
+    }
+  ],
+  "limitations": [
+    "Three tasks, two model reviewers, not a human panel.",
+    "Exact served model identifier/provider settings unavailable; generation declared inherited parent model and fresh subagents.",
+    "Target runtime compared to minimally prompted neighboring roles; evidential asymmetry means this is recognition under that setup, not superiority to equally developed neighbor skills.",
+    "All12 anonymous responses were mixed before reviewing, so baseline role was not disclosed. Primary9 and baseline3 metrics are separated after judgments.",
+    "Behavioral suite was defined after some construction extraction; numerical recognition results do not repair that timing failure or missing independent final reasoning/commitment/scope evidence.",
+    "No final-feedback revision allowed without retiring this final assessment.",
+    "One reviewer explicitly marked the Sagan toy-network answer disputed; retained unchanged. Numeric thresholds pass but unresolved judgment blocks a verified identity gate pending human review. Reviewer disagreement itself is preserved as measurement, not reconciled away."
+  ]
+}

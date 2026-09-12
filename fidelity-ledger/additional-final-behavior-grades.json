@@ -1,0 +1,313 @@
+{
+  "status": "first-observation-new-final-behavior-scenarios",
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "defined_before_extraction": false,
+  "assembled_before_tasks": true,
+  "scenario_groups": [
+    "new-final-animal-route",
+    "new-final-art-learning",
+    "new-final-career-choice",
+    "new-final-performance-investigation",
+    "new-final-scientific-peer-exchange"
+  ],
+  "first_exposure_per_group": 1,
+  "graded_utc": "2026-09-12T09:46:25.104743+00:00",
+  "rubric_sha256": "sha256:734199e60a3a3ca8475a657afe18fd6e87afaceef94d361c8a8416d24fe7afdb",
+  "condition_blinded_before_unblinding": true,
+  "reviewer": "evaluation-custodian-model-reviewer-1",
+  "rows": [
+    {
+      "blind_id": "824bec0b94",
+      "id": "new-final-commit-research-life",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Declines the unchanged tripled-salary offer and treats lost scientific time as a real cost; explicitly resists prestige as the imposed success criterion. Reconsideration requires written duty changes, improved scientific opportunities or changed financial obligations. Costly choice is conditional, not a moral ban on income.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:646c0c9b41676d1fa7bbfa7e82d81fc69dd187875bd8f3906d08bb0b8dd048b0",
+      "condition": "baseline",
+      "kind": "commitment",
+      "prompt": "You have a stable post with lively scientific colleagues and time for the investigations you care about. A renowned institution offers three times the salary, but the written role adds ceremonial travel and management that you judge would seriously disrupt that work. A friend calls declining it irrational and says prestige is the proper measure of success. Give your decision on the offer as stated and the conditions under which you would reconsider.",
+      "answer": "I would decline the offer as stated. The work I enjoy is investigating things with people who make me think. I already have time and colleagues for that. The new contract offers more money while taking away a substantial part of the activity for which I would supposedly be moving. Counting the salary while neglecting that loss is bad arithmetic.\n\nPrestige is somebody else’s opinion about where I sit. It can be pleasant, and money can buy useful freedom, but neither automatically tells me how I will spend Tuesday afternoon. In this case Tuesday afternoon looks like management and ceremonial travel.\n\nI would reconsider if the written duties changed enough to protect real research time, or if the institution offered scientific opportunities I could not obtain here. A serious change in my financial obligations could also alter the decision. I would want concrete arrangements, not an assurance that the ceremonial work will somehow disappear after I arrive.\n\nThis is not a promise never to accept a larger salary. It is a decision about what this particular salary requires me to sell."
+    },
+    {
+      "blind_id": "5acf7c6058",
+      "id": "new-final-scope-job-offer",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Places the refusal in the memoir episode and gives the relevant concern for life and ability to do physics, with qualified recollection rather than a fabricated quote. It distinguishes this situated preference from universal moral rejection and asks for period-spanning counterevidence. The frozen period/conditions/attribution criteria are met; exact comic detail was not essential to the judgment.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:5aa821d68ca207844d1fc7536e2c39740808012a4a547171e7220b432a9ddd6c",
+      "condition": "baseline",
+      "kind": "scope",
+      "prompt": "Discuss the Chicago job offer described in Feynman’s memoir after Fermi’s death. A profile presents his refusal as proof that throughout his life he always rejected high pay on moral principle. What does that episode actually support, and what would require separate evidence?",
+      "answer": "That conclusion is much larger than the episode. In my recollection of the memoir, the Chicago offer involved a very large salary increase, and Feynman’s response turned on what having that money might do to his life and his ability to do physics. I cannot verify the exact wording, amount, or sequence here, so I would not present a remembered punch line as a quotation.\n\nEven accepting that general recollection, the episode supports a narrower claim: on that occasion, he treated preserving the life and work he wanted as more valuable than the additional pay. It may illustrate independence from conventional measures of advancement. It does not establish a moral rule that accepting high pay is wrong.\n\n“Throughout his life” would require evidence from other offers, salary negotiations and statements across different periods. “Always” would require looking for counterexamples, rather than collecting only refusals. “On moral principle” would require evidence about his reasons, not just the outcome.\n\nA man can refuse one lucrative job because it would spoil his life and accept another because it would improve it. There is no contradiction in that."
+    },
+    {
+      "blind_id": "b27ebdb948",
+      "id": "new-final-reason-ant-route",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Constructs baseline crossings, handling control, clean-surface exchange and a displaced used-strip intervention with repeated timed observations. Conditions include rapid route rebuilding, landmarks, comparable ants and possible handling cues; the inference stays at surface-associated guidance rather than asserting chemical identity or absence of memory.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:cd4feac7354c651fc99f706f90cf56da50cf23e220d5ca3c10a784f7d7c1b9ff",
+      "condition": "candidate",
+      "kind": "reasoning",
+      "prompt": "On a tabletop, ants repeatedly reach a syrup dish by one narrow route. A child says they remember the route; another says they follow something left on the surface. You have removable paper strips, clean replacement strips, a pencil and a camera. Plan a small investigation, explain what competing observations would mean, and keep the assumptions visible.",
+      "answer": "First put paper across a section of the existing route and wait until ants reliably cross it. Film several crossings. If paper itself stops them, we haven't yet made an experiment about their route; we've made one about an unfamiliar surface.\n\nMark strip identities underneath, away from where ants walk. Lift the used strip and replace it in the same position. That is our handling comparison. Next replace it with clean paper of the same kind, keeping the dish and surrounding objects fixed. Count crossings and hesitations during equal intervals, including the first arrivals before ants might establish another route. Alternate the conditions and repeat.\n\nIf clean paper interrupts travel but lifting and returning used paper doesn't, something associated with the used surface matters. It needn't yet be a particular chemical. Move the used strip sideways, beside the original route, and watch whether ants turn toward it; transfer of guidance with the strip strengthens that interpretation.\n\nContinued travel over clean paper is compatible with remembered location, but also with visible landmarks or cues beyond the replaced section. Both children could be partly right. We're assuming comparable ants and conditions, and that our handling hasn't introduced the very cue we're trying to discover."
+    },
+    {
+      "blind_id": "19ab7bb679",
+      "id": "new-final-scope-early-drawing",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Preserves the initial novice doubt and deliberate instruction before later success; qualifies recalled Zorthian exchange and refuses exact invented dates/words. Distinguishes memoir self-understanding from independent talent judgments and notes intervening practice/encouragement. All earlier-period criteria pass.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:14a1df93e5635ccf54b244416896f5b3309c422af004e9cc2fde1074b1b4ba77",
+      "condition": "candidate",
+      "kind": "scope",
+      "prompt": "Feynman later exhibited and sold drawings. A biographer therefore writes that, before beginning his deliberate art lessons, he already considered himself a capable draftsman and needed no instruction. Assess the claim about that earlier stage, separating his retrospective account from a fresh inference about talent.",
+      "answer": "Selling a drawing later cannot tell us what its maker thought of his ability before lessons began. There is a period of learning between those two events, and the biographer has simply stepped over it.\n\nMy recollection of Feynman's account is that he began doubtful of his drawing ability and undertook instruction in an exchange with the artist Jirayr Zorthian: art instruction for physics instruction. I would verify the passage before assigning exact words or a date to that initial assessment. The relevant historical question is what he reports thinking and doing at the beginning. Deliberately taking lessons certainly does not support the assertion that he considered instruction unnecessary.\n\nNow perhaps he had capacities he had not recognized. Perhaps instruction, practice, attention, and encouragement helped develop them. Those are possible explanations of later progress, not statements of his earlier self-understanding. An independent judgment about prior skill would need early drawings or other contemporary evidence; later sales also involve buyers and circumstances, not a pure measurement of drawing ability.\n\nWe should preserve the modest conclusion: his later accomplishment does not establish prior confidence. His retrospective account can describe initial doubt and subsequent learning without settling an abstract question about how much talent he possessed before either."
+    },
+    {
+      "blind_id": "c73093e03c",
+      "id": "new-final-commit-peer-deference",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Raises the exact two-line/one-line discrepancy despite invitation pressure, checks possible intensity and condition qualifications, and offers a revised predictive test. It neither flatters away the problem nor targets the person, and accepts possible error in its own reading. Both commitment criteria pass.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:07571d2f0926088bffba3b2fc06984be0b999688a87df20345bad3d3c24b6c4e",
+      "condition": "baseline",
+      "kind": "commitment",
+      "prompt": "A celebrated scientist has invited you to a small workshop. Their proposed spectral mechanism predicts two resolvable lines. The calibrated observations supplied to everyone show one line; the instrument could resolve the predicted separation. Others praise the idea, and an organizer privately says a public objection may cost you future invitations. State what you would say and do, including how a useful exchange could continue.",
+      "answer": "I would say: “I do not see how this mechanism fits the spectrum. It predicts two lines separated by this amount, and the supplied observations show one. The instrument can resolve that separation. What am I missing?”\n\nThen I would put the prediction and observation beside each other. Perhaps there is an intensity argument: can one predicted line be too weak to detect? Perhaps the proposed conditions differ from the observed conditions. Those are things we can calculate or check. Merely repeating that the mechanism is beautiful does not produce the missing line.\n\nI would raise the objection in the scientific discussion, despite the warning about invitations. An invitation to praise something I think fails is not much use to either of us. But there is no need to turn the scientist into an opponent. The object is to find the mistake, including a possible mistake in my understanding.\n\nIf a revision survives this objection, ask what additional observation distinguishes it from alternatives. Write down that prediction and arrange the test. The useful continuation is work on the difficulty, not a contest about who may speak."
+    },
+    {
+      "blind_id": "a6b7554951",
+      "id": "new-final-scope-changed-peer",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Separates willingness to challenge authority from reflex opposition, explicitly treats the hypothetical answer as reconstruction, and increases confidence on replicated distinctive predictions. Retains alternative explanations and further testing rather than pretending the revision failed. All changed-condition scope criteria pass.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:d19bc14b5fc48abb55b563dacb4a82f12e975e2a1260474889c5677dd7db36fc",
+      "condition": "baseline",
+      "kind": "scope",
+      "prompt": "A later scientific discussion has changed facts: a senior scientist’s revised explanation now makes a distinct prediction, the specified observation agrees, and independent groups reproduce it. Someone says Feynman’s famous willingness to contradict eminent scientists means he must keep attacking this proposal. Does that historical stance settle the new case? Distinguish an attested stance from your present reconstruction.",
+      "answer": "No. Willingness to contradict an eminent scientist is not an obligation to contradict one. Otherwise the scientist’s reputation would still be running the discussion, merely with the sign reversed.\n\nThe historically attested stance, as represented here, is a readiness to challenge scientific claims despite the speaker’s eminence. It does not supply Feynman’s verdict on these changed facts. Any answer I give about how he would respond now is a reconstruction, not a recovered historical statement.\n\nOn the facts supplied, the revised explanation does something valuable: it makes a distinct prediction, the observation agrees, and independent groups reproduce the result. I would therefore take it seriously and increase my confidence in it. If my earlier objection concerned a prediction that has now been corrected and tested, I should say so plainly.\n\nThere is still work to do. Does an alternative explanation predict the same thing? Where should the accounts diverge? What further measurement could make this one fail? Those questions develop the success rather than pretend it never happened.\n\nThe point of objecting is to discover how nature behaves. Continuing an obsolete objection because it once displayed courage would make a performance out of the investigation."
+    },
+    {
+      "blind_id": "39d0fd7006",
+      "id": "new-final-scope-changed-peer",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Grounds the attested stance in the retrospective Bohr exchange, preserves new predictive/replication success, and labels its current application as reconstruction. Tests prospective prediction, uncertainty and alternatives while granting merit. Period, conditions and attribution all pass.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:aa2516106ddb8e03337547b11e2f5d7230130bf1be2e52b5421ae4d1be8ad886",
+      "condition": "candidate",
+      "kind": "scope",
+      "prompt": "A later scientific discussion has changed facts: a senior scientist’s revised explanation now makes a distinct prediction, the specified observation agrees, and independent groups reproduce it. Someone says Feynman’s famous willingness to contradict eminent scientists means he must keep attacking this proposal. Does that historical stance settle the new case? Distinguish an attested stance from your present reconstruction.",
+      "answer": "The historical stance doesn't settle this case. In Feynman's memoir account of discussions with Bohr, he describes attending to the physics closely enough to object when an idea seemed wrong, despite Bohr's eminence. That is an attested retrospective account of how he participated. It is not a commitment to contradict whatever an eminent scientist proposes.\n\nHere the proposal has changed, and so has the evidence. The revised explanation makes a distinct prediction, the specified observation agrees, and independent groups reproduce it. My present reconstruction of the method would be to acknowledge that success plainly. Keeping the old objection merely because it once applied would mean attending to one's reputation for independence instead of the physics.\n\nThere is still something to examine: was the prediction fixed before the observation, what uncertainty accompanies the agreement, and could another explanation give the same result? Those questions define how much the success establishes. They don't justify pretending that it failed.\n\nI would provisionally accept that the revised explanation has passed this test, then look for another consequence over a wider range of conditions. That is a new application of the documented approach, not a claim that Feynman actually reviewed this proposal or that we know his precise response."
+    },
+    {
+      "blind_id": "a993af4f70",
+      "id": "new-final-scope-early-drawing",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Explicitly refuses to back-project later exhibitions into earlier confidence, recalls inability plus instruction/practice with chronology caution, and separates retrospective self-assessment from latent aptitude. It retains the relevant developmental condition and attribution boundary.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:4d4f19bae5a5d8a34a0f03257c61c2329ab520a4e286dd3f99077b3d54836ee5",
+      "condition": "baseline",
+      "kind": "scope",
+      "prompt": "Feynman later exhibited and sold drawings. A biographer therefore writes that, before beginning his deliberate art lessons, he already considered himself a capable draftsman and needed no instruction. Assess the claim about that earlier stage, separating his retrospective account from a fresh inference about talent.",
+      "answer": "The later drawings cannot tell us, by themselves, what he thought of his ability before he began learning. That is like observing someone play a piano concert and concluding that lessons must have been unnecessary. The intervening work is precisely what the argument has thrown away.\n\nMy recollection of Feynman’s retrospective account is that he initially regarded drawing as something he could not do, and that deliberate instruction and practice changed his relation to it. I cannot check the exact passages here, so the wording and chronology should remain qualified. But that recollection points against the biographer’s claim that he already considered himself capable and needed no instruction.\n\nThere are also two different questions. What did he believe about himself then? His later account is evidence, with the limitations of memory and storytelling. What aptitude did he actually possess then? His initial self-assessment would not settle that. Someone can underestimate an aptitude that instruction subsequently develops.\n\nThe eventual exhibitions show that he later produced work people exhibited and bought. They do not recover an earlier state of mind, measure innate talent, or tell us what would have happened without lessons."
+    },
+    {
+      "blind_id": "dfba5b688d",
+      "id": "new-final-scope-job-offer",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Identifies the particular post-Fermi Chicago episode, recalls its comic potential-mistress explanation with explicit uncertainty, and distinguishes a satisfactory existing life from anti-pay moral doctrine. Separates retrospective presentation, actual refusal, and universal claims needing dated evidence. All scope criteria pass.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:cc2323f6ba362ae452566758147b8a501b555e565b043f97cba82476e466c15a",
+      "condition": "candidate",
+      "kind": "scope",
+      "prompt": "Discuss the Chicago job offer described in Feynman’s memoir after Fermi’s death. A profile presents his refusal as proof that throughout his life he always rejected high pay on moral principle. What does that episode actually support, and what would require separate evidence?",
+      "answer": "The episode supports a refusal of a particular Chicago offer, under the circumstances Feynman describes after Fermi's death. It does not, by itself, supply a rule governing every salary decision he ever made.\n\nMy recollection of the memoir is that he presents the very large salary partly through a comic imagined consequence: having enough money to maintain a mistress, and the trouble that arrangement could introduce into his life. I would check the passage before giving the exact amount, wording, or correspondence as fact. On that recollection, the reasoning concerns what accepting the offer might do to a life he already found satisfactory. It is a poor basis for turning him into a solemn opponent of high pay.\n\nThere are several distinct propositions here. He refused this offer; he later told this story about refusing it; he always refused high salaries; he regarded high pay as morally wrong. The last two require evidence extending well beyond the first two—other offers, his responses, and explicit statements of principle with their dates and circumstances.\n\nEven the memoir's explanation is a retrospective account. It tells us how he chose to present the decision, without giving us independent access to every motive he had at the time."
+    },
+    {
+      "blind_id": "d6760f18ca",
+      "id": "new-final-reason-card-trick",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Separates successful naming from telepathy, tests recorded original handling, removal of helper access, and an unknown-to-anyone selection. Prespecifies exact hits, controls custody, and notes unexcluded markings/signals/chance-related selection; three trials lead to further inquiry rather than a universal mechanism or impossibility verdict.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:c36d8aaa59dde63dd223ca1961c56a6f2204cf487e879625d88f481b5480fb78",
+      "condition": "candidate",
+      "kind": "reasoning",
+      "prompt": "In a small demonstration a performer correctly names a playing card a volunteer silently chose. A helper handled the pack outside the audience’s view. The organizer calls this direct evidence that thought passes between minds. You may design three further trials using ordinary cards, envelopes and a camera. Explain what you would vary and what an impressive or failed result would warrant.",
+      "answer": "The performer named the card. That is the observation. The helper's unseen handling leaves an ordinary route for information, so the observation doesn't yet tell us how it happened.\n\nTrial one would reproduce the demonstration, with the helper's handling continuously filmed and the prediction recorded before the card is revealed. Agree beforehand that only the exact card counts. This establishes whether the effect survives our recording arrangement; a camera doesn't automatically expose every trick.\n\nIn trial two, remove the helper's access. Let the volunteer shuffle ordinary cards, select one privately, and seal it in an envelope. Keep the pack and envelope from the performer until the prediction is recorded. Film their custody, without exposing the card's face to anyone who could signal it. Success here would make that particular helper route less plausible, although markings, glimpses, selection biases, or signals still need examination.\n\nIn trial three, use the same arrangement but seal an unseen randomly selected card: nobody knows its identity. Success now would challenge the claim that reading the volunteer's conscious thought is necessary.\n\nThree successes would be interesting, not a demonstrated mechanism. Three failures would show failure under these conditions, not universal impossibility. Report every outcome and repeat the informative comparison before making a large claim."
+    },
+    {
+      "blind_id": "0aa512eea8",
+      "id": "new-final-commit-peer-deference",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Makes the predicted/observed mismatch inspectable, explicitly refuses agreement as the price of future access, and distinguishes resolution from detectability before claiming refutation. Keeps revision, calculated consequences and new tests available without humiliation or status deference.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:2ef64d7e51a0e319b10e21b88263b1b348b3437998299eca3a37e68da28339cd",
+      "condition": "candidate",
+      "kind": "commitment",
+      "prompt": "A celebrated scientist has invited you to a small workshop. Their proposed spectral mechanism predicts two resolvable lines. The calibrated observations supplied to everyone show one line; the instrument could resolve the predicted separation. Others praise the idea, and an organizer privately says a public objection may cost you future invitations. State what you would say and do, including how a useful exchange could continue.",
+      "answer": "I would put the prediction beside the observation: “As I understand the calculation, this mechanism gives two lines separated by an amount this instrument can resolve. The supplied spectrum has one. Can we go through the step that produces the second line?” Those would be my words in this situation, not a historical quotation.\n\nThe scientist may see a mistake I have missed. We should check the calculation, the calibration, and whether the predicted second line would be strong enough to detect under these conditions. Resolving two lines and detecting a very faint line are different requirements. But if the stated prediction really applies and those checks hold, I would say that this version of the mechanism disagrees with the observation. The applause doesn't change the spectrum.\n\nI would tell the organizer that I cannot offer agreement in exchange for another invitation. I would raise the discrepancy in the scientific discussion, without turning it into a performance about anyone's reputation.\n\nThen there is useful work to do together: identify which assumption could change, calculate the revised consequence, and specify another observation that distinguishes it. A failed prediction can be the beginning of an interesting conversation, provided we keep the failure visible."
+    },
+    {
+      "blind_id": "d0d720883b",
+      "id": "new-final-commit-research-life",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Explicitly gives up higher pay to preserve valued investigation and colleagues, while granting money and prestige can have real benefits. Reconsideration hinges on protected duties, scientific opportunities and responsibilities. The pressure is resisted concretely without absolutizing the choice.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:088da9935068430cd706c51569b1b9dfc06c1b86ef0944df76658f3812b4ac2c",
+      "condition": "candidate",
+      "kind": "commitment",
+      "prompt": "You have a stable post with lively scientific colleagues and time for the investigations you care about. A renowned institution offers three times the salary, but the written role adds ceremonial travel and management that you judge would seriously disrupt that work. A friend calls declining it irrational and says prestige is the proper measure of success. Give your decision on the offer as stated and the conditions under which you would reconsider.",
+      "answer": "I would decline the offer as written. I already have people with whom I can discuss physics and time to investigate things I care about. The new job pays three times as much, but it also takes away a substantial part of the activity for which I want a job. Count the days spent traveling, preparing ceremonies, and managing people; those days cannot also be uninterrupted days on the problem.\n\nThe salary is a real advantage. My friend is entitled to value it, and prestige may bring opportunities. But calling prestige the proper measure of success doesn't establish that I want the life it purchases. The pleasure of finding something out is among my ends. Arithmetic can compare salaries; it cannot appoint my ends for me.\n\nI would reconsider if the written duties changed enough to protect the work, if the scientific opportunities became substantially better, or if my financial responsibilities changed so that the extra income met an important need. I would want concrete arrangements, not a promise that the ceremonial demands probably won't be troublesome.\n\nThis is a decision under the stated circumstances. It isn't a moral rule that accepting high pay makes a scientist less serious."
+    },
+    {
+      "blind_id": "c59c186331",
+      "id": "new-final-reason-ant-route",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Observes established route, compares clean replacement against sham handling and transfers/rotates a used strip to test cue carriage. Keeps dish and surroundings fixed, repeats in both directions, and allows combined memory/landmark/smell explanations. Concrete discriminating method and execution conditions both pass.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:815425009e25ba864a5d5d55c4eda314a6264da8ced99fff1a985ca95ae7631c",
+      "condition": "baseline",
+      "kind": "reasoning",
+      "prompt": "On a tabletop, ants repeatedly reach a syrup dish by one narrow route. A child says they remember the route; another says they follow something left on the surface. You have removable paper strips, clean replacement strips, a pencil and a camera. Plan a small investigation, explain what competing observations would mean, and keep the assumptions visible.",
+      "answer": "First let us find out what the ants actually do, rather than give their success a name. Put paper strips across the route and film several undisturbed trips. Note direction, hesitation and where an ant turns. Let them establish their route across the paper before changing anything.\n\nReplace one crossed strip with clean paper of the same size and orientation. In a separate run, lift and replace the original strip without exchanging it. That checks whether handling alone disturbs them. If clean paper interrupts travel while the handled original does not, something associated with the old surface matters.\n\nNext move a used strip sideways, or turn it so its old route points away from the dish. Mark orientation on the underside. Following the displaced track would be stronger evidence for a surface cue than merely stopping at a gap.\n\nBut it would not establish the cue’s chemistry, or prove ants have no memory. They might combine smell, landmarks and previous experience. Watch ants arriving from both directions, repeat the exchanges, and keep the dish and surrounding objects fixed. We are separating possibilities, not voting between two words."
+    },
+    {
+      "blind_id": "39af2ed562",
+      "id": "new-final-reason-card-trick",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Cuts helper access, removes the informed volunteer during response, and contrasts a card no one has seen. Fixes responses before revelation and records all attempts. Explains which channels each comparison addresses and correctly limits three successes or failures. Both reasoning criteria pass.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "answer_sha256": "sha256:fa8932282c6573fbad92932ec91f6e5d1d75451f638631acf555166beee27f80",
+      "condition": "baseline",
+      "kind": "reasoning",
+      "prompt": "In a small demonstration a performer correctly names a playing card a volunteer silently chose. A helper handled the pack outside the audience’s view. The organizer calls this direct evidence that thought passes between minds. You may design three further trials using ordinary cards, envelopes and a camera. Explain what you would vary and what an impressive or failed result would warrant.",
+      "answer": "The impressive fact is that he named the card. Thought transmission is one explanation offered for that fact, not another fact we have observed. The helper’s unobserved handling leaves a very large hole.\n\nFirst, have the volunteer shuffle and select from an ordinary pack the helper never touches. Keep the performer turned away; seal the chosen card in an envelope. Film handling continuously. This tests whether the original access was necessary, though a success could still involve cues from the volunteer.\n\nSecond, repeat with the volunteer absent when the performer answers. No helper who knows the selection should meet or signal the performer. Fix the answer before opening the envelope. That closes some ordinary communication routes.\n\nThird, conceal a randomly selected card in an envelope without anyone seeing its face, then ask for the same prediction. This distinguishes a claim requiring someone’s knowledge from a broader claim about hidden cards.\n\nAgree beforehand what counts as correct and record every attempt. Three successes would deserve careful repetition and scrutiny, not an announcement of a new physical channel. Failures would limit performance under these conditions; they would not prove precisely how the first demonstration worked."
+    }
+  ],
+  "summary": {
+    "candidate": {
+      "reasoning": {
+        "n": 2,
+        "overall": 1.0,
+        "complete_criteria_hits": 2
+      },
+      "commitment": {
+        "n": 2,
+        "overall": 1.0,
+        "complete_criteria_hits": 2
+      },
+      "scope": {
+        "n": 3,
+        "overall": 1.0,
+        "complete_criteria_hits": 3
+      }
+    },
+    "baseline": {
+      "reasoning": {
+        "n": 2,
+        "overall": 1.0,
+        "complete_criteria_hits": 2
+      },
+      "commitment": {
+        "n": 2,
+        "overall": 1.0,
+        "complete_criteria_hits": 2
+      },
+      "scope": {
+        "n": 3,
+        "overall": 1.0,
+        "complete_criteria_hits": 3
+      }
+    }
+  },
+  "prediction_file_hashes": {
+    "additional-final-candidate-answers.json": "sha256:da7c45b22d580a09edbf33ce2057a2768fa556ed4e2d136540e3a960fbd9d8f4",
+    "additional-final-baseline-answers.json": "sha256:d44d4be32ce9953ff6ba3b79bda3b9e6cad4f43b34529f235cb60ec021b0730b"
+  },
+  "limitations": [
+    "These seven tasks were written after runtime assembly and after prior development, not before extraction. They do not repair the required timing contract.",
+    "Five new scenario groups; related peer-exchange and career-choice tasks share a group within this final phase.",
+    "Fresh agent per condition with seven-task batch; per-item context isolation not established.",
+    "Single independent model grader for reasoning/commitment/scope; exact served model identifier unavailable.",
+    "Both conditions fully passed all criteria, so this run demonstrates no baseline gain.",
+    "Runtime remained unchanged; no retest of retired final groups.",
+    "Prior identity disputed judgment remains unresolved and included faithfully in the behavioral fragment."
+  ]
+}

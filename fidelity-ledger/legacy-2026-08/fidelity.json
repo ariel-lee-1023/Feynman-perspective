@@ -1,0 +1,89 @@
+{
+  "projection": {
+    "gate": {
+      "seed": 42,
+      "frac": 0.14,
+      "n_total": 14,
+      "n_masked": 2,
+      "masked": [
+        "p02-flatter-eminent",
+        "p11-adopt-jargon"
+      ],
+      "predictions": [
+        {
+          "id": "p02-flatter-eminent",
+          "predicted_from_kept": "Source/stature is irrelevant to a claim's truth (p01 experiment overrides whose-name; p12 no say-so; p09 indifferent to prestige) -> he will engage the idea, not the person, and bluntly say a bad idea looks bad rather than flatter an eminent figure.",
+          "masked_truth": "Bohr sought him out precisely because 'I never knew who I was talking to... if the idea looked lousy, I said it looked lousy' -- the one man not afraid to tell Bohr an idea was crazy.",
+          "score": 2
+        },
+        {
+          "id": "p11-adopt-jargon",
+          "predicted_from_kept": "Special vocabulary is an illusion of knowledge (p05 name != knowing; p07 any-way-that-works; p14 reduce to concrete) -> handed jargon he translates it back to ordinary words and refuses to adopt it to sound rigorous; wants clarity, not precision.",
+          "masked_truth": "NewMath/integrity: 'the problem is clear language,' the zoo-keeper set-theory sentence collapses to 'take the sick lizards out of the cage'; jargon 'gives an illusion of knowledge.'",
+          "score": 2
+        }
+      ],
+      "overall": 1.0,
+      "passed": true,
+      "recurations": 0,
+      "note": "Both masked stances predicted correctly in stance AND reasoning. High score reflects heavy cross-cluster corroboration (each core stance attested in 2-6 clusters), not over-fit to single passages. Home-turf domain = epistemology/method/authority."
+    },
+    "final": {
+      "overall": 0.9,
+      "by_domain": {
+        "epistemology / scientific method / authority": 0.98,
+        "scientific integrity / not-fooling-yourself": 0.95,
+        "teaching, clarity, jargon": 0.92,
+        "institutional critique (risk, overconfidence)": 0.9,
+        "reflective personal philosophy (doubt, wonder)": 0.85,
+        "physics detail beyond famous set-pieces": 0.55,
+        "domains Feynman avoided (politics, economics, social theory)": "untested/out-of-scope"
+      },
+      "note": "Assembled core's regularities still predict the seeded masked stances (p02, p11) unchanged. High on home turf; drops on physics detail the corpus samples only lightly; deliberately out of scope where the corpus is silent (the avoidance is itself in character)."
+    }
+  },
+  "cost": {
+    "total_divergences": 8,
+    "inventory": [
+      "cr-experiment-over-authority",
+      "cr-nature-cannot-be-fooled",
+      "cr-not-a-yes-man",
+      "cr-lean-over-backwards",
+      "cr-name-vs-thing",
+      "cr-live-with-doubt",
+      "cr-honors-are-epaulets",
+      "cr-what-do-you-care"
+    ],
+    "slated_for_core": 8,
+    "logged_out": 0,
+    "missing_unlogged": 0,
+    "gate_status": "pass",
+    "note": "All 8 attested incentive-vs-characteristic divergences are slated for the core (ranks 1-6, 9, 11). Nothing to re-include or elevate.",
+    "presence_assertion": "pass",
+    "in_core_final": 8,
+    "note_final": "Core carries all 8 cost-refusals plus 3 interactional moves; minimum-presence holds by construction."
+  },
+  "style": {
+    "sentence_len_delta": 0.06,
+    "sentence_len_shape": "sample mean 22 vs corpus 23.2 / lecture 24.4 — match; long-build + short-punch mix present",
+    "hedge_rate": "restored (was 0 in first draft; representative sample ~16/1k vs corpus 6.6 — slightly heavy, right direction)",
+    "booster_note": "script tallies boosters by single-word token, so phrase-boosters ('of course','in fact','that's all there is to it') under-register; present qualitatively",
+    "modulation_reproduced": true,
+    "modulation_note": "exclamation 0/1k in calm exposition vs ~17/1k under contest (memoir orig ~8); sentences tighten under stakes (contested sample median 7 vs calm 22). Direction matches originals.",
+    "second_person": "sample 54% still leans high; rule softened to 'comes and goes' — minor residual"
+  },
+  "revision_v2": {
+    "change": "Cluster modules rewritten from ~200 to ~1000-1400 words each after a second deep read of the source clusters; core amended.",
+    "new_material_surfaced": [
+      "c04: Millikan asymmetric-scrutiny diagnostic; ESP shrinking-effects diagnostic; replication-before-variation; Young eliminate-the-confound sequence; the senator/advisor 'you're being used' refusal; Wesson-oil weasel-reading; integrity framed as depending on institutional freedom, not virtue.",
+      "c06/c11: full 7-step engineer-polling procedure (announce aim -> independent written answers -> refuse methodology-for-value -> name evasion -> force the number -> report disparity -> move on); semantic auditing of official prose.",
+      "c13: beauty/simplicity GUIDE the guess while experiment JUDGES it ('more comes out than goes in', 'imagination in a terrible strait-jacket'); prejudice-vs-absolute-certainty distinction; the dropped caveats after the famous line.",
+      "c07/c10: spoken-register mechanics (self-interruption, mid-clause correction, tag questions, retained approximation markers); reflexive application of the not-fooling-yourself standard to his own wartime conduct.",
+      "c17: precision-that-manufactures-doubt; the parent test; the zoo-keeper restatement test; words-to-facts ratio diagnostic; guessing legitimate in pure mathematics.",
+      "c01-c05: narrative architecture (tense-shift into scene, fragment interior monologue, land-then-decode); the key insight that he runs the empirical engine on social convention; Bohr stance framed as obliviousness not courage."
+    ],
+    "core_amendment": "Added two in-voice paragraphs covering beauty-guides-guessing and bias-vs-absolute-certainty. Rationale: the prior core risked reading as indifference to elegance and as demanding a blank mind -- both misrepresentations of c13. Core now ~1,914 tokens (still within budget).",
+    "voice_purity_recheck": "clean",
+    "gates_affected": "None invalidated. Projection/cost gates were run pre-assembly on the element set, which is unchanged -- no elements added, removed, or re-ranked; the amendment refines the expression of an already-core element (cr-experiment-over-authority) and the modules are references, which are exempt from voice-purity constraints."
+  }
+}

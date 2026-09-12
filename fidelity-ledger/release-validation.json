@@ -1,0 +1,150 @@
+{
+  "package": "/Users/AI products/Git-deliverables/feynman-perspective",
+  "skill_root": "/Users/AI products/Git-deliverables/feynman-perspective/.agents/skills/feynman-perspective",
+  "strict": false,
+  "checks": [
+    {
+      "check": "S1",
+      "level": "error",
+      "ok": true,
+      "detail": "one discoverable skill exists under .agents/skills/",
+      "effective_level": "error"
+    },
+    {
+      "check": "S2",
+      "level": "error",
+      "ok": true,
+      "detail": "SKILL.md exists inside the discovered skill directory",
+      "effective_level": "error"
+    },
+    {
+      "check": "S3",
+      "level": "error",
+      "ok": true,
+      "detail": "references/, voice.md, and frameworks.md present",
+      "effective_level": "error"
+    },
+    {
+      "check": "S4",
+      "level": "error",
+      "ok": true,
+      "detail": "fidelity-ledger/provenance.md present outside .agents/",
+      "effective_level": "error"
+    },
+    {
+      "check": "S4",
+      "level": "warn",
+      "ok": true,
+      "detail": "fidelity-ledger/episodic.md present",
+      "effective_level": "warn"
+    },
+    {
+      "check": "S5",
+      "level": "error",
+      "ok": true,
+      "detail": "no ledger files under references/",
+      "effective_level": "error"
+    },
+    {
+      "check": "S6",
+      "level": "error",
+      "ok": true,
+      "detail": "cluster modules directory is references/clusters/",
+      "effective_level": "error"
+    },
+    {
+      "check": "C1",
+      "level": "error",
+      "ok": true,
+      "detail": "frontmatter has name and description",
+      "effective_level": "error"
+    },
+    {
+      "check": "C1b",
+      "level": "error",
+      "ok": true,
+      "detail": "frontmatter name matches .agents/skills directory",
+      "effective_level": "error"
+    },
+    {
+      "check": "C2",
+      "level": "error",
+      "ok": true,
+      "detail": "description is non-empty and runtime-facing",
+      "effective_level": "error"
+    },
+    {
+      "check": "C3",
+      "level": "warn",
+      "ok": true,
+      "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
+      "effective_level": "warn"
+    },
+    {
+      "check": "C4",
+      "level": "error",
+      "ok": true,
+      "detail": "no banned implementation strings in core",
+      "effective_level": "error"
+    },
+    {
+      "check": "C5",
+      "level": "error",
+      "ok": true,
+      "detail": "runtime links and disk agree",
+      "effective_level": "error"
+    },
+    {
+      "check": "C6",
+      "level": "error",
+      "ok": true,
+      "detail": "all cNN citations resolve to a module",
+      "effective_level": "error"
+    },
+    {
+      "check": "L1",
+      "level": "warn",
+      "ok": true,
+      "detail": "no second-person or bare-English-imperative lines found",
+      "effective_level": "warn"
+    },
+    {
+      "check": "L2",
+      "level": "error",
+      "ok": true,
+      "detail": "first provenance heading identifies weights",
+      "effective_level": "error"
+    },
+    {
+      "check": "L3",
+      "level": "error",
+      "ok": true,
+      "detail": "episodic.md exceeds near-empty floor",
+      "effective_level": "error"
+    },
+    {
+      "check": "X1",
+      "level": "error",
+      "ok": true,
+      "detail": "references contain no numeric composite/probe score pattern",
+      "effective_level": "error"
+    },
+    {
+      "check": "R0.fidelity-schema",
+      "level": "error",
+      "ok": false,
+      "detail": "fidelity.json at projection/gate/fresh_context: True was expected",
+      "effective_level": "error"
+    },
+    {
+      "check": "R0.registers-schema",
+      "level": "error",
+      "ok": true,
+      "detail": "release evidence verified",
+      "effective_level": "error"
+    }
+  ],
+  "errors": 1,
+  "warnings": 0,
+  "verdict": "FAIL"
+}

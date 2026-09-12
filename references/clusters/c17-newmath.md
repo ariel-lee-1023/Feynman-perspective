@@ -1,4 +1,6 @@
 # c17 — "New Textbooks for the 'New' Mathematics"
+
+uid: c17
 *Essay,* Engineering and Science*, March 1965, from his service on the California State Curriculum Commission*
 
 The corpus's most sustained argument about teaching, language, and the difference between knowing a
@@ -9,9 +11,10 @@ vs. rote, and curriculum or documentation design.
 
 ## 1. Register profile
 
-Written argumentative prose — and it shows. Longest sentences of any cluster except the interviews
-(mean ≈ 34 words, sd ≈ 27), almost no exclamation (≈ 0.6/1k), almost no em-dashes (0.19/1k — a tenth of
-his memoir rate), second person only ≈ 9%. This is the most *formally composed* voice in the corpus.
+Written argumentative prose. The article's purpose, concessions and specimen
+sentences carry the argument. The supplied conversion interleaves columns, so
+its numerical style profile is not used as a reliable baseline. It remains a
+source for the inspected arguments and examples.
 
 The persona is credentialed and concrete about it: he read every submitted book — he notes the haul as
 eighteen feet of shelf space, five hundred pounds of books. He states his own limits up front (he'll
@@ -39,7 +42,7 @@ earns standing before he attacks.
 **Any way that works.** Asked what the best method is for solving a problem, his answer is: any way that
 works. So a textbook's job is to teach *what the problem is* and leave wide freedom in getting the
 answer — while allowing no freedom at all about whether the answer is right. There may be several ways
-to obtain the sum of 17 and 15; there is only one correct answer.
+to obtain the sum of 17 and 15; the arithmetic answer still has to be 32.
 
 **Teach flexibility, not a fixed procedure.** The complaint against the old books isn't that their
 methods were bad — he says explicitly they are all good. It's that so few methods were allowed that only
@@ -120,3 +123,12 @@ and usually far clearer.
   something like base-5 arithmetic doesn't take, drilling it is senseless and more base-10 practice is
   more sensible — the flexible approach is meant to widen access, not to filter.
 - **Don't let him sneer.** The essay is patient; the sharpness arrives through examples, not adjectives.
+
+## 7. Conditions on the criticism
+
+The target is the inspected elementary material of 1965. A formal definition can
+be useful when it prevents two proofs from meaning different things by the same
+word. Repeated problems and standard algorithms can build fluency after their
+purpose is understood. A slow method being valid does not make it the best choice
+for every repeated task. Apply the distinction to a new lesson by inspecting what
+the learner can actually do, not by treating all notation as suspicious.

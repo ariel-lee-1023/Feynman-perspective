@@ -1,99 +1,159 @@
-# Provenance & fidelity ledger — feynman-perspective
+# Feynman upgrade — fidelity ledger
 
-Honesty lives here, never in the core `SKILL.md`. This file maps each core element to its
-sources and clusters, its projection performance, and its cost-gate status.
+## 1. Admission rules (this run)
 
-## Corpus & clusters
-Seven works, ~444k words, segmented into 17 clusters (`clusters/manifest.json`):
-- *Surely You're Joking, Mr. Feynman!* → c01 (early life), c02 (Los Alamos/bomb/safes), c03 (Cornell/Caltech/Brazil), c04 (Cargo Cult Science appendix)
-- *What Do You Care What Other People Think?* → c05 (personal: father, Arline), c06 (Challenger/Rogers Commission — decision record)
-- *The Pleasure of Finding Things Out* → c07 (BBC interview), c08 (Los Alamos talk), c09 (science & society essays), c10 (integrity interviews), c11 (Challenger Minority Report — decision record)
-- *The Character of Physical Law* → c12 (lectures 1–3), c13 (lectures 4–7)
-- *Six Easy Pieces* → c14, c15
-- *Feynman's Tips on Physics* → c16 (OCR'd scan)
-- *New Textbooks for the "New" Mathematics* → c17
+The controlling tool is persona-distiller `b57edf4706065fef3fc520dd1521c3d66650b6a6`,
+confirmed to match remote main on 2026-09-12. Its class-specific scorer, grouped
+split, register stability rules, runtime hash and release validator were applied.
+No legacy numerical fidelity claim was accepted as a current result.
 
-dialogue_ratio 0.172; decision_density 0.114; temporal spread 1955–1988 (memoirs recount 1918–1988).
+The independent custodian prepared task evidence and graded actual model outputs.
+The initial rule-sheet comparison used separate fresh candidate and minimal-role
+contexts; conditions were hidden and responses shuffled for the first grading.
+Later exact-runtime confirmation was independently graded but unblinded. Model
+records accurately say “inherited parent model”; exact provider model and settings
+were unavailable. This is observational manual evidence, not an executable-runner
+record or a proof that public text was absent from pretraining.
 
-## Core element → source map (with projection & cost-gate status)
+Class admission uses the actual development mappings in `candidates.json` and
+`element-development-assessment.json`. Two source-based numerical hits do not
+create independent attestation when both describe the same episode. The NASA
+standing-verdict candidate was cut for that reason. Categorical voice variation
+was cut because discrimination and stable-family evidence were missing. The
+wording/notation procedure initially had only one new transfer case; its gap and
+the subsequent frozen programming task are preserved, rather than backfilled.
 
-| element | core section | sources (clusters) | projection | cost-gate | note |
-|---|---|---|---|---|---|
-| cr-experiment-over-authority | What I will not concede | Character L4-7 (c13), Cargo Cult (c04), SYJ-Bohr (c02), Monster Minds (c01), Challenger (c06,c11) | 0.98 | high-signal, in core | strongest element; attested in 6 clusters |
-| cr-nature-cannot-be-fooled | What I will not concede | WDYC-Challenger (c06), Minority Report (c11) | 0.90 | high-signal, in core | 2 clusters, both decision records |
-| cr-not-a-yes-man | What I will not concede / How I move | SYJ (c02), Character (c13), SYJ (c01), Challenger (c06) | 0.98 | high-signal, in core | corroborates experiment-over-authority |
-| cr-lean-over-backwards | What I will not concede | Cargo Cult (c04), integrity interviews (c10), Challenger (c06) | 0.95 | high-signal, in core | the "extra" integrity |
-| cr-name-vs-thing | What I will not concede / How I move | WDYC-father (c05), BBC (c07), NewMath (c17), SYJ (c01) | 0.92 | high-signal, in core | 4 clusters incl. father-lesson origin |
-| cr-live-with-doubt | What I will not concede | BBC (c07), Cargo Cult (c04), Character (c13), science&society (c09) | 0.85 | high-signal, in core | reflective register |
-| cr-honors-are-epaulets | What I will not concede | SYJ-Nobel (c03), BBC (c07), WDYC (c05) | 0.85 | high-signal, in core | 3 clusters |
-| cr-what-do-you-care | What I will not concede | WDYC-Arline (c05), SYJ (c03) | 0.80 | high-signal, in core | 2 clusters; title theme of WDYC |
-| pr-guess-compute-compare | How I read a question | Character (c13), Cargo Cult (c04), Tips (c16) | 0.95 | regularity | the method, crisply stated in c13 |
-| pr-do-the-direct-experiment | How I read / How I move | Challenger (c06,c11) | 0.85 | regularity + interactional | ice-water demo; single episode, 2 clusters |
-| pr-survived-anomaly-warning | How I read a question | Minority Report (c11), Challenger (c06) | 0.90 | regularity | Russian-roulette reasoning |
-| pr-any-way-that-works | How I read a question | NewMath (c17), SYJ box-of-tools (c01), Tips (c16) | 0.90 | regularity | method pluralism |
-| pr-concrete-example-first | How I read a question | Tips (c16), Character (c12), Six Easy (c14,c15), NewMath (c17) | 0.90 | regularity | most pervasive move |
-| pr-rederive-dont-defer | How I read a question | Tips (c16), SYJ (c01), Character (c12), NewMath (c17) | 0.80 | regularity | reconstruct over accept |
-| pr-knowledge-adds-to-wonder | What I keep returning to | BBC-flower (c07), science&society (c09), Character (c13) | 0.85 | regularity/preoccupation | the flower passage |
-| im-show-me-dont-tell-me | How I move in an exchange | Challenger (c06), Character (c13), Cargo Cult (c04) | 0.90 | high-signal interactional | demand the number/derivation |
-| im-refuse-jargon-translate | How I move in an exchange | NewMath (c17), integrity interviews (c10) | 0.85 | interactional | clear-not-precise; zoo-keeper example |
-| im-story-to-make-the-point | How I move in an exchange | Six Easy (c14), NewMath (c17), Challenger (c06), SYJ (c01) | 0.70 | interactional | homely analogy reflex |
-| mod-exclaim-story-silent-exposition | How I sound | c01,c03,c05 vs c12,c13,c14 (measured) | n/a | protected modulation | exclaim ~6-9/1k memoir vs ~0.3/1k lecture |
-| mod-length-swings-with-register | How I sound | c07,c17 (long) vs c05,c06 (clipped) | n/a | protected modulation | mean 39 (BBC) vs ~19 (WDYC personal) |
-| mod-second-person-peaks-teaching | How I sound | c12,c13,c04 (measured) | n/a | protected modulation | 2nd-person 25-27% lecture vs 11-15% memoir |
-| pre-fooling-yourself | What I keep returning to | c04,c06,c10,c11 | 0.80 | preoccupation | across unrelated clusters |
-| pre-pleasure-of-finding-out | What I keep returning to | c07,c03,c09,c16 | 0.75 | preoccupation | title theme |
-| pre-nature-wonderful-as-is | What I keep returning to | c07,c09,c13 | 0.70 | preoccupation | awe without imposed purpose |
+## 2. Core elements and the costing distinction
 
-Demoted by the ~20% style cap / <0.55 floor (bare style averages, in `episodic.md`):
-st-plain-anglosaxon (0.385), st-conversational-direct (0.355), st-dash-parenthetical-aside (0.295).
-Their *content* is folded into the "How I sound" voice rules; the averages themselves are generic.
+`scores.json` is the scorer's unmodified output. Procedures, regularities and
+the interactional move carry source locators, execution conditions and actual
+development case IDs. Pressure evidence concerns refusal of unsupported
+endorsement and useless sponsored terminology. It does not independently prove
+that every retained moral commitment will survive every incentive.
 
-## Fidelity results
+Three concrete cost divergences remain visible in the core: refusal to endorse
+an unexamined textbook; refusal to let support depend on a flattering scientific
+conclusion; and conditional participation/signature in the Challenger report.
+The two pressure scenarios transfer the endorsement/integrity pattern. The last
+episode is retained as attested material but has no untouched final pressure trial.
+Bohr's lack of deference, doubt, enjoyment and dislike of honors are not counted
+as additional costly refusals merely to enlarge a budget.
 
-**Projection gate (pre-assembly), seed 42, frac 0.14, 2/14 masked:** overall **1.00**, 0 re-curations.
-Masked p02 (flatter an eminent figure?) and p11 (adopt jargon to sound rigorous?) both predicted correctly
-in stance *and* reasoning from the remaining 12 passages — because each stance is corroborated across
-multiple clusters, so masking one passage doesn't remove it. Passed cleanly; no re-curation triggered.
+## 3. Corpus, attribution and grouping
 
-**Projection final (assembled core):** overall **0.90**. Per domain: epistemology/method/authority 0.98;
-integrity 0.95; teaching/clarity 0.92; institutional critique 0.90; reflective/personal 0.85; physics detail
-beyond famous set-pieces ~0.55; domains Feynman avoided (politics/economics/social theory) untested / out of
-scope.
+Seven user-specified Markdown works supplied the record. The Tips Markdown
+contains no substantive prose. The paired PDF was rendered at 1.8× and OCRed
+with local Tesseract; it contains 176 scanned pages. PDF pages 29–147 carry the
+four Feynman lectures used for training. The span-level manifest conservatively marks lecture dialogue as mixed; student questions and editor footnotes are not Feynman evidence. Front matter, Sands's memoir and the
+Leighton/Vogt exercise section were excluded from persona attribution. Editor
+footnotes and OCR-sensitive formulas are not treated as a formula reference.
 
-**Cost gate:** all **8** attested incentive-vs-characteristic divergences slated for and present in the core
-(none logged out, none missing). Minimum-presence assertion: **pass** (core carries 8 cost-refusals + 3
-interactional moves).
+`training-manifest.json`, `segment-spec.json`, cleaning reports and source locator
+records preserve the construction spans. The training selection is purposefully
+smaller than seven complete books. Legacy depth that remained in the runtime was
+reviewed against available training material; its old frequency measurements and
+strong unsupported generalizations were removed. The retained modules are
+source-oriented depth, not independently admitted statistical voice families.
 
-**Style-match:** sentence-length shape matches (representative sample mean 22 vs corpus 23.2 / lecture 24.4;
-long-build-plus-short-punch mix present). Modulation **reproduced**: exclamation ~0/1k in calm exposition vs
-~17/1k under contest (memoir originals ~8); sentences tighten under stakes. Minor residuals: the first draft
-dropped his hedges entirely (fixed — "How I sound" now restores "kind of/roughly/as far as I can tell" plus
-the boosters "of course/in fact/that's all there is to it"); representative sample slightly over-hedges and
-leans a touch high on second-person; the style script under-counts phrase-boosters (single-token tally), a
-measurement artifact rather than a voice gap.
+The first metadata-only seed-42 work split placed already-exposed memoir/public
+material in final. It was invalid and remains in `work-split.json`. The replacement
+uses the same seed on three previously unexposed lecture episodes, with known
+exposure and related retellings forced into training. This constraint is explicit
+in `split.json`; the seed was not searched until favorable answers appeared.
+The final group is one physics lecture, not seven independent books. The related
+Challenger narrative and Appendix F/reprint count as one inquiry.
 
-## Where to trust the persona less
-Strong on how Feynman *thinks and argues* (method, authority, integrity, clarity, risk, wonder). Weaker as a
-source of specific physics content beyond the famous set-pieces, and it should not be pushed to speak
-confidently on organized politics, economics, or social theory — the corpus is silent there, and that silence
-is itself in character. Reconstructed memoir dialogue is faithful in spirit, not verbatim transcript.
+The source split preceded new trait extraction. The behavioral task suite did
+not: that timing limitation is explicit. Added developmental risk problems also
+overlapped a reserved engineering scenario group; those final cases were retired.
+The source final remained sealed until exact runtime construction and development
+confirmation were complete. No final answer was used to revise the runtime.
 
-## Revision v2 — cluster-module deepening
+## 4. Voice evidence and its limits
 
-The six cluster modules were rewritten (~200 → ~1,000–1,400 words each) after a second, closer read of
-the source clusters. The first pass identified patterns; it did not give a host agent enough to
-*generate* the voice. Each module now carries: a register profile tied to measured metrics, the
-argumentative or narrative architecture of the source, move-by-move generative procedures with worked
-walkthroughs, characteristic constructions, and explicit anti-patterns.
+Six separately sampled English source units were cleaned before measurement.
+`style-metrics.json` preserves the per-file observations. Its automatically
+produced aggregate is not used as a runtime voice target. Literal rescans rejected
+the old suggested absences of “state” and “social”; both actually occur.
 
-Material surfaced in the second read that the first pass missed is listed in `fidelity.json`
-(`revision_v2.new_material_surfaced`). The most consequential item: *The Character of Physical Law*
-treats beauty and simplicity as **guides to guessing** even while experiment remains the **sole judge**
-("more comes out than goes in"; "imagination in a terrible strait-jacket"), and distinguishes
-permissible *bias* from fatal *absolute certainty*. The v1 core risked reading as indifference to
-elegance and as demanding a blank mind — both misrepresentations. The core was amended with two
-in-voice paragraphs; it remains within budget (~1,914 tokens) and passes the voice-purity scan.
+`registers.json` returned `INSUFFICIENT_EVIDENCE`: the supported pair decisions
+were not stable across equal-length subsamples. A sensitivity run on four longer
+units also returned insufficient evidence. Both records retain default thresholds.
+No family count was fabricated and no thin sample was silently called one family.
+The runtime instead routes by the actual task's communicative form and states the
+statistical limitation in its host-facing modules. English metrics do not validate
+Chinese output.
 
-No gate was invalidated: the element set is unchanged (nothing added, removed, or re-ranked), so the
-pre-assembly projection and cost gates still hold. The amendment refines the expression of an element
-already in core (`cr-experiment-over-authority`).
+## 5. Development and final assessments
+
+The first paired development comparison tied: both conditions passed the two
+projection, two reasoning and two pressure tasks. Both omitted the German atomic
+bomb threat in the early-period scope task. The core/scope contract was then
+strengthened to preserve original motive, actual participation and later reflection.
+
+Fresh exact-runtime development confirmation passed all nine nonidentity items,
+including the three historical scope cases. The saved baseline passed two of
+three scope cases. This difference is development-informed; it is not an
+independent estimate of improvement. The two projection probes belong to one
+lecture episode and remain correlated.
+
+Supplemental sign/energy, learning and risk cases support class admission but
+were candidate-only and unblinded. The separate programming-method case was
+added after a demonstrated coverage gap. Actual prompts, answers, evidence hashes
+and model grading rationales are retained. None is called an untouched final test.
+
+Final projection and identity outcomes are recorded in the adjacent final reports
+after the runtime hash was frozen. Source final and identity assessment are
+separate claims: correct physics does not establish recognizable identity, and
+successful identity classification does not repair missing independent historical
+scope and commitment trials.
+
+## 6. Budgets and package boundaries
+
+All displayed planning sizes use `token_count.py` with its declared heuristic:
+1.3 per Latin word, 1/0.6 per Han/Kana character, and the script's additional
+number, punctuation and whitespace terms. These are not BPE counts. The old
+package's much smaller stated size therefore is not used as a comparable unit.
+
+`budgets.json` and `token-counts.json` separate computed supply, ceilings and
+realized sizes. Module source-mass terms, construct/move counts and loading
+situations are recorded in the budget input. Legacy module sizes were retained
+where useful rather than filled to a target. Any deviation from the supply
+estimate is shown; the 6,000-token hard module ceiling remains applicable.
+
+Root SKILL and references are the single canonical runtime. The discovery link
+resolves to that root. Audit manifests formerly under references were moved into
+this ledger. The pre-existing local AGENTS content was preserved verbatim; the
+tool repository's unrelated untracked AGENTS file was never included.
+Raw books, rendered pages, OCR text, private target passages and scratch files
+remain outside the deliverable. The source authors' rights remain separate from
+the repository license.
+
+## 7. Release status and remaining work
+
+This is a working upgrade candidate. Structural validation and release validation
+are reported separately. The latter remains failing. The `behavioral` field now contains the separately frozen seven-case post-assembly final comparison plus actual identity judgments, including the disputed comparator judgment. Development trials were not substituted. Source projection artifacts record fresh condition-level agents but not strict per-item isolation; `fresh_context:false` deliberately preserves the schema rejection.
+
+Remaining requirements include stable register analysis, before-extraction behavioral design, per-item prediction isolation, resolution of identity evidence disputes, completed budget curation and reproducible exact-model execution metadata. The standalone identity and source-projection
+reports provide additional observations; they do not waive those requirements.
+
+## 8. Append-only run history
+
+1. Existing target main and GitHub remote matched `1adbf4a6cc2df9f0717eaed51bc407a0289c35e7`.
+2. Legacy validation recorded missing standing modules, runtime/audit leakage and
+   absent independent split evidence. Old artifacts were archived unchanged.
+3. The metadata split was corrected for known exposure; raw-source quality and
+   editorial attribution were checked before new extraction.
+4. Development tests informed scope correction and exposed one missing transfer
+   case. Scores were generated from actual independent review, not chosen numbers.
+5. Runtime bytes were frozen before reserved source and identity predictions.
+6. Final local integration, validation and remote verification are documented in
+   the release-status record alongside this ledger.
+
+The final boundary review is recorded in `source-boundary-review.json`. It corrected metadata after the runtime freeze; no final answer was used for that housekeeping and no runtime bytes changed. Mechanical class ranking and budget serialization were finalized after assembly, from already recorded development evidence. Their timestamps are not presented as a pre-assembly execution.
+
+Budget audit: core estimate4,151.67 versus supply3,930; total runtime37,824.13; worst-case load22,098.33 estimated tokens including scope and two largest depth modules. All depth modules are below the6,000 ceiling, but several legacy depths exceed their computed supply and voice supply remains unresolved. This is another uncompleted latest-standard requirement, not a passing budget claim.
+
+Additional final comparison: seven newly frozen cases across five distinct scenario groups, with condition-blind grading before unblinding. Both candidate and baseline passed2reasoning,2commitment and3scope items. The suite was assembled after the runtime and after extraction; it cannot retroactively repair earlier timing. There were no post-result runtime edits. The earlier source test remains its original first exposure.
+
+Style:608-word long explanation and317-word developmental pressure reply; no hits on the5checked avoid terms. Against one680-word held-out technical excerpt, the long sample mean sentence length is15.2 versus21.25 and hedge rate4.93 versus10.29per1,000. These descriptive differences are not a passed modulation gate.

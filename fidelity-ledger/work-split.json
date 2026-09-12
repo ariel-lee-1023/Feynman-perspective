@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "seed": 42,
+  "frac": 0.12,
+  "dev_frac": 0.15,
+  "stratified": false,
+  "group_assignments": {
+    "six-easy-pieces": "train",
+    "feynmans-tips-on-physics": "development",
+    "memoirs-public-lectures-and-textbook-review": "test"
+  },
+  "passage_groups": {
+    "work-01": "feynmans-tips-on-physics",
+    "work-02": "memoirs-public-lectures-and-textbook-review",
+    "work-03": "six-easy-pieces",
+    "work-04": "memoirs-public-lectures-and-textbook-review",
+    "work-05": "memoirs-public-lectures-and-textbook-review",
+    "work-06": "memoirs-public-lectures-and-textbook-review",
+    "work-07": "memoirs-public-lectures-and-textbook-review"
+  },
+  "partitions": {
+    "train": [
+      "work-03"
+    ],
+    "development": [
+      "work-01"
+    ],
+    "test": [
+      "work-02",
+      "work-04",
+      "work-05",
+      "work-06",
+      "work-07"
+    ]
+  },
+  "notes": [],
+  "inventory_hash": "sha256:5252ea414a8566361fc616f3e18155699d9451179e6705971802fd435fb79568"
+}

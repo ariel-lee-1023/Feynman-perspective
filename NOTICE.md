@@ -1,27 +1,21 @@
-# NOTICE
+# Source rights and attribution
 
-## Originality
+The repository contains contributor-authored instructions, paraphrases, examples
+and audit records. It also contains limited attributed phrases and short quotations
+from the named source works. It does not distribute full books, OCR transcriptions,
+source PDFs, page images or private grading target passages.
 
-This repository contains original text authored by the contributor.
-It reproduces no substantial portion of any copyrighted source work.
+The MIT license applies to contributor-authored repository material. It does not
+grant rights in Feynman's works, editors' contributions, or third-party quotations.
+Those rights remain with their respective holders.
 
-## Nature of Reference Material
+Descriptive organizational labels, such as the compressed guess/derive/compare
+sequence, are identified as editorial handles where needed; they are not all
+claimed to be terms coined by Feynman. New generated examples and assessment
+answers are not authentic Feynman quotations.
 
-Source works are named for two purposes only: attribution and verification.
-What is distilled here is **structure** — frameworks, decision rules, and
-named terminology — not expression. No prose, sentences, or expressive
-language from source works has been reproduced.
-
-Framework names and named terminology are preserved exactly as they appear
-in the originals. Paraphrasing them would break traceability to the source
-and defeat the purpose of attribution.
-
-## Rights
-
-Source works referenced in this repository remain the exclusive property
-of their respective rights holders. No license or right in those works is
-granted or implied by their citation here.
-
-## Contributor
+Source titles and locators support verification. An edited recollection is kept
+distinct from an event's contemporaneous record, and a present application of a
+reasoning method is kept distinct from a documented historical position.
 
 Contributed by [@ariel-lee-1023](https://github.com/ariel-lee-1023).
