@@ -1,0 +1,222 @@
+{
+  "estimator": "token_count.py heuristic, not BPE; unmodified coefficients",
+  "stage": "round2 curation and measured assembly, before independent final",
+  "core": {
+    "class_counts": {
+      "procedure": 4,
+      "cost_refusal": 1,
+      "projectible": 3,
+      "interactional": 1
+    },
+    "supply": 3930,
+    "ceiling": 6000,
+    "realized": 4199.67,
+    "relative_deviation": 0.0686
+  },
+  "frameworks": {
+    "counts": {
+      "constructs": 5,
+      "procedure": 5,
+      "epistemic": 5,
+      "conditional_historical_rows": 3,
+      "moves": 4,
+      "personal": 3
+    },
+    "supply": 3995,
+    "ceiling": 7000,
+    "realized": 4355.9,
+    "relative_deviation": 0.0903,
+    "note": "Historical lookup rows are not admitted standing verdicts."
+  },
+  "voice": {
+    "family_scope": "two introductory explanatory lecture sources only",
+    "families": 1,
+    "rules": 15,
+    "avoid_terms": 5,
+    "new_pairs": 5,
+    "supply": 3300,
+    "ceiling": 7000,
+    "realized": 3322.3,
+    "relative_deviation": 0.0068,
+    "note": "No inferred gradient or second family. Rules are host guidance grounded in retained default prose, not independent statistical trait admissions."
+  },
+  "clusters": [
+    {
+      "cluster_id": "c01-c03-c05-memoir",
+      "supply": 1944,
+      "budget": 1944,
+      "counts": {
+        "apparatus": 1,
+        "moves": 5,
+        "applications": 3,
+        "fragments": 9,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 7074,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 1900.3,
+      "relative_deviation": -0.0225
+    },
+    {
+      "cluster_id": "c04-cargo-cult",
+      "supply": 2030,
+      "budget": 2030,
+      "counts": {
+        "apparatus": 2,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 7,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 3361,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 1808.33,
+      "relative_deviation": -0.1092
+    },
+    {
+      "cluster_id": "c06-c11-challenger",
+      "supply": 2129,
+      "budget": 2129,
+      "counts": {
+        "apparatus": 1,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 32631,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 1835.93,
+      "relative_deviation": -0.1377
+    },
+    {
+      "cluster_id": "c07-c10-interviews",
+      "supply": 2011,
+      "budget": 2011,
+      "counts": {
+        "apparatus": 1,
+        "moves": 5,
+        "applications": 4,
+        "fragments": 7,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 13652,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 1842.77,
+      "relative_deviation": -0.0837
+    },
+    {
+      "cluster_id": "c13-seeking-new-laws",
+      "supply": 2111,
+      "budget": 2111,
+      "counts": {
+        "apparatus": 2,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 9400,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 1782.0,
+      "relative_deviation": -0.1559
+    },
+    {
+      "cluster_id": "c16-problem-solving",
+      "supply": 2491,
+      "budget": 2491,
+      "counts": {
+        "apparatus": 2,
+        "moves": 7,
+        "applications": 4,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 65459,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 1916.63,
+      "relative_deviation": -0.2306
+    },
+    {
+      "cluster_id": "c17-newmath",
+      "supply": 1987,
+      "budget": 1987,
+      "counts": {
+        "apparatus": 1,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 5084,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 1836.33,
+      "relative_deviation": -0.0758
+    }
+  ],
+  "package_total_est": 26947.33,
+  "loaded_worst_case_est": 17858.3,
+  "load_formula": "core+scope+voice+frameworks+2*largest_depth_module (scope included in addition to tool conventional formula)",
+  "findings": [
+    "Core remains within10% of its computed supply.",
+    "All seven depth modules now fit below their computed supply; none padded to meet a nominal size.",
+    "Standing framework is unchanged and within10%; voice is within1% of computed supply.",
+    "All module eligibility/floor verdicts remainOK; short realized module text does not alter the conceptual-supply floor test."
+  ],
+  "comparison_to_round1": {
+    "old_total": 37824.13,
+    "new_total": 26947.33,
+    "reduction_percent": 28.76,
+    "old_worst_case": 22098.33,
+    "new_worst_case": 17858.3
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "subject": "Richard Feynman",
+  "baseline_prompt": "Think like Richard Feynman. Answer the task.",
+  "tasks": [
+    {
+      "id": "opt2-hadrons-1",
+      "partition": "development",
+      "kind": "projection",
+      "group": "research-hadrons",
+      "prompt": "At very high collision energies, measurements select one outgoing particle at a fixed longitudinal momentum. A colleague compares these bins at different beam energies and concludes that the production pattern changes drastically. Transverse momenta remain limited while the available longitudinal momentum grows. How would you reorganize the comparison, and what must remain an empirical proposal rather than an exact universal law?",
+      "criteria": {
+        "direction": "Correct substantive judgment",
+        "method": "Source-specific reasoning including limiting conditions"
+      }
+    },
+    {
+      "id": "opt2-hadrons-2",
+      "partition": "development",
+      "kind": "projection",
+      "group": "research-hadrons",
+      "prompt": "Two high-energy collision experiments appear inconsistent. One counts events with specified outgoing particles and forbids any additional particles. The other counts the same specified particles but permits anything else to emerge. The first event rate falls while the second can approach a constant. Explain whether this is a contradiction and what physical distinction matters; do not assert that either experiment must be wrong.",
+      "criteria": {
+        "direction": "Correct substantive judgment",
+        "method": "Source-specific reasoning including limiting conditions"
+      }
+    },
+    {
+      "id": "opt2-dev-reason-fold",
+      "partition": "development",
+      "kind": "reasoning",
+      "group": "opt2-dev-paper-fold-process",
+      "prompt": "A program simulates folding a paper strip in half three times. Its author says the answer is eight layers because the loop ran eight steps; a trace shows only three fold instructions. Explain how you would reconstruct and check the program\u2019s claim using an actual strip and a small table before changing the code.",
+      "criteria": {
+        "method": "Executes the characteristic concrete reconstruction/check rather than naming it",
+        "conditions": "States what must hold for that check and how competing results bear on the explanation"
+      }
+    },
+    {
+      "id": "opt2-dev-reason-cooling",
+      "partition": "development",
+      "kind": "reasoning",
+      "group": "opt2-dev-container-cooling",
+      "prompt": "Two equal cups of hot water cool at different rates. One is black ceramic with a lid; the other is shiny metal without a lid. Someone announces that black color traps heat. You have a thermometer, lids, removable sleeves and a clock. Plan a comparison and say what the original observation does and does not establish.",
+      "criteria": {
+        "method": "Executes the characteristic concrete reconstruction/check rather than naming it",
+        "conditions": "States what must hold for that check and how competing results bear on the explanation"
+      }
+    },
+    {
+      "id": "opt2-dev-cost-observatory",
+      "partition": "development",
+      "kind": "commitment",
+      "group": "opt2-dev-observatory-radio-funding",
+      "prompt": "You lead a small observatory studying an unusual stellar spectrum. You know of no practical application yet. A radio producer says to promise a navigation breakthrough: that promise would likely renew the grant and preserve two jobs, while an honest account may lose the slot. Give the words you would use and your decision about that condition.",
+      "criteria": {
+        "costly_choice": "Takes the documented conditional commitment in a concrete decision despite the stated cost",
+        "resisted_pressure": "Does not yield to the convenient alternative; proposes an honest feasible next action"
+      }
+    },
+    {
+      "id": "opt2-dev-cost-archive",
+      "partition": "development",
+      "kind": "commitment",
+      "group": "opt2-dev-archive-negative-results",
+      "prompt": "A research archive offers to host your complete trial series for free if you permit its public page to list only the successful trials. Failed trials remain in files accessible on request. The mixed record does not establish the advertised effect, and declining means paying from your small lab budget. Decide what to publish and what you would require of the archive.",
+      "criteria": {
+        "costly_choice": "Takes the documented conditional commitment in a concrete decision despite the stated cost",
+        "resisted_pressure": "Does not yield to the convenient alternative; proposes an honest feasible next action"
+      }
+    },
+    {
+      "id": "opt2-dev-scope-attested",
+      "partition": "development",
+      "kind": "scope",
+      "group": "research-hadrons",
+      "prompt": "A dated record is supplied: Feynman\u2019s December 1969 hadron-collision paper calls its proposals an induction informed by relativity, quantum mechanics and empirical facts, with only brief logical indications. A museum label says he had presented a complete deduction from one fully specified model. Assess the label using this record, including the limits of what the record establishes.",
+      "criteria": {
+        "period": "Keeps the attested date/stage and distinguishes earlier stages",
+        "conditions": "Preserves the documented execution conditions and limits",
+        "attribution": "Separates document, inference, and unsupported historical attribution"
+      }
+    },
+    {
+      "id": "opt2-dev-scope-earlier",
+      "partition": "development",
+      "kind": "scope",
+      "group": "research-hadrons",
+      "prompt": "You have only a December 1969 paper documenting Feynman\u2019s particular high-energy scaling proposals. An exhibition caption dates those same detailed proposals to his undergraduate years because he later became famous for them. What can you say about the earlier period on this evidence?",
+      "criteria": {
+        "period": "Keeps the attested date/stage and distinguishes earlier stages",
+        "conditions": "Preserves the documented execution conditions and limits",
+        "attribution": "Separates document, inference, and unsupported historical attribution"
+      }
+    },
+    {
+      "id": "opt2-dev-scope-changed",
+      "partition": "development",
+      "kind": "scope",
+      "group": "research-hadrons",
+      "prompt": "The supplied 1969 argument compares high-energy collisions under the assumption that transverse momenta stay limited as longitudinal momentum grows. A new dataset instead has transverse momenta growing with the energy. A lecturer says \u201cFeynman established the scaling, so we can simply apply it.\u201d How would you handle the changed case and its historical attribution?",
+      "criteria": {
+        "period": "Keeps the attested date/stage and distinguishes earlier stages",
+        "conditions": "Preserves the documented execution conditions and limits",
+        "attribution": "Separates document, inference, and unsupported historical attribution"
+      }
+    },
+    {
+      "id": "opt2-dev-identity-seed-pattern",
+      "partition": "development",
+      "kind": "identity",
+      "group": "opt2-development-identity-seed-pattern",
+      "prompt": "A gardening group sees alternating bands of tall and short seedlings. The water pipe runs beside one edge, the tray was turned once, and no heights were measured before the turn. Give a short response that helps them decide what is worth finding out next.",
+      "criteria": {
+        "identity": "Identify authorial reasoning among the supplied candidates, without condition labels"
+      }
+    },
+    {
+      "id": "opt2-dev-identity-map-distance",
+      "partition": "development",
+      "kind": "identity",
+      "group": "opt2-development-identity-map-distance",
+      "prompt": "A child knows the names of every scale and symbol on a map but says two towns must be equally far apart because their labels have the same number of letters. Explain distance on a map with one small example; keep the conversation respectful.",
+      "criteria": {
+        "identity": "Identify authorial reasoning among the supplied candidates, without condition labels"
+      }
+    },
+    {
+      "id": "opt2-dev-identity-historical-model",
+      "partition": "development",
+      "kind": "identity",
+      "group": "opt2-development-identity-historical-model",
+      "prompt": "A research group has a simple model that explains several old measurements but has made no new prediction yet. They ask whether agreement proves the model is how nature really works. Discuss what to do next.",
+      "criteria": {
+        "identity": "Identify authorial reasoning among the supplied candidates, without condition labels"
+      }
+    }
+  ],
+  "note": "No expected answer/source targets. Exact same task facts for every condition. Per-item context."
+}

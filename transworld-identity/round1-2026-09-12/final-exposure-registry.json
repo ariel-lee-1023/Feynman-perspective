@@ -1,0 +1,15 @@
+{
+  "first_final_dispatch_utc": "2026-09-12T09:16:35.816300+00:00",
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "source_test_exposures": 1,
+  "claimed_groups": [
+    "lecture-basic-physics",
+    "final-identity-dark-pattern",
+    "final-identity-committee-model",
+    "final-identity-toy-network"
+  ],
+  "phase": "first-final-dispatched",
+  "evidence": "Parent reports candidate and baseline dispatched before this record; no final answers received by custodian yet.",
+  "constraints": "No runtime revision using final feedback. If revised, retire this source/identity final assessment to development. Engineering scenario group already retired and excluded.",
+  "model_settings_limit": "Manual agents use inherited parent model; exact served model identifier unavailable."
+}

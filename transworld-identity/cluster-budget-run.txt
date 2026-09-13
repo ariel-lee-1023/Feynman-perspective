@@ -1,0 +1,14 @@
+cluster                supply   budget          verdict   breakdown
+coefficients source: defaults
+c01-c03-c05-memoir       1944     1944               OK   frame 600 + app 90 + mov 450 + apl 255 + frg 270 + prh 170 + mass 109 + reg 0
+c04-cargo-cult           2030     2030               OK   frame 600 + app 180 + mov 540 + apl 255 + frg 210 + prh 170 + mass 75 + reg 0
+c06-c11-challenger       2129     2129               OK   frame 600 + app 90 + mov 540 + apl 255 + frg 240 + prh 170 + mass 234 + reg 0
+c07-c10-interviews       2011     2011               OK   frame 600 + app 90 + mov 450 + apl 340 + frg 210 + prh 170 + mass 151 + reg 0
+c13-seeking-new-laws     2111     2111               OK   frame 600 + app 180 + mov 540 + apl 255 + frg 240 + prh 170 + mass 126 + reg 0
+c16-problem-solving      2491     2491               OK   frame 600 + app 180 + mov 630 + apl 340 + frg 240 + prh 170 + mass 331 + reg 0
+c17-newmath              1987     1987               OK   frame 600 + app 90 + mov 540 + apl 255 + frg 240 + prh 170 + mass 92 + reg 0
+
+Runtime load, not package size: one module loads at a time (two on a close
+secondary ranking). Worst case = core_budget + 2 x 2491 + voice.md + frameworks.md.
+
+wrote /private/tmp/feynman-opt2-20260912/cluster-budgets.json (7 clusters) — paste as scores.json's 'cluster_budgets'

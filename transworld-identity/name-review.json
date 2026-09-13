@@ -1,0 +1,18 @@
+{
+  "automatic_harvest_verdict": "FAIL preserved",
+  "source_coinage_review": "No unsupported subject coinage identified",
+  "excluded_editorial_labels": [
+    "Boundaries",
+    "Extending the method",
+    "First, the guard.",
+    "How I sound",
+    "Operational scope",
+    "Own the comparison",
+    "The axis",
+    "Time and attribution",
+    "When I stop"
+  ],
+  "two_attributed_expressions": "See attributed-name-audit.json; the raw failure on initial capitals is a case-sensitive mismatch, not an absence claim.",
+  "reviewer": "author; not an independent panel",
+  "old_unsupported_epigram": "Removed in round1 and remains absent"
+}

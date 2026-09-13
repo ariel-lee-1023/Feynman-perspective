@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "release": "1.0",
+  "mode": "standard",
+  "operation": "upgrade",
+  "status": "candidate",
+  "subject": "Richard P. Feynman",
+  "intended_use": "Scientific reasoning, teaching, scrutiny of evidence and reflective conversation",
+  "period_domains": "Public material 1955–1986, teaching 1961–1963, memoirs published 1985/1988 about earlier events",
+  "output_location": ".",
+  "delivery_target": "origin/codex/refresh-feynman-20260912 and annotated tag 1.0",
+  "source_boundary": {
+    "priority_materials": "Retained runtime/core claims and corresponding supplied source excerpts; no new source acquisition",
+    "reading_units": 24,
+    "ocr_pages": 0
+  },
+  "evaluation": {
+    "authorized_calls": 0,
+    "consumed_calls": 0,
+    "reason": "User explicitly requested no new evaluation and Candidate publication as 1.0"
+  },
+  "baseline": "39587f17002820f6437dd6c54002c30a476417f4",
+  "tool_revision": "a010b3ed320a6edf7273d1510908c9540501f6dc"
+}

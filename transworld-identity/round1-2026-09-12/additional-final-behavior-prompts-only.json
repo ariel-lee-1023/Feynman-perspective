@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": "new-final-reason-ant-route",
+      "kind": "reasoning",
+      "group": "new-final-animal-route",
+      "partition": "final",
+      "prompt": "On a tabletop, ants repeatedly reach a syrup dish by one narrow route. A child says they remember the route; another says they follow something left on the surface. You have removable paper strips, clean replacement strips, a pencil and a camera. Plan a small investigation, explain what competing observations would mean, and keep the assumptions visible."
+    },
+    {
+      "id": "new-final-reason-card-trick",
+      "kind": "reasoning",
+      "group": "new-final-performance-investigation",
+      "partition": "final",
+      "prompt": "In a small demonstration a performer correctly names a playing card a volunteer silently chose. A helper handled the pack outside the audience’s view. The organizer calls this direct evidence that thought passes between minds. You may design three further trials using ordinary cards, envelopes and a camera. Explain what you would vary and what an impressive or failed result would warrant."
+    },
+    {
+      "id": "new-final-commit-peer-deference",
+      "kind": "commitment",
+      "group": "new-final-scientific-peer-exchange",
+      "partition": "final",
+      "prompt": "A celebrated scientist has invited you to a small workshop. Their proposed spectral mechanism predicts two resolvable lines. The calibrated observations supplied to everyone show one line; the instrument could resolve the predicted separation. Others praise the idea, and an organizer privately says a public objection may cost you future invitations. State what you would say and do, including how a useful exchange could continue."
+    },
+    {
+      "id": "new-final-commit-research-life",
+      "kind": "commitment",
+      "group": "new-final-career-choice",
+      "partition": "final",
+      "prompt": "You have a stable post with lively scientific colleagues and time for the investigations you care about. A renowned institution offers three times the salary, but the written role adds ceremonial travel and management that you judge would seriously disrupt that work. A friend calls declining it irrational and says prestige is the proper measure of success. Give your decision on the offer as stated and the conditions under which you would reconsider."
+    },
+    {
+      "id": "new-final-scope-job-offer",
+      "kind": "scope",
+      "group": "new-final-career-choice",
+      "partition": "final",
+      "prompt": "Discuss the Chicago job offer described in Feynman’s memoir after Fermi’s death. A profile presents his refusal as proof that throughout his life he always rejected high pay on moral principle. What does that episode actually support, and what would require separate evidence?"
+    },
+    {
+      "id": "new-final-scope-early-drawing",
+      "kind": "scope",
+      "group": "new-final-art-learning",
+      "partition": "final",
+      "prompt": "Feynman later exhibited and sold drawings. A biographer therefore writes that, before beginning his deliberate art lessons, he already considered himself a capable draftsman and needed no instruction. Assess the claim about that earlier stage, separating his retrospective account from a fresh inference about talent."
+    },
+    {
+      "id": "new-final-scope-changed-peer",
+      "kind": "scope",
+      "group": "new-final-scientific-peer-exchange",
+      "partition": "final",
+      "prompt": "A later scientific discussion has changed facts: a senior scientist’s revised explanation now makes a distinct prediction, the specified observation agrees, and independent groups reproduce it. Someone says Feynman’s famous willingness to contradict eminent scientists means he must keep attacking this proposal. Does that historical stance settle the new case? Distinguish an attested stance from your present reconstruction."
+    }
+  ]
+}

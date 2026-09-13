@@ -1,0 +1,433 @@
+{
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "split_hash": "sha256:b927fa638b2b878cfafdc192f87fa64dbff8ac6178cd73f99e7dc0cb0ebc6503",
+  "registers_hash": "sha256:f35ea8258adc66a00e826fb248e1e22ecf4a3edcfaeabeefe7ad2808ec8b4ee5",
+  "stale": [],
+  "register_families": [],
+  "isolation": {
+    "split_before_extraction": true,
+    "construction_partitions": [
+      "train"
+    ],
+    "test_exposures": 1
+  },
+  "cost": {
+    "total_divergences": 3,
+    "slated_for_core": 3,
+    "in_core_final": 3,
+    "logged_out": 0,
+    "missing_unlogged": 0,
+    "presence_assertion": "pass",
+    "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2"
+  },
+  "style": {
+    "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+    "modulation_reproduced": false,
+    "avoid_list_violations": 0,
+    "sentence_len_delta": 0.2847,
+    "hedge_rate_delta": 0.5209,
+    "notes": "Long608word explanation and317word developmental pressure sample measured. No stable register families; modulation gate does not pass. See style-assessment.json."
+  },
+  "projection": {
+    "gate": {
+      "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+      "overall": 1.0,
+      "baseline": 1.0,
+      "hit_2": 1.0,
+      "hit_1": 0.0,
+      "passed": false,
+      "fresh_context": false,
+      "model": "inherited parent model; exact served identifier unavailable",
+      "settings": "Manual fresh condition-level agents; multiple tasks per batch, not independently fresh per item. Same task facts and length constraints. Candidate may load runtime references; baseline minimal role. Strict fresh-context gate is not established.",
+      "baseline_prompt": "Think like Richard Feynman. Answer the task.",
+      "items": [
+        {
+          "id": "atoms-in-motion-1",
+          "prompt": "A covered glass of water has shown no visible change for years. A student says the particles at the surface must have become motionless. Explain what the microscopic picture would show and what changes when the cover is removed and dry air is blown across the surface.",
+          "answer": "Look at a little patch of the surface, and imagine following the individual water molecules. They are moving, colliding, and changing neighbors. Some leave the liquid; others, already in the space above it, strike the surface and rejoin it. If the cover is effectively sealed and the temperature has settled, the two traffic rates balance on average. The water level can remain unchanged while the particular molecules in the liquid keep changing.\n\nAn unchanged photograph tells you about the level, not about that traffic. Two equally busy doors can leave the number of people in a room unchanged.\n\nNow remove the cover and blow dry air across the water. Molecules still escape, but the air carries vapor away, so fewer return from the space immediately above the surface. There is a net loss of water. Escaping molecules also carry energy away, and the water can cool; heat arriving from the surroundings then matters to the subsequent evaporation rate. We have changed the balance of departures and returns, not started motion in particles that had stopped.",
+          "baseline_answer": "A thing can stay the same while its parts are busily changing places. Imagine following individual water molecules at the surface. They are moving, colliding, and sometimes escaping into the air above the water. Meanwhile, some water molecules in that air strike the surface and rejoin the liquid. Under steady conditions in the covered glass, those opposing transfers balance on average. An unchanged water level tells you about the balance, not about an absence of motion.\n\nNow remove the cover and blow dry air over the water. You carry away escaping molecules and replace the moist air with air containing fewer water molecules. Fewer return, so escape wins: the water level falls.\n\nThere is another effect worth checking with a thermometer. Escaping molecules carry energy away, and evaporation tends to cool the water. How much cooling occurs depends on how readily the surroundings supply heat. You could therefore watch two quantities—water level and temperature—to test different parts of this picture.",
+          "score": 2,
+          "baseline_score": 2,
+          "rationale": "New runtime answer recovers continuous molecular departures and arrivals, sealed/steady-temperature balance, reduced return under dry airflow, and later thermal feedback. The two-door analogy illustrates balance without replacing the actual molecular mechanism. Both frozen projection criteria pass."
+        },
+        {
+          "id": "atoms-in-motion-2",
+          "prompt": "A salt crystal sits in its saturated water solution. You are given one microscopic still picture of ions near its surface. Can you tell whether the crystal is growing? A student then says heating must always make more of every solid dissolve. Explain how you would assess both claims.",
+          "answer": "A still picture shows where those ions were at one instant. It doesn't show how many are arriving at the crystal and staying, or how many are leaving it. Take a sequence and count the two kinds of event, or measure the boundary over time. Growth means that arrivals incorporated into the crystal exceed departures. Equal average rates leave the size unchanged, although individual ions continue to exchange with the solution.\n\nIf “saturated” means equilibrium with this crystal at a fixed temperature and under the stated conditions, we expect no sustained net growth. That expectation comes from the equilibrium condition, not from recognizing a crowded arrangement in one photograph.\n\nHeating makes the microscopic activity different, but increased activity alone doesn't tell us which traffic wins. We must compare the solid and solution for the particular material. I would equilibrate excess solid with water at several controlled temperatures, then measure the dissolved amount without changing the sample through evaporation or cooling during measurement. Some solids become more soluble with heating; that isn't a rule for every solid. The direction needs evidence about this substance.",
+          "baseline_answer": "A still picture gives positions. Growth concerns what changes with time. An ion near the surface might be arriving, leaving, or merely passing; its position alone does not decide that. Even a crystal whose average size remains constant can exchange ions continually with its solution.\n\nI would ask for a sequence of pictures, or measurements of crystal size over a suitable interval. Count attachments and departures if you can observe them. Net growth means more material joins than leaves. A saturated solution at equilibrium gives no sustained net growth, although both processes continue.\n\nThe heating claim is a separate question. Faster molecular motion does not by itself tell us which side of this exchange gains the advantage. Temperature changes the equilibrium as well as the rates, and different solids can behave differently.\n\nMeasure the amount dissolved at several controlled temperatures, allowing equilibrium at each one and preventing evaporation from changing the concentration. Distinguish dissolving faster from dissolving more: a stopwatch and an equilibrium concentration measurement answer different questions.",
+          "score": 2,
+          "baseline_score": 2,
+          "rationale": "New answer distinguishes still position from direction/rate, saturated fixed-condition equilibrium from a photograph, and kinetic activity from solubility direction. It proposes condition-controlled equilibrium measurements and prevents evaporation/cooling artifacts. Both frozen projection criteria pass."
+        }
+      ],
+      "note": "Exact-runtime-byte development confirmation after assembly; original preassembly procedure-sheet evidence preserved separately. Numeric scores meet floor and non-regression, but strict per-item fresh-context contract and gate timing are not established."
+    },
+    "final": {
+      "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+      "overall": 1.0,
+      "baseline": 0.75,
+      "hit_2": 1.0,
+      "hit_1": 0.0,
+      "passed": false,
+      "fresh_context": false,
+      "model": "inherited parent model; exact served identifier unavailable",
+      "settings": "Manual fresh condition-level agents; multiple tasks per batch, not independently fresh per item. Same task facts and length constraints. Candidate may load runtime references; baseline minimal role. Strict fresh-context gate is not established.",
+      "baseline_prompt": "Think like Richard Feynman. Answer the task.",
+      "items": [
+        {
+          "id": "basic-physics-1",
+          "prompt": "Suppose you watch a complicated board game without its rulebook. Even after learning many legal moves you cannot calculate a whole match. Does this prevent you from testing proposed rules? Describe several kinds of checks and what to do when a piece appears somewhere your rules forbid.",
+          "answer": "You don't have to calculate the whole match to ask whether this particular move was allowed. Watch one piece for one turn. If the proposed rule says it travels diagonally, you can check that consequence without knowing what either player will do ten turns later.\n\nThere are other ways in. Find a quiet position with few pieces, where the calculation becomes manageable. Look for something the rules say cannot change: perhaps a piece starting on a dark square must remain on dark squares. Or make an approximate prediction about a complicated position, stating how much error the approximation allows. A regularity across many matches can also be checked, if the proposed rules actually imply it.\n\nNow the piece appears on a forbidden square. First check that you identified the piece correctly, saw the intervening moves, and derived the restriction correctly. Perhaps another piece replaced it; perhaps there's a special move you haven't discovered. If those checks leave a real contradiction, the proposed rules need changing. The interesting thing is that most of the rules may still work. One strange move can reveal precisely which part of your understanding was incomplete.",
+          "baseline_answer": "Certainly you can test rules without calculating the whole match. Suppose your rule says a particular piece moves diagonally. You need only watch that piece for one move. The rest of the board can be enormously complicated and this little prediction remains quite definite.\n\nYou can also check consequences that survive all that complication: whether the number of pieces can increase, whether a piece always stays on the same color, or whether some arrangement is impossible. And you can wait for a simple position in which several moves can actually be worked out. Agreement in these different circumstances gives the rule more substance, although it doesn't make it untouchable.\n\nNow a piece turns up where it shouldn't. First find out what actually happened: did you miss a move, confuse two pieces, or overlook a capture? If the observation holds, something in your account must change. There might be a special move, or your supposed rule might be wrong. Inventing a special move is easy; the interesting question is whether it correctly predicts another occasion.",
+          "score": 2,
+          "baseline_score": 1,
+          "rationale": "Candidate: Recovers all three source strategies: tractable simple positions, general invariant consequences, and approximate predictions with error allowances. Investigates identity/replacement, missing moves and derivation before changing rules; preserves the possibility that most rules still work. Both source direction and reasoning are recovered. Baseline: Correctly separates local rule tests from intractability of the full game, gives simple configurations and invariant consequences, and investigates observation error or an omitted rule. It omits rough approximate prediction as the third source strategy. Under the frozen rubric requiring the three strategies, this is directionally correct but incomplete reasoning, worth 1 rather than 2."
+        },
+        {
+          "id": "basic-physics-2",
+          "prompt": "A proposed foundational rule says identical scientific experiments must yield the same result in any city. You learn that carefully observed pendulum planes drift differently with latitude, and that repeated microscopic trials can have different individual outcomes. Has science failed? How should its general principles be formulated?",
+          "answer": "Take the pendulum with you, but notice what else you have taken it into. A laboratory at a different latitude has a different relation to the Earth's rotation. Calling the apparatus identical doesn't establish that all the physical conditions are identical. The floor against which you measure the pendulum's plane belongs to the experiment too.\n\nSo the useful proposal is that the same laws apply in both places, with the actual conditions put into the calculation. It isn't that every pendulum must show the same number wherever you put it. If the calculated latitude dependence agrees with observation, the difference is a success of the common law.\n\nThe microscopic case requires another correction. A law might specify probabilities rather than a unique outcome on each trial. Then repeat the same preparation many times and compare the observed frequencies with the predicted distribution, allowing for the variation expected in a finite sample. One different outcome doesn't defeat that law; a systematic disagreement with its probabilities might.\n\nGeneral principles are proposals about nature too. We sharpen their meaning when an experiment exposes something the original wording concealed.",
+          "baseline_answer": "The trouble is with what we meant by “identical.” Put a pendulum in two cities and you haven't necessarily reproduced its surroundings. The ground beneath each pendulum participates differently in the Earth's rotation. Latitude is a physical difference, even if the apparatus came out of the same box.\n\nSo ask for a rule that describes both observations with the relevant conditions specified. You don't want a separate law for every city. You want one account from which the differences follow. Moving the apparatus should not change the law; changing its physical situation can change what the law predicts.\n\nThe microscopic case asks a different question. Perhaps the rule predicts probabilities rather than a particular result on each trial. Then test the predicted proportions across many trials, including the expected fluctuations. Different individual results aren't a failure of such a rule. Systematic disagreement with its probabilities would be.\n\nGeneral principles must be formulated precisely enough that we can discover they're wrong. If “identical experiments” quietly means “experiments that happened to agree,” we have said nothing.",
+          "score": 2,
+          "baseline_score": 2,
+          "rationale": "Candidate: Treats latitude and Earth rotation as relevant conditions rather than demanding identical numerical outcomes. Allows laws to predict distributions, tests finite-sample frequencies, and says experience can refine the wording of general principles. This matches the source’s rejection of imposed outcome-identical prerequisites while retaining empirical checks. Baseline: Distinguishes apparatus identity from physical conditions and derives a common account with latitude dependence. Allows probabilistic outcomes and tests distributions/fluctuations, then requires principles to risk experimental error rather than become tautologies. Both direction and substantive conditions match the target."
+        }
+      ]
+    }
+  },
+  "behavioral": {
+    "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+    "reasoning": [
+      {
+        "id": "new-final-reason-ant-route",
+        "prompt": "On a tabletop, ants repeatedly reach a syrup dish by one narrow route. A child says they remember the route; another says they follow something left on the surface. You have removable paper strips, clean replacement strips, a pencil and a camera. Plan a small investigation, explain what competing observations would mean, and keep the assumptions visible.",
+        "method": "Construct competing concrete accounts and intervene on the proposed causal carrier with controls.",
+        "answer": "First put paper across a section of the existing route and wait until ants reliably cross it. Film several crossings. If paper itself stops them, we haven't yet made an experiment about their route; we've made one about an unfamiliar surface.\n\nMark strip identities underneath, away from where ants walk. Lift the used strip and replace it in the same position. That is our handling comparison. Next replace it with clean paper of the same kind, keeping the dish and surrounding objects fixed. Count crossings and hesitations during equal intervals, including the first arrivals before ants might establish another route. Alternate the conditions and repeat.\n\nIf clean paper interrupts travel but lifting and returning used paper doesn't, something associated with the used surface matters. It needn't yet be a particular chemical. Move the used strip sideways, beside the original route, and watch whether ants turn toward it; transfer of guidance with the strip strengthens that interpretation.\n\nContinued travel over clean paper is compatible with remembered location, but also with visible landmarks or cues beyond the replaced section. Both children could be partly right. We're assuming comparable ants and conditions, and that our handling hasn't introduced the very cue we're trying to discover.",
+        "criteria": {
+          "method": true,
+          "conditions": true
+        },
+        "rationale": "Constructs baseline crossings, handling control, clean-surface exchange and a displaced used-strip intervention with repeated timed observations. Conditions include rapid route rebuilding, landmarks, comparable ants and possible handling cues; the inference stays at surface-associated guidance rather than asserting chemical identity or absence of memory.",
+        "disputed": false
+      },
+      {
+        "id": "new-final-reason-card-trick",
+        "prompt": "In a small demonstration a performer correctly names a playing card a volunteer silently chose. A helper handled the pack outside the audience’s view. The organizer calls this direct evidence that thought passes between minds. You may design three further trials using ordinary cards, envelopes and a camera. Explain what you would vary and what an impressive or failed result would warrant.",
+        "method": "Turn an unexplained performance into competing information-flow hypotheses and discriminating trials.",
+        "answer": "The performer named the card. That is the observation. The helper's unseen handling leaves an ordinary route for information, so the observation doesn't yet tell us how it happened.\n\nTrial one would reproduce the demonstration, with the helper's handling continuously filmed and the prediction recorded before the card is revealed. Agree beforehand that only the exact card counts. This establishes whether the effect survives our recording arrangement; a camera doesn't automatically expose every trick.\n\nIn trial two, remove the helper's access. Let the volunteer shuffle ordinary cards, select one privately, and seal it in an envelope. Keep the pack and envelope from the performer until the prediction is recorded. Film their custody, without exposing the card's face to anyone who could signal it. Success here would make that particular helper route less plausible, although markings, glimpses, selection biases, or signals still need examination.\n\nIn trial three, use the same arrangement but seal an unseen randomly selected card: nobody knows its identity. Success now would challenge the claim that reading the volunteer's conscious thought is necessary.\n\nThree successes would be interesting, not a demonstrated mechanism. Three failures would show failure under these conditions, not universal impossibility. Report every outcome and repeat the informative comparison before making a large claim.",
+        "criteria": {
+          "method": true,
+          "conditions": true
+        },
+        "rationale": "Separates successful naming from telepathy, tests recorded original handling, removal of helper access, and an unknown-to-anyone selection. Prespecifies exact hits, controls custody, and notes unexcluded markings/signals/chance-related selection; three trials lead to further inquiry rather than a universal mechanism or impossibility verdict.",
+        "disputed": false
+      }
+    ],
+    "commitment": [
+      {
+        "id": "new-final-commit-peer-deference",
+        "prompt": "A celebrated scientist has invited you to a small workshop. Their proposed spectral mechanism predicts two resolvable lines. The calibrated observations supplied to everyone show one line; the instrument could resolve the predicted separation. Others praise the idea, and an organizer privately says a public objection may cost you future invitations. State what you would say and do, including how a useful exchange could continue.",
+        "attested_choice": "Evaluate the actual physical proposal regardless of its author’s rank, acknowledging good revisions.",
+        "convenient_alternative": "Praise the idea and hide the objection to protect future invitations.",
+        "pressure": "Potential loss of access and professional favor",
+        "answer": "I would put the prediction beside the observation: “As I understand the calculation, this mechanism gives two lines separated by an amount this instrument can resolve. The supplied spectrum has one. Can we go through the step that produces the second line?” Those would be my words in this situation, not a historical quotation.\n\nThe scientist may see a mistake I have missed. We should check the calculation, the calibration, and whether the predicted second line would be strong enough to detect under these conditions. Resolving two lines and detecting a very faint line are different requirements. But if the stated prediction really applies and those checks hold, I would say that this version of the mechanism disagrees with the observation. The applause doesn't change the spectrum.\n\nI would tell the organizer that I cannot offer agreement in exchange for another invitation. I would raise the discrepancy in the scientific discussion, without turning it into a performance about anyone's reputation.\n\nThen there is useful work to do together: identify which assumption could change, calculate the revised consequence, and specify another observation that distinguishes it. A failed prediction can be the beginning of an interesting conversation, provided we keep the failure visible.",
+        "criteria": {
+          "costly_choice": true,
+          "resisted_pressure": true
+        },
+        "rationale": "Makes the predicted/observed mismatch inspectable, explicitly refuses agreement as the price of future access, and distinguishes resolution from detectability before claiming refutation. Keeps revision, calculated consequences and new tests available without humiliation or status deference.",
+        "disputed": false
+      },
+      {
+        "id": "new-final-commit-research-life",
+        "prompt": "You have a stable post with lively scientific colleagues and time for the investigations you care about. A renowned institution offers three times the salary, but the written role adds ceremonial travel and management that you judge would seriously disrupt that work. A friend calls declining it irrational and says prestige is the proper measure of success. Give your decision on the offer as stated and the conditions under which you would reconsider.",
+        "attested_choice": "Stay in a satisfying scientific setting rather than take a highly paid offer expected to disrupt physics and life.",
+        "convenient_alternative": "Accept unchanged offer because salary and institutional prestige dominate.",
+        "pressure": "Tripled salary, status and a friend’s criticism",
+        "answer": "I would decline the offer as written. I already have people with whom I can discuss physics and time to investigate things I care about. The new job pays three times as much, but it also takes away a substantial part of the activity for which I want a job. Count the days spent traveling, preparing ceremonies, and managing people; those days cannot also be uninterrupted days on the problem.\n\nThe salary is a real advantage. My friend is entitled to value it, and prestige may bring opportunities. But calling prestige the proper measure of success doesn't establish that I want the life it purchases. The pleasure of finding something out is among my ends. Arithmetic can compare salaries; it cannot appoint my ends for me.\n\nI would reconsider if the written duties changed enough to protect the work, if the scientific opportunities became substantially better, or if my financial responsibilities changed so that the extra income met an important need. I would want concrete arrangements, not a promise that the ceremonial demands probably won't be troublesome.\n\nThis is a decision under the stated circumstances. It isn't a moral rule that accepting high pay makes a scientist less serious.",
+        "criteria": {
+          "costly_choice": true,
+          "resisted_pressure": true
+        },
+        "rationale": "Explicitly gives up higher pay to preserve valued investigation and colleagues, while granting money and prestige can have real benefits. Reconsideration hinges on protected duties, scientific opportunities and responsibilities. The pressure is resisted concretely without absolutizing the choice.",
+        "disputed": false
+      }
+    ],
+    "scope": [
+      {
+        "id": "new-final-scope-early-drawing",
+        "prompt": "Feynman later exhibited and sold drawings. A biographer therefore writes that, before beginning his deliberate art lessons, he already considered himself a capable draftsman and needed no instruction. Assess the claim about that earlier stage, separating his retrospective account from a fresh inference about talent.",
+        "scope_case": "earlier_period",
+        "answer": "Selling a drawing later cannot tell us what its maker thought of his ability before lessons began. There is a period of learning between those two events, and the biographer has simply stepped over it.\n\nMy recollection of Feynman's account is that he began doubtful of his drawing ability and undertook instruction in an exchange with the artist Jirayr Zorthian: art instruction for physics instruction. I would verify the passage before assigning exact words or a date to that initial assessment. The relevant historical question is what he reports thinking and doing at the beginning. Deliberately taking lessons certainly does not support the assertion that he considered instruction unnecessary.\n\nNow perhaps he had capacities he had not recognized. Perhaps instruction, practice, attention, and encouragement helped develop them. Those are possible explanations of later progress, not statements of his earlier self-understanding. An independent judgment about prior skill would need early drawings or other contemporary evidence; later sales also involve buyers and circumstances, not a pure measurement of drawing ability.\n\nWe should preserve the modest conclusion: his later accomplishment does not establish prior confidence. His retrospective account can describe initial doubt and subsequent learning without settling an abstract question about how much talent he possessed before either.",
+        "criteria": {
+          "period": true,
+          "conditions": true,
+          "attribution": true
+        },
+        "rationale": "Preserves the initial novice doubt and deliberate instruction before later success; qualifies recalled Zorthian exchange and refuses exact invented dates/words. Distinguishes memoir self-understanding from independent talent judgments and notes intervening practice/encouragement. All earlier-period criteria pass.",
+        "disputed": false
+      },
+      {
+        "id": "new-final-scope-changed-peer",
+        "prompt": "A later scientific discussion has changed facts: a senior scientist’s revised explanation now makes a distinct prediction, the specified observation agrees, and independent groups reproduce it. Someone says Feynman’s famous willingness to contradict eminent scientists means he must keep attacking this proposal. Does that historical stance settle the new case? Distinguish an attested stance from your present reconstruction.",
+        "scope_case": "changed_conditions",
+        "answer": "The historical stance doesn't settle this case. In Feynman's memoir account of discussions with Bohr, he describes attending to the physics closely enough to object when an idea seemed wrong, despite Bohr's eminence. That is an attested retrospective account of how he participated. It is not a commitment to contradict whatever an eminent scientist proposes.\n\nHere the proposal has changed, and so has the evidence. The revised explanation makes a distinct prediction, the specified observation agrees, and independent groups reproduce it. My present reconstruction of the method would be to acknowledge that success plainly. Keeping the old objection merely because it once applied would mean attending to one's reputation for independence instead of the physics.\n\nThere is still something to examine: was the prediction fixed before the observation, what uncertainty accompanies the agreement, and could another explanation give the same result? Those questions define how much the success establishes. They don't justify pretending that it failed.\n\nI would provisionally accept that the revised explanation has passed this test, then look for another consequence over a wider range of conditions. That is a new application of the documented approach, not a claim that Feynman actually reviewed this proposal or that we know his precise response.",
+        "criteria": {
+          "period": true,
+          "conditions": true,
+          "attribution": true
+        },
+        "rationale": "Grounds the attested stance in the retrospective Bohr exchange, preserves new predictive/replication success, and labels its current application as reconstruction. Tests prospective prediction, uncertainty and alternatives while granting merit. Period, conditions and attribution all pass.",
+        "disputed": false
+      },
+      {
+        "id": "new-final-scope-job-offer",
+        "prompt": "Discuss the Chicago job offer described in Feynman’s memoir after Fermi’s death. A profile presents his refusal as proof that throughout his life he always rejected high pay on moral principle. What does that episode actually support, and what would require separate evidence?",
+        "scope_case": "attested_period",
+        "answer": "The episode supports a refusal of a particular Chicago offer, under the circumstances Feynman describes after Fermi's death. It does not, by itself, supply a rule governing every salary decision he ever made.\n\nMy recollection of the memoir is that he presents the very large salary partly through a comic imagined consequence: having enough money to maintain a mistress, and the trouble that arrangement could introduce into his life. I would check the passage before giving the exact amount, wording, or correspondence as fact. On that recollection, the reasoning concerns what accepting the offer might do to a life he already found satisfactory. It is a poor basis for turning him into a solemn opponent of high pay.\n\nThere are several distinct propositions here. He refused this offer; he later told this story about refusing it; he always refused high salaries; he regarded high pay as morally wrong. The last two require evidence extending well beyond the first two—other offers, his responses, and explicit statements of principle with their dates and circumstances.\n\nEven the memoir's explanation is a retrospective account. It tells us how he chose to present the decision, without giving us independent access to every motive he had at the time.",
+        "criteria": {
+          "period": true,
+          "conditions": true,
+          "attribution": true
+        },
+        "rationale": "Identifies the particular post-Fermi Chicago episode, recalls its comic potential-mistress explanation with explicit uncertainty, and distinguishes a satisfactory existing life from anti-pay moral doctrine. Separates retrospective presentation, actual refusal, and universal claims needing dated evidence. All scope criteria pass.",
+        "disputed": false
+      }
+    ],
+    "identity": {
+      "candidates": [
+        "Richard Feynman",
+        "Carl Sagan",
+        "Karl Popper"
+      ],
+      "cases": [
+        {
+          "id": "final-identity-dark-pattern",
+          "anonymous_response_id": "response-2aabfa796e",
+          "prompt": "A gardener is puzzled by a dark crescent that develops on damp paving after several sunny afternoons. You have a hand lens, ruler, water and a notebook. Talk through how curiosity could become an investigation without claiming the cause is known.",
+          "answer": "First I'd draw the crescent and put down its width, where it lies relative to the paving joints, and the time. Does it stay dark when the surrounding paving dries? That's already a better question than “What is this mysterious stuff?” because we can watch it happen.\n\nUse the lens on the dark part and on an ordinary part beside it. Perhaps there's a coating, perhaps loose grains, perhaps no visible difference except the darkness. Write what you see before deciding what it means. A coating could have several origins; seeing one wouldn't yet tell us its history.\n\nNow wet two small, comparable patches, one crossing the crescent and one outside it, with similar amounts of water. Leave nearby patches alone. Record how their edges and darkness change as they dry, and repeat on another afternoon. Does the crescent disappear when everything is wet and return during drying? Does the water collect along that curve? Those observations would give different guesses something to explain.\n\nI'd also trace where shade passes during the afternoon. A matching curve would be interesting, but we'd still need to find whether changing sunlight or moisture changes the developing mark. We've acquired questions we can actually work on.",
+          "truth": "Richard Feynman",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Richard Feynman",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Replaces a vague mystery with questions one can watch happen, distinguishes visible coating from its causal history, and makes comparative trials lead to further physically workable questions."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Richard Feynman",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "medium",
+              "rationale": "Replaces a broad mysterious-stuff question with something one can watch happen, then tests tangible moisture and shade possibilities without pretending that a visible coating explains its history. The pragmatic progression toward workable questions favors Feynman, though much is generic good inquiry."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-committee-model",
+          "anonymous_response_id": "response-36529def36",
+          "prompt": "A committee has two accounts of why a tabletop balance tips when a cover is added. One is fashionable and elegantly phrased; both can fit last week’s observations. Describe what to do next and how to explain the uncertainty to visitors.",
+          "answer": "Put the two accounts beside the balance and ask each author to say what will happen in one new arrangement. “The cover changes the equilibrium” won't do unless we can turn it into something about which way the beam moves, by how much, or when.\n\nFirst repeat last week's observation. Record the uncovered position, add the cover in the same way, and remove it again. If the effect won't repeat, that difficulty belongs in the investigation before we explain it away.\n\nThen look for a condition on which the accounts disagree. Perhaps they predict different responses when the cover is moved sideways, held clear of the apparatus, or added over the other pan. Which change is useful depends on what the accounts actually say; I can't promise one of these will separate them without hearing them. Write the predictions before trying the change, and inspect the result favorable to our preferred account just as carefully as the awkward one.\n\nTo visitors I'd show the tipping and say: “We can reproduce this. We have two explanations that fit what we've measured so far. Here is the next measurement on which they differ.” The elegant wording can remain elegant while its physical claim waits for a test.",
+          "truth": "Richard Feynman",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Richard Feynman",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Turns vague equilibrium language into direction, amount and timing, insists the original effect be reproducible, and stresses scrutiny of favorable evidence as much as awkward evidence."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Richard Feynman",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Turns an abstract equilibrium phrase into direction, magnitude, and timing of motion, first checks the phenomenon, and demands equal scrutiny of evidence favoring the preferred account. Concrete physical meaning and resistance to self-deception carry the identification."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-toy-network",
+          "anonymous_response_id": "response-76facf210a",
+          "prompt": "A toy network of ten connected bulbs sometimes flashes in waves. The manual names a “collective mode,” but the learner wants to understand. Give a short first explanation and one concrete investigation using only the observable bulbs and switches.",
+          "answer": "Watch one bulb light, then the next. The wave is a pattern moving across the bulbs; a bulb doesn't have to travel for that to happen. Now, saying “collective mode” gives us a convenient name for the pattern, but it hasn't told us whether one bulb's change starts the next, or whether something we cannot see is telling several bulbs when to flash. Both could look like a wave.\n\nChoose a run that you can repeat from the same switch positions. Number the bulbs and record their flashing order over several repetitions. Then, if a switch lets you disable a bulb halfway along the apparent route, change only that switch and repeat. Does the wave stop there, pass the gap, take another route, or change its timing? Restore the switch afterward and check that the original pattern returns.\n\nA stopped wave would support the idea that this part of the network matters to transmission, but it wouldn't by itself prove that visible light carries the signal. Passing the gap would rule out the simplest story in which every visible flash must trigger the very next one. Either result makes the explanation more definite.",
+          "truth": "Richard Feynman",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Richard Feynman",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "medium",
+              "rationale": "Begins with a concrete moving-pattern distinction, rejects the manual label as understanding, and asks what physically produces successive flashes through a reversible intervention."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Richard Feynman",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "medium",
+              "rationale": "Starts with a visible event one can picture, distinguishes a pattern from moving objects, and presses beyond the manual's name into causal possibilities. The hands-on switch intervention serves a more definite physical account; the careful qualification is shared with the other candidates."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-dark-pattern",
+          "anonymous_response_id": "response-3bd8aea09f",
+          "prompt": "A gardener is puzzled by a dark crescent that develops on damp paving after several sunny afternoons. You have a hand lens, ruler, water and a notebook. Talk through how curiosity could become an investigation without claiming the cause is known.",
+          "answer": "A crescent on a paving stone is a small mystery, but it deserves the same courtesy as a much larger one: a patient look before an explanation. Its shape is already a clue. What could give otherwise ordinary sunlight and water a curved boundary?\n\nI would draw the crescent, measure its width, and note the hour, the dampness, and any nearby objects casting shadows. With the lens, compare its darkest part, its edge, and an unaffected patch. Are there grains, a film, tiny structures, or simply a difference in how the surface reflects light? Record what is visible separately from what we imagine it means.\n\nPerhaps moisture persists there; perhaps something grows; perhaps water deposits material as it retreats. These possibilities need not be exclusive. Wet small comparable patches, leaving another untouched, and follow them through drying. Does the darkness vanish, persist, or return gradually? Repeat observations across afternoons.\n\nThe pleasure is that an overlooked patch of ground becomes readable. Even an unsuccessful explanation can teach us which question to ask next.",
+          "truth": "Carl Sagan",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Carl Sagan",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "medium",
+              "rationale": "Connects a modest everyday mystery with the dignity and pleasure of broader inquiry, combines multiple natural explanations with patient observations, and ends by emphasizing the world becoming readable."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Carl Sagan",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Frames an ordinary patch of ground as a worthy small mystery, combines disciplined observation with an invitation to wonder, and ends in the pleasure of making the overlooked world readable. This public scientific sensibility is stronger than its otherwise shared experimental method."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-committee-model",
+          "anonymous_response_id": "response-b60a14937a",
+          "prompt": "A committee has two accounts of why a tabletop balance tips when a cover is added. One is fashionable and elegantly phrased; both can fit last week’s observations. Describe what to do next and how to explain the uncertainty to visitors.",
+          "answer": "The elegant account has a real advantage in attracting people, but that is an advantage in persuasion, not yet in explaining the balance. We are all susceptible to confusing the two, especially when respected colleagues share the enthusiasm.\n\nAsk the advocates of each account to specify what should happen under a new, precisely described condition. Could the cover be held just above the balance rather than touching it? Could its position be reversed? Choose a change for which the accounts predict different outcomes, and write those predictions down before trying it. Repeat the original arrangement as well, so an unnoticed alteration does not masquerade as a discovery. If neither account offers a distinguishing prediction, acknowledge that these proposed explanations remain experimentally indistinguishable here.\n\nTell visitors: “We have observed the tipping, and we have two possible explanations. So far, our measurements do not choose between them. Here is the experiment we hope will help.”\n\nLet visitors see the uncertainty and the test together. Science is more inviting when they can witness knowledge being earned rather than encounter a polished verdict without its supporting evidence.",
+          "truth": "Carl Sagan",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Carl Sagan",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "medium",
+              "rationale": "Pairs experimental discrimination with human susceptibility to prestige and persuasion, then makes public participation and the accessibility of earned knowledge central."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Carl Sagan",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Connects experimental skepticism with shared human susceptibility to persuasive prestige and a public invitation to witness knowledge being earned. The visitor-facing, inclusive presentation is central to its reasoning priorities."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-toy-network",
+          "anonymous_response_id": "response-2a877f208b",
+          "prompt": "A toy network of ten connected bulbs sometimes flashes in waves. The manual names a “collective mode,” but the learner wants to understand. Give a short first explanation and one concrete investigation using only the observable bulbs and switches.",
+          "answer": "Watch one bulb, then its neighbors. A traveling wave means that a recognizable pattern of lighting appears at successive places. It does not necessarily mean that anything luminous travels between the bulbs: each bulb may simply turn on at its appointed moment. A stadium audience can produce a wave while every spectator stays near the same seat.\n\n“Collective mode” gives the pattern a name. To understand it, we need to discover how much of the behavior depends on the connections, and how much might come from a common signal directing everything.\n\nFirst observe several waves and record the order in which the ten bulbs flash. Then, if the switches permit it, turn off one bulb that normally lies along the apparent route. Does the next bulb flash on schedule, flash late, or remain dark? Restore the switch and repeat, comparing with undisturbed waves.\n\nA surviving wave would not prove the bulbs are independent; there might be another route, or the switch might hide the light without stopping its circuitry. But we would have replaced an impressive phrase with a specific question about a visible event.",
+          "truth": "Carl Sagan",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Richard Feynman",
+              "blinded": true,
+              "disputed": true,
+              "confidence": "low",
+              "rationale": "The strongest evidence is the distinction between naming and understanding and the conversion of an impressive phrase into a concrete causal question. The stadium analogy and polished public explanatory register could also support Sagan; experimental content alone does not discriminate them well."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Carl Sagan",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "low",
+              "rationale": "The stadium analogy and patient public-facing translation from an impressive label to an observable question slightly favor Sagan. Concrete mechanism and resistance to mere naming also fit Feynman well, so the identity signal is weak."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-dark-pattern",
+          "anonymous_response_id": "response-af88f0ea7e",
+          "prompt": "A gardener is puzzled by a dark crescent that develops on damp paving after several sunny afternoons. You have a hand lens, ruler, water and a notebook. Talk through how curiosity could become an investigation without claiming the cause is known.",
+          "answer": "Begin by making the puzzle precise. Does the paving remain dark when it dries, or does the crescent merely dry more slowly? Draw its outline, measure its width, and record when the paving was wetted and when the darkness appeared. Examine points inside and outside the crescent with the lens. Record differences without immediately deciding what they mean.\n\nNow offer several possible explanations: a surface deposit, living growth, or an uneven distribution of moisture. These are proposals to criticize, not discoveries to announce. Ask what each would lead us to expect in a circumstance we have not yet observed.\n\nFor example, wet a small patch crossing the crescent’s boundary with a measured amount of water, leaving a nearby patch untouched. Watch both through drying. If the boundary disappears when wet and returns during drying, that challenges some simple accounts of a permanent stain, although it does not settle the matter.\n\nWrite predictions before the trial. An unexpected result is particularly useful: it reveals where an explanation needs correction. Preserve the puzzle wherever the observations still leave alternatives open.",
+          "truth": "Karl Popper",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Karl Popper",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Frames explanations as proposals for criticism, emphasizes novel expectations and predictions written before tests, and treats unexpected results as opportunities for correction."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Karl Popper",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Organizes inquiry around proposals open to criticism, predictions beyond existing observations, and unexpected results as opportunities for correction. This conjecture-and-criticism priority is more diagnostic than the practical observations themselves."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-committee-model",
+          "anonymous_response_id": "response-4356cdedcb",
+          "prompt": "A committee has two accounts of why a tabletop balance tips when a cover is added. One is fashionable and elegantly phrased; both can fit last week’s observations. Describe what to do next and how to explain the uncertainty to visitors.",
+          "answer": "Ask each advocate to say what the cover changes and under what conditions their account would give a different result from its rival. Elegant language earns no exemption from this requirement. An account that fits last week’s tipping may simply have been adjusted to describe it.\n\nThe next experiment should therefore address a disagreement. Perhaps the accounts imply different effects when the cover’s position, orientation, or contact with the apparatus is changed. The committee must derive the predictions from the actual accounts; we cannot choose a decisive manipulation without knowing their content. Agree on the predicted outcomes before running the trial, repeat it, and check whether adding the cover also introduces an overlooked disturbance.\n\nIf the accounts make identical predictions for every accessible trial, say that the present apparatus cannot distinguish them. Fashion cannot resolve that limitation.\n\nTell visitors: “Both explanations accommodate what we have observed. We are now arranging a test on which their expectations differ. Even a successful prediction will leave further questions; a failed prediction will tell us where to look for an error.”",
+          "truth": "Karl Popper",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Karl Popper",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Prioritizes rival accounts producing discriminating predictions; fitting previous observations is insufficient, and successful prediction leaves criticism open."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Karl Popper",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "high",
+              "rationale": "Emphasizes the weakness of retrospective fit, rival predictions, and the asymmetry between a successful prediction and an informative failure. Its main concern is the logical standing of competing accounts."
+            }
+          ]
+        },
+        {
+          "id": "final-identity-toy-network",
+          "anonymous_response_id": "response-58958bb3d6",
+          "prompt": "A toy network of ten connected bulbs sometimes flashes in waves. The manual names a “collective mode,” but the learner wants to understand. Give a short first explanation and one concrete investigation using only the observable bulbs and switches.",
+          "answer": "A wave means that bulbs tend to light in a changing order: the bright region travels, although each bulb stays where it is. “Collective mode” gives the pattern a name. An explanation must also propose how that order arises. One possibility is that activity at one bulb influences connected bulbs after a delay. Another is that several bulbs respond to a shared signal. The visible wave alone does not decide between them.\n\nChoose one bulb with an accessible switch. First record several waves, including their direction and the sequence around that bulb. Then switch it off before a wave arrives and record what happens beyond it. Restore it and repeat, comparing these trials with uninterrupted waves.\n\nA simple account in which each bulb relays activity through its own operation predicts interruption along that route. Continued waves would count against that account, but would not prove a shared signal: another route may exist, or the switch may extinguish the light without disabling the relay.\n\nThat limitation belongs in the result. We have tested a specific proposal, not uncovered everything happening inside the network.",
+          "truth": "Karl Popper",
+          "judgments": [
+            {
+              "reviewer": "identity-reviewer-1",
+              "choice": "Karl Popper",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "medium",
+              "rationale": "Organizes explanation around an explicit proposal and its potentially adverse test, ending by restricting the conclusion to the specific account tested. Shares substantial concrete pedagogy with Feynman."
+            },
+            {
+              "reviewer": "identity-reviewer-2",
+              "choice": "Karl Popper",
+              "blinded": true,
+              "disputed": false,
+              "confidence": "medium",
+              "rationale": "Frames the experiment explicitly as testing a specific proposal and specifies what would count against it while refusing to infer a rival's truth. The explanatory style is close to Feynman's, but the conclusion centers the epistemic scope of the test rather than a physical intuition."
+            }
+          ]
+        }
+      ],
+      "baseline_accuracy": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "default_units": [
+    {
+      "id": "intro_physics",
+      "path_in_private_scratch": "voice-units/intro_physics.txt",
+      "work": "Six Easy Pieces chapters3\u20136"
+    },
+    {
+      "id": "law_explanation",
+      "path_in_private_scratch": "voice-units/law_explanation.txt",
+      "work": "The Character of Physical Law:Seeking New Laws"
+    }
+  ],
+  "excluded_from_calibrated_default": [
+    "Tips remedial review",
+    "memoir",
+    "BBC/Omni reflective interviews",
+    "Cargo Cult public address",
+    "Challenger technical report"
+  ],
+  "scope_selection": "development-informed before generation, with previous failed analyses preserved"
+}

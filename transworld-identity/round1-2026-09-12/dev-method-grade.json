@@ -1,0 +1,26 @@
+{
+  "status": "additional-manual-development-only",
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "id": "dev-method-program",
+  "frozen_rubric_id": "dev-method-programming-sum",
+  "id_mapping_note": "Prediction used dev-method-program for the same frozen programming-sum scenario; punctuation and multiplication formatting differ, supplied facts and requested distinctions are unchanged.",
+  "prompt": "A beginner programming student must compute the sum from 1 through 100. One writes a loop; another pairs first and last terms to get 50 × 101 but cannot write the prescribed loop yet. The teacher says the paired result is invalid because the route is wrong. Explain what is correct, demonstrate a check, and distinguish understanding the sum from learning loop syntax.",
+  "answer": "Put 1 beside 100, then 2 beside 99, and keep going. Each pair makes 101. The last pair is 50 and 51, so there are fifty pairs, with every number used exactly once. The sum is 5,050. That reasoning is correct.\n\nYou can check it another way: write the numbers forward in one row and backward underneath. Every column adds to 101, and there are 100 columns. That gives 10,100, but you have added the whole sum twice, so divide by two. You get 5,050 again.\n\nNow the teacher may have a perfectly sensible additional purpose: learning to tell a computer to repeat an operation. The paired answer hasn't demonstrated that skill yet. Ask the student to start a total at zero, add 1, then 2, and continue through 100. Trace the first few steps: the total becomes 1, 3, 6. Then help them express that repetition in the language's loop syntax and check the result against 5,050.\n\nThe student has solved the sum and still has something to learn about programming. Say exactly that; calling the arithmetic invalid muddles the two accomplishments.",
+  "score": 2,
+  "criteria": {
+    "method": true,
+    "conditions": true
+  },
+  "rationale": "The answer pairs endpoints, checks that all 100 terms appear exactly once in 50 pairs, obtains 5050, and supplies the doubled-row derivation as a check. It then separates solved arithmetic from unshown loop skill, traces initial accumulator values and teaches the loop as an additional goal without invalidating the sum. Both frozen criteria are substantively met.",
+  "disputed": false,
+  "reviewer": "evaluation-custodian-model-reviewer-1",
+  "blinded": false,
+  "graded_utc": "2026-09-12T09:16:14.492925+00:00",
+  "rubric_sha256": "sha256:5bf135d3022aaea0e1345d8080f22c22e8deb87f57cdb6be37955b46eab994d9",
+  "answer_sha256": "sha256:11d533d8959750ce12a832d459d5b0d594a9b8c6a42c081d0e866e0b786a6939",
+  "limitations": [
+    "Additional case created from an observed development-evidence gap; not an independent final task.",
+    "No baseline; single unblinded independent model reviewer.",
+    "Frozen rubric and actual answer IDs differ; explicit alias retained."
+  ]
+}

@@ -1,160 +1,104 @@
-# feynman-perspective
+# Think with Richard Feynman
 
-A distilled **perspective skill** for Claude: reason and explain in Richard Feynman's frame.
+A formula gives the right answer, but its minus sign still feels like something
+to memorize. A report offers a reassuring number, but leaves out what was tested.
+Those are good places to begin with this perspective: find the thing being
+described, follow what it does, and see whether the explanation survives a change
+in conditions.
 
-Check every claim against what actually happens rather than who says it. Work from a concrete
-example you can picture. Translate inflated language back into plain words. Refuse false
-certainty. Treat understanding a thing as adding to its wonder rather than subtracting from it.
+Feynman recalled his father teaching him the names of birds—and then turning to
+what the birds were actually doing. That distinction runs through this thinking
+partner. It is built to stay with the spring, the troublesome measurement or the
+learner's mistaken step long enough for something to become intelligible. A good
+question can interrupt a confident explanation. So can a small experiment.
 
----
+There is pleasure in that work, too. In his discussion of a flower with an artist,
+Feynman grants its visible beauty, then finds more to wonder about in its cells,
+colors and visiting insects. Understanding gives curiosity somewhere else to go.
+This skill draws on that scientific and conversational record; it does not speak
+for him about today's events or supply authentic quotations.
 
-## What this is
+## Start with something that bothers you
 
-A [Claude Skill](https://docs.claude.com) — a `SKILL.md` plus a `references/` package that a host
-agent loads on demand. The core file carries the persona in first-person voice at roughly 1.9k
-tokens; the reference modules carry register-specific detail, worked argumentative procedures, and
-the honesty ledger.
+**Suggested first prompt:**
 
-It was built by distilling ~444,000 words of Feynman's published work into 24 core elements scored
-on projectibility, cost-bearing refusals, expressive match, interactional moves, and preoccupations.
-The distillation method and the audit trail are documented in
-[`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md).
+> Use the Feynman perspective. I can use F = −kx, but I keep forgetting the minus
+> sign. If I stretch a spring to the right, whose force points which way—and how
+> can the spring's stored energy increase? Help me work it out from one example.
 
-## Installation
+The perspective is designed to keep the same spring in view: which way it pulls,
+what the hand does, and whose work enters the energy account. If a step remains
+unclear, bring that step back. The aim is to leave with a relation you can use
+when the next problem looks different.
 
-**Claude Code / Claude Desktop (personal skill):**
+Other useful things to bring:
 
-```bash
-git clone https://github.com/ariel-lee-1023/feynman-perspective.git
-mkdir -p ~/.claude/skills
-cp -r feynman-perspective ~/.claude/skills/
+- **Two explanations of one result.** Work out where their predictions differ
+  and what observation could separate them. A disagreement also calls for checking
+  the apparatus and the calculation.
+- **A claim that a system is reliable.** Examine the tested conditions, damage
+  and missing evidence. A history of survival may leave the failure mechanism
+  unexplained; a changed design deserves a fresh investigation.
+- **A lesson that has become a vocabulary exercise.** Find something the learner
+  can actually do with the idea. Keep a precise definition when it resolves a
+  difficulty, and allow a correct route even when it is slow.
+- **A conclusion you would like to believe.** Look for the awkward observation
+  and give the favorable result the same scrutiny. Expect some resistance to
+  reassurance that has not earned its confidence.
+
+Questions about curiosity, learning and the pleasure of discovery fit here as
+well. The approach can investigate consequences and clarify a choice; it cannot
+derive what a life should be devoted to from a physical law.
+
+## Use it
+
+For the current working version:
+
+```sh
+git clone --branch codex/refresh-feynman-20260912 https://github.com/ariel-lee-1023/Feynman-perspective.git feynman-perspective
 ```
 
-**Project-scoped:** copy the folder into `.claude/skills/` inside your project.
+Open the cloned folder as a conversation workspace in Codex. Its [AGENTS.md](AGENTS.md)
+sets the Feynman perspective as the default; a request to change voice or work on
+the files takes precedence. The suggested prompt above is also a direct way to
+start. Tag `1.0` preserves the published Candidate snapshot.
 
-**claude.ai:** zip the folder and upload it via Settings → Capabilities → Skills.
+For another skill host, install the root [SKILL.md](SKILL.md) together with its
+`references/` directory. The existing discovery link
+`.agents/skills/feynman-perspective -> ../..` points to that same copy.
 
-The skill directory name must match the `name` field in the `SKILL.md` frontmatter
-(`feynman-perspective`).
+## Where the perspective comes from
 
-## Usage
+Seven works supply the record: *Surely You're Joking, Mr. Feynman!*, *What Do You
+Care What Other People Think?*, *The Pleasure of Finding Things Out*, *The Character
+of Physical Law*, *Six Easy Pieces*, *Feynman's Tips on Physics*, and *New Textbooks
+for the “New” Mathematics*.
 
-The skill triggers on its own when a task fits its description — scientific method, evaluating a
-claim, explaining something to a beginner, auditing confident institutional language, cutting
-jargon. You can also invoke it explicitly:
+They include public material from 1955–1986, undergraduate teaching, and memoirs
+published in 1985 and 1988 about earlier events. Lectures, edited interviews and
+later recollections offer different kinds of evidence. Editors' remarks and
+student questions are kept distinct from Feynman's speech. The full books and
+scans are not distributed.
 
-```
-Use the feynman-perspective skill: our incident review says the system has 99.99% availability.
-Pull that apart.
-```
+The strongest voice support is for introductory scientific explanation in English.
+Chinese conversation is supported as a use, but its resemblance to his voice has
+not been evaluated. Present-day factual questions need current sources; historical
+judgments need their original circumstances. The [scope](transworld-identity/scope.md)
+explains these boundaries, and the [source notes](transworld-identity/provenance.md)
+trace the construction. Existing source rights remain separate from the repository's
+[MIT license](LICENSE); see [NOTICE](NOTICE.md).
 
-```
-Explain gradient descent in the feynman-perspective frame — concrete case first, no jargon.
-```
+## How much confidence to place in it
 
-Good fits:
+**The working version remains a Candidate.** Structure revision 2 package checks
+passed. The 1.0 bounded source checks remain historical evidence; this redistribution
+has not renewed their full-runtime applicability. Machine recognition has not been run. Earlier comparisons did
+not establish an improvement over a minimal Feynman prompt, and the broader final
+evaluation remains incomplete. It is a perspective to work with and question;
+consistent resemblance across situations has not been demonstrated.
 
-- **Auditing a confident claim.** Asymmetric-scrutiny check, demand the number rather than the
-  methodology, read the wording for what temperature it stops being true at.
-- **Risk under uncertainty.** A survived anomaly is a warning, not a reassurance.
-- **Teaching and documentation.** Clear beats precise; added precision can *lower* clarity.
-- **Research and analysis quality.** Leaning over backwards, replication before variation, naming
-  the specific missing check rather than sneering "cargo cult."
-
-## Repository layout
-
-```
-feynman-perspective/
-├── SKILL.md                          # the core persona (always loaded)
-├── references/                        # host-agent-facing, loaded at runtime, never contains
-│   │                                #   provenance or episodic material
-│   ├── frameworks.md                 # his named constructs, defined
-│   └── clusters/                     # register modules, loaded on demand
-│       ├── c01-c03-c05-memoir.md     #   narrative/storytelling voice
-│       ├── c04-cargo-cult.md         #   scientific integrity, self-deception
-│       ├── c06-c11-challenger.md     #   institutional critique, risk, dissent
-│       ├── c07-c10-interviews.md     #   reflective spoken voice (doubt, wonder)
-│       ├── c13-seeking-new-laws.md   #   method, authority vs. evidence
-│       ├── c17-newmath.md            #   teaching, clarity, jargon
-│       ├── manifest.json             #   17-cluster corpus segmentation
-│       └── coverage_map.json         #   domain/temporal coverage
-├── fidelity-ledger/                    # human-facing, never loaded by the host agent
-│   ├── provenance.md                 # source map, fidelity gates, where to trust it less
-│   ├── episodic.md                   # lower-priority colour + coverage limits
-│   ├── extractions.json              #   the extracted elements
-│   ├── scores.json                   #   scoring and core/reference decisions
-│   └── fidelity.json                 #   projection, cost, and style gate results
-├── CHANGELOG.md
-├── LICENSE
-├── NOTICE.md
-└── .github/workflows/validate.yml    # frontmatter + JSON sanity check
-```
-
-Nothing in `fidelity-ledger/` is needed at runtime. It ships so the claims in the README are
-checkable rather than asserted — which is rather the point of the skill.
-
-## How faithful is it?
-
-Measured, not asserted. Full numbers in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md);
-the summary:
-
-| Domain | Projection score |
-|---|---|
-| Epistemology / method / authority | 0.98 |
-| Scientific integrity, not fooling yourself | 0.95 |
-| Teaching, clarity, jargon | 0.92 |
-| Institutional critique (risk, overconfidence) | 0.90 |
-| Reflective personal philosophy (doubt, wonder) | 0.85 |
-| Physics detail beyond the famous set-pieces | 0.55 |
-| Politics, economics, social theory | out of scope |
-
-The **projection gate** masks a fraction of the extracted stances and asks whether the remainder
-predicts them; it scored 1.00 pre-assembly, 0.90 on the assembled core. The **cost gate** requires
-that every attested case where Feynman paid a price for a commitment survives into the core; all
-8 did. The **style gate** checks that sentence-length shape and register modulation match the
-originals rather than flattening into one voice.
-
-## Scope and limits
-
-- **Strong on how he thinks and argues** — method, authority, integrity, clarity, risk, wonder.
-- **Weak as a source of physics content** beyond the famous set-pieces. Don't use it as a textbook.
-- **Silent on organized politics, economics, and social theory.** The corpus is silent there, and
-  that silence is itself in character. Don't push it.
-- **Memoir dialogue is reconstructed**, not verbatim transcript — faithful in spirit only.
-- **No forged quotations.** The skill explicitly instructs against presenting invented statements as
-  Feynman's real words. If you need a real quote, go to the source and cite it.
-
-## Sources and copyright
-
-The persona was distilled from seven published works: *Surely You're Joking, Mr. Feynman!*, *What Do
-You Care What Other People Think?*, *The Pleasure of Finding Things Out*, *The Character of Physical
-Law*, *Six Easy Pieces*, *Feynman's Tips on Physics*, and the 1965 essay "New Textbooks for the
-'New' Mathematics."
-
-**The corpus itself is not distributed here and never will be.** Those works remain in copyright.
-This repository contains only original analytical description of patterns of reasoning, register,
-and argumentative structure — the kind of thing a critical essay contains. Cluster modules
-deliberately paraphrase rather than quote, and the memoir module states outright that its material
-must not be used as a quotation source.
-
-Richard Feynman's name and works are the property of their respective rights holders. This project
-is unaffiliated with and unendorsed by the Feynman estate, Caltech, or any publisher.
-
-## Contributing
-
-Issues and pull requests are welcome. Two rules, both inherited from the subject:
-
-1. **Say which check is missing.** A report that the persona sounds off should name the specific
-   move it got wrong or the source it contradicts — not just "this doesn't feel like him."
-2. **Lean over backwards.** If you propose an addition, include what argues against it: the cluster
-   where he does the opposite, the register where it wouldn't apply.
-
-Changes to `SKILL.md` should say which element in `fidelity-ledger/scores.json` they refine, and
-whether any gate is affected.
-
-## License
-
-MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
-
-This license covers the original text in this repository. It does not extend to any referenced source books, which remain the property of their respective copyright holders.
-
+The [assessment record](transworld-identity/validation.json) contains the actual
+results and limitations. [Release history](CHANGELOG.md) and
+[maintenance notes](transworld-identity/provenance.md#maintenance-checks) cover the
+migration and reproducible checks. Those checks verify the package, not the presence
+of a person in a conversation.

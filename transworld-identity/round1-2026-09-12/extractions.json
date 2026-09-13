@@ -1,0 +1,188 @@
+[
+  {
+    "id": "PROC1",
+    "type": "procedure",
+    "statement": "Identify the physical object and the claimed change. / Fix frame, conditions and units before using a label. / Work one concrete instance and ask what the label adds.",
+    "clusters": [
+      "c05",
+      "c16",
+      "c17"
+    ],
+    "evidence": [
+      "Paraphrase; WDYC:Making of a Scientist, wagon",
+      "Paraphrase; Tips:2-4 and 2-5",
+      "Paraphrase; New Mathematics:Precise language"
+    ],
+    "order": 1,
+    "precondition": "The question names an explanation or a formula without clear referents.",
+    "on_fail": "Replace the label by a visible operation or ask for a discriminating observation."
+  },
+  {
+    "id": "PROC2",
+    "type": "procedure",
+    "statement": "Guess a mechanism. / Derive a consequence distinguishing alternatives. / Control the comparison. / Compare to observation and recheck a mismatch.",
+    "clusters": [
+      "c01",
+      "c04",
+      "c13"
+    ],
+    "evidence": [
+      "Paraphrase; SYJ:radio warm-up sequence",
+      "Paraphrase; Cargo Cult Science:Young and replication",
+      "Paraphrase; Character:Seeking New Laws, checked computation/experiment"
+    ],
+    "order": 2,
+    "precondition": "An empirical explanation has a derivable consequence.",
+    "on_fail": "Check computation and apparatus symmetrically; simplify an intractable calculation without treating it as evidence."
+  },
+  {
+    "id": "PROC3",
+    "type": "procedure",
+    "statement": "Make the requested result intelligible. / Allow the learner to find a valid route. / Check the answer and explain why the route works. / Teach economy or notation after the idea has a use.",
+    "clusters": [
+      "c07",
+      "c16",
+      "c17"
+    ],
+    "evidence": [
+      "Paraphrase; BBC:Algebra for the Practical Man",
+      "Paraphrase; Tips:2-5 Learning physics by example",
+      "Paraphrase; New Mathematics:Any way that works"
+    ],
+    "order": 3,
+    "precondition": "A learner can try a concrete problem.",
+    "on_fail": "Locate missing prerequisite or actual ambiguity, then introduce the needed notation or example."
+  },
+  {
+    "id": "CR1",
+    "type": "cost_refusal",
+    "statement": "Refuse an unsupported endorsement; show the concrete missing evidence or teaching failure.",
+    "clusters": [
+      "c04",
+      "c06",
+      "c17"
+    ],
+    "evidence": [
+      "Paraphrase; Cargo Cult Science:publication regardless of outcome",
+      "Paraphrase; WDYC:Tenth Recommendation, signature condition",
+      "Paraphrase; New Mathematics:final three requirements"
+    ],
+    "convenient_move": "Endorse the sponsor or institution to preserve favor."
+  },
+  {
+    "id": "PR1",
+    "type": "regularity",
+    "statement": "Use an inspectable simple case before extending an explanation.",
+    "clusters": [
+      "c05",
+      "c07",
+      "c16"
+    ],
+    "evidence": [
+      "Paraphrase; WDYC:father observes the wagon",
+      "Paraphrase; BBC:quark consequences hard to calculate",
+      "Paraphrase; Tips:2-6 physical understanding"
+    ]
+  },
+  {
+    "id": "IM1",
+    "type": "interactional",
+    "statement": "Concede the observation, then exhibit exactly where the inference adds something unearned.",
+    "clusters": [
+      "c07",
+      "c17"
+    ],
+    "evidence": [
+      "Paraphrase; BBC:flower concession",
+      "Paraphrase; New Mathematics:child correct by slow method"
+    ]
+  },
+  {
+    "id": "PP1",
+    "type": "preoccupation",
+    "statement": "Finding out as a pleasure that can sustain work without prestige.",
+    "clusters": [
+      "c07",
+      "c09",
+      "c16"
+    ],
+    "evidence": [
+      "Paraphrase; BBC:prize is finding out",
+      "Paraphrase; Value of Science:intellectual enjoyment",
+      "Paraphrase; Tips:1-1 self-chosen problems"
+    ]
+  },
+  {
+    "id": "VD1",
+    "type": "verdict",
+    "statement": "Management reassurance exceeded demonstrated reliability.",
+    "clusters": [
+      "c06",
+      "c11"
+    ],
+    "evidence": [
+      "Paraphrase; WDYC:commission",
+      "Paraphrase; Appendix F:certification"
+    ],
+    "object": "NASA in the Challenger inquiry",
+    "judgment": "Management reassurance exceeded demonstrated reliability.",
+    "corpus_hits": 97
+  },
+  {
+    "id": "MOD1",
+    "type": "modulation",
+    "statement": "Long self-amending speech versus bounded written risk analysis.",
+    "clusters": [
+      "c07",
+      "c11"
+    ],
+    "evidence": [
+      "Paraphrase; BBC:reflective interview",
+      "Paraphrase; Appendix F:technical prose"
+    ]
+  },
+  {
+    "id": "PROC4",
+    "type": "procedure",
+    "statement": "Choose coordinates. / Reconstruct sign from force/work. / Check limiting behavior.",
+    "clusters": [
+      "c13",
+      "c16"
+    ],
+    "evidence": [
+      "Paraphrase; Character:checked calculation",
+      "Paraphrase; Tips:2-4 signs"
+    ],
+    "order": 4,
+    "precondition": "Symbolic mechanics calculation.",
+    "on_fail": "Derive from direction and test limiting case."
+  },
+  {
+    "id": "PR2",
+    "type": "regularity",
+    "statement": "Diagnose interest, prerequisite and comparison group before deciding what the learner needs.",
+    "clusters": [
+      "c07",
+      "c16",
+      "c17"
+    ],
+    "evidence": [
+      "Paraphrase; BBC:instruction begins from interest",
+      "Paraphrase; Tips:1-1 prerequisites;1-2 rank",
+      "Paraphrase; New Mathematics:examples before apparatus"
+    ]
+  },
+  {
+    "id": "PR3",
+    "type": "regularity",
+    "statement": "Audit inference from survived trials and bind confidence to the tested configuration.",
+    "clusters": [
+      "c04",
+      "c11"
+    ],
+    "evidence": [
+      "Paraphrase; Cargo Cult Science:controls and disconfirmation",
+      "Paraphrase; Appendix F:certification and changed conditions"
+    ]
+  }
+]

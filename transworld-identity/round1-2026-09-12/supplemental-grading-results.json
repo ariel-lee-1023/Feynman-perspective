@@ -1,0 +1,125 @@
+{
+  "status": "supplemental-manual-development-only",
+  "rubric_sha256": "sha256:42a1032471fa57e33f0b7f7f3d23a42c49fe865419639f9a3bcf30d5b8582c1c",
+  "graded_utc": "2026-09-12T08:59:52.709457+00:00",
+  "criteria_frozen_before_answer_read": true,
+  "rows": [
+    {
+      "id": "dev-formula-spring",
+      "prompt": "A learner sets the positive x direction to the right and stretches an ideal spring rightward from equilibrium. They remember F=kx and U=-kx²/2, but are unsure of both signs. Explain how to determine the signs without trusting memory and give two simple checks.",
+      "answer": "Put a mark where the spring is unstretched, and measure x from that mark. The force we want is the spring's force on the object attached to it. At positive x, the spring pulls left, so that force is negative: F = −kx, with k positive. The force of your hand, if you stretch it very slowly, is approximately +kx. Those are different forces; that is one place the remembered signs get mixed up.\n\nYou must do positive work to stretch it. Starting with U = 0 at equilibrium, stretching to x stores the work ∫₀ˣ ks ds = kx²/2. Equivalently, the spring's force is −dU/dx. The arbitrary zero of U changes neither conclusion.\n\nTwo checks: release the object at positive x. It must accelerate left, toward equilibrium; F = +kx would send it farther away. Next compress the spring by the same distance. That also requires positive work and stores the same energy. The square gives this symmetry, and the positive coefficient makes equilibrium the energy minimum.",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Reconstructs negative spring force from pullback under the stated rightward axis, distinguishes external hand force, obtains positive stored work plus arbitrary energy constant, and checks restoring acceleration and compression symmetry. Correct formula is derived rather than merely recalled.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "blinded": false,
+      "answer_sha256": "sha256:afc97153f23c08c9b1f80ae75bfc7f31f135994360bdc4260f54a6da1cde5dca"
+    },
+    {
+      "id": "dev-formula-slider",
+      "prompt": "A block slides across a rough horizontal table and stops. A learner says the result disproves energy conservation because kinetic energy is gone, then proposes a position-only potential for friction. Work through the claim using a round trip and state the limits of the mechanical-energy calculation.",
+      "answer": "Watch the block, but also watch what it rubs against. Its speed falls, and the block and table gain internal energy. Some energy may go into sound or deformation as well. Energy has left the visible sliding motion; measuring that motion alone does not measure all the energy.\n\nSuppose, as a simple approximation, the sliding friction has constant magnitude f. Push the block from A to B, a distance L, and then back. Friction does work −fL on each leg, hence −2fL for the trip. A potential depending only on position must return to its original value at A, so its associated force would do zero net work. Ordinary sliding friction cannot have such a potential: reversing the motion reverses the friction force.\n\nFor the unpowered stopping leg, ΔK = −fL predicts a stopping distance if that friction approximation holds and no other horizontal force does work. It does not predict the temperature of either body or how they share the heating. For those questions, enlarge the system and account for its other energy transfers.",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Computes negative friction work on both legs of a round trip, contrasts it with the zero loop work required by position-only potential, and restores total-energy accounting through internal energy/sound/deformation. Mechanical stopping-distance result is explicitly limited to constant friction and work assumptions.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "blinded": false,
+      "answer_sha256": "sha256:d9f0c2c173592c78d9ffad64265643bb2f27ac24d8d79fd89c319f91f94cf1d0"
+    },
+    {
+      "id": "dev-learning-rank",
+      "prompt": "A student formerly top of a large school is now in the lower third of a selective physics class. They can solve routine calculus but have not independently solved the new mechanics problems. They ask whether their rank proves they cannot become a scientist. Respond and suggest a concrete next hour of work without promising a career outcome.",
+      "answer": "Your rank says where you stand among these particular students on these particular assessments. The comparison group has changed. Being in its lower third is not the same observation as being unable to learn mechanics. But there is a real difficulty to investigate: so far you can carry out familiar calculus, yet cannot turn these new physical situations into a solution yourself.\n\nFor the next hour, choose one manageable mechanics problem—say a mass hanging from a spring. Spend ten minutes drawing it, choosing a coordinate, and describing which way each force acts. Then try to write the equation of motion and obtain one consequence without looking at the solution. If you stop, write the precise missing step: identifying a force, translating acceleration into a derivative, or solving the resulting equation.\n\nUse the next twenty minutes to work through that step in a simpler example. Finally return to the original problem and explain your result, including a limiting case. That gives us evidence about what needs work. It cannot settle your career, but it tells us much more than your rank does.",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Explains the changed comparison group without promising ability or career outcome. Targets the actual mechanics translation gap, respects already-fluent calculus, and offers a timed independent attempt, precise obstruction, simpler repair task and return/check cycle.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "blinded": false,
+      "answer_sha256": "sha256:2c6cd99c97122498a7b1b9e3aae1c77d0eca2f5153ff493a773cd84fe55cf75d"
+    },
+    {
+      "id": "dev-learning-confusion",
+      "prompt": "One pupil is completely lost about what a derivative means; another understands it but is bored by another compulsory review. You have one hour with each. Choose different first activities and explain what observations would tell you whether to change approach.",
+      "answer": "For the pupil lost about derivatives, I would begin with a moving cart and a short table of its positions at successive times. Calculate average speeds over several intervals. Then take smaller intervals around one instant and ask what number they seem to approach. Only then attach the derivative notation to that operation. If the divisions themselves are confusing, we have found an earlier difficulty and should work there first.\n\nI would check understanding by changing the motion, perhaps making the cart turn around. Can the pupil explain a negative velocity and distinguish it from a negative position? Repeating my definition would not settle that.\n\nFor the pupil who understands derivatives, I would offer a problem they actually want to investigate: for example, choosing the dimensions of an open box cut from a sheet to hold the most. Let them choose another problem if this one is dull. Watch whether they can construct the quantity to differentiate and interpret the answer. If they cannot, supply a smaller example at that specific obstruction. An hour of compulsory review treats boredom and confusion as though they were the same trouble.",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Gives the lost learner a concrete measured rate construction with diagnostics for arithmetic and meaning, while giving the fluent learner a chosen application. Uses independent transfer, interpretation and observed blockage to decide what help is required, rather than forcing identical review.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "blinded": false,
+      "answer_sha256": "sha256:48055e01f0efeeab69ec3eb1f4b7d25df4c242980077fd9c4b1f5b9ac5aba00f"
+    },
+    {
+      "id": "dev-risk-seals",
+      "prompt": "A test machine has run 80 cycles without catastrophic failure. Inspection finds a crack growing beyond the design allowance; the mechanism of crack growth is unknown. Management calls the successful cycles proof of an adequate margin. Respond with the concrete missing evidence and what the run history can and cannot establish. Do not invent a failure probability.",
+      "answer": "There is a useful observation here: this machine survived those 80 cycles under the conditions it actually experienced. Keep that record. But inspection supplies another observation, and it is an unfavorable one: the crack has grown beyond the allowance used in the design. Survival does not tell you how much farther it can grow before the part fails.\n\nI would want the crack measurements against cycle number, their uncertainty, the loads and temperatures on each cycle, and the basis of the original allowance. Was that allowance tied to a measured failure threshold or to an assumed growth model? Examine comparable parts and test specimens under representative loading, including relevant extremes. We need evidence about growth and remaining strength, not merely another count of completed cycles.\n\nAsk the engineers separately what they think is happening and what measurements would distinguish their explanations. Until that is understood, management cannot turn the absence of catastrophe into a demonstrated margin. The run history constrains what happened during those exposures. It does not establish a failure probability or certify the next intended exposure as safe.",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Preserves actual survival evidence but rejects the unsupported margin inference. Requests crack-growth/uncertainty, load/temperature, allowance basis and representative tests; distinguishes explanation and remaining strength from cycle counting and does not invent failure probability.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "blinded": false,
+      "answer_sha256": "sha256:0bb15e3b86724c571b829efcff426b29072fae2934bb84b082904f33f04f20ab"
+    },
+    {
+      "id": "dev-risk-redesign",
+      "prompt": "A valve with a documented failure history has been replaced by a different design. You have the old failure counts but no trials of the new valve under its intended loads. The team asks you to carry over either the old risk number or the vendor’s promise of perfect safety. Describe your next steps and the scope of any conclusion.",
+      "answer": "First find out what physically changed. Did the old valve stick, leak, fracture, or fail to close under a particular pressure difference? Those are different troubles. The old counts need their denominators and operating conditions, and they can help identify what to test. They are not measurements of this new valve's reliability.\n\nInspect the new design against those old mechanisms and look for new ones introduced by the changes. Then specify tests using the intended pressures, temperatures, fluids, cycling and duration, with measurements of leakage, operation and any accumulating damage. Include the combinations of conditions the valve will actually face. Agree beforehand what performance is required and what would count as a failure, so an inconvenient result cannot quietly become acceptable afterward.\n\nThe vendor's claim must become something testable. Perfect safety is not a result you obtain from a finite set of trials. At present we can say that a replacement was made and explain which old failure mechanisms it is intended to address. We cannot yet assign its operating risk. After testing, any conclusion must state the tested conditions, exposure and remaining uncertainties.",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Uses old failure mechanisms and condition-qualified counts to design tests of changed hardware, rather than carrying over a scalar risk. Makes vendor assurance testable, specifies intended-condition exposure and predetermined failure standards, and bounds conclusions without perfect-safety claims.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "blinded": false,
+      "answer_sha256": "sha256:8a1b87d64101636f63ebb04cba2aa7d37bad61d752c831e04f028c6814dd53a0"
+    }
+  ],
+  "summary": {
+    "sign_and_energy_reconstruction": {
+      "n": 2,
+      "both_criteria_hits": 2
+    },
+    "learner_specific_teaching": {
+      "n": 2,
+      "both_criteria_hits": 2
+    },
+    "conditioned_engineering_inference": {
+      "n": 2,
+      "both_criteria_hits": 2
+    }
+  },
+  "limitations": [
+    "No baseline condition; no demonstrated gain.",
+    "Single model reviewer saw candidate condition label; this supplemental grading is not blind.",
+    "Prompts and rubric defined after extraction; development only.",
+    "Candidate procedure sheet tested; assembled runtime not yet tested.",
+    "Risk supplemental tasks retire overlapping reserved final engineering scenarios."
+  ]
+}

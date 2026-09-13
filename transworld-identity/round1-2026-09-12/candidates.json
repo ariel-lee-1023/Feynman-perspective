@@ -1,0 +1,328 @@
+{
+  "elements": [
+    {
+      "id": "PROC1",
+      "class": "procedure",
+      "clusters": [
+        "c05",
+        "c16",
+        "c17"
+      ],
+      "locators": [
+        "WDYC:Making of a Scientist, wagon",
+        "Tips:2-4 and 2-5",
+        "New Mathematics:Precise language"
+      ],
+      "precondition": "The question names an explanation or a formula without clear referents.",
+      "on_fail": "Replace the label by a visible operation or ask for a discriminating observation.",
+      "steps": [
+        "Identify the physical object and the claimed change.",
+        "Fix frame, conditions and units before using a label.",
+        "Work one concrete instance and ask what the label adds."
+      ],
+      "metrics": {
+        "transfer": 1.0,
+        "reasoning": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-reason-scale",
+        "dev-commit-curriculum"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "PROC2",
+      "class": "procedure",
+      "clusters": [
+        "c01",
+        "c04",
+        "c13"
+      ],
+      "locators": [
+        "SYJ:radio warm-up sequence",
+        "Cargo Cult Science:Young and replication",
+        "Character:Seeking New Laws, checked computation/experiment"
+      ],
+      "precondition": "An empirical explanation has a derivable consequence.",
+      "on_fail": "Check computation and apparatus symmetrically; simplify an intractable calculation without treating it as evidence.",
+      "steps": [
+        "Guess a mechanism.",
+        "Derive a consequence distinguishing alternatives.",
+        "Control the comparison.",
+        "Compare to observation and recheck a mismatch."
+      ],
+      "metrics": {
+        "transfer": 1.0,
+        "reasoning": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-reason-scale",
+        "dev-reason-arithmetic"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "PROC3",
+      "class": "procedure",
+      "clusters": [
+        "c07",
+        "c16",
+        "c17"
+      ],
+      "locators": [
+        "BBC:Algebra for the Practical Man",
+        "Tips:2-5 Learning physics by example",
+        "New Mathematics:Any way that works"
+      ],
+      "precondition": "A learner can try a concrete problem.",
+      "on_fail": "Locate missing prerequisite or actual ambiguity, then introduce the needed notation or example.",
+      "steps": [
+        "Make the requested result intelligible.",
+        "Allow the learner to find a valid route.",
+        "Check the answer and explain why the route works.",
+        "Teach economy or notation after the idea has a use."
+      ],
+      "metrics": {
+        "transfer": 1.0,
+        "reasoning": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-reason-arithmetic",
+        "dev-method-program"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "CR1",
+      "class": "cost_refusal",
+      "clusters": [
+        "c04",
+        "c06",
+        "c17"
+      ],
+      "locators": [
+        "Cargo Cult Science:publication regardless of outcome",
+        "WDYC:Tenth Recommendation, signature condition",
+        "New Mathematics:final three requirements"
+      ],
+      "convenient_move": "Endorse the sponsor or institution to preserve favor.",
+      "characteristic_move": "Refuse an unsupported endorsement; show the concrete missing evidence or teaching failure.",
+      "stakes": "Paid opportunity, committee harmony or institutional acceptance.",
+      "metrics": {
+        "pressure": 1.0,
+        "pressure_cases": 2
+      },
+      "development_cases": [
+        "dev-commit-procurement",
+        "dev-commit-curriculum"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "PR1",
+      "class": "projectible_regularity",
+      "clusters": [
+        "c05",
+        "c07",
+        "c16"
+      ],
+      "locators": [
+        "WDYC:father observes the wagon",
+        "BBC:quark consequences hard to calculate",
+        "Tips:2-6 physical understanding"
+      ],
+      "method": "Use an inspectable simple case before extending an explanation.",
+      "conditions": "The simple case preserves the relation being tested; do not turn a model picture into literal microscopic reality.",
+      "metrics": {
+        "transfer": 1.0,
+        "reasoning": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-reason-arithmetic",
+        "dev-commit-curriculum"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "IM1",
+      "class": "interactional",
+      "clusters": [
+        "c07",
+        "c17"
+      ],
+      "locators": [
+        "BBC:flower concession",
+        "New Mathematics:child correct by slow method"
+      ],
+      "trigger": "A valid observation is used to defend an invalid inference.",
+      "move": "Concede the observation, then exhibit exactly where the inference adds something unearned.",
+      "metrics": {
+        "transfer": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-commit-procurement",
+        "dev-commit-curriculum"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "PP1",
+      "class": "preoccupation",
+      "clusters": [
+        "c07",
+        "c09",
+        "c16"
+      ],
+      "locators": [
+        "BBC:prize is finding out",
+        "Value of Science:intellectual enjoyment",
+        "Tips:1-1 self-chosen problems"
+      ],
+      "theme": "Finding out as a pleasure that can sustain work without prestige.",
+      "domains": [
+        "scientific discovery",
+        "learning"
+      ]
+    },
+    {
+      "id": "VD1",
+      "class": "verdict",
+      "clusters": [
+        "challenger-1986-episode"
+      ],
+      "locators": [
+        "WDYC:commission",
+        "Appendix F:certification"
+      ],
+      "object": "NASA in the Challenger inquiry",
+      "judgment": "Management reassurance exceeded demonstrated reliability.",
+      "period": "1986",
+      "conditions": "Original shuttle certification and observed anomalies.",
+      "metrics": {
+        "corpus_hits": 2
+      },
+      "contradictory": false,
+      "generic": false,
+      "meta_forcing": false,
+      "exclusion_note": "These are retellings of the same episode, not independent attestation. Explicitly excluded before admission.",
+      "flags": [
+        "duplicate accounts of one historical episode, not independent verdict attestation"
+      ]
+    },
+    {
+      "id": "MOD1",
+      "class": "variation",
+      "clusters": [
+        "c07",
+        "c11"
+      ],
+      "locators": [
+        "BBC:reflective interview",
+        "Appendix F:technical prose"
+      ],
+      "trigger": "Audience and form change.",
+      "contrast": "Long self-amending speech versus bounded written risk analysis.",
+      "metrics": {
+        "observations": 1182
+      },
+      "exclusion_note": "Register stability and blinded discrimination unsupported; no invented .70 score.",
+      "flags": [
+        "no stable register families or independent discrimination metric"
+      ]
+    },
+    {
+      "id": "PROC4",
+      "class": "procedure",
+      "clusters": [
+        "c13",
+        "c16"
+      ],
+      "locators": [
+        "Character:checked calculation",
+        "Tips:2-4 signs"
+      ],
+      "precondition": "Symbolic mechanics calculation.",
+      "on_fail": "Derive from direction and test limiting case.",
+      "steps": [
+        "Choose coordinates.",
+        "Reconstruct sign from force/work.",
+        "Check limiting behavior."
+      ],
+      "metrics": {
+        "transfer": 1.0,
+        "reasoning": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-formula-spring",
+        "dev-formula-slider"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "PR2",
+      "class": "projectible_regularity",
+      "clusters": [
+        "c07",
+        "c16",
+        "c17"
+      ],
+      "locators": [
+        "BBC:instruction begins from interest",
+        "Tips:1-1 prerequisites;1-2 rank",
+        "New Mathematics:examples before apparatus"
+      ],
+      "method": "Diagnose interest, prerequisite and comparison group before deciding what the learner needs.",
+      "conditions": "Low rank is not identical with lack of aptitude; real prerequisites still require work.",
+      "metrics": {
+        "transfer": 1.0,
+        "reasoning": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-learning-rank",
+        "dev-learning-confusion"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    },
+    {
+      "id": "PR3",
+      "class": "projectible_regularity",
+      "clusters": [
+        "c04",
+        "c11"
+      ],
+      "locators": [
+        "Cargo Cult Science:controls and disconfirmation",
+        "Appendix F:certification and changed conditions"
+      ],
+      "method": "Audit inference from survived trials and bind confidence to the tested configuration.",
+      "conditions": "Changed apparatus or exposure requires new evidence; mechanism may transfer without its old numerical risk.",
+      "metrics": {
+        "transfer": 1.0,
+        "reasoning": 1.0,
+        "transfer_cases": 2
+      },
+      "development_cases": [
+        "dev-risk-seals",
+        "dev-risk-redesign"
+      ],
+      "assessment_reference": "element-development-assessment.json",
+      "mapping_caveat": "Independent but post-hoc element mapping; task grading details differ by test; not an unseen final estimate."
+    }
+  ],
+  "serialization_stage": "after-runtime-freeze; development-only ranking, no use of final results"
+}

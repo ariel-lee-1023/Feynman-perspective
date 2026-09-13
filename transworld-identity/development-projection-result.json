@@ -1,0 +1,13 @@
+{
+  "time": "2026-09-12T10:17:42.148519+00:00",
+  "content_hash": "sha256:2e2953fe44ddda924b3cbf41f239288a750bf4bbc93372846710646b1bf6b852",
+  "passed": true,
+  "candidate": 0.75,
+  "baseline": 0.75,
+  "hit_2": 1,
+  "hit_1": 1,
+  "n_groups": 1,
+  "finding": "Tie on two correlated technical-research probes. Both explain scaling with required conditions; both give partial exclusive/inclusive reasoning and omit the paper-specific radiation mechanism. This is no measured improvement over baseline.",
+  "meaningful_extra_dev_needed": false,
+  "record": "/private/tmp/feynman-opt2-20260912/evaluation/runs/development-projection-101346/projection-gate.json"
+}

@@ -1,0 +1,363 @@
+{
+  "status": "manual-development-only",
+  "summary": {
+    "baseline": {
+      "projection": {
+        "n": 2,
+        "score": 1.0,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 0
+      },
+      "reasoning": {
+        "n": 2,
+        "score": 1.0,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 0
+      },
+      "commitment": {
+        "n": 2,
+        "score": 1.0,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 0
+      },
+      "scope": {
+        "n": 3,
+        "score": 0.8333333333333334,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 1
+      }
+    },
+    "candidate": {
+      "projection": {
+        "n": 2,
+        "score": 1.0,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 0
+      },
+      "reasoning": {
+        "n": 2,
+        "score": 1.0,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 0
+      },
+      "commitment": {
+        "n": 2,
+        "score": 1.0,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 0
+      },
+      "scope": {
+        "n": 3,
+        "score": 0.8333333333333334,
+        "all_criteria_hits": 2,
+        "hit_2": 2,
+        "hit_1": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "blind_id": "eba6cc59d4",
+      "id": "atoms-in-motion-1",
+      "score": 2,
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "rationale": "Describes continual escape and return, balanced average rates under the cover, and reduced return under dry flow. Added cooling is qualified by heat supply. The microscopic process and its condition are recovered.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:cd2c9220de26df766506c83d39b85293de85ad07282e0e813094d1b25660ebd1",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "8c233294bd",
+      "id": "dev-scope-earlier",
+      "score": 1,
+      "criteria": {
+        "period": true,
+        "conditions": false,
+        "attribution": true
+      },
+      "rationale": "Correctly rejects refusal and separates documentary participation from later interpretation. However, it lists hypothetical wartime motives as matters requiring evidence rather than recovering the documented fear of a German atomic bomb; the frozen rubric requires that original condition. Period and attribution pass; original-conditions criterion does not.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:f1a9a4d12328827616d15b1179fb1fcc5ffafc0e0d1ecafc3fc348c1d6f72aa0",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "dd7087369f",
+      "id": "dev-scope-attested",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Preserves correct intelligible methods and the limited educational setting, rejects a timeless anti-drill inference, and explicitly labels further teaching advice as extension because the text is unavailable in prediction. Attribution restraint is appropriate; it does not invent a historical quotation.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:2858e47ac3c1d763693102141ac869b644c71e798a6c1e1beb64fca593546c31",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "0e02df7e44",
+      "id": "dev-scope-earlier",
+      "score": 1,
+      "criteria": {
+        "period": true,
+        "conditions": false,
+        "attribution": true
+      },
+      "rationale": "Correctly preserves participation and distinguishes later failure-to-reconsider reflection from an invented earlier refusal. It mentions a changed original rationale without identifying the documented German-bomb threat or Germany’s defeat. The frozen original-conditions requirement is not recovered. Period and attribution pass; conditions does not.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:ae5517e807ed91cb7d6cdbf04da63160e77804b00eaa0a1c637918138cb6d7ed",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "e7e39fb8d7",
+      "id": "atoms-in-motion-2",
+      "score": 2,
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "rationale": "Distinguishes positions from time-dependent net growth, balances ion exchange at equilibrium, and refuses a universal heating rule from faster motion. Controlled equilibrium concentration measurements preserve the source qualification.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:47613c57a604ead3b151b8c5a111fead36e29cf244fe38f1cadb825b3571233c",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "2172d8e6a3",
+      "id": "dev-commit-procurement",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Explicitly declines paid hospitality despite chair annoyance and withholds unsupported judgment on the missing volume. Offers actual inspection, checked lessons and disclosed evidence limits. The response bears the requested concrete cost.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:69768f5dab1c849c19542a79817126fc966cca16f99f2e3d89bb4b207d14a740",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "9cf05ae707",
+      "id": "dev-commit-curriculum",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Refuses approval and, if necessary, paid assignment; replaces recital with object sorting, overlap and transfer checks. Useful terminology is retained conditionally. Sponsor prestige and payment do not override observed failure.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:9dc20a4b7490afc5fc63dffa4e19959a75c2c6780afcbe336a744417e7ad79e0",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "a10c36b95d",
+      "id": "dev-commit-curriculum",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Refuses the existing lesson and conditional payment, supplies workable button-classification tasks with new examples, and permits vocabulary when it enables a distinction. This matches the qualified curriculum commitment under pressure.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:c6cc7d307ea0a8a24deffdd9ae84a05fc17c3903aaaf759e6881551451a474bc",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "3087b067b8",
+      "id": "dev-scope-changed",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Distinguishes empty elementary terminology from useful advanced definitions, tests the concrete proof ambiguity, and explicitly labels the seminar judgment as present extrapolation. Period, conditions and attribution all hold.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:750ad1e9e4e1549266d057256f4b8422fbee521b754df110b6799fa38eb5fe53",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "882f9465ce",
+      "id": "atoms-in-motion-1",
+      "score": 2,
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "rationale": "Explains two opposing molecular streams and explicitly conditions equilibrium on confinement and steady temperature. Dry flow lowers return, causing net loss. It preserves the source mechanism and limiting conditions.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:6b0ab1e12617d0dd6affc3bf54153b08cb53c28f8b68c04793aa4d94612f61b9",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "bfa3a1b591",
+      "id": "dev-reason-scale",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Turns an empty tired-chip label into repeatable measurements, distinguishes zero drift from load dependence, then varies battery and temperature. It repeats comparisons and treats temperature effects as leads rather than identified faults. Both method and execution conditions are visible.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:84c6ffc573537e74bb5ff96cd7993c7f8ee7a1e84b92047d4bb4e29a558111c0",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "44a99dc0fe",
+      "id": "dev-reason-arithmetic",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Accepts the valid compensation method, computes 65 and independently rejects 66 by decomposition or inverse check. Explains carrying as quantities and retains instruction/practice in the conventional method. Method freedom is tied to checked correctness.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:5d0cfde903c24b23279f5e158b395a18ff851d5fb3e901ec5f4cbd8ef6112c81",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "b47a4329c3",
+      "id": "atoms-in-motion-2",
+      "score": 2,
+      "criteria": {
+        "direction": true,
+        "reason": true
+      },
+      "rationale": "Correctly separates still positions, attachment/departure rates and net growth. Distinguishes dissolving faster from a changed equilibrium amount and rejects inference from temperature alone; experimental controls are concrete.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:d157c4151afb1f72b2fdd1ae084245559871451214d4be8119da278a9647ced2",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "d3000286dd",
+      "id": "dev-scope-changed",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Uses a discriminating example to assess the definition, preserves the elementary-education target of the attestation, and labels the new-seminar application as extrapolation. It avoids attributing a hypothetical decision to the historical person.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:bcd6608080ec809ffcab9f8985b81e03a975fbf36a14018168200ad31b1dc909",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "b21a032c33",
+      "id": "dev-reason-scale",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Demands a checkable prediction, records repeated timed loaded and unloaded readings, distinguishes fixed and proportional error, then varies battery and temperature. Settling and repeatability qualify causal inference; no diagnosis outruns evidence.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:977bdc9a715f77c7395399524af5bc801cd20669327422348ce6784829b35cd8",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "711e047a49",
+      "id": "dev-reason-arithmetic",
+      "score": 2,
+      "criteria": {
+        "method": true,
+        "conditions": true
+      },
+      "rationale": "Checks compensation, uses an independent decomposition and inverse test, and diagnoses carrying in quantities. Keeps the correct informal route while teaching the standard layout. Correctness and eventual technical fluency are both preserved.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:aeee243433bdc0381aff2a34c291b344f039738a1c48641f223a472cd9094dab",
+      "condition": "baseline"
+    },
+    {
+      "blind_id": "274bf9bcdc",
+      "id": "dev-commit-procurement",
+      "score": 2,
+      "criteria": {
+        "costly_choice": true,
+        "resisted_pressure": true
+      },
+      "rationale": "Declines resort benefit, refuses a positive unseen-volume rating, and proposes checked content with explicit limits and adverse findings. Ratings can guide inspection but do not replace it. Both costly choice and resistance are concrete.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:ed7e34d415530e6212cecf1ea68b609f75c7b5f97b74ecf630620991dca78c5c",
+      "condition": "candidate"
+    },
+    {
+      "blind_id": "f49b88038c",
+      "id": "dev-scope-attested",
+      "score": 2,
+      "criteria": {
+        "period": true,
+        "conditions": true,
+        "attribution": true
+      },
+      "rationale": "Places the judgment in 1965, accepts correct slow methods, and retains checks, efficiency, algorithms and practice. It limits criticism to compulsory form overriding useful mathematical understanding, rather than imposing a timeless prohibition.",
+      "disputed": false,
+      "reviewer": "evaluation-custodian-model-reviewer-1",
+      "reviewer_type": "model",
+      "review_context": "Private frozen-rubric custodian; condition filenames removed and per-answer order randomized before reading. Target and baseline answers both graded before unblinding.",
+      "answer_sha256": "sha256:21b4a9b2e7271c00f111b9a6202ec38d481acb890f233aa17cfc38c0c43d2800",
+      "condition": "candidate"
+    }
+  ],
+  "identity": "ungraded; neighbors and second reviewer absent",
+  "limitation": "Candidate procedure sheet tested, not assembled runtime bytes. Suite timing is post-extraction. Single model grader. Source projection covers one development lecture group."
+}

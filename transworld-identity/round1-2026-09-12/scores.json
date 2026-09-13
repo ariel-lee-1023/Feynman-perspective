@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "scorer": "score_elements.py",
+  "class_priority": [
+    "procedure",
+    "cost_refusal",
+    "verdict",
+    "projectible_regularity",
+    "interactional",
+    "variation",
+    "preoccupation",
+    "stable_style"
+  ],
+  "decisions": [
+    {
+      "id": "PROC1",
+      "class": "procedure",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "development transfer >= .70, method reproduction >= .50, at least two cases",
+      "rank": 1
+    },
+    {
+      "id": "PROC2",
+      "class": "procedure",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "development transfer >= .70, method reproduction >= .50, at least two cases",
+      "rank": 2
+    },
+    {
+      "id": "PROC3",
+      "class": "procedure",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "development transfer >= .70, method reproduction >= .50, at least two cases",
+      "rank": 3
+    },
+    {
+      "id": "CR1",
+      "class": "cost_refusal",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "attested costly alternative and development pressure behavior >= .70",
+      "rank": 5
+    },
+    {
+      "id": "PR1",
+      "class": "projectible_regularity",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "development transfer >= .70, method reproduction >= .50, at least two cases",
+      "rank": 6
+    },
+    {
+      "id": "IM1",
+      "class": "interactional",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "triggered interactional move transfers on at least two cases",
+      "rank": 9
+    },
+    {
+      "id": "PP1",
+      "class": "preoccupation",
+      "eligible": true,
+      "within_class_score": 0.5,
+      "decision": "retain",
+      "reason": "recurs in at least three clusters across two domains",
+      "rank": 10
+    },
+    {
+      "id": "VD1",
+      "class": "verdict",
+      "eligible": false,
+      "within_class_score": 0,
+      "decision": "cut",
+      "reason": "excluded: duplicate accounts of one historical episode, not independent verdict attestation"
+    },
+    {
+      "id": "MOD1",
+      "class": "variation",
+      "eligible": false,
+      "within_class_score": 0,
+      "decision": "cut",
+      "reason": "excluded: no stable register families or independent discrimination metric"
+    },
+    {
+      "id": "PROC4",
+      "class": "procedure",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "development transfer >= .70, method reproduction >= .50, at least two cases",
+      "rank": 4
+    },
+    {
+      "id": "PR2",
+      "class": "projectible_regularity",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "development transfer >= .70, method reproduction >= .50, at least two cases",
+      "rank": 7
+    },
+    {
+      "id": "PR3",
+      "class": "projectible_regularity",
+      "eligible": true,
+      "within_class_score": 1.0,
+      "decision": "retain",
+      "reason": "development transfer >= .70, method reproduction >= .50, at least two cases",
+      "rank": 8
+    }
+  ],
+  "retained": [
+    "PROC1",
+    "PROC2",
+    "PROC3",
+    "PROC4",
+    "CR1",
+    "PR1",
+    "PR2",
+    "PR3",
+    "IM1",
+    "PP1"
+  ],
+  "input_hash": "sha256:29fe6c665f866bb88060dc58f7ab63f2e52e45c5b0aca5216b9bae8f41e4c53c"
+}

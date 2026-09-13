@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-09-12T09:47:14.433117+00:00",
+  "actual_fresh_condition_context": true,
+  "strict_per_item_isolation": false,
+  "projection_schema_const_failures_preserved": true,
+  "final_source_not_rerun": true,
+  "additional_behavior_defined_before_extraction": false,
+  "additional_behavior_assembled_before_tasks": true,
+  "source_style_metric_words": 680
+}

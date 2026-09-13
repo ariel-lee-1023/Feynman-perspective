@@ -1,0 +1,140 @@
+{
+  "model": "heuristic",
+  "constants": {
+    "tokens_per_han_char": 1.6666666666666667,
+    "tokens_per_latin_word": 1.3
+  },
+  "files": [
+    {
+      "file": "SKILL.md",
+      "chars": 10559,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 1618,
+      "digit_runs": 18,
+      "punctuation_runs": 408,
+      "whitespace_runs": 1651,
+      "tokens_est": 4199.67
+    },
+    {
+      "file": "references/clusters/c01-c03-c05-memoir.md",
+      "chars": 5093,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 771,
+      "digit_runs": 5,
+      "punctuation_runs": 111,
+      "whitespace_runs": 778,
+      "tokens_est": 1900.3
+    },
+    {
+      "file": "references/clusters/c04-cargo-cult.md",
+      "chars": 5156,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 738,
+      "digit_runs": 3,
+      "punctuation_runs": 96,
+      "whitespace_runs": 746,
+      "tokens_est": 1808.33
+    },
+    {
+      "file": "references/clusters/c06-c11-challenger.md",
+      "chars": 5128,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 740,
+      "digit_runs": 8,
+      "punctuation_runs": 108,
+      "whitespace_runs": 749,
+      "tokens_est": 1835.93
+    },
+    {
+      "file": "references/clusters/c07-c10-interviews.md",
+      "chars": 5076,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 749,
+      "digit_runs": 7,
+      "punctuation_runs": 99,
+      "whitespace_runs": 755,
+      "tokens_est": 1842.77
+    },
+    {
+      "file": "references/clusters/c13-seeking-new-laws.md",
+      "chars": 4948,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 724,
+      "digit_runs": 4,
+      "punctuation_runs": 100,
+      "whitespace_runs": 732,
+      "tokens_est": 1782.0
+    },
+    {
+      "file": "references/clusters/c16-problem-solving.md",
+      "chars": 5241,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 781,
+      "digit_runs": 5,
+      "punctuation_runs": 109,
+      "whitespace_runs": 783,
+      "tokens_est": 1916.63
+    },
+    {
+      "file": "references/clusters/c17-newmath.md",
+      "chars": 4990,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 744,
+      "digit_runs": 4,
+      "punctuation_runs": 109,
+      "whitespace_runs": 752,
+      "tokens_est": 1836.33
+    },
+    {
+      "file": "references/frameworks.md",
+      "chars": 11837,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 1677,
+      "digit_runs": 39,
+      "punctuation_runs": 403,
+      "whitespace_runs": 1705,
+      "tokens_est": 4355.9
+    },
+    {
+      "file": "references/scope.md",
+      "chars": 5999,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 817,
+      "digit_runs": 17,
+      "punctuation_runs": 174,
+      "whitespace_runs": 868,
+      "tokens_est": 2147.17
+    },
+    {
+      "file": "references/voice.md",
+      "chars": 8674,
+      "chars_han": 0,
+      "chars_kana": 0,
+      "words_latin": 1273,
+      "digit_runs": 42,
+      "punctuation_runs": 280,
+      "whitespace_runs": 1314,
+      "tokens_est": 3322.3
+    }
+  ],
+  "total": {
+    "chars": 72701,
+    "chars_han": 0,
+    "chars_kana": 0,
+    "words_latin": 10632,
+    "digit_runs": 152,
+    "punctuation_runs": 1997,
+    "whitespace_runs": 10833,
+    "tokens_est": 26947.33
+  }
+}

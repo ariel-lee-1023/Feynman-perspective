@@ -1,0 +1,298 @@
+{
+  "words_firsthand": 95435,
+  "clusters": [
+    {
+      "cluster_id": "c01-c03-c05-memoir",
+      "words": 7074,
+      "apparatus": 1,
+      "moves": 5,
+      "applications": 3,
+      "fragments": 9,
+      "inventory": {
+        "apparatus": [
+          "physical referents"
+        ],
+        "moves": [
+          "narrative expectation and reversal",
+          "name versus thing",
+          "test independent of authority",
+          "visible inspection before rating",
+          "let consequence carry point"
+        ],
+        "applications": [
+          "memoir-shaped answer",
+          "prestige pressure",
+          "empty recitation"
+        ],
+        "fragments": [
+          "radio warm-up",
+          "Bohr exchange",
+          "different box of tools",
+          "Monster Minds",
+          "bird naming",
+          "Arline question",
+          "Nobel inconvenience",
+          "Brazil optics",
+          "blank textbook"
+        ]
+      },
+      "source_ids": [
+        "c01",
+        "c02",
+        "c05"
+      ],
+      "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
+    },
+    {
+      "cluster_id": "c04-cargo-cult",
+      "words": 3361,
+      "apparatus": 2,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 7,
+      "inventory": {
+        "apparatus": [
+          "scientific integrity",
+          "cargo cult science"
+        ],
+        "moves": [
+          "report unfavorable checks",
+          "scrutinize agreement",
+          "repeat base experiment",
+          "isolate uncontrolled cue",
+          "refuse conclusion-linked support",
+          "inspect literal advertisement"
+        ],
+        "applications": [
+          "review research",
+          "sponsor pressure",
+          "replication dispute"
+        ],
+        "fragments": [
+          "islanders runway",
+          "Millikan",
+          "ESP",
+          "student rat experiment",
+          "Young controls",
+          "senator advisory question",
+          "oil advertisement"
+        ]
+      },
+      "source_ids": [
+        "c04"
+      ],
+      "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
+    },
+    {
+      "cluster_id": "c06-c11-challenger",
+      "words": 32631,
+      "apparatus": 1,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 8,
+      "inventory": {
+        "apparatus": [
+          "mechanism versus observation versus confidence"
+        ],
+        "moves": [
+          "obtain separate estimates",
+          "inspect hardware",
+          "trace discrepancy",
+          "audit wording",
+          "bound demonstration",
+          "bound survived-trial inference"
+        ],
+        "applications": [
+          "accident inquiry",
+          "probability claim",
+          "evidence under report pressure"
+        ],
+        "fragments": [
+          "sealed engineer estimates",
+          "engineer-management gap",
+          "O-ring sample",
+          "ice-water effect",
+          "erosion history",
+          "certification change",
+          "signature condition",
+          "report versus narrative"
+        ]
+      },
+      "source_ids": [
+        "c06",
+        "c11"
+      ],
+      "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
+    },
+    {
+      "cluster_id": "c07-c10-interviews",
+      "words": 13652,
+      "apparatus": 1,
+      "moves": 5,
+      "applications": 4,
+      "fragments": 7,
+      "inventory": {
+        "apparatus": [
+          "levels of description"
+        ],
+        "moves": [
+          "concede beauty",
+          "add investigation",
+          "locate uncertainty",
+          "turn scrutiny inward",
+          "follow learner interest"
+        ],
+        "applications": [
+          "reflective explanation",
+          "beauty and science",
+          "doubt and teaching",
+          "historical motive"
+        ],
+        "fragments": [
+          "flower",
+          "doubt interview",
+          "unexplored land",
+          "Nobel prize",
+          "teaching cousin",
+          "wartime rationale",
+          "postwar reflection"
+        ]
+      },
+      "source_ids": [
+        "c07",
+        "c09",
+        "c10"
+      ],
+      "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
+    },
+    {
+      "cluster_id": "c13-seeking-new-laws",
+      "words": 9400,
+      "apparatus": 2,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 8,
+      "inventory": {
+        "apparatus": [
+          "physical representations",
+          "scientific integrity"
+        ],
+        "moves": [
+          "derive prediction",
+          "check discrepancy",
+          "use beauty provisionally",
+          "distinguish bias from certainty",
+          "refuse impossible payoff",
+          "limit picture"
+        ],
+        "applications": [
+          "scientific method",
+          "elegance objection",
+          "quantum analogy"
+        ],
+        "fragments": [
+          "guess compute compare",
+          "checked experiment qualification",
+          "beauty",
+          "imagination strait-jacket",
+          "guaranteed law joke",
+          "we do not know",
+          "understanding understanding",
+          "hierarchy of importance"
+        ]
+      },
+      "source_ids": [
+        "c13"
+      ],
+      "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
+    },
+    {
+      "cluster_id": "c16-problem-solving",
+      "words": 65459,
+      "apparatus": 2,
+      "moves": 7,
+      "applications": 4,
+      "fragments": 8,
+      "inventory": {
+        "apparatus": [
+          "physical representations",
+          "levels of description"
+        ],
+        "moves": [
+          "diagnose prerequisite",
+          "allow boredom and interest",
+          "interpret rank by group",
+          "rebuild sign",
+          "account omitted energy",
+          "compare numerical and symbolic tools",
+          "use analogy failure"
+        ],
+        "applications": [
+          "low grades",
+          "wrong formula sign",
+          "energy bookkeeping",
+          "why notation matters"
+        ],
+        "fragments": [
+          "pleasure of problems",
+          "prerequisites",
+          "selected-group rank",
+          "restoring force",
+          "coordinate convention",
+          "friction and heat",
+          "numerical integration",
+          "nonliteral blocks"
+        ]
+      },
+      "source_ids": [
+        "c14",
+        "c15",
+        "c16"
+      ],
+      "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
+    },
+    {
+      "cluster_id": "c17-newmath",
+      "words": 5084,
+      "apparatus": 1,
+      "moves": 6,
+      "applications": 3,
+      "fragments": 8,
+      "inventory": {
+        "apparatus": [
+          "physical referents"
+        ],
+        "moves": [
+          "accept correct route",
+          "teach flexibility",
+          "guess and check",
+          "replace empty terminology",
+          "expose manufactured ambiguity",
+          "ask intelligible parent question"
+        ],
+        "applications": [
+          "textbook review",
+          "method dispute",
+          "need for precise terms"
+        ],
+        "fragments": [
+          "any workable method",
+          "blank arithmetic",
+          "inventor detective",
+          "sick lizards",
+          "color ball red",
+          "words without facts",
+          "parent test",
+          "three final requirements"
+        ]
+      },
+      "source_ids": [
+        "c17"
+      ],
+      "attribution_note": "Mixed dialogue counts are upper-bound source mass; not an independent-family count."
+    }
+  ],
+  "stage": "round2 inventory retained before revised runtime installation; no new core elements",
+  "registers_note": "The code default zero extra family cost applies: only default explanatory R1 is calibrated; other source forms have no asserted second family.",
+  "move_count_note": "Source depth moves explicitly inventoried here; not falsely counted as new core class survivors."
+}

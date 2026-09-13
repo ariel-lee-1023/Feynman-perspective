@@ -1,0 +1,774 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "FY-FATHER",
+      "source": "What Do You Care What Other People Think? (1988)",
+      "locator": "The Making of a Scientist, pp. 13–16; inspected c05_father_and_observation.txt:23-47",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "father-lessons",
+      "situation": "Later recollection of childhood walks and a ball in a wagon",
+      "audience": "General memoir reader; father addresses child",
+      "available_information": "Bird behavior and relative ball motion can be observed",
+      "constraints": "Names and a familiar explanation may conceal the unanswered question",
+      "observation": "Distinguishes names from observed behavior, tests a bird hypothesis, then checks the wagon from the side. Acknowledges uncertain biological details.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Locate the observed thing and reference frame before treating the label as an explanation"
+      ],
+      "exceptions": [
+        "Names can be useful; the remembered biological details are not current biological evidence"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c01-c03-c05-memoir.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c05_father_and_observation.txt",
+        "sha256": "419121de47d4cadd9fce796988881ccc5996e26b4da924dab4616d2174468113",
+        "line_start": 23,
+        "line_end": 47,
+        "span_sha256": "944c10019d43b618aef901a51d9b4ffd2cb8f8e9e274b4518ebb426bef3f0110"
+      }
+    },
+    {
+      "id": "FY-RADIO",
+      "source": "Surely You’re Joking, Mr. Feynman! (1985)",
+      "locator": "He Fixes Radios by Thinking!, pp. 20–21; inspected Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md:620-690",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "radio-warmup",
+      "situation": "Youth repairs a noisy radio; narrated later",
+      "audience": "Customer doubts the young repairer; later memoir audience",
+      "available_information": "Noise disappears after the set warms up",
+      "constraints": "Customer wants action; Feynman first underestimated the noise",
+      "observation": "Corrects his first impression, proposes heating order as a cause, reverses interchangeable tubes, and checks that the noise stops.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "The components are interchangeable and the sequence can be changed"
+      ],
+      "exceptions": [
+        "One successful repair is not proof of a universal troubleshooting recipe"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c01-c03-c05-memoir.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+        "sha256": "0534928acc3050285433bb086102a1843f26d6e619d7a68f82e25867606a26f6",
+        "line_start": 620,
+        "line_end": 690,
+        "span_sha256": "1f621da23db72446f94a727df647eb459f3d317a4fab1fb04b8e589f4100a9c5"
+      }
+    },
+    {
+      "id": "FY-GUESS",
+      "source": "The Character of Physical Law (1965; Cornell lectures 1964)",
+      "locator": "Seeking New Laws, guess/compute/compare and immediate qualifications; inspected c13_seeking_new_laws_public_lecture.txt:248-320",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "cornell-method",
+      "situation": "Public lecture on discovering physical laws",
+      "audience": "Intelligent general audience",
+      "available_information": "A definite proposal has calculable consequences and experiments may be mistaken",
+      "constraints": "A memorable refutation slogan can conceal computation and apparatus errors",
+      "observation": "Requires checked derivation and experiment before rejecting a theory; lets unexpected experiments initiate inquiry; agreement never proves universal truth.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Consequences must follow from the proposal and the comparison must survive checks"
+      ],
+      "exceptions": [
+        "Uncalculated consequences are not a failed empirical test; established approximations remain useful"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c13-seeking-new-laws.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c13_seeking_new_laws_public_lecture.txt",
+        "sha256": "77e2a795d2c418ea2a7821c00ce6a4fee6412e4ebb2442531f9124338b7a3b83",
+        "line_start": 248,
+        "line_end": 320,
+        "span_sha256": "652cb79422a85ba5ad51cdb2bf51acceceb121dcee389048e93fac31433251f2"
+      }
+    },
+    {
+      "id": "FY-BEAUTY",
+      "source": "The Character of Physical Law (1965; lectures 1964)",
+      "locator": "Seeking New Laws, beauty/simplicity and imagination under constraint; inspected c13_seeking_new_laws_public_lecture.txt:795-842",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "cornell-method",
+      "situation": "Lecturer discusses experienced recognition of promising ideas",
+      "audience": "General lecture audience",
+      "available_information": "A simpler guess has survived initial calculations",
+      "constraints": "Must retain empirical constraints while explaining the attraction of elegance",
+      "observation": "Speaks strongly about recognizing truth by simplicity, then requires agreement with known observations and a new consequence that agrees with nature.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Treat elegance as a reason to explore and provisional confidence, checked against the companion method passage"
+      ],
+      "exceptions": [
+        "His rhetoric here is stronger than a neutral heuristic; it does not erase his explicit checked-experiment requirement"
+      ],
+      "conflicts": [
+        "FY-GUESS"
+      ],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c13-seeking-new-laws.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c13_seeking_new_laws_public_lecture.txt",
+        "sha256": "77e2a795d2c418ea2a7821c00ce6a4fee6412e4ebb2442531f9124338b7a3b83",
+        "line_start": 795,
+        "line_end": 842,
+        "span_sha256": "f2469ae32ab22e46715d6c5b10e68f5f4dd9f35b4a9165611717b01230d8df0b"
+      }
+    },
+    {
+      "id": "FY-BIAS",
+      "source": "The Character of Physical Law (1965; lectures 1964)",
+      "locator": "Chance and Probability, final discussion before Seeking New Laws; inspected the-character-of-physical-law-richard-feynman.md:5630-5656",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "cornell-bias",
+      "situation": "Lecturer contrasts a prior preference and unchangeable certainty",
+      "audience": "General audience",
+      "available_information": "Repeated contrary experiments can accumulate",
+      "constraints": "Progress requires the capacity to be annoyed by contrary evidence",
+      "observation": "Allows bias while rejecting certainty that nature must meet a prior condition.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Repeated contrary evidence must remain capable of changing the judgment"
+      ],
+      "exceptions": [
+        "An initial preference need not be suspended before any work can start"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c13-seeking-new-laws.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "the-character-of-physical-law-richard-feynman.md",
+        "sha256": "cf91903e9dea574993d5dfb6f8868655226fcc5e1562dc403cb97e1a705e03ff",
+        "line_start": 5630,
+        "line_end": 5656,
+        "span_sha256": "d112f49aed4fdfaa106a376282b3bcb176c92cb49b33d01d1f7b11b637e95a91"
+      }
+    },
+    {
+      "id": "FY-QUARKS",
+      "source": "The Pleasure of Finding Things Out (1999 collection; BBC interview 1981)",
+      "locator": "The Pleasure of Finding Things Out, current quark research discussion; inspected c07_bbc_reflective_interview.txt:105-127",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "bbc-1981",
+      "situation": "Retrospective and contemporary account of a research bottleneck",
+      "audience": "Interviewer and general viewers",
+      "available_information": "Candidate theory exists but quantitative consequences are hard to compute",
+      "constraints": "Years of unsuccessful mathematical attempts",
+      "observation": "Seeks rough qualitative understanding as a route toward calculable consequences; identifies the bottleneck precisely.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Qualitative understanding is preparatory, not a completed quantitative test"
+      ],
+      "exceptions": [
+        "The 1981 account is not a statement of today’s frontier"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c07-c10-interviews.md",
+        "references/clusters/c13-seeking-new-laws.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c07_bbc_reflective_interview.txt",
+        "sha256": "0e65fea0ab79860de799b9beea5a0286461f59572ad3717a6d85a0238ae34210",
+        "line_start": 105,
+        "line_end": 127,
+        "span_sha256": "6a9d713412c4c7b1bccc460ea020f6da5f584d4869503dffef05a9de34438bd1"
+      }
+    },
+    {
+      "id": "FY-INSPECTION",
+      "source": "Surely You’re Joking, Mr. Feynman! (1985)",
+      "locator": "Judging Books by Their Covers, pp. 294–295; inspected Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md:13625-13694",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "textbook-committee",
+      "situation": "Committee asks for a judgment on an undelivered book",
+      "audience": "Other committee members",
+      "available_information": "He has read two companion volumes but has not received the third; its pages were blank",
+      "constraints": "Pressure to supply a rating alongside others",
+      "observation": "Declines to rate the unseen volume. Explains how averaging received ratings could conceal missing inspection, explicitly as his own theory of the event.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "The judgment must track what was actually inspected"
+      ],
+      "exceptions": [
+        "A missing volume is not bad merely because unseen; reviewer motives are not established facts"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c01-c03-c05-memoir.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+        "sha256": "0534928acc3050285433bb086102a1843f26d6e619d7a68f82e25867606a26f6",
+        "line_start": 13625,
+        "line_end": 13694,
+        "span_sha256": "8f3db8c2518fb67abadde3d62b941a64627c2d71d8ecd73a6e89d14b65cf5993"
+      }
+    },
+    {
+      "id": "FY-DISCLOSURE",
+      "source": "Cargo Cult Science (1974 commencement; reprinted in Surely You’re Joking)",
+      "locator": "Scientific integrity, oil advertisement and selective publicity; inspected c04_cargo_cult_science_address.txt:34-82",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "cargo-cult-1974",
+      "situation": "Commencement address contrasts scientific correction with selective reporting",
+      "audience": "Graduating scientists and public listeners",
+      "available_information": "Alternatives, eliminated possibilities and operating temperatures affect the inference",
+      "constraints": "Publicity and support reward favorable conclusions",
+      "observation": "Calls for reporting defects, competing explanations and checks so others can judge. Rejects advice publicized only when favorable to the sponsor.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Scientific reporting and endorsement must allow relevant favorable and unfavorable findings"
+      ],
+      "exceptions": [
+        "Not a refusal of all funded investigation; the senator example is explicitly hypothetical, not a documented commission he refused"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c04-cargo-cult.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c04_cargo_cult_science_address.txt",
+        "sha256": "b461625e154d2695a53b29a4bec65e4fdc9c7fdd9175ca0f8f7ee2ed01e84dca",
+        "line_start": 34,
+        "line_end": 82,
+        "span_sha256": "4ce77926b621f02383098bfcc9192f31b9e801262e7b04fb265fe339a3d987f9"
+      }
+    },
+    {
+      "id": "FY-MILLIKAN",
+      "source": "Cargo Cult Science (1974)",
+      "locator": "Measurements following Millikan; inspected c04_cargo_cult_science_address.txt:34-82",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "cargo-cult-1974",
+      "situation": "Address includes physics among examples of biased scrutiny",
+      "audience": "Scientists and general audience",
+      "available_information": "Numbers nearer a prestigious estimate received less scrutiny in the account",
+      "constraints": "Desire to accept a comfortable result",
+      "observation": "Uses the measurement history to demand searching for defects in favored results too.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Apply comparable scrutiny in both directions"
+      ],
+      "exceptions": [
+        "This is Feynman’s historical account, not an independently reaudited history of every experiment"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c04-cargo-cult.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c04_cargo_cult_science_address.txt",
+        "sha256": "b461625e154d2695a53b29a4bec65e4fdc9c7fdd9175ca0f8f7ee2ed01e84dca",
+        "line_start": 34,
+        "line_end": 82,
+        "span_sha256": "4ce77926b621f02383098bfcc9192f31b9e801262e7b04fb265fe339a3d987f9"
+      }
+    },
+    {
+      "id": "FY-CONTROLS",
+      "source": "Cargo Cult Science (1974)",
+      "locator": "Replication discussion and Young’s rat corridor; inspected c04_cargo_cult_science_address.txt:83-105",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "cargo-cult-1974",
+      "situation": "Researcher wants a changed-condition experiment; address recounts rat-maze controls",
+      "audience": "Students, researchers and administrators",
+      "available_information": "Apparatus, floor sound, smell and visual cues can explain behavior",
+      "constraints": "Replication may receive no novelty credit or apparatus time",
+      "observation": "Values reproducing the original condition and identifying the cues animals actually use; control knowledge makes interpretation possible.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Compare conditions in an interpretable setup and test unnoticed information channels"
+      ],
+      "exceptions": [
+        "Do not literally require sand in every new apparatus; anecdotal chronology in the supplied text is uncertain"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c04-cargo-cult.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c04_cargo_cult_science_address.txt",
+        "sha256": "b461625e154d2695a53b29a4bec65e4fdc9c7fdd9175ca0f8f7ee2ed01e84dca",
+        "line_start": 83,
+        "line_end": 105,
+        "span_sha256": "6c0fa35cc4a957965f4c62a5c3e1f003d3ec7399df7be7f33918d9037236aa3c"
+      }
+    },
+    {
+      "id": "FY-SEAL",
+      "source": "Personal Observations on Reliability of Shuttle (1986), Appendix F; collected reprint",
+      "locator": "Solid Fuel Rockets: erosion, blow-by, safety factor and certification; inspected c11_appendix_f_technical_assessment.txt:1-47",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "challenger-1986",
+      "situation": "Commission assesses the shuttle after loss of Challenger",
+      "audience": "Commission, engineers, management and public",
+      "available_information": "Earlier flights survived despite unexplained damage outside design expectations",
+      "constraints": "Institutional need for confident certification",
+      "observation": "Rejects survival as sufficient evidence that unexplained erosion is a safety margin; separates design criteria, anomalies and uncertainty.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Applies to the described design and failure mechanism under the stated information"
+      ],
+      "exceptions": [
+        "Does not establish certain next-flight failure or a timeless NASA verdict; redesign requires reassessment"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c06-c11-challenger.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c11_appendix_f_technical_assessment.txt",
+        "sha256": "84e2ade55110b9788f4994a4188d49c0f485f5f921f82916f3d6e91e0962e39c",
+        "line_start": 1,
+        "line_end": 47,
+        "span_sha256": "f2323cc210a218365b3d2b87f98bde2a21be75aad6efa598724ae3af7517d725"
+      }
+    },
+    {
+      "id": "FY-ESTIMATES",
+      "source": "What Do You Care What Other People Think? (1988; inquiry 1986)",
+      "locator": "Fantastic Figures, pp. 182–183; inspected c06_rogers_commission_investigation.txt:761-797",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "challenger-1986",
+      "situation": "Feynman checks whether engine management and engineers communicate",
+      "audience": "Engineers and manager in a technical meeting",
+      "available_information": "Separate papers record about 1 in 200 or 300 versus the manager’s eventual 1 in 100,000",
+      "constraints": "Hierarchy and procedural explanation can obscure the requested estimate",
+      "observation": "Asks for separate written answers, distinguishes the numerical judgment from how it was made, and makes the disparity visible.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Ask the same defined question and examine the assumptions behind the numbers"
+      ],
+      "exceptions": [
+        "These are estimates of an uncompleted flight due to engine failure in the narrative, not measured whole-shuttle failure probabilities"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c06-c11-challenger.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c06_rogers_commission_investigation.txt",
+        "sha256": "f20409e654b7cfe4dd4a8b40a7eb97fd7ddaf9ebd7251f0e63e1c6dcc9057eb9",
+        "line_start": 761,
+        "line_end": 797,
+        "span_sha256": "8bacfefd91444b600a47e1f0df4d6c32b2bac903f1b0574e1b9b177679d06c96"
+      }
+    },
+    {
+      "id": "FY-RUBBER",
+      "source": "What Do You Care What Other People Think? (1988; inquiry 1986)",
+      "locator": "The Cold Facts, pp. 151–153; inspected c06_rogers_commission_investigation.txt:456-476",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "challenger-1986",
+      "situation": "Public hearing with O-ring sample, clamp and ice water",
+      "audience": "Commission and public observers",
+      "available_information": "Compressed cold rubber recovers slowly in the observed demonstration",
+      "constraints": "Simple physical demonstration must communicate a technically relevant point",
+      "observation": "Shows delayed resilience of the particular sample, says it bears on the problem, and later notes reporters initially needed explanation.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Keep the conclusion tied to sample, temperature and recovery behavior"
+      ],
+      "exceptions": [
+        "Not a simulation of the entire launch or a measured catastrophic probability; source OCR omits a temperature number, which is not reconstructed here"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c06-c11-challenger.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c06_rogers_commission_investigation.txt",
+        "sha256": "f20409e654b7cfe4dd4a8b40a7eb97fd7ddaf9ebd7251f0e63e1c6dcc9057eb9",
+        "line_start": 456,
+        "line_end": 476,
+        "span_sha256": "443f3677129898dae2a2693291356b3aa9b650e6ed76df965fa47482794a9844"
+      }
+    },
+    {
+      "id": "FY-SIGNATURE",
+      "source": "What Do You Care What Other People Think? (1988; inquiry 1986)",
+      "locator": "The Tenth Recommendation, pp. 204–205; inspected c06_rogers_commission_investigation.txt:1004-1025",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "challenger-1986",
+      "situation": "Negotiation over commission report and appendix",
+      "audience": "Commission chair and intermediaries",
+      "available_information": "Proposed recommendation lacks his support; his findings risk modification",
+      "constraints": "Cost is withholding signature or publishing findings separately",
+      "observation": "Makes signature contingent on removal of the tenth recommendation and preservation of version 23; considers offered arguments and finds them inadequate.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Maintain the actual grounds for withholding endorsement"
+      ],
+      "exceptions": [
+        "A new supported report may warrant another judgment; this was one negotiation, not lifelong noncooperation"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c06-c11-challenger.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c06_rogers_commission_investigation.txt",
+        "sha256": "f20409e654b7cfe4dd4a8b40a7eb97fd7ddaf9ebd7251f0e63e1c6dcc9057eb9",
+        "line_start": 1004,
+        "line_end": 1025,
+        "span_sha256": "4daab6fdfc90565ea36ac088197957c750a86afee04fb071311ff45282e52c42"
+      }
+    },
+    {
+      "id": "FY-FLOWER",
+      "source": "The Pleasure of Finding Things Out (1999 collection; BBC interview 1981)",
+      "locator": "Opening flower and artist discussion; inspected c07_bbc_reflective_interview.txt:1-7",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "bbc-1981",
+      "situation": "Responds to a claim that scientific analysis destroys beauty",
+      "audience": "Artist as interlocutor; interview viewers",
+      "available_information": "The same flower has visible beauty and further cellular/ecological relationships",
+      "constraints": "Must answer an objection about experience without merely dismissing the experience",
+      "observation": "Concedes aesthetic perception and asks how added structure and questions subtract from it.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "The added question must concern the actual object and disputed inference"
+      ],
+      "exceptions": [
+        "Unsolicited explanation is not required when someone only wants to share an experience"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c07-c10-interviews.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c07_bbc_reflective_interview.txt",
+        "sha256": "0e65fea0ab79860de799b9beea5a0286461f59572ad3717a6d85a0238ae34210",
+        "line_start": 1,
+        "line_end": 7,
+        "span_sha256": "b6cbc9df01c09c8de83cde6748205e8e8e220c2534bb7508ac2d6869b02986fd"
+      }
+    },
+    {
+      "id": "FY-RANK",
+      "source": "Feynman’s Tips on Physics (supplementary lectures 1961–1962)",
+      "locator": "1-1 Introduction and 1-2 Caltech from the bottom, pp. 15–18; inspected c16_four_supplementary_lectures_feynman_only.txt:1-151",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "tips-review-1961",
+      "situation": "Review for lost students in a highly selected cohort",
+      "audience": "Caltech undergraduates",
+      "available_information": "Class rank reflects a newly selected comparison group; some listeners can work independently",
+      "constraints": "Emotional discouragement differs from rational recognition of selection",
+      "observation": "Contrasts independent exploration with remedial review; uses pointed humor about relative rank and encourages useful work.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Attend to the learner’s actual prerequisite and circumstances"
+      ],
+      "exceptions": [
+        "Historical gendered assumptions and emphatic career reassurance are not universal guarantees; runtime intentionally bounds the assurance"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c16-problem-solving.md",
+        "references/clusters/c07-c10-interviews.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c16_four_supplementary_lectures_feynman_only.txt",
+        "sha256": "2c309cc3318c22b8222e1a577a29dcab9c3c6eeb4a91d85ebd2b0f4439cff574",
+        "line_start": 1,
+        "line_end": 151,
+        "span_sha256": "1c6b5b864a4321b3886a525684ea087552e9273fd6cbe7c16df8c7860e8aef61"
+      }
+    },
+    {
+      "id": "FY-SPRING",
+      "source": "Feynman’s Tips on Physics (lectures 1961–1962)",
+      "locator": "2-4, force and potential-energy sign discussion, pp. 48–49; inspected c16_four_supplementary_lectures_feynman_only.txt:1284-1331",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "tips-signs",
+      "situation": "Works a table of physical laws while admitting difficulty remembering signs",
+      "audience": "Students reviewing mechanics",
+      "available_information": "Spring extension and restoring direction distinguish force from work/energy",
+      "constraints": "Symbols and OCR formulas can obscure physical meaning",
+      "observation": "Reconstructs the restoring sign and positive stored energy from motion and work, then distinguishes friction over a cycle.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Identify coordinates, whose force/work and approximations"
+      ],
+      "exceptions": [
+        "Read prose, not corrupted OCR formulas, as source evidence; modern physical explanation must still be correct"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c16-problem-solving.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c16_four_supplementary_lectures_feynman_only.txt",
+        "sha256": "2c309cc3318c22b8222e1a577a29dcab9c3c6eeb4a91d85ebd2b0f4439cff574",
+        "line_start": 1284,
+        "line_end": 1331,
+        "span_sha256": "68c806cdf11304e20014a313c1cd2e94d24e4037216e8d2c3a2317367cd57611"
+      }
+    },
+    {
+      "id": "FY-NEWMATH",
+      "source": "New Textbooks for the “New” Mathematics (1965)",
+      "locator": "Addition, Words and definitions, A fine distinction and concluding requirements; inspected c17_new_mathematics_textbook_criticism.txt:51-108",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "newmath-1965",
+      "situation": "Review of elementary textbooks",
+      "audience": "Educators, parents and technically trained adults",
+      "available_information": "A child can count to a correct answer; terminology may obscure the intended operation",
+      "constraints": "Commission and teaching constraints differ from pure mathematical work",
+      "observation": "Accepts slow correct routes, checks the result, translates lollipops and sick lizards into an operation, and welcomes precision where a real ambiguity requires it.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Elementary task and learner determine the purpose of notation and method"
+      ],
+      "exceptions": [
+        "Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c17-newmath.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c17_new_mathematics_textbook_criticism.txt",
+        "sha256": "5d13692d4364de22a824e65dfc3c769ffb9402aa4400ff3ad4f4844050ff83be",
+        "line_start": 51,
+        "line_end": 108,
+        "span_sha256": "596aeb22dffefc5ab5519343dd9d696b9f8d4b2eff9f59fd406423741c09ccfb"
+      }
+    },
+    {
+      "id": "FY-PRIZE",
+      "source": "The Pleasure of Finding Things Out (1999 collection; interview 1981)",
+      "locator": "The Nobel Prize—Was It Worth It?; inspected c07_bbc_reflective_interview.txt:51-86",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "bbc-1981",
+      "situation": "Asked about recognition for the QED work",
+      "audience": "Interviewer and public",
+      "available_information": "Work is used by other physicists and discovery has already occurred",
+      "constraints": "Honors impose demands and ranking rituals",
+      "observation": "Locates reward in discovering and seeing the work used, expressing comic irritation with honors.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Connect motivation to the actual work"
+      ],
+      "exceptions": [
+        "Does not mean all honors are worthless or obligations may always be abandoned"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c07-c10-interviews.md",
+        "references/clusters/c01-c03-c05-memoir.md",
+        "references/frameworks.md",
+        "references/voice.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c07_bbc_reflective_interview.txt",
+        "sha256": "0e65fea0ab79860de799b9beea5a0286461f59572ad3717a6d85a0238ae34210",
+        "line_start": 51,
+        "line_end": 86,
+        "span_sha256": "c52d0a96eac1b04dda4ee4451b4886b3cbeaa2565320fd30c6fc3daff82985f3"
+      }
+    },
+    {
+      "id": "FY-HISTORY",
+      "source": "The Pleasure of Finding Things Out (1999 collection; interview 1981)",
+      "locator": "Invitation to the Bomb; inspected c07_bbc_reflective_interview.txt:51-86",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "bbc-1981",
+      "situation": "Later reflection on wartime participation",
+      "audience": "Interviewer and public",
+      "available_information": "Original concern about a German bomb; he actually worked at Princeton and Los Alamos",
+      "constraints": "Research desire, perceived threat and momentum of collective work",
+      "observation": "Says he failed to reconsider his reason after Germany’s defeat; later moral reflection is distinct from the earlier action.",
+      "claim_type": "observed_event",
+      "conditions": [
+        "Hold participation and the time of recollection fixed"
+      ],
+      "exceptions": [
+        "No inferred earlier refusal or consistent lifetime antiwar stance"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c07-c10-interviews.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "preserve",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "c07_bbc_reflective_interview.txt",
+        "sha256": "0e65fea0ab79860de799b9beea5a0286461f59572ad3717a6d85a0238ae34210",
+        "line_start": 51,
+        "line_end": 86,
+        "span_sha256": "c52d0a96eac1b04dda4ee4451b4886b3cbeaa2565320fd30c6fc3daff82985f3"
+      }
+    },
+    {
+      "id": "FY-VALUES",
+      "source": "The Pleasure of Finding Things Out (1999), The Relation of Science and Religion (1956)",
+      "locator": "Science and Moral Questions; inspected The-Pleasure-of-Finding-Things-Out-Feynman-Richard-P.md:3183-3220",
+      "attribution": "Feynman speech or first-person recollection as transmitted by the supplied edition; editorial headings, footnotes and interviewer turns are context only.",
+      "group_id": "science-religion-1956",
+      "situation": "Discusses ethical and empirical aspects of religion",
+      "audience": "Public discussion audience",
+      "available_information": "Predicting consequences and judging their desirability answer different questions",
+      "constraints": "Science’s authority can be extended beyond what observation settles",
+      "observation": "Separates what will happen from whether it should be wanted; admits an unresolved problem of inspiration.",
+      "claim_type": "editorial_synthesis",
+      "conditions": [
+        "Empirical consequences remain relevant even when final ends require value judgment"
+      ],
+      "exceptions": [
+        "The runtime’s sentence about love is editorial application, not an attributed quotation or a denial of relevant empirical inquiry"
+      ],
+      "conflicts": [],
+      "runtime_support": [
+        "SKILL.md",
+        "references/clusters/c07-c10-interviews.md",
+        "references/frameworks.md"
+      ],
+      "curation": {
+        "decision": "contextualize",
+        "reason": "Retained with the stated episode, conditions and attribution; no new independent attestation inferred from repetition."
+      },
+      "inspected_source": {
+        "file": "The-Pleasure-of-Finding-Things-Out-Feynman-Richard-P.md",
+        "sha256": "c4a2b809185a97f1e7f23c3d95db029e7dd4ad8ae361fc9042e72990afb2d765",
+        "line_start": 3183,
+        "line_end": 3220,
+        "span_sha256": "ecd91b4f181436d84c4c96958e54414fce26e47a916e2dd2aa493ce04981778d"
+      }
+    }
+  ]
+}

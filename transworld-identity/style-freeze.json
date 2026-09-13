@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-09-12T10:07:51.894470+00:00",
+  "group": "flp-volume-ii-lecture-01",
+  "url": "https://www.feynmanlectures.caltech.edu/II_01.html",
+  "title": "The Feynman Lectures on Physics, Volume II, Chapter 1: Electromagnetism",
+  "exact_delivery_date": null,
+  "transmission": "Edited text of oral teaching; Feynman, Leighton and Sands, not a verbatim spontaneous speech transcript. Official page states recording is missing. Exact delivery day not available from this source.",
+  "construction_exposure": "None, confirmed by parent before selection; no original metrics sent before final generation.",
+  "scope": "Separately sealed style comparison; not added to source projection split or trait discovery.",
+  "source_word_counts": {
+    "long": 584,
+    "qualification": 241
+  },
+  "hashes": {
+    "private/style-II_01-web.txt": "sha256:09ab2530e0e5e530ea9ccd9170aac56aa81bb40ebb706f66a73d822dc72ef558",
+    "private/style-original-long.txt": "sha256:854f391018c10511f8075256a8cd2562c88ec6dbe8d281b2507a76b0cf29e16b",
+    "private/style-original-qualification.txt": "sha256:de0b0b1adb27beb143480bdd7a85cc593bd1c3facc6f4579f925e5f01fcf336d",
+    "private/style-source-record.json": "sha256:12481401a6650df98789ea6d98f74976fda82c6dc2c777047de4e21be9062b82",
+    "private/style-prompts.json": "sha256:962af88090ec647a1f95e13278c99a2ad76019a07346a2cd5a2014cd25b4efd9"
+  },
+  "prediction_dispatches": 0,
+  "caveat": "Short original is argumentative qualification, not externally pressured dialogue; no spontaneous-speech claim."
+}

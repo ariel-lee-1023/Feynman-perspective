@@ -1,0 +1,82 @@
+[
+  {
+    "id": "six-development",
+    "line_start": 336,
+    "line_end": 379,
+    "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md",
+    "source_span_sha256": "sha256:4c0aabd03a5a8b0f787a1758c2ab7cd10dbc7ee75f79fd01cd906343e5ad6309",
+    "description": "Dynamic surface exchange and limits of still microscopic pictures."
+  },
+  {
+    "id": "six-final",
+    "line_start": 438,
+    "line_end": 546,
+    "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md",
+    "source_span_sha256": "sha256:a52a1b8c16bd8e0e596bb34aa18805a7228609c4dc8f104efc5d9cc5cb9ef22e",
+    "description": "Reserved final physics-teaching source locator; target reasoning withheld."
+  },
+  {
+    "id": "newmath-methods",
+    "line_start": 22,
+    "line_end": 105,
+    "source_file": "New-Textbooks-for-the-New-Mathematics.md",
+    "source_span_sha256": "sha256:2ec14b8df2df6c60e7e8e6de314989d5ae8ce86eee022d5fdaed168d1353c3ac",
+    "description": "Correct methods, varied problems, useful definitions and mathematical facts."
+  },
+  {
+    "id": "memoir-procurement",
+    "line_start": 13549,
+    "line_end": 13840,
+    "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+    "source_span_sha256": "sha256:8ef5f9cd1a0960784e3024b2eb9925961df9e9d922d32dbb0b9764a6d14978c3",
+    "description": "Independent inspection and publisher inducements."
+  },
+  {
+    "id": "memoir-radio",
+    "line_start": 438,
+    "line_end": 690,
+    "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+    "source_span_sha256": "sha256:31ea6f27187972625eec13907d74f1de7b4c0ab91c7d9030a589520725e8f3aa",
+    "description": "Reasoning through the behavior of a malfunctioning radio."
+  },
+  {
+    "id": "memoir-nobel",
+    "line_start": 14123,
+    "line_end": 14500,
+    "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+    "source_span_sha256": "sha256:fd9eafea8794bd99a4b7a246882ec5f1884fe883d7fea99cffac06915256a03a",
+    "description": "Anecdotal account of receiving an honor and its complications."
+  },
+  {
+    "id": "pleasure-war-and-honors",
+    "line_start": 310,
+    "line_end": 365,
+    "source_file": "The-Pleasure-of-Finding-Things-Out-Feynman-Richard-P.md",
+    "source_span_sha256": "sha256:d474455a55e0c5230d1e4e74cb962eb0ab71ae76dc060833b87786aefb4548b5",
+    "description": "Retrospective war-motivation and honors reflections."
+  },
+  {
+    "id": "pleasure-integrity",
+    "line_start": 2606,
+    "line_end": 2655,
+    "source_file": "The-Pleasure-of-Finding-Things-Out-Feynman-Richard-P.md",
+    "source_span_sha256": "sha256:eb91336a2a844b2053bbf9d49d937c265c5ace445c9133a30fe01ac5ce241e3e",
+    "description": "Disclosure sufficient for independent scientific judgment."
+  },
+  {
+    "id": "challenger-survival",
+    "line_start": 1780,
+    "line_end": 1820,
+    "source_file": "What-Do-You-Care-What-Other-People-Think-Richard-Feynman.md",
+    "source_span_sha256": "sha256:08a122188d7d12d8508b0eaca7d8d774ec8028004602f28a4bc5d2c4a467c443",
+    "description": "Interpreting damaged components that previously survived."
+  },
+  {
+    "id": "challenger-appendix",
+    "line_start": 2638,
+    "line_end": 2687,
+    "source_file": "What-Do-You-Care-What-Other-People-Think-Richard-Feynman.md",
+    "source_span_sha256": "sha256:110c02f26b6b0570886f8e08eee79d591561eb690e9b1e8a289779d27425ef47",
+    "description": "Preserving technical findings through institutional review."
+  }
+]

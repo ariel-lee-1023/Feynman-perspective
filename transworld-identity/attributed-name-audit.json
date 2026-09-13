@@ -1,0 +1,28 @@
+{
+  "package": "/private/tmp/feynman-opt2-20260912/runtime-audit",
+  "corpus": "/private/tmp/feynman-opt2-20260912/name-audit-casefolded",
+  "min_hits": 2,
+  "names": [
+    {
+      "name": "cargo cult science",
+      "hits": 5,
+      "heading_hits": 0,
+      "files": [
+        "c04_cargo_cult_science_address.txt"
+      ],
+      "verdict": "THIN"
+    },
+    {
+      "name": "scientific integrity",
+      "hits": 4,
+      "heading_hits": 0,
+      "files": [
+        "c04_cargo_cult_science_address.txt"
+      ],
+      "verdict": "THIN"
+    }
+  ],
+  "verdict": "PASS",
+  "casefolded_corpus": true,
+  "scope": "Two actually attributed expressions; editorial routing headings are not claimed subject coinages. THIN evidence is not independent multi-work attestation."
+}

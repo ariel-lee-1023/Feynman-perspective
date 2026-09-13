@@ -1,0 +1,213 @@
+{
+  "estimator": "token_count.py heuristic, not BPE; unmodified coefficients",
+  "stage": "post-assembly audit; no final-feedback revision",
+  "core": {
+    "class_counts": {
+      "procedure": 4,
+      "cost_refusal": 1,
+      "projectible": 3,
+      "interactional": 1
+    },
+    "supply": 3930,
+    "ceiling": 6000,
+    "realized": 4151.67,
+    "relative_deviation": 0.0564
+  },
+  "frameworks": {
+    "counts": {
+      "constructs": 5,
+      "procedure": 5,
+      "epistemic": 5,
+      "conditional_historical_rows": 3,
+      "moves": 4,
+      "personal": 3
+    },
+    "supply": 3995,
+    "ceiling": 7000,
+    "realized": 4355.9,
+    "relative_deviation": 0.0903,
+    "note": "Historical lookup rows are not admitted standing verdicts."
+  },
+  "voice": {
+    "families": null,
+    "rules": 15,
+    "avoid_terms": 5,
+    "new_pairs": 5,
+    "supply_lower_bound": 2750,
+    "ceiling": 7000,
+    "realized": 4010.13,
+    "relative_deviation_lower_bound": 0.4582,
+    "note": "No verified register count; no computed-supply compliance claim."
+  },
+  "clusters": [
+    {
+      "cluster_id": "c01-c03-c05-memoir",
+      "supply": 1944,
+      "budget": 1944,
+      "counts": {
+        "apparatus": 1,
+        "moves": 5,
+        "applications": 3,
+        "fragments": 9,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 7074,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 3439.63,
+      "relative_deviation": 0.7694
+    },
+    {
+      "cluster_id": "c04-cargo-cult",
+      "supply": 2030,
+      "budget": 2030,
+      "counts": {
+        "apparatus": 2,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 7,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 3361,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 3099.93,
+      "relative_deviation": 0.5271
+    },
+    {
+      "cluster_id": "c06-c11-challenger",
+      "supply": 2129,
+      "budget": 2129,
+      "counts": {
+        "apparatus": 1,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 32631,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 3382.97,
+      "relative_deviation": 0.589
+    },
+    {
+      "cluster_id": "c07-c10-interviews",
+      "supply": 2011,
+      "budget": 2011,
+      "counts": {
+        "apparatus": 1,
+        "moves": 5,
+        "applications": 4,
+        "fragments": 7,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 13652,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 2993.9,
+      "relative_deviation": 0.4888
+    },
+    {
+      "cluster_id": "c13-seeking-new-laws",
+      "supply": 2111,
+      "budget": 2111,
+      "counts": {
+        "apparatus": 2,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 9400,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 3068.9,
+      "relative_deviation": 0.4538
+    },
+    {
+      "cluster_id": "c16-problem-solving",
+      "supply": 2491,
+      "budget": 2491,
+      "counts": {
+        "apparatus": 2,
+        "moves": 7,
+        "applications": 4,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 65459,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 3446.0,
+      "relative_deviation": 0.3834
+    },
+    {
+      "cluster_id": "c17-newmath",
+      "supply": 1987,
+      "budget": 1987,
+      "counts": {
+        "apparatus": 1,
+        "moves": 6,
+        "applications": 3,
+        "fragments": 8,
+        "siblings": 6,
+        "registers": 1
+      },
+      "words": 5084,
+      "words_firsthand": 95435,
+      "floor_triggered": false,
+      "recut_flagged": false,
+      "split_in_module_flagged": false,
+      "shared_domain": false,
+      "verdict": "OK",
+      "coefficients_source": "defaults",
+      "realized_tokens_est": 3705.53,
+      "relative_deviation": 0.8649
+    }
+  ],
+  "package_total_est": 37824.13,
+  "loaded_worst_case_est": 22098.33,
+  "load_formula": "core+scope+voice+frameworks+2*largest_depth_module (scope included in addition to tool conventional formula)",
+  "findings": [
+    "All depth modules remain below6000 hard ceiling.",
+    "Several retained modules exceed formula supply; inventories/realized sizes and any floor flags are preserved. This candidate is not fully budget-calibrated.",
+    "No padding or post-final runtime cutting was performed merely to fit a budget."
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "claim": "Opening, axis and guard: observed operation before a label",
+      "decision": "preserve",
+      "reason": "Names can be useful; the remembered biological details are not current biological evidence",
+      "evidence_ids": [
+        "FY-FATHER"
+      ]
+    },
+    {
+      "claim": "Translation: lollipops, useful precision and mathematical language",
+      "decision": "preserve",
+      "reason": "Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave",
+      "evidence_ids": [
+        "FY-NEWMATH"
+      ]
+    },
+    {
+      "claim": "First-move table: unexpected radio result",
+      "decision": "preserve",
+      "reason": "One successful repair is not proof of a universal troubleshooting recipe",
+      "evidence_ids": [
+        "FY-RADIO"
+      ]
+    },
+    {
+      "claim": "First-move table: theory, experiment and checked calculation",
+      "decision": "preserve",
+      "reason": "Uncalculated consequences are not a failed empirical test; established approximations remain useful",
+      "evidence_ids": [
+        "FY-GUESS"
+      ]
+    },
+    {
+      "claim": "First-move table: recover physical signs",
+      "decision": "preserve",
+      "reason": "Read prose, not corrupted OCR formulas, as source evidence; modern physical explanation must still be correct",
+      "evidence_ids": [
+        "FY-SPRING"
+      ]
+    },
+    {
+      "claim": "First-move table: legitimate learner routes and prerequisites",
+      "decision": "contextualize",
+      "reason": "Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave Historical gendered assumptions and emphatic career reassurance are not universal guarantees; runtime intentionally bounds the assurance",
+      "evidence_ids": [
+        "FY-NEWMATH",
+        "FY-RANK"
+      ]
+    },
+    {
+      "claim": "First-move table: survival is not an explained safety margin",
+      "decision": "preserve",
+      "reason": "Does not establish certain next-flight failure or a timeless NASA verdict; redesign requires reassessment",
+      "evidence_ids": [
+        "FY-SEAL"
+      ]
+    },
+    {
+      "claim": "First-move table and refusal: inspect before rating",
+      "decision": "preserve",
+      "reason": "A missing volume is not bad merely because unseen; reviewer motives are not established facts",
+      "evidence_ids": [
+        "FY-INSPECTION"
+      ]
+    },
+    {
+      "claim": "Guess/compute/compare permits observation first and explicit bottlenecks",
+      "decision": "preserve",
+      "reason": "Uncalculated consequences are not a failed empirical test; established approximations remain useful The 1981 account is not a statement of today’s frontier",
+      "evidence_ids": [
+        "FY-GUESS",
+        "FY-QUARKS"
+      ]
+    },
+    {
+      "claim": "Beauty, provisional success and extension beyond Newtonian tests",
+      "decision": "contextualize",
+      "reason": "Uncalculated consequences are not a failed empirical test; established approximations remain useful His rhetoric here is stronger than a neutral heuristic; it does not erase his explicit checked-experiment requirement An initial preference need not be suspended before any work can start",
+      "evidence_ids": [
+        "FY-GUESS",
+        "FY-BEAUTY",
+        "FY-BIAS"
+      ]
+    },
+    {
+      "claim": "Disclosure of alternatives and sponsor-dependent publicity",
+      "decision": "contextualize",
+      "reason": "Not a refusal of all funded investigation; the senator example is explicitly hypothetical, not a documented commission he refused",
+      "evidence_ids": [
+        "FY-DISCLOSURE"
+      ]
+    },
+    {
+      "claim": "Symmetric self-scrutiny after a welcome result",
+      "decision": "preserve",
+      "reason": "This is Feynman’s historical account, not an independently reaudited history of every experiment",
+      "evidence_ids": [
+        "FY-MILLIKAN"
+      ]
+    },
+    {
+      "claim": "Conditional signature, changed design and new assessment",
+      "decision": "preserve",
+      "reason": "A new supported report may warrant another judgment; this was one negotiation, not lifelong noncooperation Does not establish certain next-flight failure or a timeless NASA verdict; redesign requires reassessment An initial preference need not be suspended before any work can start",
+      "evidence_ids": [
+        "FY-SIGNATURE",
+        "FY-SEAL",
+        "FY-BIAS"
+      ]
+    },
+    {
+      "claim": "Concede the flower’s beauty, then locate the disputed inference",
+      "decision": "preserve",
+      "reason": "Unsolicited explanation is not required when someone only wants to share an experience",
+      "evidence_ids": [
+        "FY-FLOWER"
+      ]
+    },
+    {
+      "claim": "Make zoo-keeper terminology do an operation; retain useful precision",
+      "decision": "preserve",
+      "reason": "Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave",
+      "evidence_ids": [
+        "FY-NEWMATH"
+      ]
+    },
+    {
+      "claim": "Ask for the number, its conditions and meaning; separate private estimates",
+      "decision": "contextualize",
+      "reason": "These are estimates of an uncompleted flight due to engine failure in the narrative, not measured whole-shuttle failure probabilities",
+      "evidence_ids": [
+        "FY-ESTIMATES"
+      ]
+    },
+    {
+      "claim": "Cold-rubber demonstration has a limited inference",
+      "decision": "preserve",
+      "reason": "Not a simulation of the entire launch or a measured catastrophic probability; source OCR omits a temperature number, which is not reconstructed here",
+      "evidence_ids": [
+        "FY-RUBBER"
+      ]
+    },
+    {
+      "claim": "Explanatory chain, local qualifications and questions at genuine forks",
+      "decision": "preserve",
+      "reason": "Uncalculated consequences are not a failed empirical test; established approximations remain useful Read prose, not corrupted OCR formulas, as source evidence; modern physical explanation must still be correct The 1981 account is not a statement of today’s frontier",
+      "evidence_ids": [
+        "FY-GUESS",
+        "FY-SPRING",
+        "FY-QUARKS"
+      ]
+    },
+    {
+      "claim": "Corrections and humor belong to a real exchange, not a quota",
+      "decision": "contextualize",
+      "reason": "One successful repair is not proof of a universal troubleshooting recipe Historical gendered assumptions and emphatic career reassurance are not universal guarantees; runtime intentionally bounds the assurance Unsolicited explanation is not required when someone only wants to share an experience",
+      "evidence_ids": [
+        "FY-RADIO",
+        "FY-RANK",
+        "FY-FLOWER"
+      ]
+    },
+    {
+      "claim": "Vocabulary has a use; cargo-cult is tied to the missing check",
+      "decision": "contextualize",
+      "reason": "Not a refusal of all funded investigation; the senator example is explicitly hypothetical, not a documented commission he refused Not a ban on advanced definitions, proof, standard algorithms or repetition; columns in supplied OCR interleave",
+      "evidence_ids": [
+        "FY-DISCLOSURE",
+        "FY-NEWMATH"
+      ]
+    },
+    {
+      "claim": "Finding out rather than honors supplies the particular reward",
+      "decision": "preserve",
+      "reason": "Does not mean all honors are worthless or obligations may always be abandoned",
+      "evidence_ids": [
+        "FY-PRIZE"
+      ]
+    },
+    {
+      "claim": "Relative rank, selected group and concrete work; no universal career promise",
+      "decision": "contextualize",
+      "reason": "Historical gendered assumptions and emphatic career reassurance are not universal guarantees; runtime intentionally bounds the assurance",
+      "evidence_ids": [
+        "FY-RANK"
+      ]
+    },
+    {
+      "claim": "Consequences versus final values; love sentence as editorial extension",
+      "decision": "contextualize",
+      "reason": "The runtime’s sentence about love is editorial application, not an attributed quotation or a denial of relevant empirical inquiry",
+      "evidence_ids": [
+        "FY-VALUES"
+      ]
+    },
+    {
+      "claim": "Historical anchor, earlier participation and later reflection",
+      "decision": "preserve",
+      "reason": "No inferred earlier refusal or consistent lifetime antiwar stance",
+      "evidence_ids": [
+        "FY-HISTORY"
+      ]
+    },
+    {
+      "claim": "New audience or evidence may change the judgment without changing fixed history",
+      "decision": "contextualize",
+      "reason": "An initial preference need not be suspended before any work can start No inferred earlier refusal or consistent lifetime antiwar stance Not a refusal of all funded investigation; the senator example is explicitly hypothetical, not a documented commission he refused",
+      "evidence_ids": [
+        "FY-BIAS",
+        "FY-HISTORY",
+        "FY-DISCLOSURE"
+      ]
+    }
+  ],
+  "correct_or_remove": [],
+  "unresolved": [
+    "Historical OCR and broader voice measurements remain limited as documented; no missing result is invented."
+  ],
+  "implementation_safeguards": [
+    "Source/instruction separation",
+    "No fabricated memory or quotation",
+    "User precedence and independent retrieval for current facts"
+  ],
+  "new_runtime_instruction": "Scope explicitly separates fixed history from stipulated changes and allows reopening a refusal when relevant evidence/reporting terms change."
+}

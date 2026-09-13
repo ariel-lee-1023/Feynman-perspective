@@ -1,0 +1,701 @@
+{
+  "aggregate": {
+    "counts": {
+      "words": 925,
+      "sentences": 59,
+      "paragraphs": 14
+    },
+    "sentence_length": {
+      "n": 59,
+      "mean": 15.68,
+      "median": 15,
+      "stdev": 7.03,
+      "p10": 6,
+      "p90": 25,
+      "min": 5,
+      "max": 37
+    },
+    "paragraph_length": {
+      "n": 14,
+      "mean": 66.07,
+      "median": 68.5,
+      "stdev": 22.26,
+      "p10": 8,
+      "p90": 92,
+      "min": 8,
+      "max": 93
+    },
+    "lexical_diversity_mattr500": 0.456,
+    "hedges_per_1k": 5.41,
+    "boosters_per_1k": 0.0,
+    "hedge_booster_ratio": null,
+    "punctuation_per_1k": {
+      "em_dash": 0.0,
+      "semicolon": 3.24,
+      "colon": 3.24,
+      "question": 4.32,
+      "exclamation": 0.0,
+      "parenthetical": 0.0
+    },
+    "person_reference_pct": {
+      "first": 59.1,
+      "second": 22.7,
+      "third": 18.2
+    },
+    "top_content_words": [
+      [
+        "heat",
+        13
+      ],
+      [
+        "energy",
+        12
+      ],
+      [
+        "refrigerator",
+        9
+      ],
+      [
+        "cold",
+        8
+      ],
+      [
+        "kitchen",
+        7
+      ],
+      [
+        "damage",
+        7
+      ],
+      [
+        "room",
+        6
+      ],
+      [
+        "air",
+        5
+      ],
+      [
+        "units",
+        5
+      ],
+      [
+        "temperature",
+        5
+      ],
+      [
+        "pressure",
+        5
+      ],
+      [
+        "trials",
+        5
+      ],
+      [
+        "valve",
+        5
+      ],
+      [
+        "milk",
+        4
+      ],
+      [
+        "part",
+        4
+      ],
+      [
+        "outside",
+        4
+      ],
+      [
+        "electrical",
+        4
+      ],
+      [
+        "fluid",
+        4
+      ],
+      [
+        "conditions",
+        4
+      ],
+      [
+        "warm",
+        3
+      ],
+      [
+        "inside",
+        3
+      ],
+      [
+        "throughout",
+        3
+      ],
+      [
+        "stored",
+        3
+      ],
+      [
+        "supplied",
+        3
+      ],
+      [
+        "pot",
+        3
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "suppose refrigerator",
+        2
+      ],
+      [
+        "electrical energy",
+        2
+      ],
+      [
+        "stored energy",
+        2
+      ],
+      [
+        "pressure temperature",
+        2
+      ],
+      [
+        "temperature fluid",
+        2
+      ],
+      [
+        "successful trials",
+        2
+      ],
+      [
+        "unconditional approval",
+        2
+      ],
+      [
+        "service life",
+        2
+      ],
+      [
+        "put hand",
+        1
+      ],
+      [
+        "hand near",
+        1
+      ],
+      [
+        "near warm",
+        1
+      ],
+      [
+        "warm air",
+        1
+      ],
+      [
+        "air coming",
+        1
+      ],
+      [
+        "coming running",
+        1
+      ],
+      [
+        "running refrigerator",
+        1
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "people",
+      "way",
+      "world",
+      "thing",
+      "point",
+      "fact",
+      "problem",
+      "reason",
+      "idea",
+      "system",
+      "power",
+      "order",
+      "sense",
+      "state",
+      "good",
+      "great",
+      "important",
+      "human",
+      "social",
+      "political"
+    ]
+  },
+  "per_file": {
+    "A.txt": {
+      "counts": {
+        "words": 608,
+        "sentences": 40,
+        "paragraphs": 8
+      },
+      "sentence_length": {
+        "n": 40,
+        "mean": 15.2,
+        "median": 15.0,
+        "stdev": 7.34,
+        "p10": 5,
+        "p90": 23,
+        "min": 5,
+        "max": 37
+      },
+      "paragraph_length": {
+        "n": 8,
+        "mean": 76,
+        "median": 74.5,
+        "stdev": 14.2,
+        "p10": 57,
+        "p90": 93,
+        "min": 57,
+        "max": 93
+      },
+      "lexical_diversity_mattr500": 0.456,
+      "hedges_per_1k": 4.93,
+      "boosters_per_1k": 0.0,
+      "hedge_booster_ratio": null,
+      "punctuation_per_1k": {
+        "em_dash": 0.0,
+        "semicolon": 3.29,
+        "colon": 1.64,
+        "question": 3.29,
+        "exclamation": 0.0,
+        "parenthetical": 0.0
+      },
+      "person_reference_pct": {
+        "first": 57.1,
+        "second": 35.7,
+        "third": 7.1
+      },
+      "top_content_words": [
+        [
+          "heat",
+          13
+        ],
+        [
+          "energy",
+          12
+        ],
+        [
+          "refrigerator",
+          9
+        ],
+        [
+          "cold",
+          8
+        ],
+        [
+          "kitchen",
+          7
+        ],
+        [
+          "room",
+          6
+        ],
+        [
+          "air",
+          5
+        ],
+        [
+          "units",
+          5
+        ],
+        [
+          "milk",
+          4
+        ],
+        [
+          "part",
+          4
+        ],
+        [
+          "outside",
+          4
+        ],
+        [
+          "electrical",
+          4
+        ],
+        [
+          "temperature",
+          4
+        ],
+        [
+          "warm",
+          3
+        ],
+        [
+          "inside",
+          3
+        ],
+        [
+          "stored",
+          3
+        ],
+        [
+          "pot",
+          3
+        ],
+        [
+          "warmer",
+          3
+        ],
+        [
+          "fluid",
+          3
+        ],
+        [
+          "put",
+          2
+        ],
+        [
+          "going",
+          2
+        ],
+        [
+          "feel",
+          2
+        ],
+        [
+          "came",
+          2
+        ],
+        [
+          "numbers",
+          2
+        ],
+        [
+          "account",
+          2
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "suppose refrigerator",
+          2
+        ],
+        [
+          "electrical energy",
+          2
+        ],
+        [
+          "stored energy",
+          2
+        ],
+        [
+          "put hand",
+          1
+        ],
+        [
+          "hand near",
+          1
+        ],
+        [
+          "near warm",
+          1
+        ],
+        [
+          "warm air",
+          1
+        ],
+        [
+          "air coming",
+          1
+        ],
+        [
+          "coming running",
+          1
+        ],
+        [
+          "running refrigerator",
+          1
+        ],
+        [
+          "refrigerator think",
+          1
+        ],
+        [
+          "think cold",
+          1
+        ],
+        [
+          "cold milk",
+          1
+        ],
+        [
+          "milk inside",
+          1
+        ],
+        [
+          "inside milk",
+          1
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "people",
+        "way",
+        "world",
+        "life",
+        "thing",
+        "point",
+        "fact",
+        "problem",
+        "question",
+        "reason",
+        "idea",
+        "system",
+        "power",
+        "order",
+        "sense",
+        "state",
+        "good",
+        "great",
+        "important",
+        "different",
+        "human",
+        "social",
+        "political"
+      ]
+    },
+    "B.txt": {
+      "counts": {
+        "words": 317,
+        "sentences": 19,
+        "paragraphs": 6
+      },
+      "sentence_length": {
+        "n": 19,
+        "mean": 16.68,
+        "median": 16,
+        "stdev": 6.22,
+        "p10": 8,
+        "p90": 25,
+        "min": 8,
+        "max": 32
+      },
+      "paragraph_length": {
+        "n": 6,
+        "mean": 52.83,
+        "median": 59.0,
+        "stdev": 24.09,
+        "p10": 8,
+        "p90": 80,
+        "min": 8,
+        "max": 80
+      },
+      "lexical_diversity_mattr500": 0.552,
+      "hedges_per_1k": 6.31,
+      "boosters_per_1k": 0.0,
+      "hedge_booster_ratio": null,
+      "punctuation_per_1k": {
+        "em_dash": 0.0,
+        "semicolon": 3.15,
+        "colon": 6.31,
+        "question": 6.31,
+        "exclamation": 0.0,
+        "parenthetical": 0.0
+      },
+      "person_reference_pct": {
+        "first": 62.5,
+        "second": 0.0,
+        "third": 37.5
+      },
+      "top_content_words": [
+        [
+          "damage",
+          7
+        ],
+        [
+          "trials",
+          5
+        ],
+        [
+          "valve",
+          5
+        ],
+        [
+          "conditions",
+          4
+        ],
+        [
+          "successful",
+          3
+        ],
+        [
+          "evidence",
+          3
+        ],
+        [
+          "seal",
+          3
+        ],
+        [
+          "approval",
+          3
+        ],
+        [
+          "information",
+          3
+        ],
+        [
+          "leakage",
+          3
+        ],
+        [
+          "pressure",
+          3
+        ],
+        [
+          "results",
+          3
+        ],
+        [
+          "completed",
+          2
+        ],
+        [
+          "particular",
+          2
+        ],
+        [
+          "damaged",
+          2
+        ],
+        [
+          "harmless",
+          2
+        ],
+        [
+          "unconditional",
+          2
+        ],
+        [
+          "paragraph",
+          2
+        ],
+        [
+          "need",
+          2
+        ],
+        [
+          "stated",
+          2
+        ],
+        [
+          "throughout",
+          2
+        ],
+        [
+          "trial",
+          2
+        ],
+        [
+          "seals",
+          2
+        ],
+        [
+          "operation",
+          2
+        ],
+        [
+          "sealing",
+          2
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "successful trials",
+          2
+        ],
+        [
+          "unconditional approval",
+          2
+        ],
+        [
+          "service life",
+          2
+        ],
+        [
+          "trials evidence",
+          1
+        ],
+        [
+          "evidence valve",
+          1
+        ],
+        [
+          "valve completed",
+          1
+        ],
+        [
+          "completed trials",
+          1
+        ],
+        [
+          "trials particular",
+          1
+        ],
+        [
+          "particular conditions",
+          1
+        ],
+        [
+          "conditions themselves",
+          1
+        ],
+        [
+          "themselves show",
+          1
+        ],
+        [
+          "show damaged",
+          1
+        ],
+        [
+          "damaged seal",
+          1
+        ],
+        [
+          "seal harmless",
+          1
+        ],
+        [
+          "harmless cannot",
+          1
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "people",
+        "time",
+        "way",
+        "world",
+        "work",
+        "thing",
+        "part",
+        "point",
+        "fact",
+        "problem",
+        "reason",
+        "idea",
+        "system",
+        "power",
+        "order",
+        "sense",
+        "state",
+        "good",
+        "great",
+        "important",
+        "possible",
+        "human",
+        "social",
+        "political"
+      ]
+    }
+  }
+}

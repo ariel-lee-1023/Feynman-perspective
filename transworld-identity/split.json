@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "seed": 42,
+  "frac": 0.12,
+  "dev_frac": 0.15,
+  "stratified": false,
+  "group_assignments": {
+    "research-polaron": "train",
+    "research-hadrons": "development",
+    "research-helium": "test"
+  },
+  "passage_groups": {
+    "opt2-hadrons-1": "research-hadrons",
+    "opt2-hadrons-2": "research-hadrons",
+    "opt2-helium-1": "research-helium",
+    "opt2-helium-2": "research-helium",
+    "opt2-polaron-1": "research-polaron",
+    "opt2-polaron-2": "research-polaron"
+  },
+  "partitions": {
+    "train": [
+      "opt2-polaron-1",
+      "opt2-polaron-2"
+    ],
+    "development": [
+      "opt2-hadrons-1",
+      "opt2-hadrons-2"
+    ],
+    "test": [
+      "opt2-helium-1",
+      "opt2-helium-2"
+    ]
+  },
+  "notes": [
+    "New-paper split only. Old train remains train; all old finals retire to development. Two probes per paper are correlated; one group per evaluation phase.",
+    "Related papers/retellings in each research program are excluded from other partitions."
+  ],
+  "inventory_hash": "sha256:c94d36000f77a883ee60249b8a03cd498d00e9191dec05915b1a2ad4a1b9c2c9"
+}

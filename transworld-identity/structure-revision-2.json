@@ -1,0 +1,1613 @@
+{
+  "schema_version": 1,
+  "structure_revision": 2,
+  "date": "2026-09-13",
+  "baseline": {
+    "commit": "21f1307438dd864dbeeb971389c7c260185dc473",
+    "branch": "codex/refresh-feynman-20260912",
+    "working_tree": "clean"
+  },
+  "tool_revision": "15cf8074761c575e54a49d2dce7046f7ba458f13",
+  "contract": "Update internal structure and push the respective changes; no new extraction or recognition.",
+  "source_boundary": {
+    "material": "Existing scope, core, runtime modules and retained evidence only",
+    "new_sources": 0,
+    "ocr_pages": 0
+  },
+  "evaluation_calls": 0,
+  "changed_modules": [
+    "README.md",
+    "SKILL.md",
+    "AGENTS.md",
+    "references/frameworks.md",
+    "references/voice.md",
+    "references/scope.md",
+    "scripts/check_release.py",
+    "transworld-identity/evidence.json",
+    "transworld-identity/validation.json",
+    ".github/workflows/validate.yml",
+    "references/clusters/c01-c03-c05-memoir.md",
+    "references/clusters/c07-c10-interviews.md"
+  ],
+  "claim_decisions": [
+    {
+      "decision": "preserve",
+      "reason": "Retain all supported persona methods, literary voices, topic modules and historical observations."
+    },
+    {
+      "decision": "contextualize",
+      "reason": "Reconstruction coverage is maintainer data; practical conditions stay with core, methods and voice."
+    },
+    {
+      "decision": "correct/remove",
+      "reason": "Remove mandatory runtime scope loading and resolve its incoming links."
+    },
+    {
+      "decision": "unresolved",
+      "reason": "Do not upgrade historical or missing source/recognition results to a current behavioral pass."
+    }
+  ],
+  "readme_review": {
+    "introduction": "preserve: distinctive opening, example, first action, language and narrator unchanged",
+    "installation": "qualify: remove reconstruction scope from conversational inputs",
+    "status": "preserve Candidate; clarify that old checks are not revalidated for changed runtime",
+    "particularity": "Preserved concrete spring explanation, commitment-versus-postponement, or disputed-rule encounter, respectively.",
+    "encounter": "Existing example shows the method with a real question.",
+    "entry": "Existing first prompt and repository installation remain intact.",
+    "honesty": "Examples remain suggested prompts; source limitations and Candidate status stay visible."
+  },
+  "assessment_applicability": [
+    {
+      "claim": "Opening, axis and guard: observed operation before a label",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Translation: lollipops, useful precision and mathematical language",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "First-move table: unexpected radio result",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "First-move table: theory, experiment and checked calculation",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "First-move table: recover physical signs",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "First-move table: legitimate learner routes and prerequisites",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+        "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "First-move table: survival is not an explained safety margin",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "First-move table and refusal: inspect before rating",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Guess/compute/compare permits observation first and explicit bottlenecks",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Beauty, provisional success and extension beyond Newtonian tests",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Disclosure of alternatives and sponsor-dependent publicity",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Symmetric self-scrutiny after a welcome result",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Conditional signature, changed design and new assessment",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Concede the flower’s beauty, then locate the disputed inference",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+        "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Make zoo-keeper terminology do an operation; retain useful precision",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Ask for the number, its conditions and meaning; separate private estimates",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Cold-rubber demonstration has a limited inference",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Explanatory chain, local qualifications and questions at genuine forks",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+        "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+        "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Corrections and humor belong to a real exchange, not a quota",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+        "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+        "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Vocabulary has a use; cargo-cult is tied to the missing check",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+        "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+        "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Finding out rather than honors supplies the particular reward",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Relative rank, selected group and concrete work; no universal career promise",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Consequences versus final values; love sentence as editorial extension",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Historical anchor, earlier participation and later reflection",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "New audience or evidence may change the judgment without changing fixed history",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    },
+    {
+      "claim": "Loading routes, user precedence, present-fact retrieval and no invented quotation/memory",
+      "previous_outcome": "passed",
+      "dependencies": {
+        "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+        "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+        "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+        "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+        "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+        "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+        "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+        "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+        "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+        "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+        "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186"
+      },
+      "applicability": "historical_support_only_changed_runtime_inputs"
+    }
+  ],
+  "preserved_files": [
+    {
+      "original_path": "LICENSE",
+      "sha256": "sha256:5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
+      "preserved_path": "LICENSE",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "CHANGELOG.md",
+      "sha256": "sha256:1d93b72505cf1a80015b68ec98a31e4efcec348d03ccbeefc35042f7b6d5e80c",
+      "preserved_path": "CHANGELOG.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "README.md",
+      "sha256": "sha256:4145150923484faad00bf3b9029ae724d0ff011ca5f61c55a860cb8d9b3fb3d7",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/README.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": ".gitignore",
+      "sha256": "sha256:a489067572638724d7708ee4f6650741ca1a1cb63282114a7a7c45639d50ba8a",
+      "preserved_path": ".gitignore",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "SKILL.md",
+      "sha256": "sha256:a6dea3c077237fd5a26a863bf6690244e2c21dcf5db144942ef03238b807b670",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/SKILL.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "AGENTS.md",
+      "sha256": "sha256:5dab4fc1d0dd8d73329b3d2aec118aed02b30665f550c818321d15deee13e07a",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/AGENTS.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "NOTICE.md",
+      "sha256": "sha256:4b9be31c481237b5023925b6dfde98a539caa9a764cc2976d96dd6dd22c0a2c4",
+      "preserved_path": "NOTICE.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/frameworks.md",
+      "sha256": "sha256:eddb6a88965ef5835ca47d2e9da04ed4ddff6b44d95b48a869b1712859bd44a4",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/references/frameworks.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "references/voice.md",
+      "sha256": "sha256:4a63e8293918c8dec78b0c3946731bfe827926ee89a448612a843168fb227a04",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/references/voice.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "references/scope.md",
+      "sha256": "sha256:a679d6c2dcfb8a46d975819c4322d32278249b6a9cd8b1887ac5517780b3d7e1",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/references/scope.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "scripts/check_release.py",
+      "sha256": "sha256:8058cfa7eec60d6d02122a399023db88662860d0683b9d65707a47edfc41a708",
+      "preserved_path": "transworld-identity/history/structure-revision-2/scripts/check_release.py",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "transworld-identity/candidates.json",
+      "sha256": "sha256:9372a70baf4fd6ee4e3016e9cda9d71dc6f0df1c5f21fa4b1d9fb02eb52200e6",
+      "preserved_path": "transworld-identity/candidates.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/attributed-names.txt",
+      "sha256": "sha256:ec568ae8c69ceedcd167aa9fcc92aaa3573bb592cf4fffab5c0451e8c6174e94",
+      "preserved_path": "transworld-identity/attributed-names.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/episodic.md",
+      "sha256": "sha256:05b4202700fc2be22a93a7a92359b7f4980f50695fbb3bbde022aaf82d55c878",
+      "preserved_path": "transworld-identity/episodic.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/links-working-release.json",
+      "sha256": "sha256:ba247eee22c7d0c29d582c001ee419013f3aebd18c5ee15b05439654ff9f2b2c",
+      "preserved_path": "transworld-identity/links-working-release.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/evidence.json",
+      "sha256": "sha256:4a3bcb81adbc067ab2c1a71e4cc93d6d7eeb72e92832e723c24331c01ed2f8dc",
+      "preserved_path": "transworld-identity/history/structure-revision-2/transworld-identity/evidence.json",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "transworld-identity/required-headings.txt",
+      "sha256": "sha256:fdcb44d88b0954fe590718926bf5c17c4737b0022150d1a8f2308c9bd020f644",
+      "preserved_path": "transworld-identity/required-headings.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/token-counts.json",
+      "sha256": "sha256:d194e86a96a95253ea9c9f025dc51b5133dffc598ab9519dd45104ead880d50d",
+      "preserved_path": "transworld-identity/token-counts.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/coverage_map.json",
+      "sha256": "sha256:530ad2bfecaae467c7d38b433f773a6855cf8a363ab8a4c7e63d13b3460c45f9",
+      "preserved_path": "transworld-identity/coverage_map.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/cluster-budget-input.json",
+      "sha256": "sha256:2e54fb7f99119d5497f69f0e1315857318ad15b71743ccb6163b2c59fd6ebef2",
+      "preserved_path": "transworld-identity/cluster-budget-input.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/development-projection-schema.json",
+      "sha256": "sha256:80850b3144b71170f5a4e220cc2761d0da736161e0e95c46d974113fbd46aa44",
+      "preserved_path": "transworld-identity/development-projection-schema.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/structure-dev.json",
+      "sha256": "sha256:4cece289313816eadce15aa6623703d22347d58ab1e62a018bb6bf6c1c87e5b9",
+      "preserved_path": "transworld-identity/structure-dev.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/source-boundary-review.json",
+      "sha256": "sha256:34b6bdc2bdd0fbc4f77c4a841370fd11041a6e2ac83d50dad233002443baf14a",
+      "preserved_path": "transworld-identity/source-boundary-review.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/scores.json",
+      "sha256": "sha256:0348df0f253c8ca5a4c5204ec5e1eb5651e4da3dba2e04a598564003d8a606d8",
+      "preserved_path": "transworld-identity/scores.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/register-plan.json",
+      "sha256": "sha256:2d76b06c4cee0c225953d54c241192096cc71dd9ef3a5efb92592e693b9c1ec8",
+      "preserved_path": "transworld-identity/register-plan.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/acquisition.json",
+      "sha256": "sha256:1915bb1004e6bb1a0ec8f63df4ff6394cb5edbe2cffebe2bfff08baf23a589e0",
+      "preserved_path": "transworld-identity/acquisition.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/development-prompts.json",
+      "sha256": "sha256:212870b36a56018488897298c5213a958aa726694dd29a1067aa6d57fc34e9b1",
+      "preserved_path": "transworld-identity/development-prompts.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/registers-three-teaching-units.json",
+      "sha256": "sha256:230ebcf13934be87d8de3a88f775777d7b77014db60114b6287d4c878dc0f007",
+      "preserved_path": "transworld-identity/registers-three-teaching-units.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/literal-voice-check.json",
+      "sha256": "sha256:b23e631d2b625c6928e80cf7067339de1a59780032f7b440d9a6d63493ae0cc4",
+      "preserved_path": "transworld-identity/literal-voice-check.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/style-metrics.json",
+      "sha256": "sha256:a68def8b8eaa850b05cbab6a87ddf414f4418e86f757214ca80c28fc8ec47989",
+      "preserved_path": "transworld-identity/style-metrics.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/package-check-1.0.json",
+      "sha256": "sha256:ccae8f88fb7f1b93d7cd4617dbcc726237dff79334ad37dc7e7f713a62d639c9",
+      "preserved_path": "transworld-identity/package-check-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/voice-cleaning.json",
+      "sha256": "sha256:85181bb0f9c446d4beb8f5cee41925a668549342be9c370583a05fd5690623d4",
+      "preserved_path": "transworld-identity/voice-cleaning.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/release-status.json",
+      "sha256": "sha256:2cef752ed76ac59ad31306e47b196625a28ac617bfbc5cd9fb99051411f31fa1",
+      "preserved_path": "transworld-identity/release-status.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/registers.json",
+      "sha256": "sha256:0fb34a76fbe23390cf0d48df34e21b593030070f7c6b442f914e07a9337a3bd8",
+      "preserved_path": "transworld-identity/registers.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/cluster-budgets.json",
+      "sha256": "sha256:675bba9df935796ef01c818332ef943249b5b77be384f0ba2667998a4af5ffca",
+      "preserved_path": "transworld-identity/cluster-budgets.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/evaluation-checkpoint.json",
+      "sha256": "sha256:6d0eb31d07958d2bfa087d2850fc0a4debc4b954b0f18d5a0a095d0d860dfa8e",
+      "preserved_path": "transworld-identity/evaluation-checkpoint.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/voice-scope-decision.md",
+      "sha256": "sha256:1b35370cff1a1ece53d837d02019f7e92cef552f95377521a91cb839ff145830",
+      "preserved_path": "transworld-identity/voice-scope-decision.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/claim-decisions-1.0.json",
+      "sha256": "sha256:9f47d30e99017b559a28ce635201582cb5e8f69da0323780a46971970d77474a",
+      "preserved_path": "transworld-identity/claim-decisions-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/provenance.md",
+      "sha256": "sha256:4dd0eb39b771e878f6c0d319c516036f83bc5e7a673584d398a7c1963defa927",
+      "preserved_path": "transworld-identity/provenance.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round2-retirements.json",
+      "sha256": "sha256:e56647ae74c83b62a658bb43b22bbe5d2a9ba73e5a9d97481bd7e77c4e7d8567",
+      "preserved_path": "transworld-identity/round2-retirements.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/links-and-source-integrity-1.0.json",
+      "sha256": "sha256:174e33b279202387c1cace9f3aae5b99bea043e9c676fd9245e7517d998d653e",
+      "preserved_path": "transworld-identity/links-and-source-integrity-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/voice-unit-inventory.json",
+      "sha256": "sha256:d7f032a24e9feaa3026b6838b28ef8ebcbb380f1767c204d7a2f96bd965ce01d",
+      "preserved_path": "transworld-identity/voice-unit-inventory.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/name-review.json",
+      "sha256": "sha256:cca36c9db176c908907352db72c472b10dc7bfc69756cb12c549ed13ff68e839",
+      "preserved_path": "transworld-identity/name-review.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/training-manifest.json",
+      "sha256": "sha256:75ffa3744de76ab21bfee8a9c13faa60dc733949f6ac5fe8e40f11ef83b8d6f2",
+      "preserved_path": "transworld-identity/training-manifest.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/recognition-profile-1.0.json",
+      "sha256": "sha256:3195d366c4dcc036af5fda2acb58b3d1c7cf5573cbf27a6f487ad7a2be61d286",
+      "preserved_path": "transworld-identity/recognition-profile-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/source-review-1.0.json",
+      "sha256": "sha256:6dd44325cf138726940d22bc1661ff5784633ca70505ae407e0f8da7986d1a11",
+      "preserved_path": "transworld-identity/source-review-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/recognition-profile.md",
+      "sha256": "sha256:c32403e9bb05021d2e0ca701f49258d4585ed0b9d56a6a716b958af62679ab32",
+      "preserved_path": "transworld-identity/recognition-profile.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/development-projection-result.json",
+      "sha256": "sha256:9e9c6877be8c7a90b4aa61b102b8f5274f39d8b3cb3be98e19f724ead1996bf0",
+      "preserved_path": "transworld-identity/development-projection-result.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/element-development-assessment.json",
+      "sha256": "sha256:ee256409ec02a1e614bf8d4e8cf11fad7746026b87360077190e6525c2fd54ac",
+      "preserved_path": "transworld-identity/element-development-assessment.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/release-contract-1.0.json",
+      "sha256": "sha256:1c77cdfbb441860bc7f2cbac14fff9e7e3bf5131bdcee0aa16a706b2018dc60f",
+      "preserved_path": "transworld-identity/release-contract-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/name-audit.json",
+      "sha256": "sha256:6306e137a6621c4d32f41913a7279235df9bece177e2be32c39e44841a22cdf5",
+      "preserved_path": "transworld-identity/name-audit.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/source-reading-log-1.0.json",
+      "sha256": "sha256:74c2d7a031a17b18ca353a8fc980461a7c3c0d2f92704e49a727036d69025e69",
+      "preserved_path": "transworld-identity/source-reading-log-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/attributed-name-audit.json",
+      "sha256": "sha256:dcca8100c6a8edc96d222471bdadaa9c627f3dec005654a4b31da5e11dacd277",
+      "preserved_path": "transworld-identity/attributed-name-audit.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/validation.json",
+      "sha256": "sha256:d4194770ea6ed21625c40be9b9ac4372c902a50c75f42c0b8f0f069490a5c514",
+      "preserved_path": "transworld-identity/history/structure-revision-2/transworld-identity/validation.json",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "transworld-identity/budgets.json",
+      "sha256": "sha256:778c640d64503c60356d5e6c5833be464b0bf082e6b510eb3ed741e537c6c8e7",
+      "preserved_path": "transworld-identity/budgets.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/inventory.json",
+      "sha256": "sha256:c94d36000f77a883ee60249b8a03cd498d00e9191dec05915b1a2ad4a1b9c2c9",
+      "preserved_path": "transworld-identity/inventory.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round2-history.json",
+      "sha256": "sha256:d7cada89fa8651aa2950ef32d3c626a73ed4be76ad0ea369be6664ffd432ae14",
+      "preserved_path": "transworld-identity/round2-history.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/split.json",
+      "sha256": "sha256:18be804c59b001ba32d65bc7408a8890db636393ab2e5414d2640dec1a4a3b14",
+      "preserved_path": "transworld-identity/split.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/style-freeze.json",
+      "sha256": "sha256:b62297f462d37eb94e5ea1f0136781332ee41b55fdc28ad341e32b0b68f99472",
+      "preserved_path": "transworld-identity/style-freeze.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/segment-spec.json",
+      "sha256": "sha256:97c81b62e5786b459d6a26a58146f388c94694d2e771da9d5ea85d42d2b61132",
+      "preserved_path": "transworld-identity/segment-spec.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/structure-working-release.json",
+      "sha256": "sha256:4cece289313816eadce15aa6623703d22347d58ab1e62a018bb6bf6c1c87e5b9",
+      "preserved_path": "transworld-identity/structure-working-release.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/applicability-1.0.json",
+      "sha256": "sha256:8cfb856b43e5d373df2cd7abf683b82b173c8580da340123426610796fefb1eb",
+      "preserved_path": "transworld-identity/applicability-1.0.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/cluster-budget-run.txt",
+      "sha256": "sha256:8005077e6ae1361bd0c959d8445fec733f2ca3cee9043af8d284998562335d57",
+      "preserved_path": "transworld-identity/cluster-budget-run.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/freeze.json",
+      "sha256": "sha256:433d163b3f1743efcc8cb671acdad162bdc4f2e2a39eedd545ae100f7fea8974",
+      "preserved_path": "transworld-identity/freeze.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/extractions.json",
+      "sha256": "sha256:adbc133f4f75d8db4161be15dbdd18b97088ecfa3644c18ccd0e63d5e74eb771",
+      "preserved_path": "transworld-identity/extractions.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/protocol.md",
+      "sha256": "sha256:7e727a73840998b47dad0fb1d733fe93e4bbdad1df1f4701426ff084cc6f0af2",
+      "preserved_path": "transworld-identity/protocol.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/candidates.json",
+      "sha256": "sha256:29fe6c665f866bb88060dc58f7ab63f2e52e45c5b0aca5216b9bae8f41e4c53c",
+      "preserved_path": "transworld-identity/round1-2026-09-12/candidates.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/source-locators.json",
+      "sha256": "sha256:b51365730ab6223014973fd4b246362c77c70f9e92b560e30625214005775888",
+      "preserved_path": "transworld-identity/round1-2026-09-12/source-locators.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/final-location-validation.json",
+      "sha256": "sha256:74f5fae9be4a3dd83e7e47c159a89209e05ba75fd04d02fc9513b370df045937",
+      "preserved_path": "transworld-identity/round1-2026-09-12/final-location-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/identity-final-results.json",
+      "sha256": "sha256:04003ec566478e720f5419820ac65a8a589cd1dfa12217974b35cbabfdf0f9a4",
+      "preserved_path": "transworld-identity/round1-2026-09-12/identity-final-results.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/required-headings.txt",
+      "sha256": "sha256:fdcb44d88b0954fe590718926bf5c17c4737b0022150d1a8f2308c9bd020f644",
+      "preserved_path": "transworld-identity/round1-2026-09-12/required-headings.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/artifact-fragment-validation.json",
+      "sha256": "sha256:af95482ff6c2662712b381e95a3db47eca387b21c25a1150f216acd1d30616ad",
+      "preserved_path": "transworld-identity/round1-2026-09-12/artifact-fragment-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/clean-census.json",
+      "sha256": "sha256:920974a303f3bb238226fbf2c7e736d28ce7fda25840034887fc78575492bc93",
+      "preserved_path": "transworld-identity/round1-2026-09-12/clean-census.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/register-interpretation.json",
+      "sha256": "sha256:ba0f35b7054141c86a99514e1130cc77a6a28997cc65e98d1c4003b804d3c5b6",
+      "preserved_path": "transworld-identity/round1-2026-09-12/register-interpretation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/name-audit-review.json",
+      "sha256": "sha256:866476f981cbd547192570d3ef1ff8280ee2123ef82f167aac6d55415052df53",
+      "preserved_path": "transworld-identity/round1-2026-09-12/name-audit-review.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/token-counts.json",
+      "sha256": "sha256:fc0f3ce8bbca52fcdc07b6c6017334f8ddfe17d1f3989e9561c049c73d07a9a1",
+      "preserved_path": "transworld-identity/round1-2026-09-12/token-counts.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/coverage_map.json",
+      "sha256": "sha256:9844d0231161356bd44997c4c0cda61ee20e140f5d36693a453f2ee169ba11ee",
+      "preserved_path": "transworld-identity/round1-2026-09-12/coverage_map.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/candidate-rules.sha256",
+      "sha256": "sha256:7492ecac21b2b5e664497e9000b8186b87f11fbc0242d9e468b4cb111d7210a8",
+      "preserved_path": "transworld-identity/round1-2026-09-12/candidate-rules.sha256",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/registers-comparable.json",
+      "sha256": "sha256:1ecd6f798147e9a92eb8ed1d1da87a0e5a4be37ec76f4b4d21525345de2ecdd8",
+      "preserved_path": "transworld-identity/round1-2026-09-12/registers-comparable.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/cluster-budget-input.json",
+      "sha256": "sha256:cf8e630bc9eac2de863a94177bad25db12abdf8d1986070658454664db8156b8",
+      "preserved_path": "transworld-identity/round1-2026-09-12/cluster-budget-input.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/additional-final-freeze.json",
+      "sha256": "sha256:81a4a941ade31af297e2c161cd351451770e434a1ffd577afca6beffa272d4c3",
+      "preserved_path": "transworld-identity/round1-2026-09-12/additional-final-freeze.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/source-boundary-review.json",
+      "sha256": "sha256:34b6bdc2bdd0fbc4f77c4a841370fd11041a6e2ac83d50dad233002443baf14a",
+      "preserved_path": "transworld-identity/round1-2026-09-12/source-boundary-review.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/scores.json",
+      "sha256": "sha256:f19ebc76cfea835009a667e5e3b931127402c8e7221e78116519bd01cae28dff",
+      "preserved_path": "transworld-identity/round1-2026-09-12/scores.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/additional-final-behavior-prompts-only.json",
+      "sha256": "sha256:7c8cc715bf551477a3de8a6257784664673a67df0df393220b02ed1773cc1bf8",
+      "preserved_path": "transworld-identity/round1-2026-09-12/additional-final-behavior-prompts-only.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/additional-final-baseline-answers.json",
+      "sha256": "sha256:d44d4be32ce9953ff6ba3b79bda3b9e6cad4f43b34529f235cb60ec021b0730b",
+      "preserved_path": "transworld-identity/round1-2026-09-12/additional-final-baseline-answers.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/release-validation.json",
+      "sha256": "sha256:dd3d585ae59f96e472aee681329818a5e4cba971fb5d13ae5f1c003e36617e74",
+      "preserved_path": "transworld-identity/round1-2026-09-12/release-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/name-audit-sanitized.json",
+      "sha256": "sha256:dcde58b792b189cb12c44d952c5d99d61feeadaeb68ad408cd7c324c6174369f",
+      "preserved_path": "transworld-identity/round1-2026-09-12/name-audit-sanitized.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/manual-protocol.md.txt",
+      "sha256": "sha256:8fc98ba0111b80a3394cdeb30690d7ca4fefc4be9b275228537c5a61b39bfaa5",
+      "preserved_path": "transworld-identity/round1-2026-09-12/manual-protocol.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/identity-review-one.json",
+      "sha256": "sha256:23744d9394461f10a21c3e765f0759c87ec14784f6d344132c0bee2158d78d75",
+      "preserved_path": "transworld-identity/round1-2026-09-12/identity-review-one.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/episodic.md.txt",
+      "sha256": "sha256:05b4202700fc2be22a93a7a92359b7f4980f50695fbb3bbde022aaf82d55c878",
+      "preserved_path": "transworld-identity/round1-2026-09-12/episodic.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/development-prompts.json",
+      "sha256": "sha256:7dd5d8f594d91e1b06c179a4236a9d7b65c6c5fd5c0eebaa89f7c44bc1e9f96d",
+      "preserved_path": "transworld-identity/round1-2026-09-12/development-prompts.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/literal-voice-check.json",
+      "sha256": "sha256:3d57c0bbd28431ab317ee7846caf433ff963e37ceb65dbb28da0bc77f2e2a0de",
+      "preserved_path": "transworld-identity/round1-2026-09-12/literal-voice-check.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/behavioral-artifact.json",
+      "sha256": "sha256:39a0ac2c4fe254744082fcaeafffe4ffef388469db60dd5a8e64645cd7ebef5d",
+      "preserved_path": "transworld-identity/round1-2026-09-12/behavioral-artifact.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/clean-repairs.json",
+      "sha256": "sha256:6d8905caf496ea6ea34b9821c4b72b8290370cf1c5e841eb60c3b726f187c8ba",
+      "preserved_path": "transworld-identity/round1-2026-09-12/clean-repairs.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/style-metrics.json",
+      "sha256": "sha256:068d5725364e3d7345137ffb1f4c3d23348e42ff8294f6b78e6dfe2fc57e856d",
+      "preserved_path": "transworld-identity/round1-2026-09-12/style-metrics.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/style-final-source-metrics.json",
+      "sha256": "sha256:6a7a1e514813297f09f430fe23a6ad40b719d4a81df195420b7d81654f84daa4",
+      "preserved_path": "transworld-identity/round1-2026-09-12/style-final-source-metrics.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/individual-release-checks.json",
+      "sha256": "sha256:fd0edb765ef7ac079939f7c5896e31dc5bc87be714539d225a72a7461bdfb0cd",
+      "preserved_path": "transworld-identity/round1-2026-09-12/individual-release-checks.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/style-assessment.json",
+      "sha256": "sha256:706de611f88ade56f87f7303d4c30a7ab8cd31f7c074c05451aebce8d7cfdeb0",
+      "preserved_path": "transworld-identity/round1-2026-09-12/style-assessment.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/fidelity.json",
+      "sha256": "sha256:b25aff191f72bc1b13d535050d09ab752ca7b7a4327f0df070f7b67bcf194c97",
+      "preserved_path": "transworld-identity/round1-2026-09-12/fidelity.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/holdout-retirements.json",
+      "sha256": "sha256:e6036fef0f00d34dc20c04cdff7567d84c415421ab78c826680804c38c0e2570",
+      "preserved_path": "transworld-identity/round1-2026-09-12/holdout-retirements.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/methodology-status.json",
+      "sha256": "sha256:3af652583b9f1ec4e7d4732f35b8c3b39337b48eb0f4d81417c05a4202baae54",
+      "preserved_path": "transworld-identity/round1-2026-09-12/methodology-status.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/style-source-locator.json",
+      "sha256": "sha256:b4c5a3514c72d056715472cef47a1e32a191d91fb4ac05ffa16063f72f2aa944",
+      "preserved_path": "transworld-identity/round1-2026-09-12/style-source-locator.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/release-status.json",
+      "sha256": "sha256:6bc1975690f580e69b994637d7d3a70db7d252df3161616e781b46da375afe31",
+      "preserved_path": "transworld-identity/round1-2026-09-12/release-status.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/registers.json",
+      "sha256": "sha256:f35ea8258adc66a00e826fb248e1e22ecf4a3edcfaeabeefe7ad2808ec8b4ee5",
+      "preserved_path": "transworld-identity/round1-2026-09-12/registers.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/cluster-budgets.json",
+      "sha256": "sha256:675bba9df935796ef01c818332ef943249b5b77be384f0ba2667998a4af5ffca",
+      "preserved_path": "transworld-identity/round1-2026-09-12/cluster-budgets.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/provenance.md.txt",
+      "sha256": "sha256:d69503f0dd3c29b059f7b2cfec70069548b2743f40b8389922c37b6133512e80",
+      "preserved_path": "transworld-identity/round1-2026-09-12/provenance.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/clean-census-final.json",
+      "sha256": "sha256:72710266c86fdd3eb27bcca4e6b5a9843b385dd3bf7ca26018ad6698186e39fe",
+      "preserved_path": "transworld-identity/round1-2026-09-12/clean-census-final.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/coverage-report.md.txt",
+      "sha256": "sha256:ae739f430867e20b140d0a5f9e50994b45bd3bc5237503d0bfbf3575c3b18210",
+      "preserved_path": "transworld-identity/round1-2026-09-12/coverage-report.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/style-generated.json",
+      "sha256": "sha256:e0a40dd5c8be242438a2b10bf940025876268c7a44deb6376f8e1947c8daf17f",
+      "preserved_path": "transworld-identity/round1-2026-09-12/style-generated.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/development-findings.md.txt",
+      "sha256": "sha256:4220b727aa28acf86d1d0da34de5bf6a8aa7116fffedb2b6be4b4b2d5ca1074d",
+      "preserved_path": "transworld-identity/round1-2026-09-12/development-findings.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/dev-grading-results.json",
+      "sha256": "sha256:32c1fe88a306915eb57c090098c0c6cc8543ad0f6bcb9e0b653d6427a1b0556d",
+      "preserved_path": "transworld-identity/round1-2026-09-12/dev-grading-results.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/training-manifest.json",
+      "sha256": "sha256:75ffa3744de76ab21bfee8a9c13faa60dc733949f6ac5fe8e40f11ef83b8d6f2",
+      "preserved_path": "transworld-identity/round1-2026-09-12/training-manifest.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/timing-and-contamination.md.txt",
+      "sha256": "sha256:3f97fe34ccbbfeb7be761a90cf016f540d69dad1f03283a29b1220479085c875",
+      "preserved_path": "transworld-identity/round1-2026-09-12/timing-and-contamination.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/projection-artifact-notes.md.txt",
+      "sha256": "sha256:859e6eb6a4b7619d957bff3e922ea688edfa5e14fedb09301d968426dbc54ae1",
+      "preserved_path": "transworld-identity/round1-2026-09-12/projection-artifact-notes.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/additional-final-exposures.json",
+      "sha256": "sha256:8fdc2622c4f10860d5763755b408af85ec3f382eff5a116a54e96981cdbddcf0",
+      "preserved_path": "transworld-identity/round1-2026-09-12/additional-final-exposures.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/element-development-assessment.json",
+      "sha256": "sha256:ee256409ec02a1e614bf8d4e8cf11fad7746026b87360077190e6525c2fd54ac",
+      "preserved_path": "transworld-identity/round1-2026-09-12/element-development-assessment.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/projection-artifact.json",
+      "sha256": "sha256:459a4724d65ecf8b5eda6a5f46781901e1963ed123aac51dfdbb92242150768c",
+      "preserved_path": "transworld-identity/round1-2026-09-12/projection-artifact.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/final-exposure-registry.json",
+      "sha256": "sha256:6c38a674c6e4baf83aff057dd2758ff84938c98f393eee11604c2279db3aa7c9",
+      "preserved_path": "transworld-identity/round1-2026-09-12/final-exposure-registry.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/additional-final-candidate-answers.json",
+      "sha256": "sha256:da7c45b22d580a09edbf33ce2057a2768fa556ed4e2d136540e3a960fbd9d8f4",
+      "preserved_path": "transworld-identity/round1-2026-09-12/additional-final-candidate-answers.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime-development-grades.json",
+      "sha256": "sha256:e9629b12147a31a59f982930a2c2fcdb33a89c0ee692d79d12b5b4f73cb18f5b",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime-development-grades.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/structural-validation.json",
+      "sha256": "sha256:4cece289313816eadce15aa6623703d22347d58ab1e62a018bb6bf6c1c87e5b9",
+      "preserved_path": "transworld-identity/round1-2026-09-12/structural-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/work-split.json",
+      "sha256": "sha256:f49f5138413357a2dcb0bd027e73f409959e799cb17866e08a8279eecb85dc13",
+      "preserved_path": "transworld-identity/round1-2026-09-12/work-split.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/budgets.json",
+      "sha256": "sha256:b4ffbee5a83e5dd51473c910781a8c8dd44c7d093d47f12c0672c1ce516ebf6b",
+      "preserved_path": "transworld-identity/round1-2026-09-12/budgets.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/dev-method-grade.json",
+      "sha256": "sha256:362aa4cb6a712be82ff053e465d377051e313f11309c9e15999387bf162dadf4",
+      "preserved_path": "transworld-identity/round1-2026-09-12/dev-method-grade.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/clean-repairs-final.json",
+      "sha256": "sha256:61a65206d89dcbc0712cfdc7ca73f52767e5c7549c2c68fb52300db04bca8892",
+      "preserved_path": "transworld-identity/round1-2026-09-12/clean-repairs-final.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/segment-spec.before-boundary-review.json",
+      "sha256": "sha256:b424490405129bae98161cd42436ee2e7618f08dbd138a1882373b1cd36b44b6",
+      "preserved_path": "transworld-identity/round1-2026-09-12/segment-spec.before-boundary-review.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/identity-review-two.json",
+      "sha256": "sha256:12d06001d86e1db79aa84e237412abcb52d4edfb1713e84279be159559daa95a",
+      "preserved_path": "transworld-identity/round1-2026-09-12/identity-review-two.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/split.json",
+      "sha256": "sha256:b927fa638b2b878cfafdc192f87fa64dbff8ac6178cd73f99e7dc0cb0ebc6503",
+      "preserved_path": "transworld-identity/round1-2026-09-12/split.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/evaluation-export-manifest.json",
+      "sha256": "sha256:5af88ba137dbe651186b8d1a6cd48b59a038a38747c342569294b91e66666b64",
+      "preserved_path": "transworld-identity/round1-2026-09-12/evaluation-export-manifest.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/final-source-grading-results.json",
+      "sha256": "sha256:00d48ed7fa923a1b6c8c6f09dabea419c1ce0a8a3722523df6b29e8da9209463",
+      "preserved_path": "transworld-identity/round1-2026-09-12/final-source-grading-results.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/segment-spec.json",
+      "sha256": "sha256:97c81b62e5786b459d6a26a58146f388c94694d2e771da9d5ea85d42d2b61132",
+      "preserved_path": "transworld-identity/round1-2026-09-12/segment-spec.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/schema-validation.json",
+      "sha256": "sha256:13764516c0b8497cafd8a7ed724b3ab91c8c8540120e0517e09bab12426f1b99",
+      "preserved_path": "transworld-identity/round1-2026-09-12/schema-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/style-generated-metrics.json",
+      "sha256": "sha256:bae9244a904b316761fda84cc81943202fd90174cb6203648fa2184e4edc9db7",
+      "preserved_path": "transworld-identity/round1-2026-09-12/style-generated-metrics.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/legacy-validation.json",
+      "sha256": "sha256:41dc9469e56e40345f0af2c0e5bd685deb96958f5a4a5423f5bf43c5f9710159",
+      "preserved_path": "transworld-identity/round1-2026-09-12/legacy-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/supplemental-grading-results.json",
+      "sha256": "sha256:80f181873eb950ff7b1157d6d1364d0b4f5e427587498774f32407dc8921dbf9",
+      "preserved_path": "transworld-identity/round1-2026-09-12/supplemental-grading-results.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/cluster-budget-run.txt",
+      "sha256": "sha256:72d7817b69feedc376e4235332c0e2292ed222d50823e06d6317a3869802701c",
+      "preserved_path": "transworld-identity/round1-2026-09-12/cluster-budget-run.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/additional-final-behavior-grades.json",
+      "sha256": "sha256:0959482089e3b456a1e16fdcc632c60be6b9bf93d9c2d419f4c33e9be908a5c6",
+      "preserved_path": "transworld-identity/round1-2026-09-12/additional-final-behavior-grades.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/README.md.txt",
+      "sha256": "sha256:5f75449a6204920062fa38e7184738b26e6dec36e9678c8de30bab42619a6522",
+      "preserved_path": "transworld-identity/round1-2026-09-12/README.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/episode-inventory.json",
+      "sha256": "sha256:c2d4603dc6f0117fdbce8b8ce257aedc4f9c97f7c1163d8bcc21671b938304d3",
+      "preserved_path": "transworld-identity/round1-2026-09-12/episode-inventory.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/extractions.json",
+      "sha256": "sha256:adbc133f4f75d8db4161be15dbdd18b97088ecfa3644c18ccd0e63d5e74eb771",
+      "preserved_path": "transworld-identity/round1-2026-09-12/extractions.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/work-inventory.json",
+      "sha256": "sha256:3c84809753297644d49f252cfa554c7d646e894586c8240538e557170613210a",
+      "preserved_path": "transworld-identity/round1-2026-09-12/work-inventory.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/candidate-rules.md.txt",
+      "sha256": "sha256:5d76154e5c9aedf46aaa11bf2a59250f0e45b63d16d46ff9b9afaa57ffcd24db",
+      "preserved_path": "transworld-identity/round1-2026-09-12/candidate-rules.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/migrations/1789220120163187000.json",
+      "sha256": "sha256:a982d507ac96153b9baa79a0a1238af01fcd8b7a7c83816b85cbbdc51db52d5f",
+      "preserved_path": "transworld-identity/migrations/1789220120163187000.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/coverage_map.json",
+      "sha256": "sha256:36526de279619875aa7016be628fe9e78b10eebd5b9d6130bb1cf03e98b025f8",
+      "preserved_path": "transworld-identity/legacy-2026-08/coverage_map.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/scores.json",
+      "sha256": "sha256:8be864e7b49bec521674dc802f2b02d82a35afd5483a586c0c8d9da941ef5ac9",
+      "preserved_path": "transworld-identity/legacy-2026-08/scores.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/episodic.md.txt",
+      "sha256": "sha256:dc56b3609ab99d8062d590b5c08742bc52f5102e9e71c9c7ad285e839f02fa70",
+      "preserved_path": "transworld-identity/legacy-2026-08/episodic.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/CHANGELOG.md.txt",
+      "sha256": "sha256:4279045453b453a9285844b8f10c30ab2fd7e7b39d2f12998be4c05e17b475a4",
+      "preserved_path": "transworld-identity/legacy-2026-08/CHANGELOG.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/fidelity.json",
+      "sha256": "sha256:5d378b27133efcddc30567ba24279aafe7c315ec50fe8503017a10458ada7cc3",
+      "preserved_path": "transworld-identity/legacy-2026-08/fidelity.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/SKILL.md.txt",
+      "sha256": "sha256:68feaf71178a2f8f6d8d615f99ed91c02812822f22c20666b6e8f966e877cd33",
+      "preserved_path": "transworld-identity/legacy-2026-08/SKILL.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/provenance.md.txt",
+      "sha256": "sha256:d7d6129409cca2298092bbf8f260f3d7a964a4fdb41ef2e1fccf1324671567fc",
+      "preserved_path": "transworld-identity/legacy-2026-08/provenance.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/manifest.json",
+      "sha256": "sha256:c7f3cfa37131486e50f6d181cfaf36b8f7f73467f5f02671ef772e6b280c420d",
+      "preserved_path": "transworld-identity/legacy-2026-08/manifest.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/README.md.txt",
+      "sha256": "sha256:d2c282c3df78ba54d0c9cc89abc19c64b6acaca9b9bf5c3c0d9a82c5b2faf9df",
+      "preserved_path": "transworld-identity/legacy-2026-08/README.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/extractions.json",
+      "sha256": "sha256:3048fe9d08e51d98d09b8cfb990f16def12990ab6b972b87f36eef4a2cf5fd00",
+      "preserved_path": "transworld-identity/legacy-2026-08/extractions.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/history/1789220850016434000-validation.json",
+      "sha256": "sha256:baa789da53f327522d3ce58e8cf1eb515c6ba4c2fd45a76835665657d2c8891d",
+      "preserved_path": "transworld-identity/history/1789220850016434000-validation.json",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/history/pre-1.0/CHANGELOG.md",
+      "sha256": "sha256:ffb950c80c58694c56db8e8e5055bd155a52e58347eea08aa234aed9e5dbbad1",
+      "preserved_path": "transworld-identity/history/pre-1.0/CHANGELOG.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/history/pre-1.0/provenance.md",
+      "sha256": "sha256:dfbe6b86bda0865d0af2bfa96948a68f06d23b55b43f2b3a73363f9cc6f406a6",
+      "preserved_path": "transworld-identity/history/pre-1.0/provenance.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/runtime/frameworks.md.txt",
+      "sha256": "sha256:d897d062b77faa87580a70401aa148168f8fca35f5a64d5ef3e88a236cdebc70",
+      "preserved_path": "transworld-identity/legacy-2026-08/runtime/frameworks.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/runtime/clusters/c04-cargo-cult.md.txt",
+      "sha256": "sha256:7e3cbc32bea85a468be7f810516260ce947c509b6d59e9594d191ef1ccb519f3",
+      "preserved_path": "transworld-identity/legacy-2026-08/runtime/clusters/c04-cargo-cult.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/runtime/clusters/c06-c11-challenger.md.txt",
+      "sha256": "sha256:a3ebd99edf6b6dc96d7932fdc6f6f202efc653379af5c09ce2efee4d6406e5d1",
+      "preserved_path": "transworld-identity/legacy-2026-08/runtime/clusters/c06-c11-challenger.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/runtime/clusters/c01-c03-c05-memoir.md.txt",
+      "sha256": "sha256:29880655b9b4681dfa243f510541565222767ec64e9f71d12003457930d381a8",
+      "preserved_path": "transworld-identity/legacy-2026-08/runtime/clusters/c01-c03-c05-memoir.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/runtime/clusters/c07-c10-interviews.md.txt",
+      "sha256": "sha256:9345fb5ba2a34c95b5966c507dce9c080c9c69d2832e91bfa9a141c63c9c6ade",
+      "preserved_path": "transworld-identity/legacy-2026-08/runtime/clusters/c07-c10-interviews.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/runtime/clusters/c17-newmath.md.txt",
+      "sha256": "sha256:81acf6874f8f33399a8e8b955d34716ab93ac83424de5221cdc563cddb3eef91",
+      "preserved_path": "transworld-identity/legacy-2026-08/runtime/clusters/c17-newmath.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/legacy-2026-08/runtime/clusters/c13-seeking-new-laws.md.txt",
+      "sha256": "sha256:04cc988dac1b2ab4db252f50baee77172a59841148711913bdeb94f00f7e41f0",
+      "preserved_path": "transworld-identity/legacy-2026-08/runtime/clusters/c13-seeking-new-laws.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/SKILL.md.txt",
+      "sha256": "sha256:805dbd176f8e5e2e6d4b23879d603d2a35c4dce796b33104148d4551da3c6289",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/SKILL.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/scope.md.txt",
+      "sha256": "sha256:041f80b96c204f450871dafd6776c65ab7c6a9e037a11fee6c500f19b43c7b51",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/scope.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/frameworks.md.txt",
+      "sha256": "sha256:eddb6a88965ef5835ca47d2e9da04ed4ddff6b44d95b48a869b1712859bd44a4",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/frameworks.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/voice.md.txt",
+      "sha256": "sha256:c4dd8705e1193526a0405a4d174a79d0993f43433c99465c4754082994b2f10a",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/voice.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c04-cargo-cult.md.txt",
+      "sha256": "sha256:4c9062d0310192cb33c9fe810d2bd053f4994bd71db8cf8808f5625e85a65c5f",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c04-cargo-cult.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c06-c11-challenger.md.txt",
+      "sha256": "sha256:bb52de94c10cf9f6a559816ab44c342ab2bc9b4e43deab332812c898bb1042c1",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c06-c11-challenger.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c16-problem-solving.md.txt",
+      "sha256": "sha256:899d767f9d8af0b0027edd114646e73ed6ec2e17f95c424629cf4267a1537703",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c16-problem-solving.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c01-c03-c05-memoir.md.txt",
+      "sha256": "sha256:b3ed25c8b409a60c74f8ca3d7cb9ca0e606ecb449bf87f38c6d13ece18437373",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c01-c03-c05-memoir.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c07-c10-interviews.md.txt",
+      "sha256": "sha256:e844ca329e08302fb4851f92a2fc1ba94816a09ee417779e0f7d1b537a59c644",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c07-c10-interviews.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c17-newmath.md.txt",
+      "sha256": "sha256:5ee578f7abd2bfee5708b6bf8e5c1fcaba680abd4acd37196944ba5ad0589fc1",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c17-newmath.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c13-seeking-new-laws.md.txt",
+      "sha256": "sha256:f58e9649d32f33c3560d330e16948b5f3a6dc446d30b67e26dc36bb5714dfb13",
+      "preserved_path": "transworld-identity/round1-2026-09-12/runtime/references/clusters/c13-seeking-new-laws.md.txt",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": ".github/workflows/validate.yml",
+      "sha256": "sha256:83f8250e8d7d646203b906c491f9c865aa456868508fe7079e4d6a377f93dfe0",
+      "preserved_path": "transworld-identity/history/structure-revision-2/.github/workflows/validate.yml",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "references/clusters/c01-c03-c05-memoir.md",
+      "sha256": "sha256:e025af7a1b7070533ffc9be37090e47ee084968ffe0ff3241ba62ec2266eb597",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/references/clusters/c01-c03-c05-memoir.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "references/clusters/c04-cargo-cult.md",
+      "sha256": "sha256:a01003fe8b84d41645cbb2c5b2d14fe10bb4cbf8822d681d6121d0c75dfebbbd",
+      "preserved_path": "references/clusters/c04-cargo-cult.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/clusters/c16-problem-solving.md",
+      "sha256": "sha256:b6a6fc4913b83af9ae8f742a1d5c0f2b7de4a8414700cc716a1a3b2dc25baafe",
+      "preserved_path": "references/clusters/c16-problem-solving.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/clusters/c17-newmath.md",
+      "sha256": "sha256:5fbd796ca165004b2e74434a7576f4a142a1fa90cb5b28376426da9bb99dcc2b",
+      "preserved_path": "references/clusters/c17-newmath.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/clusters/c07-c10-interviews.md",
+      "sha256": "sha256:b9fb83341b3d768b134110f62799afae9e7b2e4f4576e8643a6448f02631d8e3",
+      "preserved_path": "transworld-identity/migrations/scope-05f4fae3f95c524b5fd3b0736f22ed8862c0097e2ad6bcce9588fd41334565d7/originals/references/clusters/c07-c10-interviews.md",
+      "applicability": "historical_original; changed current file is not a hash match"
+    },
+    {
+      "original_path": "references/clusters/c06-c11-challenger.md",
+      "sha256": "sha256:d38aee523d712160b1d4ab895c2fa8a2d3268f40efc3ff8018f0e49bab689147",
+      "preserved_path": "references/clusters/c06-c11-challenger.md",
+      "applicability": "applicable_unchanged"
+    },
+    {
+      "original_path": "references/clusters/c13-seeking-new-laws.md",
+      "sha256": "sha256:3c0399958cff59e88d469a1b6f4146c08023cfd54b07632127e81cb48b198462",
+      "preserved_path": "references/clusters/c13-seeking-new-laws.md",
+      "applicability": "applicable_unchanged"
+    }
+  ],
+  "runtime_hash": "sha256:30990522d9f7bc8898e5f40401ad276603d9689848b558049b4f0072537dda6e",
+  "module_hashes": {
+    "SKILL.md": "sha256:496be83924139b6023d5bd7a7c240c82e1f0f9b58e55e03e891d5a08ea252ba0",
+    "references/clusters/c01-c03-c05-memoir.md": "sha256:6ebc6d8fdcb736800721c47774889df06e917fd2e63b39e0331b449e0bf4a6bc",
+    "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+    "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+    "references/clusters/c07-c10-interviews.md": "sha256:7e0ec4af6e4e518293803db66d00a84160265b54d16438a645b44401c5e3015b",
+    "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+    "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+    "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+    "references/frameworks.md": "sha256:3385f8195aef75733216db9bee7773172d0d8185bfa7d95cf4d8ecac21148b7f",
+    "references/voice.md": "sha256:e04cb1d6f5ef6fc1207469b61310822a0574bb7abff353f1da456e77973a2024"
+  },
+  "package_checks": {
+    "structure_revision": 2,
+    "strict": false,
+    "checks": [
+      {
+        "check": "S9",
+        "level": "error",
+        "ok": true,
+        "detail": "reconstruction scope and host boundaries present; editorial responsibilities require source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "S1",
+        "level": "error",
+        "ok": true,
+        "detail": "one discoverable skill exists under .agents/skills/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S2",
+        "level": "error",
+        "ok": true,
+        "detail": "SKILL.md exists inside the discovered skill directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "S3",
+        "level": "error",
+        "ok": true,
+        "detail": "references/, voice.md, and frameworks.md present",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "error",
+        "ok": true,
+        "detail": "transworld-identity/provenance.md present outside .agents/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "warn",
+        "ok": true,
+        "detail": "transworld-identity/episodic.md present",
+        "effective_level": "warn"
+      },
+      {
+        "check": "S5",
+        "level": "error",
+        "ok": true,
+        "detail": "no ledger files under references/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S6",
+        "level": "warn",
+        "ok": true,
+        "detail": "cluster modules directory is references/clusters/",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C1",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter has name and description",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1b",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter name matches .agents/skills directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "C2",
+        "level": "error",
+        "ok": true,
+        "detail": "description is non-empty and runtime-facing",
+        "effective_level": "error"
+      },
+      {
+        "check": "C3",
+        "level": "warn",
+        "ok": true,
+        "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C4",
+        "level": "error",
+        "ok": true,
+        "detail": "no banned implementation strings in core",
+        "effective_level": "error"
+      },
+      {
+        "check": "S7",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime/evaluation separation",
+        "effective_level": "error"
+      },
+      {
+        "check": "S8",
+        "level": "error",
+        "ok": true,
+        "detail": "no detected raw books or local paths",
+        "effective_level": "error"
+      },
+      {
+        "check": "C5",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime links and disk agree",
+        "effective_level": "error"
+      },
+      {
+        "check": "C6",
+        "level": "error",
+        "ok": true,
+        "detail": "all cNN citations resolve to a module",
+        "effective_level": "error"
+      },
+      {
+        "check": "L1",
+        "level": "warn",
+        "ok": true,
+        "detail": "no second-person or bare-English-imperative lines found",
+        "effective_level": "warn"
+      },
+      {
+        "check": "L2",
+        "level": "error",
+        "ok": true,
+        "detail": "provenance records the build contract and source/editorial lineage; content requires source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "L3",
+        "level": "error",
+        "ok": true,
+        "detail": "episodic.md exceeds near-empty floor",
+        "effective_level": "error"
+      },
+      {
+        "check": "X1",
+        "level": "error",
+        "ok": true,
+        "detail": "references contain no numeric composite/probe score pattern",
+        "effective_level": "error"
+      }
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "verdict": "PASS"
+  },
+  "source_review": "Editorial semantic preservation checked against retained passages, not new primary-source verification.",
+  "recognition": "not_run; no applicable recognition pass existed; no new calls",
+  "historical_results": "Preserved byte-for-byte at the paths indexed below; old requests and protocols keep their original scope.",
+  "local_preservation": {
+    "ignored_metadata_files": 1,
+    "status": "Unchanged locally; excluded from the published-file integrity manifest because ignored files do not exist in a fresh Git checkout."
+  }
+}

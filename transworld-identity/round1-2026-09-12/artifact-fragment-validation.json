@@ -1,0 +1,19 @@
+{
+  "behavioral-artifact.json": {
+    "structural_schema_passed": true,
+    "errors": []
+  },
+  "projection-artifact.json": {
+    "structural_schema_passed": false,
+    "errors": [
+      {
+        "path": "gate.fresh_context",
+        "message": "True was expected"
+      },
+      {
+        "path": "final.fresh_context",
+        "message": "True was expected"
+      }
+    ]
+  }
+}

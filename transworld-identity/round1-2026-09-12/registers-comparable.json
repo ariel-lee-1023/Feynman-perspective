@@ -1,0 +1,370 @@
+{
+  "generated": "2026-09-12T08:55:38+00:00",
+  "lang": "en",
+  "n_units": 4,
+  "n_registers": 0,
+  "thresholds": {
+    "ratio": 3.0,
+    "dims": 3,
+    "min_tokens": 600,
+    "min_events": 5,
+    "min_rate_delta": 10
+  },
+  "stability": {
+    "adequate": true,
+    "stable": false,
+    "subsamples": 3,
+    "tokens_per_subsample": 1163,
+    "minimum_agreement": 0.8,
+    "pairs": [
+      {
+        "indices": [
+          0,
+          1
+        ],
+        "split": false,
+        "agreement": 0.6666666666666666
+      },
+      {
+        "indices": [
+          0,
+          2
+        ],
+        "split": false,
+        "agreement": 0.6666666666666666
+      },
+      {
+        "indices": [
+          0,
+          3
+        ],
+        "split": false,
+        "agreement": 0.6666666666666666
+      },
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "split": false,
+        "agreement": 0.6666666666666666
+      },
+      {
+        "indices": [
+          1,
+          3
+        ],
+        "split": false,
+        "agreement": 0.6666666666666666
+      },
+      {
+        "indices": [
+          2,
+          3
+        ],
+        "split": false,
+        "agreement": 0.6666666666666666
+      }
+    ],
+    "family_agreement": 0.3333333333333333
+  },
+  "units": [
+    {
+      "unit_id": "c04",
+      "label": "c04.txt",
+      "chars": 18693,
+      "features": {
+        "mean_sentence_len": 21.145455,
+        "median_sentence_len": 17.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.236364,
+        "question_rate": 20.063055,
+        "connective_rate": 17.196905,
+        "hedge_rate": 117.512181,
+        "booster_rate": 34.393809,
+        "second_person_rate": 226.42591,
+        "first_person_rate": 286.615076,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "observations": {
+        "tokens": 3489,
+        "sentences": 165,
+        "events": {
+          "question_rate": 7,
+          "connective_rate": 6,
+          "hedge_rate": 41,
+          "booster_rate": 12,
+          "second_person_rate": 79,
+          "first_person_rate": 100,
+          "title_mark_rate": 0,
+          "core_term_density": 0,
+          "flagship_term_density": 0
+        }
+      }
+    },
+    {
+      "unit_id": "c07",
+      "label": "c07.txt",
+      "chars": 40845,
+      "features": {
+        "mean_sentence_len": 39.137931,
+        "median_sentence_len": 28.0,
+        "p90_sentence_len": 77.0,
+        "long_sentence_share": 0.472906,
+        "question_rate": 35.242291,
+        "connective_rate": 23.914412,
+        "hedge_rate": 85.58842,
+        "booster_rate": 25.173065,
+        "second_person_rate": 153.555695,
+        "first_person_rate": 509.754563,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "observations": {
+        "tokens": 7945,
+        "sentences": 203,
+        "events": {
+          "question_rate": 28,
+          "connective_rate": 19,
+          "hedge_rate": 68,
+          "booster_rate": 20,
+          "second_person_rate": 122,
+          "first_person_rate": 405,
+          "title_mark_rate": 0,
+          "core_term_density": 0,
+          "flagship_term_density": 0
+        }
+      }
+    },
+    {
+      "unit_id": "c11",
+      "label": "c11.txt",
+      "chars": 29191,
+      "features": {
+        "mean_sentence_len": 22.759434,
+        "median_sentence_len": 20.0,
+        "p90_sentence_len": 37.0,
+        "long_sentence_share": 0.198113,
+        "question_rate": 24.870466,
+        "connective_rate": 37.305699,
+        "hedge_rate": 78.756477,
+        "booster_rate": 22.797927,
+        "second_person_rate": 2.072539,
+        "first_person_rate": 68.393782,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "observations": {
+        "tokens": 4825,
+        "sentences": 212,
+        "events": {
+          "question_rate": 12,
+          "connective_rate": 18,
+          "hedge_rate": 38,
+          "booster_rate": 11,
+          "second_person_rate": 1,
+          "first_person_rate": 33,
+          "title_mark_rate": 0,
+          "core_term_density": 0,
+          "flagship_term_density": 0
+        }
+      }
+    },
+    {
+      "unit_id": "c13",
+      "label": "c13.txt",
+      "chars": 51958,
+      "features": {
+        "mean_sentence_len": 21.93128,
+        "median_sentence_len": 19.0,
+        "p90_sentence_len": 40.0,
+        "long_sentence_share": 0.229858,
+        "question_rate": 24.851432,
+        "connective_rate": 27.012426,
+        "hedge_rate": 124.257158,
+        "booster_rate": 64.829822,
+        "second_person_rate": 163.155051,
+        "first_person_rate": 287.41221,
+        "title_mark_rate": 0.0,
+        "core_term_density": 0.0,
+        "flagship_term_density": 0.0
+      },
+      "observations": {
+        "tokens": 9255,
+        "sentences": 422,
+        "events": {
+          "question_rate": 23,
+          "connective_rate": 25,
+          "hedge_rate": 115,
+          "booster_rate": 60,
+          "second_person_rate": 151,
+          "first_person_rate": 266,
+          "title_mark_rate": 0,
+          "core_term_density": 0,
+          "flagship_term_density": 0
+        }
+      }
+    }
+  ],
+  "distance_matrix": {
+    "units": [
+      "c04",
+      "c07",
+      "c11",
+      "c13"
+    ],
+    "z_distance": [
+      [
+        0.0,
+        1.3529531526014449,
+        0.9146065690018949,
+        0.44562173272372974
+      ],
+      [
+        1.3529531526014449,
+        0.0,
+        1.3773764139127989,
+        1.3144935697765472
+      ],
+      [
+        0.9146065690018949,
+        1.3773764139127989,
+        0.0,
+        0.8020688513898423
+      ],
+      [
+        0.44562173272372974,
+        1.3144935697765472,
+        0.8020688513898423,
+        0.0
+      ]
+    ],
+    "ratio_exceedances": [
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ]
+    ]
+  },
+  "families": [],
+  "gap_table": [
+    {
+      "dimension": "mean_sentence_len",
+      "by_family": {
+        "R1": 26.243525
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "median_sentence_len",
+      "by_family": {
+        "R1": 21.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "p90_sentence_len",
+      "by_family": {
+        "R1": 48.5
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "long_sentence_share",
+      "by_family": {
+        "R1": 0.28431
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "question_rate",
+      "by_family": {
+        "R1": 26.256811
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "connective_rate",
+      "by_family": {
+        "R1": 26.35736
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "hedge_rate",
+      "by_family": {
+        "R1": 101.528559
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "booster_rate",
+      "by_family": {
+        "R1": 36.798656
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "second_person_rate",
+      "by_family": {
+        "R1": 136.302299
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "first_person_rate",
+      "by_family": {
+        "R1": 288.043908
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "title_mark_rate",
+      "by_family": {
+        "R1": 0.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "core_term_density",
+      "by_family": {
+        "R1": 0.0
+      },
+      "max_ratio": 1.0
+    },
+    {
+      "dimension": "flagship_term_density",
+      "by_family": {
+        "R1": 0.0
+      },
+      "max_ratio": 1.0
+    }
+  ],
+  "forced_splits": [],
+  "verdict": "INSUFFICIENT_EVIDENCE",
+  "notes": "Too little comparable text or unstable equal-length subsamples; no register conclusion."
+}

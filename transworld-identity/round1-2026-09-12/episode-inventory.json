@@ -1,0 +1,160 @@
+{
+  "passages": [
+    {
+      "id": "atoms-in-motion-1",
+      "group": "lecture-atoms-in-motion",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        268,
+        433
+      ],
+      "eligibility": "unexposed-lecture-episode",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "atoms-in-motion-2",
+      "group": "lecture-atoms-in-motion",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        268,
+        433
+      ],
+      "eligibility": "unexposed-lecture-episode",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "basic-physics-1",
+      "group": "lecture-basic-physics",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        434,
+        647
+      ],
+      "eligibility": "unexposed-lecture-episode",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "basic-physics-2",
+      "group": "lecture-basic-physics",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        434,
+        647
+      ],
+      "eligibility": "unexposed-lecture-episode",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "relation-of-physics-to-other-sciences-1",
+      "group": "lecture-relation-of-physics-to-other-sciences",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        648,
+        827
+      ],
+      "eligibility": "unexposed-lecture-episode",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "relation-of-physics-to-other-sciences-2",
+      "group": "lecture-relation-of-physics-to-other-sciences",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        648,
+        827
+      ],
+      "eligibility": "unexposed-lecture-episode",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "work-01",
+      "group": "train-tips-recovered-by-construction",
+      "domain": "physics-teaching",
+      "sha256": "a7499c1b7849cd735aa1c7fc8cd4d1c2e84b01f7e2008e42a1214588ea73da9a",
+      "exposure": "unread-by-construction",
+      "eligibility": "forced-train-prior-exposure-or-recovery",
+      "source_file": "Feynmans-tips-on-physics-a-problem-solving-supplement-to-the-Feynman-lectures-on.md"
+    },
+    {
+      "id": "work-02",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "32c8c7b941c251dd8f6a2d6d9777ea1bb4dd0962b6abbeaa4ccf34fc3b795a43",
+      "exposure": "legacy-core-exposed-group",
+      "eligibility": "forced-train-prior-exposure-or-recovery",
+      "source_file": "New-Textbooks-for-the-New-Mathematics.md"
+    },
+    {
+      "id": "work-04",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "0534928acc3050285433bb086102a1843f26d6e619d7a68f82e25867606a26f6",
+      "exposure": "legacy-core-exposed-group",
+      "eligibility": "forced-train-prior-exposure-or-recovery",
+      "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md"
+    },
+    {
+      "id": "work-05",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "c4a2b809185a97f1e7f23c3d95db029e7dd4ad8ae361fc9042e72990afb2d765",
+      "exposure": "legacy-core-exposed-group",
+      "eligibility": "forced-train-prior-exposure-or-recovery",
+      "source_file": "The-Pleasure-of-Finding-Things-Out-Feynman-Richard-P.md"
+    },
+    {
+      "id": "work-06",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "e2ef14d95d202efb5fe71ede5ba4d32046998a949425c0b642ffa516e85669b7",
+      "exposure": "legacy-core-exposed-group",
+      "eligibility": "forced-train-prior-exposure-or-recovery",
+      "source_file": "What-Do-You-Care-What-Other-People-Think-Richard-Feynman.md"
+    },
+    {
+      "id": "work-07",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "mixed-public-and-autobiographical",
+      "sha256": "cf91903e9dea574993d5dfb6f8868655226fcc5e1562dc403cb97e1a705e03ff",
+      "exposure": "legacy-core-exposed-group",
+      "eligibility": "forced-train-prior-exposure-or-recovery",
+      "source_file": "the-character-of-physical-law-richard-feynman.md"
+    },
+    {
+      "id": "six-chapter-4",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        828,
+        1010
+      ],
+      "eligibility": "forced-train-retelling-risk",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "six-chapter-5",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        1011,
+        1284
+      ],
+      "eligibility": "forced-train-retelling-risk",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    },
+    {
+      "id": "six-chapter-6",
+      "group": "train-legacy-public-and-memoirs",
+      "domain": "physics-teaching",
+      "chapter_lines": [
+        1285,
+        1511
+      ],
+      "eligibility": "forced-train-retelling-risk",
+      "source_file": "Six-easy-pieces-essentials-of-physics-explained-by-its-most-brilliant-teacher-Fe.md"
+    }
+  ],
+  "constraint": "Run fixed seed42 splitter on eligible lecture groups only. Add known-exposed/recovery/retelling groups to training deterministically. Original unconditioned whole-work split retained as invalid. This is an explicitly exposure-constrained episode split, not an unconditioned random whole-work split.",
+  "original_raw_inventory_hash": "sha256:789c2f0edbafe6cca5fe0272610bf121eb36295771ada74c0542107266a2cccf",
+  "sanitization_note": "Paths reduced to source filenames. This is a public metadata derivative; original_raw_inventory_hash refers to the private original bytes used by the split."
+}

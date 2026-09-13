@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-09-12T09:42:12.434650+00:00",
+  "content_hash": "sha256:6404d071b02a3639ca0fa667ce5fd772f62592a4dba44b0155c4458b67acd1f2",
+  "defined_before_extraction": false,
+  "assembled_before_tasks": true,
+  "hashes": {
+    "additional-final-behavior-suite.json": "sha256:b281ed696d9dcacc1b5f6659e1d832ceaeaf5ac793ceac92b9c57f61cbecbc8c",
+    "additional-final-behavior-rubric.private.json": "sha256:734199e60a3a3ca8475a657afe18fd6e87afaceef94d361c8a8416d24fe7afdb",
+    "additional-final-behavior-prompts-only.json": "sha256:7c8cc715bf551477a3de8a6257784664673a67df0df393220b02ed1773cc1bf8"
+  }
+}

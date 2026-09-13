@@ -1,0 +1,870 @@
+{
+  "aggregate": {
+    "counts": {
+      "words": 52660,
+      "sentences": 2192,
+      "paragraphs": 452
+    },
+    "sentence_length": {
+      "n": 2192,
+      "mean": 24.02,
+      "median": 21.0,
+      "stdev": 15.83,
+      "p10": 7,
+      "p90": 44,
+      "min": 1,
+      "max": 140
+    },
+    "paragraph_length": {
+      "n": 452,
+      "mean": 116.5,
+      "median": 64.5,
+      "stdev": 120.21,
+      "p10": 14,
+      "p90": 356,
+      "min": 9,
+      "max": 429
+    },
+    "lexical_diversity_mattr500": 0.415,
+    "hedges_per_1k": 6.48,
+    "boosters_per_1k": 4.44,
+    "hedge_booster_ratio": 1.46,
+    "punctuation_per_1k": {
+      "em_dash": 6.49,
+      "semicolon": 4.71,
+      "colon": 4.39,
+      "question": 3.53,
+      "exclamation": 2.34,
+      "parenthetical": 5.34
+    },
+    "person_reference_pct": {
+      "first": 59.5,
+      "second": 22.4,
+      "third": 18.0
+    },
+    "top_content_words": [
+      [
+        "one",
+        260
+      ],
+      [
+        "energy",
+        244
+      ],
+      [
+        "force",
+        201
+      ],
+      [
+        "way",
+        171
+      ],
+      [
+        "know",
+        153
+      ],
+      [
+        "now",
+        146
+      ],
+      [
+        "weight",
+        135
+      ],
+      [
+        "two",
+        131
+      ],
+      [
+        "time",
+        131
+      ],
+      [
+        "get",
+        130
+      ],
+      [
+        "see",
+        128
+      ],
+      [
+        "like",
+        119
+      ],
+      [
+        "earth",
+        112
+      ],
+      [
+        "laws",
+        98
+      ],
+      [
+        "hole",
+        96
+      ],
+      [
+        "law",
+        95
+      ],
+      [
+        "first",
+        92
+      ],
+      [
+        "say",
+        91
+      ],
+      [
+        "going",
+        89
+      ],
+      [
+        "something",
+        88
+      ],
+      [
+        "find",
+        86
+      ],
+      [
+        "thing",
+        86
+      ],
+      [
+        "things",
+        86
+      ],
+      [
+        "make",
+        85
+      ],
+      [
+        "right",
+        85
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "potential energy",
+        31
+      ],
+      [
+        "see fig",
+        31
+      ],
+      [
+        "conservation energy",
+        29
+      ],
+      [
+        "kinetic energy",
+        27
+      ],
+      [
+        "quantum mechanics",
+        23
+      ],
+      [
+        "horizontal force",
+        20
+      ],
+      [
+        "law gravitation",
+        18
+      ],
+      [
+        "new laws",
+        16
+      ],
+      [
+        "physical law",
+        16
+      ],
+      [
+        "per second",
+        15
+      ],
+      [
+        "don know",
+        15
+      ],
+      [
+        "character physical",
+        14
+      ],
+      [
+        "shown fig",
+        13
+      ],
+      [
+        "seeking new",
+        13
+      ],
+      [
+        "something like",
+        12
+      ]
+    ],
+    "conspicuously_absent_common_words": [
+      "life",
+      "state",
+      "human",
+      "social",
+      "political"
+    ]
+  },
+  "per_file": {
+    "intro_physics.txt": {
+      "counts": {
+        "words": 26993,
+        "sentences": 1164,
+        "paragraphs": 154
+      },
+      "sentence_length": {
+        "n": 1164,
+        "mean": 23.19,
+        "median": 21.0,
+        "stdev": 14.65,
+        "p10": 7,
+        "p90": 42,
+        "min": 1,
+        "max": 100
+      },
+      "paragraph_length": {
+        "n": 154,
+        "mean": 175.28,
+        "median": 141.0,
+        "stdev": 139.45,
+        "p10": 13,
+        "p90": 396,
+        "min": 9,
+        "max": 429
+      },
+      "lexical_diversity_mattr500": 0.426,
+      "hedges_per_1k": 6.15,
+      "boosters_per_1k": 4.3,
+      "hedge_booster_ratio": 1.43,
+      "punctuation_per_1k": {
+        "em_dash": 3.45,
+        "semicolon": 4.11,
+        "colon": 2.82,
+        "question": 3.11,
+        "exclamation": 1.78,
+        "parenthetical": 5.41
+      },
+      "person_reference_pct": {
+        "first": 71.8,
+        "second": 6.7,
+        "third": 21.5
+      },
+      "top_content_words": [
+        [
+          "one",
+          176
+        ],
+        [
+          "energy",
+          145
+        ],
+        [
+          "hole",
+          93
+        ],
+        [
+          "earth",
+          92
+        ],
+        [
+          "two",
+          82
+        ],
+        [
+          "way",
+          78
+        ],
+        [
+          "like",
+          63
+        ],
+        [
+          "light",
+          60
+        ],
+        [
+          "electrons",
+          59
+        ],
+        [
+          "see",
+          57
+        ],
+        [
+          "electron",
+          57
+        ],
+        [
+          "law",
+          55
+        ],
+        [
+          "around",
+          54
+        ],
+        [
+          "time",
+          54
+        ],
+        [
+          "now",
+          53
+        ],
+        [
+          "know",
+          53
+        ],
+        [
+          "motion",
+          53
+        ],
+        [
+          "weight",
+          49
+        ],
+        [
+          "number",
+          48
+        ],
+        [
+          "first",
+          47
+        ],
+        [
+          "force",
+          47
+        ],
+        [
+          "sun",
+          46
+        ],
+        [
+          "distance",
+          46
+        ],
+        [
+          "get",
+          45
+        ],
+        [
+          "find",
+          43
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "conservation energy",
+          21
+        ],
+        [
+          "quantum mechanics",
+          19
+        ],
+        [
+          "law gravitation",
+          16
+        ],
+        [
+          "shown fig",
+          13
+        ],
+        [
+          "kinetic energy",
+          12
+        ],
+        [
+          "reversible machine",
+          12
+        ],
+        [
+          "around sun",
+          11
+        ],
+        [
+          "uncertainty principle",
+          11
+        ],
+        [
+          "hole hole",
+          9
+        ],
+        [
+          "large number",
+          8
+        ],
+        [
+          "amino acids",
+          8
+        ],
+        [
+          "electrons come",
+          8
+        ],
+        [
+          "come hole",
+          8
+        ],
+        [
+          "electron goes",
+          8
+        ],
+        [
+          "living things",
+          7
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "people",
+        "reason",
+        "power",
+        "state",
+        "good",
+        "social",
+        "political"
+      ]
+    },
+    "law_explanation.txt": {
+      "counts": {
+        "words": 9255,
+        "sentences": 421,
+        "paragraphs": 25
+      },
+      "sentence_length": {
+        "n": 421,
+        "mean": 21.98,
+        "median": 19,
+        "stdev": 14.6,
+        "p10": 7,
+        "p90": 40,
+        "min": 1,
+        "max": 117
+      },
+      "paragraph_length": {
+        "n": 25,
+        "mean": 370.2,
+        "median": 381,
+        "stdev": 50.9,
+        "p10": 261,
+        "p90": 411,
+        "min": 219,
+        "max": 419
+      },
+      "lexical_diversity_mattr500": 0.43,
+      "hedges_per_1k": 12.43,
+      "boosters_per_1k": 6.48,
+      "hedge_booster_ratio": 1.92,
+      "punctuation_per_1k": {
+        "em_dash": 4.11,
+        "semicolon": 3.03,
+        "colon": 0.86,
+        "question": 2.49,
+        "exclamation": 0.86,
+        "parenthetical": 0.43
+      },
+      "person_reference_pct": {
+        "first": 51.0,
+        "second": 28.9,
+        "third": 20.1
+      },
+      "top_content_words": [
+        [
+          "laws",
+          48
+        ],
+        [
+          "one",
+          41
+        ],
+        [
+          "guess",
+          39
+        ],
+        [
+          "wrong",
+          35
+        ],
+        [
+          "experiment",
+          35
+        ],
+        [
+          "new",
+          34
+        ],
+        [
+          "right",
+          34
+        ],
+        [
+          "law",
+          31
+        ],
+        [
+          "get",
+          30
+        ],
+        [
+          "consequences",
+          30
+        ],
+        [
+          "know",
+          29
+        ],
+        [
+          "say",
+          29
+        ],
+        [
+          "way",
+          29
+        ],
+        [
+          "particles",
+          27
+        ],
+        [
+          "theory",
+          27
+        ],
+        [
+          "make",
+          25
+        ],
+        [
+          "like",
+          25
+        ],
+        [
+          "things",
+          24
+        ],
+        [
+          "something",
+          23
+        ],
+        [
+          "always",
+          22
+        ],
+        [
+          "time",
+          22
+        ],
+        [
+          "known",
+          21
+        ],
+        [
+          "ideas",
+          21
+        ],
+        [
+          "thing",
+          21
+        ],
+        [
+          "idea",
+          21
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "new laws",
+          14
+        ],
+        [
+          "character physical",
+          14
+        ],
+        [
+          "physical law",
+          14
+        ],
+        [
+          "seeking new",
+          13
+        ],
+        [
+          "neutrons protons",
+          9
+        ],
+        [
+          "new law",
+          7
+        ],
+        [
+          "compute consequences",
+          7
+        ],
+        [
+          "high energy",
+          6
+        ],
+        [
+          "something like",
+          6
+        ],
+        [
+          "nuclear forces",
+          6
+        ],
+        [
+          "agree experiment",
+          6
+        ],
+        [
+          "throw away",
+          6
+        ],
+        [
+          "neutron proton",
+          5
+        ],
+        [
+          "compared experiment",
+          5
+        ],
+        [
+          "completely different",
+          5
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "part",
+        "system",
+        "power",
+        "human",
+        "social",
+        "political"
+      ]
+    },
+    "review_teaching.txt": {
+      "counts": {
+        "words": 16412,
+        "sentences": 608,
+        "paragraphs": 273
+      },
+      "sentence_length": {
+        "n": 608,
+        "mean": 26.99,
+        "median": 23.0,
+        "stdev": 18.19,
+        "p10": 8,
+        "p90": 52,
+        "min": 1,
+        "max": 140
+      },
+      "paragraph_length": {
+        "n": 273,
+        "mean": 60.12,
+        "median": 50,
+        "stdev": 41.15,
+        "p10": 14,
+        "p90": 117,
+        "min": 9,
+        "max": 258
+      },
+      "lexical_diversity_mattr500": 0.391,
+      "hedges_per_1k": 3.66,
+      "boosters_per_1k": 3.53,
+      "hedge_booster_ratio": 1.03,
+      "punctuation_per_1k": {
+        "em_dash": 12.86,
+        "semicolon": 6.64,
+        "colon": 8.96,
+        "question": 4.81,
+        "exclamation": 4.08,
+        "parenthetical": 7.98
+      },
+      "person_reference_pct": {
+        "first": 49.6,
+        "second": 37.8,
+        "third": 12.6
+      },
+      "top_content_words": [
+        [
+          "force",
+          150
+        ],
+        [
+          "weight",
+          86
+        ],
+        [
+          "energy",
+          80
+        ],
+        [
+          "now",
+          78
+        ],
+        [
+          "know",
+          71
+        ],
+        [
+          "way",
+          64
+        ],
+        [
+          "see",
+          59
+        ],
+        [
+          "time",
+          55
+        ],
+        [
+          "get",
+          55
+        ],
+        [
+          "velocity",
+          53
+        ],
+        [
+          "direction",
+          50
+        ],
+        [
+          "one",
+          43
+        ],
+        [
+          "vector",
+          43
+        ],
+        [
+          "roller",
+          43
+        ],
+        [
+          "thing",
+          41
+        ],
+        [
+          "component",
+          40
+        ],
+        [
+          "acceleration",
+          40
+        ],
+        [
+          "horizontal",
+          40
+        ],
+        [
+          "times",
+          39
+        ],
+        [
+          "problem",
+          38
+        ],
+        [
+          "rod",
+          37
+        ],
+        [
+          "two",
+          35
+        ],
+        [
+          "derivative",
+          35
+        ],
+        [
+          "going",
+          34
+        ],
+        [
+          "don",
+          33
+        ]
+      ],
+      "top_bigrams": [
+        [
+          "see fig",
+          31
+        ],
+        [
+          "potential energy",
+          25
+        ],
+        [
+          "horizontal force",
+          20
+        ],
+        [
+          "don know",
+          15
+        ],
+        [
+          "kinetic energy",
+          15
+        ],
+        [
+          "per second",
+          13
+        ],
+        [
+          "force roller",
+          12
+        ],
+        [
+          "velocity vector",
+          11
+        ],
+        [
+          "force weight",
+          11
+        ],
+        [
+          "force direction",
+          10
+        ],
+        [
+          "vertical force",
+          10
+        ],
+        [
+          "force required",
+          10
+        ],
+        [
+          "component force",
+          9
+        ],
+        [
+          "net force",
+          9
+        ],
+        [
+          "total energy",
+          9
+        ]
+      ],
+      "conspicuously_absent_common_words": [
+        "life",
+        "question",
+        "reason",
+        "state",
+        "important",
+        "human",
+        "social",
+        "political"
+      ]
+    }
+  }
+}

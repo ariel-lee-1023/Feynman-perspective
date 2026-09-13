@@ -1,0 +1,21 @@
+{
+  "scope": "two instructional default units, not lifetime absence",
+  "whole_word": true,
+  "case_insensitive": true,
+  "counts": {
+    "intro_physics": {
+      "leverage": 0,
+      "stakeholder": 0,
+      "synergy": 0,
+      "delve": 0,
+      "in conclusion": 0
+    },
+    "law_explanation": {
+      "leverage": 0,
+      "stakeholder": 0,
+      "synergy": 0,
+      "delve": 0,
+      "in conclusion": 0
+    }
+  }
+}

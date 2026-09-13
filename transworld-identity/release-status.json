@@ -1,0 +1,35 @@
+{
+  "release_type": "working release with limited evaluation",
+  "content_hash": "sha256:2e2953fe44ddda924b3cbf41f239288a750bf4bbc93372846710646b1bf6b852",
+  "full_independent_validation": false,
+  "evaluation_status": "stopped by user; checkpoint preserved; no restart",
+  "completed_evaluation": {
+    "development_projection": {
+      "candidate": 0.75,
+      "minimal_feynman_baseline": 0.75,
+      "probes": 2,
+      "source_groups": 1,
+      "conclusion": "tie; no demonstrated improvement over baseline"
+    },
+    "register_discovery": "one scoped introductory English lecture family; broader comparisons inconclusive"
+  },
+  "incomplete_evaluation": {
+    "final_predictions_saved": 11,
+    "final_predictions_planned": 32,
+    "final_scoring": "incomplete",
+    "final_projection": "incomplete",
+    "behavioral_and_identity": "incomplete",
+    "heldout_style": "incomplete",
+    "chinese_style": "not evaluated"
+  },
+  "structural_check": {
+    "status": "passed; 0 errors, 0 warnings",
+    "record": "structure-working-release.json"
+  },
+  "reference_link_check": {
+    "status": "passed; 44 relative links, discovery symlink, and JSON syntax checked",
+    "record": "links-working-release.json"
+  },
+  "full_release_gate": "not run for this working release; evidence incomplete",
+  "prior_results": "Historical results retain their original runtime hashes; they do not validate this revision."
+}

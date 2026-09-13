@@ -1,0 +1,16 @@
+{
+  "raw_tool_verdict": "FAIL",
+  "review_type": "Author review, not independent gate",
+  "literal_case_insensitive_constructs": {
+    "cargo cult science": 5,
+    "scientific integrity": 4,
+    "Feynman Technique": 0
+  },
+  "findings": [
+    "Automatic case-sensitive harvest includes headings, source titles, quotation fragments and new illustrative rewrites. Their absence is not evidence of fabricated subject coinage.",
+    "The axis, Land then decode, Parent test and Zoo-keeper test are editorial descriptions, not attributed inventions. Cargo cult science is the explicitly attributed coined construct; case-insensitive rescan is reported separately.",
+    "Scientific integrity is an ordinary attested phrase, not claimed to have been coined by Feynman.",
+    "Literal quote-fragment matching remains OCR/punctuation sensitive. The raw automated FAIL is retained; manual review does not rewrite it to PASS.",
+    "Unsupported popular questions/answers quotation was removed before runtime freeze. No universal four-step Feynman Technique is attributed."
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "check": "all fidelity schema errors",
+    "errors": [
+      {
+        "path": "projection/gate/fresh_context",
+        "message": "True was expected"
+      },
+      {
+        "path": "projection/final/fresh_context",
+        "message": "True was expected"
+      }
+    ]
+  },
+  {
+    "check": "registers",
+    "pass": false,
+    "error": "register discovery lacks sufficient stable evidence"
+  },
+  {
+    "check": "reasoning",
+    "pass": true,
+    "result": {
+      "reasoning": {
+        "score": 1.0,
+        "hits": 2,
+        "n": 2
+      }
+    }
+  },
+  {
+    "check": "commitment",
+    "pass": true,
+    "result": {
+      "commitment": {
+        "score": 1.0,
+        "hits": 2,
+        "n": 2
+      }
+    }
+  },
+  {
+    "check": "scope",
+    "pass": true,
+    "result": {
+      "scope": {
+        "score": 1.0,
+        "hits": 3,
+        "n": 3
+      }
+    }
+  },
+  {
+    "check": "identity",
+    "pass": false,
+    "error": "identity judgments must be blind, justified and resolved"
+  },
+  {
+    "check": "style",
+    "pass": false
+  }
+]

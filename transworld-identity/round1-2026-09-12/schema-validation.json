@@ -1,0 +1,22 @@
+[
+  {
+    "artifact": "training-manifest.json",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "artifact": "coverage_map.json",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "artifact": "extractions.json",
+    "pass": true,
+    "errors": []
+  },
+  {
+    "artifact": "registers.json",
+    "pass": true,
+    "errors": []
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "boundary": {
+    "reading_units": 24,
+    "ocr_pages": 0,
+    "unit_definition": "One explicitly located contiguous excerpt from an existing supplied transcription or retained cleaned training source; rereading within that excerpt does not create another unit."
+  },
+  "actual_reading_units": 21,
+  "actual_ocr_pages": 0,
+  "new_sources_acquired": 0,
+  "records": [
+    {
+      "id": "father",
+      "source_file": "c05_father_and_observation.txt",
+      "line_start": 23,
+      "line_end": 47,
+      "sha256": "419121de47d4cadd9fce796988881ccc5996e26b4da924dab4616d2174468113",
+      "span_sha256": "944c10019d43b618aef901a51d9b4ffd2cb8f8e9e274b4518ebb426bef3f0110"
+    },
+    {
+      "id": "integrity",
+      "source_file": "c04_cargo_cult_science_address.txt",
+      "line_start": 34,
+      "line_end": 82,
+      "sha256": "b461625e154d2695a53b29a4bec65e4fdc9c7fdd9175ca0f8f7ee2ed01e84dca",
+      "span_sha256": "4ce77926b621f02383098bfcc9192f31b9e801262e7b04fb265fe339a3d987f9"
+    },
+    {
+      "id": "controls",
+      "source_file": "c04_cargo_cult_science_address.txt",
+      "line_start": 83,
+      "line_end": 105,
+      "sha256": "b461625e154d2695a53b29a4bec65e4fdc9c7fdd9175ca0f8f7ee2ed01e84dca",
+      "span_sha256": "6c0fa35cc4a957965f4c62a5c3e1f003d3ec7399df7be7f33918d9037236aa3c"
+    },
+    {
+      "id": "flower",
+      "source_file": "c07_bbc_reflective_interview.txt",
+      "line_start": 1,
+      "line_end": 7,
+      "sha256": "0e65fea0ab79860de799b9beea5a0286461f59572ad3717a6d85a0238ae34210",
+      "span_sha256": "b6cbc9df01c09c8de83cde6748205e8e8e220c2534bb7508ac2d6869b02986fd"
+    },
+    {
+      "id": "war-prize",
+      "source_file": "c07_bbc_reflective_interview.txt",
+      "line_start": 51,
+      "line_end": 86,
+      "sha256": "0e65fea0ab79860de799b9beea5a0286461f59572ad3717a6d85a0238ae34210",
+      "span_sha256": "c52d0a96eac1b04dda4ee4451b4886b3cbeaa2565320fd30c6fc3daff82985f3"
+    },
+    {
+      "id": "quarks",
+      "source_file": "c07_bbc_reflective_interview.txt",
+      "line_start": 105,
+      "line_end": 127,
+      "sha256": "0e65fea0ab79860de799b9beea5a0286461f59572ad3717a6d85a0238ae34210",
+      "span_sha256": "6a9d713412c4c7b1bccc460ea020f6da5f584d4869503dffef05a9de34438bd1"
+    },
+    {
+      "id": "guess-check",
+      "source_file": "c13_seeking_new_laws_public_lecture.txt",
+      "line_start": 248,
+      "line_end": 320,
+      "sha256": "77e2a795d2c418ea2a7821c00ce6a4fee6412e4ebb2442531f9124338b7a3b83",
+      "span_sha256": "652cb79422a85ba5ad51cdb2bf51acceceb121dcee389048e93fac31433251f2"
+    },
+    {
+      "id": "beauty",
+      "source_file": "c13_seeking_new_laws_public_lecture.txt",
+      "line_start": 795,
+      "line_end": 842,
+      "sha256": "77e2a795d2c418ea2a7821c00ce6a4fee6412e4ebb2442531f9124338b7a3b83",
+      "span_sha256": "f2469ae32ab22e46715d6c5b10e68f5f4dd9f35b4a9165611717b01230d8df0b"
+    },
+    {
+      "id": "rank",
+      "source_file": "c16_four_supplementary_lectures_feynman_only.txt",
+      "line_start": 1,
+      "line_end": 151,
+      "sha256": "2c309cc3318c22b8222e1a577a29dcab9c3c6eeb4a91d85ebd2b0f4439cff574",
+      "span_sha256": "1c6b5b864a4321b3886a525684ea087552e9273fd6cbe7c16df8c7860e8aef61"
+    },
+    {
+      "id": "spring",
+      "source_file": "c16_four_supplementary_lectures_feynman_only.txt",
+      "line_start": 1284,
+      "line_end": 1331,
+      "sha256": "2c309cc3318c22b8222e1a577a29dcab9c3c6eeb4a91d85ebd2b0f4439cff574",
+      "span_sha256": "68c806cdf11304e20014a313c1cd2e94d24e4037216e8d2c3a2317367cd57611"
+    },
+    {
+      "id": "newmath",
+      "source_file": "c17_new_mathematics_textbook_criticism.txt",
+      "line_start": 51,
+      "line_end": 108,
+      "sha256": "5d13692d4364de22a824e65dfc3c769ffb9402aa4400ff3ad4f4844050ff83be",
+      "span_sha256": "596aeb22dffefc5ab5519343dd9d696b9f8d4b2eff9f59fd406423741c09ccfb"
+    },
+    {
+      "id": "estimates",
+      "source_file": "c06_rogers_commission_investigation.txt",
+      "line_start": 761,
+      "line_end": 797,
+      "sha256": "f20409e654b7cfe4dd4a8b40a7eb97fd7ddaf9ebd7251f0e63e1c6dcc9057eb9",
+      "span_sha256": "8bacfefd91444b600a47e1f0df4d6c32b2bac903f1b0574e1b9b177679d06c96"
+    },
+    {
+      "id": "seal",
+      "source_file": "c11_appendix_f_technical_assessment.txt",
+      "line_start": 1,
+      "line_end": 47,
+      "sha256": "84e2ade55110b9788f4994a4188d49c0f485f5f921f82916f3d6e91e0962e39c",
+      "span_sha256": "f2323cc210a218365b3d2b87f98bde2a21be75aad6efa598724ae3af7517d725"
+    },
+    {
+      "id": "signature",
+      "source_file": "c06_rogers_commission_investigation.txt",
+      "line_start": 1004,
+      "line_end": 1025,
+      "sha256": "f20409e654b7cfe4dd4a8b40a7eb97fd7ddaf9ebd7251f0e63e1c6dcc9057eb9",
+      "span_sha256": "4daab6fdfc90565ea36ac088197957c750a86afee04fb071311ff45282e52c42"
+    },
+    {
+      "id": "values",
+      "source_file": "c09_value_of_science_address.txt",
+      "line_start": 1,
+      "line_end": 16,
+      "sha256": "d7de8c8a50409901f58125922f38d12d9f53ebbc0a682399bd8859a7d40c27c3",
+      "span_sha256": "8b1280db5e2338e6b3bacbb32d542de04c017f73086bf7abf1136d8b9294857e"
+    },
+    {
+      "id": "blank",
+      "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+      "line_start": 13625,
+      "line_end": 13694,
+      "sha256": "0534928acc3050285433bb086102a1843f26d6e619d7a68f82e25867606a26f6",
+      "span_sha256": "8f3db8c2518fb67abadde3d62b941a64627c2d71d8ecd73a6e89d14b65cf5993"
+    },
+    {
+      "id": "radio",
+      "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+      "line_start": 520,
+      "line_end": 620,
+      "sha256": "0534928acc3050285433bb086102a1843f26d6e619d7a68f82e25867606a26f6",
+      "span_sha256": "cddc889a3bdd06dc504b3631e038fe0c37c34b51b531e005c516490a6cd2f15a"
+    },
+    {
+      "id": "moral",
+      "source_file": "The-Pleasure-of-Finding-Things-Out-Feynman-Richard-P.md",
+      "line_start": 3183,
+      "line_end": 3220,
+      "sha256": "c4a2b809185a97f1e7f23c3d95db029e7dd4ad8ae361fc9042e72990afb2d765",
+      "span_sha256": "ecd91b4f181436d84c4c96958e54414fce26e47a916e2dd2aa493ce04981778d"
+    },
+    {
+      "id": "bias",
+      "source_file": "the-character-of-physical-law-richard-feynman.md",
+      "line_start": 5630,
+      "line_end": 5656,
+      "sha256": "cf91903e9dea574993d5dfb6f8868655226fcc5e1562dc403cb97e1a705e03ff",
+      "span_sha256": "d112f49aed4fdfaa106a376282b3bcb176c92cb49b33d01d1f7b11b637e95a91"
+    },
+    {
+      "id": "radio-mechanism",
+      "source_file": "Surely-Youre-Joking-Mr-Feynman-Adventures-of-a-Curious-Character-Richard-P-Feynm.md",
+      "line_start": 620,
+      "line_end": 690,
+      "sha256": "0534928acc3050285433bb086102a1843f26d6e619d7a68f82e25867606a26f6",
+      "span_sha256": "1f621da23db72446f94a727df647eb459f3d317a4fab1fb04b8e589f4100a9c5"
+    },
+    {
+      "id": "cold-rubber",
+      "source_file": "c06_rogers_commission_investigation.txt",
+      "line_start": 456,
+      "line_end": 476,
+      "sha256": "f20409e654b7cfe4dd4a8b40a7eb97fd7ddaf9ebd7251f0e63e1c6dcc9057eb9",
+      "span_sha256": "443f3677129898dae2a2693291356b3aa9b650e6ed76df965fa47482794a9844"
+    }
+  ],
+  "limitations": [
+    "Original publication layouts were not re-OCRed. Existing column interleaving, formula corruption and mixed-speaker markers remain explicitly bounded.",
+    "Full texts and scratch excerpts are not included in the release."
+  ]
+}

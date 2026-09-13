@@ -1,0 +1,151 @@
+{
+  "source_root": "/private/tmp/feynman-upgrade-20260912/raw",
+  "strip_running_headers": [
+    "^!\\[",
+    "^<!--",
+    "^## PDF page",
+    "^\\|.*\\|$"
+  ],
+  "clusters": [
+    {
+      "id": "c01",
+      "file": "syj.txt",
+      "start_line": 300,
+      "end_line": 820,
+      "label": "Radio repair memoir",
+      "kind": "monologue",
+      "period": "childhood; retold 1985",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c02",
+      "file": "syj.txt",
+      "start_line": 5875,
+      "end_line": 5935,
+      "label": "Bohr exchange memoir",
+      "kind": "monologue",
+      "period": "1943-1945; retold 1985",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c04",
+      "file": "pleasure.txt",
+      "start_line": 2561,
+      "end_line": 2683,
+      "label": "Cargo Cult Science address",
+      "kind": "monologue",
+      "period": "1974",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c05",
+      "file": "wdyc.txt",
+      "start_line": 175,
+      "end_line": 246,
+      "label": "Father and observation",
+      "kind": "monologue",
+      "period": "childhood; retold 1988",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c06",
+      "file": "wdyc.txt",
+      "start_line": 1406,
+      "end_line": 2957,
+      "label": "Rogers commission investigation",
+      "kind": "decision_record",
+      "period": "1986; retold 1988",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c07",
+      "file": "pleasure.txt",
+      "start_line": 264,
+      "end_line": 474,
+      "label": "BBC reflective interview",
+      "kind": "dialogue",
+      "period": "1981",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c09",
+      "file": "pleasure.txt",
+      "start_line": 1660,
+      "end_line": 1789,
+      "label": "Value of Science address",
+      "kind": "monologue",
+      "period": "1955",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c10",
+      "file": "pleasure.txt",
+      "start_line": 2309,
+      "end_line": 2537,
+      "label": "Omni interview",
+      "kind": "dialogue",
+      "period": "1979",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c11",
+      "file": "pleasure.txt",
+      "start_line": 1809,
+      "end_line": 2018,
+      "label": "Appendix F technical assessment",
+      "kind": "decision_record",
+      "period": "1986",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c13",
+      "file": "character.txt",
+      "start_line": 5656,
+      "end_line": 6672,
+      "label": "Seeking New Laws public lecture",
+      "kind": "monologue",
+      "period": "1964",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c14",
+      "file": "six-train.txt",
+      "start_line": 1,
+      "end_line": 180,
+      "label": "Relation of physics to other sciences",
+      "kind": "monologue",
+      "period": "1961-1963",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c15",
+      "file": "six-train.txt",
+      "start_line": 183,
+      "end_line": 847,
+      "label": "Energy gravitation quantum lectures",
+      "kind": "monologue",
+      "period": "1961-1963",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c17",
+      "file": "newmath.txt",
+      "start_line": 7,
+      "end_line": 143,
+      "label": "New Mathematics textbook criticism",
+      "kind": "monologue",
+      "period": "1965",
+      "attribution": "firsthand"
+    },
+    {
+      "id": "c16",
+      "file": "tips.txt",
+      "start_line": 1125,
+      "end_line": 5928,
+      "label": "Four supplementary lectures; Feynman only",
+      "kind": "monologue",
+      "period": "1961-1962",
+      "attribution": "firsthand"
+    }
+  ]
+}

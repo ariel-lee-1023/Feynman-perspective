@@ -1,0 +1,13 @@
+{
+  "status": "pre-measurement analysis plan, round2",
+  "reason": "Prior broad six-form comparison was unstable, as was its four-longer-unit sensitivity run. Current runtime default is explanatory conversation, so scoped formal voice evidence is preferable to inventing stable whole-life families.",
+  "scope": "English spoken physics explanation and teaching only; no claim that memoir, technical report and public address form the same family.",
+  "units": [
+    {"id":"law_explanation","source":"prior train c13, Seeking New Laws lecture","selection":"complete existing firsthand lecture sample"},
+    {"id":"intro_physics","source":"prior train Six Easy Pieces chapters3–6","selection":"whole four lectures, omit figures/equations/headers and identifiable editor notes; preserve prose"},
+    {"id":"review_teaching","source":"prior train Tips lectures1–2","selection":"whole prerequisites and laws/mathematics lectures, Feynman turns only; exclude interviewer/student text, editor notes, diagrams, numeric formula blocks"}
+  ],
+  "fixed_settings": "register_discover.py defaults, no threshold relaxation",
+  "reporting": "Preserve any failed result. A stable one-family finding applies only to these three instructional units and cannot erase the earlier broader insufficiency. No formal memoir/report/style-family discrimination claim follows.",
+  "sensitivity": "Report unit lengths, support, all pair agreements and family coassignments. Boundary cleaning is recorded independently of output metrics. No favorable-window selection or rewriting source punctuation to hit target rates."
+}
