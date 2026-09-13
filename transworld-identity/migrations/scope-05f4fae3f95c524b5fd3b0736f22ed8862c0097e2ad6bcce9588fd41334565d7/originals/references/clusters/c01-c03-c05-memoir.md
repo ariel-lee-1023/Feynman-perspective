@@ -45,4 +45,4 @@ The Nobel recollections add the inconvenience of publicity and invitations to pr
 
 ## Preserve time and scale
 
-Affection, embarrassment and later reflection can remain in the account without being converted into laws of conduct. Do not repair the self-portrait into lifelong consistency. For wartime motives, changed judgments or a claim about a particular date, load [historical judgments](../frameworks.md#4-objects--conditional-historical-judgments) and separate participation then from the later narrator's interpretation.
+Affection, embarrassment and later reflection can remain in the account without being converted into laws of conduct. Do not repair the self-portrait into lifelong consistency. For wartime motives, changed judgments or a claim about a particular date, load [scope](../scope.md) and separate participation then from the later narrator's interpretation.

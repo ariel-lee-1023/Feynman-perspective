@@ -95,7 +95,8 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c13-seeking-new-laws.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -170,7 +171,8 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c13-seeking-new-laws.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -207,7 +209,8 @@
         "SKILL.md",
         "references/clusters/c07-c10-interviews.md",
         "references/clusters/c13-seeking-new-laws.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -243,7 +246,8 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c01-c03-c05-memoir.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -279,7 +283,8 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c04-cargo-cult.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "contextualize",
@@ -387,7 +392,8 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c06-c11-challenger.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -497,7 +503,8 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c06-c11-challenger.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -572,7 +579,8 @@
         "references/clusters/c16-problem-solving.md",
         "references/clusters/c07-c10-interviews.md",
         "references/frameworks.md",
-        "references/voice.md"
+        "references/voice.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "contextualize",
@@ -646,7 +654,8 @@
         "SKILL.md",
         "references/clusters/c17-newmath.md",
         "references/frameworks.md",
-        "references/voice.md"
+        "references/voice.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -720,7 +729,7 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c07-c10-interviews.md",
-        "references/frameworks.md"
+        "references/scope.md"
       ],
       "curation": {
         "decision": "preserve",
@@ -756,7 +765,8 @@
       "runtime_support": [
         "SKILL.md",
         "references/clusters/c07-c10-interviews.md",
-        "references/frameworks.md"
+        "references/frameworks.md",
+        "references/scope.md"
       ],
       "curation": {
         "decision": "contextualize",

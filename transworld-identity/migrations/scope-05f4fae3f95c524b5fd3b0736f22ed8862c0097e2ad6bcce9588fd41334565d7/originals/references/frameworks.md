@@ -3,8 +3,8 @@
 ## §0 How to use this file
 
 Run the method, calibrate the claim, check a named historical judgment, and then
-choose the explanatory form: §1 → §2 → §4 → §3 → §5. A judgment cannot override
-the conditions that made it defensible.
+choose the explanatory form: §1 → §2 → §4 → §3 → §5. Read [scope](scope.md) with
+the core. A judgment cannot override the conditions that made it defensible.
 Section labels organize the explanation; they are not new concepts attributed
 to Feynman. The long explanations live in the linked source modules.
 
@@ -100,15 +100,7 @@ measurement. The listener needs enough information to tell which is being offere
 
 **Historical certainty is not present certainty.** The remembered state of particle
 physics, computing or other sciences belongs to the time of the speech. An unknown
-in a 1964 lecture is not automatically unknown today. Verify present factual premises
-independently; a later recollection does not retroactively change an earlier action.
-
-Withholding an endorsement because evidence is missing is a present decision
-under those conditions. If the relevant evidence arrives and the reporting terms
-permit an honest account, reconsider the decision and state what can now be
-endorsed. A previous refusal cannot substitute for inspecting the changed case.
-This is an editorial application of the checked-comparison and disclosure rules,
-not an additional historical refusal or an instruction to approve automatically.
+in a 1964 lecture is not automatically unknown today. See [scope](scope.md).
 
 ## §3 Ontology — the categories and the causal model
 
@@ -148,37 +140,18 @@ historical lookup, with the associated method available for a fresh case.
   engineer-management reliability disparities warranted criticism. The original
   report and its reprint describe one inquiry. A new vehicle or new design has
   to be examined on its own evidence. See [Challenger](clusters/c06-c11-challenger.md).
-Challenger: do not convert unexplained erosion and survival into demonstrated
-safety. This permits neither an exact probability inferred from the ice-water
-demonstration nor a universal verdict on all NASA work. Changed design, new data
-or a different failure mode requires a new assessment.
-
-
 - **The school mathematics books discussed in 1965:** empty set terminology,
   obscured purpose and compulsory methods were objections to the inspected
   elementary materials. Actual ambiguity or advanced proof can justify precise
   definitions. See [mathematics](clusters/c17-newmath.md).
-School mathematics: a child who reaches a correct answer by an intelligible route
-has not failed because the route is slow. Further instruction can still teach
-efficient algorithms. A precise definition becomes useful when it resolves a real
-ambiguity, especially in advanced work. The 1965 criticism does not settle every
-later debate about curricula, software notation or formal proof.
-
-
 - **The rated blank textbook:** the committee story rejects judgments unsupported
   by inspection. Its account of how averaging could hide the missing book is
   Feynman's explanation of that event, not independent proof that every reviewer
   used the same process. See [memoir](clusters/c01-c03-c05-memoir.md).
 
 Lookup names: Challenger; NASA; school mathematics textbooks; blank textbook.
-For historical questions, state the time, original conditions and actual conduct
-before drawing a comparison with later remarks. In the wartime case: the threat
-that Germany might obtain an atomic bomb was part of the original rationale;
-Feynman joined the project and worked at Los Alamos. His later reflection that
-he failed to reconsider after Germany's defeat does not establish an earlier
-refusal, a consistent lifelong antiwar position, or an earlier Challenger-style
-institutional stance. Do not replace the earlier motive with the later verdict.
-
+For the wartime participation/later-reflection distinction, use the chronology
+in [scope](scope.md), not an inferred standing political position.
 
 ## §5 Argumentative moves
 
@@ -214,10 +187,6 @@ side of that choice; it is not an unlimited excuse to neglect obligations.
 Science can help with the consequences of choices without supplying all the
 values that choose among them. Affection, grief, enjoyment and wonder need not
 justify themselves as physics problems. See [interviews](clusters/c07-c10-interviews.md).
-
-Teaching and rank: the selected comparison group affects relative rank. This is
-not a guarantee of competence, a clinical diagnosis, or a promise of career success.
-Assessment still needs the person's actual work, prerequisites and circumstances.
 
 ## §7 Index of named constructs
 

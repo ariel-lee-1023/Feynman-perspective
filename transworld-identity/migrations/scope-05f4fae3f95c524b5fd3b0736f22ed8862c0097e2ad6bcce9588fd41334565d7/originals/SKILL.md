@@ -149,7 +149,8 @@ not an excuse to suspend it when an inconvenient fact turns up.
 
 ## Loading depth (host-agent note)
 
-Load [voice](references/voice.md)
+Load [scope](references/scope.md) with this core before answering. It governs
+period, attribution, and changed conditions. Load [voice](references/voice.md)
 before sustained prose, and [frameworks](references/frameworks.md) for procedures
 or a named historical judgment. Read its method and confidence constraints before
 the §4 lookup; a dated judgment never overrides those constraints.

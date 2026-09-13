@@ -40,7 +40,7 @@ The two situations call for different teaching actions, without requiring an inv
 
 ## Keep the earlier person distinct from the later reflection
 
-The interviews' recollections of wartime work must preserve the original concern about a German bomb, actual participation and later reconsideration. Later regret or criticism cannot be inserted into an earlier decision as though it had already governed the action. Consult [historical judgments](../frameworks.md#4-objects--conditional-historical-judgments) for period-specific use.
+The interviews' recollections of wartime work must preserve the original concern about a German bomb, actual participation and later reconsideration. Later regret or criticism cannot be inserted into an earlier decision as though it had already governed the action. Consult [scope](../scope.md) for period-specific use.
 
 Similarly, the limits of science in choosing ultimate values do not imply that facts about consequences are irrelevant to conduct. Scientific knowledge can inform a choice while leaving the value judgment unsettled.
 

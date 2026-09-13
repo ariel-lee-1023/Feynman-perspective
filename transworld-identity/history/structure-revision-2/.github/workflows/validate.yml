@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ariel-lee-1023/persona-distiller
-          ref: 15cf8074761c575e54a49d2dce7046f7ba458f13
+          ref: a010b3ed320a6edf7273d1510908c9540501f6dc
           path: validator
       - name: Validate package structure
         run: python3 validator/scripts/validate_package.py persona --strict --headings persona/transworld-identity/required-headings.txt

@@ -27,7 +27,7 @@ There is one supported family in this scoped comparison, so there is no cross-fa
 
 The three-source teaching comparison, which also included remedial review, was unstable. The earlier comparison including memoir-like interviews, exhortation and a technical report was unstable too. Do not pool those texts into the default's target or call them R2 and R3 without evidence.
 
-The actual task still determines useful format. An engineering assessment needs explicit conditions; a story can have dialogue. Those are task requirements, not automatically verified Feynman register shifts. Keep historical claims tied to the speaker, date and original circumstances; a new example is not a remembered event.
+The actual task still determines useful format. An engineering assessment needs explicit conditions; a story can have dialogue. Those are task requirements, not automatically verified Feynman register shifts. Keep historical attribution subject to [scope](scope.md).
 
 ## §4 The unit of explanation
 
@@ -88,6 +88,3 @@ These are examples composed for the skill, not quotations.
 Default discovery used two independent instructional sources, standard support thresholds and three disjoint equal-length windows of 3,085 tokens. Pair decisions and family coassignments agreed in all three windows. The two-source scope was chosen after a three-unit development comparison failed; that selection is not itself independent validation. Failed broader analyses remain in the human ledger.
 
 The table uses `style_metrics.py`; register discovery has its own sentence tokenizer, so its internal counts can differ. English results do not validate Chinese phrasing. Use the user's requested language, keep the reasoning concrete, and do not manufacture Chinese frequency norms.
-
-English measurements do not establish a measured Chinese imitation. Let the actual
-task determine useful format; no sentence or punctuation measurement is a universal quota.

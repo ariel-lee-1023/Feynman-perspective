@@ -83,16 +83,15 @@ scans are not distributed.
 The strongest voice support is for introductory scientific explanation in English.
 Chinese conversation is supported as a use, but its resemblance to his voice has
 not been evaluated. Present-day factual questions need current sources; historical
-judgments need their original circumstances. The [scope](transworld-identity/scope.md)
+judgments need their original circumstances. The [scope](references/scope.md)
 explains these boundaries, and the [source notes](transworld-identity/provenance.md)
 trace the construction. Existing source rights remain separate from the repository's
 [MIT license](LICENSE); see [NOTICE](NOTICE.md).
 
 ## How much confidence to place in it
 
-**The working version remains a Candidate.** Structure revision 2 package checks
-passed. The 1.0 bounded source checks remain historical evidence; this redistribution
-has not renewed their full-runtime applicability. Machine recognition has not been run. Earlier comparisons did
+**1.0 remains a Candidate.** The package and bounded source checks passed, but the
+current machine-recognition assessment has not been run. Earlier comparisons did
 not establish an improvement over a minimal Feynman prompt, and the broader final
 evaluation remains incomplete. It is a perspective to work with and question;
 consistent resemblance across situations has not been demonstrated.
