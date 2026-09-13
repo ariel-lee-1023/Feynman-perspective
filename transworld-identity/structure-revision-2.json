@@ -342,12 +342,6 @@
   ],
   "preserved_files": [
     {
-      "original_path": ".DS_Store",
-      "sha256": "sha256:845968d19243b412c63e865c1e68074ca00c9a7cb3919fa08c41864ba1ca1eab",
-      "preserved_path": ".DS_Store",
-      "applicability": "applicable_unchanged"
-    },
-    {
       "original_path": "LICENSE",
       "sha256": "sha256:5ce6c5f9438d25e4b122b4637ce0c27b8392a5adbe2eb70cb710d4f65bbe4ed1",
       "preserved_path": "LICENSE",
@@ -1611,5 +1605,9 @@
   },
   "source_review": "Editorial semantic preservation checked against retained passages, not new primary-source verification.",
   "recognition": "not_run; no applicable recognition pass existed; no new calls",
-  "historical_results": "Preserved byte-for-byte at the paths indexed below; old requests and protocols keep their original scope."
+  "historical_results": "Preserved byte-for-byte at the paths indexed below; old requests and protocols keep their original scope.",
+  "local_preservation": {
+    "ignored_metadata_files": 1,
+    "status": "Unchanged locally; excluded from the published-file integrity manifest because ignored files do not exist in a fresh Git checkout."
+  }
 }
