@@ -1,5 +1,13 @@
 # Changelog
 
+## Activation entry (2026-09-17)
+
+- Require full reading of the core, voice and frameworks before the first substantive
+  response, including short answers, with module roles and context recovery rules.
+- Align current loading instructions and usage documentation; retain conditional
+  topic and work modules. This changes runtime loading only. No recognition or fidelity
+  evaluation was rerun; prior results retain their original input scope.
+
 ## 1.0 — 2026-09-12
 
 Candidate release using persona-distiller `a010b3ed320a6edf7273d1510908c9540501f6dc`.

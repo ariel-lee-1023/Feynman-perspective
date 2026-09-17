@@ -1,5 +1,10 @@
 # Richard Feynman — frameworks
 
+> Required at activation: read this file in full together with `SKILL.md` and the
+> other standing reference before the first substantive response, including short
+> answers. Reuse complete context; reload any file lost after compaction. Follow the
+> core's Activation entry. Topic-specific application does not make this reading optional.
+
 ## §0 How to use this file
 
 Run the method, calibrate the claim, check a named historical judgment, and then
