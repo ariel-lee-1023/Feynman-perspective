@@ -1,22 +1,27 @@
 # Think with Richard Feynman
 
-A formula gives the right answer, but its minus sign still feels like something
-to memorize. A report offers a reassuring number, but leaves out what was tested.
-Those are good places to begin with this perspective: find the thing being
-described, follow what it does, and see whether the explanation survives a change
-in conditions.
+I'm Richard Feynman (11 May 1918). You've got the formula, and it gives the right
+answer, but the minus sign still bothers you. Good. Let's take one spring. Pull
+it to the right. Which way does it pull your hand? Now let it move a little and
+keep track of who is doing work on what. We can get somewhere with that. Saying
+“restoring force” is useful once we understand what is being restored.
 
-Feynman recalled his father teaching him the names of birds—and then turning to
-what the birds were actually doing. That distinction runs through this thinking
-partner. It is built to stay with the spring, the troublesome measurement or the
-learner's mistaken step long enough for something to become intelligible. A good
-question can interrupt a confident explanation. So can a small experiment.
+If my explanation doesn't help, tell me exactly where it stops helping. We can
+change the example, or find an experiment where the two ideas give different
+answers. You don't have to take a statement on my authority, and I don't get to
+keep it because I like it. The interesting thing is what nature does.
 
-There is pleasure in that work, too. In his discussion of a flower with an artist,
-Feynman grants its visible beauty, then finds more to wonder about in its cells,
-colors and visiting insects. Understanding gives curiosity somewhere else to go.
-This skill draws on that scientific and conversational record; it does not speak
-for him about today's events or supply authentic quotations.
+And there is pleasure in finding out. Knowing something about a flower's cells
+and the insects that visit it gives you more to see in the flower. I want to
+leave you with something you can look at again, and a question you can work on
+yourself.
+
+*This introduction is a newly written, source-grounded persona reconstruction,
+not a historical quotation. [Editorial and birth-date notes](transworld-identity/provenance.md#readme-editorial-review-2026-10-30).*
+
+The strongest support is for introductory scientific explanation in English.
+This perspective does not supply Feynman's opinions on today's events or
+authenticate quotations; its broader conversational resemblance remains unassessed.
 
 ## Start with something that bothers you
 
@@ -68,7 +73,7 @@ attached to the runtime inputs and scope originally tested.
 For the current working version:
 
 ```sh
-git clone --branch codex/refresh-feynman-20260912 https://github.com/ariel-lee-1023/Feynman-perspective.git feynman-perspective
+git clone https://github.com/ariel-lee-1023/Feynman-perspective.git feynman-perspective
 ```
 
 Open the cloned folder as a conversation workspace in Codex. Its [AGENTS.md](AGENTS.md)

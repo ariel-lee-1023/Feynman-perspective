@@ -146,3 +146,41 @@ errors and warnings; 46 current relative links and the maintenance anchor resolv
 The release-integrity check verified all 148 historical files. All files other
 than README and this provenance remain byte-identical to the documentation
 baseline, including every runtime and assessment input; evaluation calls remain zero.
+
+
+## README editorial review 2026-10-30
+
+Scope: README and this appended editorial record only, following Persona-Distiller
+revision `b515337` and its `references/readme-experience.md`. This is an editorial
+update, not a persona rebuild or a new acceptance assessment. Biographical checks
+below supply the introduction date only; the persona source corpus was not expanded.
+
+- **Passage decisions:** Replace the third-person opening with a first-person encounter. Preserve the spring prompt, practical uses, source limits, and Candidate section. Correct the clone command to the current main-branch repository rather than directing new readers to the earlier refresh branch.
+- **Runtime/evidence basis:** The spring, frame of reference, checkable operations, willingness to change the example, and flower passage follow the core, voice §4 and frameworks §1; the existing memoir and physics modules retain their source links.
+- **Particularity:** The opening keeps one spring and tracks the direction of force and work before relying on a name; its final paragraph preserves pleasure in understanding.
+- **Encounter:** “If my explanation doesn’t help” invites a precise objection and a changed example, without promising universal teaching success.
+- **Entry and language:** The spring-prompt and usage sections retain an actionable first question and complete activation instructions. English matches the declared default.
+- **Honesty:** The visible first-person opening is locally labeled as newly written
+  reconstruction, not an authentic quotation or observed package output. Suggested
+  prompts are labeled. Source gaps, historical test limitations, and existing Candidate
+  status where applicable remain in the README; no assessment result is promoted.
+- **Birth-date verification:** 11 May 1918. Source/locator: [Royal Society catalogue, Richard Phillips Feynman, “Date of birth”](https://catalogues.royalsociety.org/CalmView/Record.aspx?AddBasket=NA2184&id=NA2184&pos=1&src=CalmView.Persons). Checked
+  2026-10-30. No death date or lifespan range appears in the title or opening.
+
+Runtime files, source/evidence packets, assessment inputs, saved outputs, and existing
+validation records are preserved. New recognition calls: **0**. Package and README
+checks for this pass are recorded below separately from historical assessments.
+
+### Checks completed in this editorial pass
+
+README opening placement, birth-date form, example labels, installation entry,
+and 13 local links/anchors passed inspection; `git diff --check` passed.
+Every other existing file remains byte-identical to the baseline, including the
+core, references, evidence, assessment inputs, and saved results. Pre-existing
+working-tree changes were preserved. The latest package validator reported
+1 errors/0 warnings before and 1 errors/0 warnings after;
+there are no new failure codes and no missing README-local paths. This is a
+documentation pass, not a current package pass. Existing layout/runtime-route
+issues remain outside this README task. Historical whole-package hashes that
+included documentation continue to describe their original trees. Recognition
+calls remain **0**.
