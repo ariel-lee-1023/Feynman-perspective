@@ -2,13 +2,13 @@
   "schema_version": 1,
   "run_id": null,
   "mode": "standard",
-  "timestamp": 1789257619.550624,
+  "timestamp": 1793409339.836662,
   "delivery_status": "candidate",
-  "summary": "Structure revision 2 migration: reconstruction scope separated from runtime, method conditions retained, original files and assessments preserved. No new recognition calls.",
+  "summary": "CI maintenance review 2026-10-31: current activation/default-language inputs and relative-path corrections recorded separately from historical migrations and assessments. No new recognition calls.",
   "runtime_error": null,
-  "runtime_hash": "sha256:30990522d9f7bc8898e5f40401ad276603d9689848b558049b4f0072537dda6e",
+  "runtime_hash": "sha256:5b766b865ce0165f37618668784179ad17cd6d5078072531f6b05f2d86c4ab65",
   "module_hashes": {
-    "SKILL.md": "sha256:496be83924139b6023d5bd7a7c240c82e1f0f9b58e55e03e891d5a08ea252ba0",
+    "SKILL.md": "sha256:d844c9398f0045801a592ae8018ce34d0aae5556bad6d8fd1d91fdac5d295f0d",
     "references/clusters/c01-c03-c05-memoir.md": "sha256:6ebc6d8fdcb736800721c47774889df06e917fd2e63b39e0331b449e0bf4a6bc",
     "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
     "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
@@ -16,11 +16,11 @@
     "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
     "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
     "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
-    "references/frameworks.md": "sha256:3385f8195aef75733216db9bee7773172d0d8185bfa7d95cf4d8ecac21148b7f",
-    "references/voice.md": "sha256:e04cb1d6f5ef6fc1207469b61310822a0574bb7abff353f1da456e77973a2024"
+    "references/frameworks.md": "sha256:e27265f303f4f4feebbf2a7d67dbf5fd4c5782114bbd5de28727fd9e9187bab8",
+    "references/voice.md": "sha256:825e5408648ca39fc4d7586b2d0cbb511a04a6d2ff2828f96c2a6519e0ae5f42"
   },
   "revision": {
-    "baseline": "21f1307438dd864dbeeb971389c7c260185dc473",
+    "baseline": "bf7976c99a095eadae44b2ae54bf0d46c5087a10",
     "tool": "15cf8074761c575e54a49d2dce7046f7ba458f13"
   },
   "hashes": null,
@@ -31,7 +31,9 @@
   },
   "package_checks": {
     "structure_revision": 2,
-    "strict": false,
+    "package": "/private/tmp/persona-ci-repair-20261031/feynman-perspective",
+    "skill_root": "/private/tmp/persona-ci-repair-20261031/feynman-perspective/.agents/skills/feynman-perspective",
+    "strict": true,
     "checks": [
       {
         "check": "S9",
@@ -73,7 +75,7 @@
         "level": "warn",
         "ok": true,
         "detail": "transworld-identity/episodic.md present",
-        "effective_level": "warn"
+        "effective_level": "error"
       },
       {
         "check": "S5",
@@ -87,7 +89,7 @@
         "level": "warn",
         "ok": true,
         "detail": "cluster modules directory is references/clusters/",
-        "effective_level": "warn"
+        "effective_level": "error"
       },
       {
         "check": "C1",
@@ -112,10 +114,10 @@
       },
       {
         "check": "C3",
-        "level": "warn",
+        "level": "error",
         "ok": true,
-        "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
-        "effective_level": "warn"
+        "detail": "all configured heading anchors present",
+        "effective_level": "error"
       },
       {
         "check": "C4",
@@ -157,7 +159,7 @@
         "level": "warn",
         "ok": true,
         "detail": "no second-person or bare-English-imperative lines found",
-        "effective_level": "warn"
+        "effective_level": "error"
       },
       {
         "check": "L2",
@@ -186,7 +188,7 @@
     "verdict": "PASS"
   },
   "source_review": {
-    "summary": "Editorial review of redistribution against retained scope, core and method modules; historical primary-source judgments are preserved without rebinding them to changed inputs.",
+    "summary": "Maintenance of activation routing and relative paths only. Historical primary-source reviews remain attached to their original inputs; no new full-claim source or recognition pass.",
     "reviewer": "Codex authoring agent",
     "reviewed_all_core_claims": false,
     "source_checks": [],
@@ -514,5 +516,6 @@
     "record": "structure-revision-2.json",
     "evaluation_calls": 0,
     "recognition_plan": "No runnable revision-2 plan or frozen recognition run exists. Retained prepared designs are historical unexecuted drafts; request reuse requires a complete future input comparison."
-  }
+  },
+  "maintenance_record": "maintenance-2026-10-31.json"
 }

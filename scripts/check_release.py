@@ -37,18 +37,43 @@ def check():
     paths = [ROOT / 'SKILL.md'] + sorted(p for p in (ROOT / 'references').rglob('*') if p.is_file())
     assert all(p.resolve().is_relative_to(ROOT / 'references') for p in paths[1:])
     runtime = {p.relative_to(ROOT).as_posix(): p.read_text() for p in paths}
-    assert digest(runtime) == status['runtime_hash'] == migration['runtime_hash']
-    assert {p: digest(t) for p, t in runtime.items()} == status['module_hashes'] == migration['module_hashes']
+    maintenance = load('maintenance-2026-10-31.json')
+    assert maintenance['assessment_applicability'] == 'historical_support_only_changed_runtime_inputs'
+    assert maintenance['new_evaluation_calls'] == 0
+    assert digest(runtime) == status['runtime_hash'] == maintenance['runtime_hash'], 'current runtime hash changed'
+    assert {p: digest(t) for p, t in runtime.items()} == status['module_hashes'] == maintenance['module_hashes']
+    old_status_path = EVIDENCE / maintenance['historical_validation']
+    assert old_status_path.resolve().is_relative_to(EVIDENCE / 'history')
+    assert hashlib.sha256(old_status_path.read_bytes()).hexdigest() == maintenance['historical_validation_sha256']
+    old_status = json.loads(old_status_path.read_text())
+    assert old_status['runtime_hash'] == migration['runtime_hash'] == maintenance['baseline_runtime_hash']
+    assert old_status['module_hashes'] == migration['module_hashes']
+    assert set(runtime) == set(old_status['module_hashes'])
+    assert sorted(p for p in runtime if digest(runtime[p]) != old_status['module_hashes'][p]) == maintenance['changed_modules']
     assert not any(re.search(r'transworld-identity/|fidelity-ledger/', t) for t in runtime.values())
+    overrides = maintenance['preserved_overrides']
+    assert set(overrides) <= {row['preserved_path'] for row in migration['preserved_files']}
     for row in migration['preserved_files']:
-        p = ROOT / row['preserved_path']
+        p = ROOT / overrides.get(row['preserved_path'], row['preserved_path'])
+        if row['preserved_path'] in overrides:
+            assert p.resolve().is_relative_to(EVIDENCE / 'history')
         assert p.resolve().is_relative_to(ROOT)
         assert 'sha256:' + hashlib.sha256(p.read_bytes()).hexdigest() == row['sha256'], row['original_path']
-    for record in (EVIDENCE / 'migrations').glob('scope-*.json'):
+    # Migration hashes describe the stored after-content, not future working files.
+    historical_runtime = dict(runtime)
+    for record in sorted((EVIDENCE / 'migrations').glob('scope-*.json')):
         data = json.loads(record.read_text())
+        changes = {row['path']: row['content'] for row in data['changes']}
+        assert set(changes) == set(data['after_hashes'])
         for rel, sha in data['after_hashes'].items():
-            p = ROOT / rel
-            assert ('sha256:' + hashlib.sha256(p.read_bytes()).hexdigest() if p.exists() else None) == sha, rel
+            content = changes[rel]
+            actual = 'sha256:' + hashlib.sha256(content.encode()).hexdigest() if content is not None else None
+            assert actual == sha, 'historical migration content changed: ' + rel
+            if rel in historical_runtime:
+                assert content is not None
+                historical_runtime[rel] = content
+    assert digest(historical_runtime) == migration['runtime_hash']
+    assert {p: digest(t) for p, t in historical_runtime.items()} == migration['module_hashes']
     evidence = {e['id']: e for e in load('evidence.json')['records']}
     for e in evidence.values():
         assert all(p in runtime for p in e['runtime_support'])

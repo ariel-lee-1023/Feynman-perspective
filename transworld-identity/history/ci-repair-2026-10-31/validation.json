@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "run_id": null,
+  "mode": "standard",
+  "timestamp": 1789257619.550624,
+  "delivery_status": "candidate",
+  "summary": "Structure revision 2 migration: reconstruction scope separated from runtime, method conditions retained, original files and assessments preserved. No new recognition calls.",
+  "runtime_error": null,
+  "runtime_hash": "sha256:30990522d9f7bc8898e5f40401ad276603d9689848b558049b4f0072537dda6e",
+  "module_hashes": {
+    "SKILL.md": "sha256:496be83924139b6023d5bd7a7c240c82e1f0f9b58e55e03e891d5a08ea252ba0",
+    "references/clusters/c01-c03-c05-memoir.md": "sha256:6ebc6d8fdcb736800721c47774889df06e917fd2e63b39e0331b449e0bf4a6bc",
+    "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+    "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+    "references/clusters/c07-c10-interviews.md": "sha256:7e0ec4af6e4e518293803db66d00a84160265b54d16438a645b44401c5e3015b",
+    "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+    "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+    "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+    "references/frameworks.md": "sha256:3385f8195aef75733216db9bee7773172d0d8185bfa7d95cf4d8ecac21148b7f",
+    "references/voice.md": "sha256:e04cb1d6f5ef6fc1207469b61310822a0574bb7abff353f1da456e77973a2024"
+  },
+  "revision": {
+    "baseline": "21f1307438dd864dbeeb971389c7c260185dc473",
+    "tool": "15cf8074761c575e54a49d2dce7046f7ba458f13"
+  },
+  "hashes": null,
+  "gates": {
+    "package": "passed",
+    "source": "inconclusive",
+    "machine_recognition": "not_run"
+  },
+  "package_checks": {
+    "structure_revision": 2,
+    "strict": false,
+    "checks": [
+      {
+        "check": "S9",
+        "level": "error",
+        "ok": true,
+        "detail": "reconstruction scope and host boundaries present; editorial responsibilities require source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "S1",
+        "level": "error",
+        "ok": true,
+        "detail": "one discoverable skill exists under .agents/skills/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S2",
+        "level": "error",
+        "ok": true,
+        "detail": "SKILL.md exists inside the discovered skill directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "S3",
+        "level": "error",
+        "ok": true,
+        "detail": "references/, voice.md, and frameworks.md present",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "error",
+        "ok": true,
+        "detail": "transworld-identity/provenance.md present outside .agents/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S4",
+        "level": "warn",
+        "ok": true,
+        "detail": "transworld-identity/episodic.md present",
+        "effective_level": "warn"
+      },
+      {
+        "check": "S5",
+        "level": "error",
+        "ok": true,
+        "detail": "no ledger files under references/",
+        "effective_level": "error"
+      },
+      {
+        "check": "S6",
+        "level": "warn",
+        "ok": true,
+        "detail": "cluster modules directory is references/clusters/",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C1",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter has name and description",
+        "effective_level": "error"
+      },
+      {
+        "check": "C1b",
+        "level": "error",
+        "ok": true,
+        "detail": "frontmatter name matches .agents/skills directory",
+        "effective_level": "error"
+      },
+      {
+        "check": "C2",
+        "level": "error",
+        "ok": true,
+        "detail": "description is non-empty and runtime-facing",
+        "effective_level": "error"
+      },
+      {
+        "check": "C3",
+        "level": "warn",
+        "ok": true,
+        "detail": "skipped: no --headings file supplied (subject-language cores need supplied anchors)",
+        "effective_level": "warn"
+      },
+      {
+        "check": "C4",
+        "level": "error",
+        "ok": true,
+        "detail": "no banned implementation strings in core",
+        "effective_level": "error"
+      },
+      {
+        "check": "S7",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime/evaluation separation",
+        "effective_level": "error"
+      },
+      {
+        "check": "S8",
+        "level": "error",
+        "ok": true,
+        "detail": "no detected raw books or local paths",
+        "effective_level": "error"
+      },
+      {
+        "check": "C5",
+        "level": "error",
+        "ok": true,
+        "detail": "runtime links and disk agree",
+        "effective_level": "error"
+      },
+      {
+        "check": "C6",
+        "level": "error",
+        "ok": true,
+        "detail": "all cNN citations resolve to a module",
+        "effective_level": "error"
+      },
+      {
+        "check": "L1",
+        "level": "warn",
+        "ok": true,
+        "detail": "no second-person or bare-English-imperative lines found",
+        "effective_level": "warn"
+      },
+      {
+        "check": "L2",
+        "level": "error",
+        "ok": true,
+        "detail": "provenance records the build contract and source/editorial lineage; content requires source review",
+        "effective_level": "error"
+      },
+      {
+        "check": "L3",
+        "level": "error",
+        "ok": true,
+        "detail": "episodic.md exceeds near-empty floor",
+        "effective_level": "error"
+      },
+      {
+        "check": "X1",
+        "level": "error",
+        "ok": true,
+        "detail": "references contain no numeric composite/probe score pattern",
+        "effective_level": "error"
+      }
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "verdict": "PASS"
+  },
+  "source_review": {
+    "summary": "Editorial review of redistribution against retained scope, core and method modules; historical primary-source judgments are preserved without rebinding them to changed inputs.",
+    "reviewer": "Codex authoring agent",
+    "reviewed_all_core_claims": false,
+    "source_checks": [],
+    "historical_review": "history/structure-revision-2/transworld-identity/validation.json",
+    "applicability": [
+      {
+        "claim": "Opening, axis and guard: observed operation before a label",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Translation: lollipops, useful precision and mathematical language",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "First-move table: unexpected radio result",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "First-move table: theory, experiment and checked calculation",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "First-move table: recover physical signs",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "First-move table: legitimate learner routes and prerequisites",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "First-move table: survival is not an explained safety margin",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "First-move table and refusal: inspect before rating",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Guess/compute/compare permits observation first and explicit bottlenecks",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Beauty, provisional success and extension beyond Newtonian tests",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Disclosure of alternatives and sponsor-dependent publicity",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Symmetric self-scrutiny after a welcome result",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Conditional signature, changed design and new assessment",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Concede the flower’s beauty, then locate the disputed inference",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Make zoo-keeper terminology do an operation; retain useful precision",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Ask for the number, its conditions and meaning; separate private estimates",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Cold-rubber demonstration has a limited inference",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Explanatory chain, local qualifications and questions at genuine forks",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Corrections and humor belong to a real exchange, not a quota",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Vocabulary has a use; cargo-cult is tied to the missing check",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Finding out rather than honors supplies the particular reward",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Relative rank, selected group and concrete work; no universal career promise",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Consequences versus final values; love sentence as editorial extension",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Historical anchor, earlier participation and later reflection",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "New audience or evidence may change the judgment without changing fixed history",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      },
+      {
+        "claim": "Loading routes, user precedence, present-fact retrieval and no invented quotation/memory",
+        "previous_outcome": "passed",
+        "dependencies": {
+          "SKILL.md": "sha256:ebf915fe2e49ee03f38fb80572d3eb42b95016b42476670a4c8fa468807cd548",
+          "references/clusters/c01-c03-c05-memoir.md": "sha256:3db9a8065b7f1f2bac6e1cddd602d28959384059897a3bcff12dabb4d2d15935",
+          "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+          "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+          "references/clusters/c07-c10-interviews.md": "sha256:1a2e5873a3926ee692525774d1cf25eb4bad9b9502e26100f40d3da1077b38c0",
+          "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+          "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+          "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+          "references/frameworks.md": "sha256:fcbad8aebe71758a30f6edbdc6feadd1e14945fa37f4b9f3c19cae58bc0233cf",
+          "references/scope.md": "sha256:cc74f89990903efe23dcd776e57d8561954c3c8e42495e8fda83b4d58120f499",
+          "references/voice.md": "sha256:50b200ff2b05738ca7039e67fe0dbdbc19b73f474fcfbfc2e44b3790fe7a3186"
+        },
+        "applicability": "historical_support_only_changed_runtime_inputs"
+      }
+    ],
+    "limitations": [
+      "No new primary-source review or behavioral assessment was commissioned for this structural migration."
+    ]
+  },
+  "recognition": {
+    "outcome": "not_run",
+    "judges": []
+  },
+  "assessment_records": {},
+  "assessment_errors": [],
+  "budget": {
+    "budget": 0,
+    "consumed": 0,
+    "remaining": 0,
+    "calls": [],
+    "deadline": 1789223685.801578,
+    "repair_pass": 0,
+    "reuse_lineage": []
+  },
+  "research": {
+    "assessed": false,
+    "outcome": "not_run"
+  },
+  "claim": "Candidate. Structural checks pass; full source-gate applicability has not been renewed for the changed runtime, and machine recognition has not run.",
+  "limitations": [
+    "This is a structural migration, not a new persona build or recognition assessment. Removing scope from ordinary loading changes runtime inputs; prior whole-runtime results are not a current pass.",
+    "Historical source reviews remain evidence for their original inputs; no primary editions were newly checked.",
+    "Source review is a bounded machine-assisted editorial pass over retained evidence and 21 located excerpts, not a new comprehensive extraction or independent historical audit.",
+    "Existing OCR has interleaved columns, damaged formulas and editorial/speaker boundaries; only attributable prose supports the reviewed claims.",
+    "English introductory lecture measurements remain historical descriptive evidence; broader register comparisons and Chinese voice remain unvalidated.",
+    "Prior development tie (0.75 versus 0.75 on two correlated probes) and incomplete finals (11 of 32 planned answers) retain their original inputs and protocol; none is a current recognition pass.",
+    "The changed scope module invalidates whole-runtime reuse for answers that would load scope; no previous result is rebound to the new hashes.",
+    "Machine recognition is not a calibrated probability of human acceptance; generic control does not establish added value over a minimal persona prompt."
+  ],
+  "structure_revision": 2,
+  "structure_migration": {
+    "record": "structure-revision-2.json",
+    "evaluation_calls": 0,
+    "recognition_plan": "No runnable revision-2 plan or frozen recognition run exists. Retained prepared designs are historical unexecuted drafts; request reuse requires a complete future input comparison."
+  }
+}

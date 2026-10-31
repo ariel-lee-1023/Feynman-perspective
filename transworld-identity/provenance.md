@@ -184,3 +184,21 @@ documentation pass, not a current package pass. Existing layout/runtime-route
 issues remain outside this README task. Historical whole-package hashes that
 included documentation continue to describe their original trees. Recognition
 calls remain **0**.
+
+## CI maintenance review — 2026-10-31
+
+Two activation notes under references used a bare core filename as though it were a
+sibling file. Their routes now point to the parent core. The current integrity record
+also accounts for the September activation and default-language edits. The
+[maintenance record](maintenance-2026-10-31.json) binds current fingerprints separately
+from the immutable structure-revision-2 manifest. The
+[previous validation](history/ci-repair-2026-10-31/validation.json) remains intact.
+
+Migration after-hashes are checked against their stored after-content. Historical
+runtime hashes are reconstructed from that content and unchanged modules. The two
+preserved documents subsequently edited (changelog and provenance) are checked against
+exact archived versions. Current documentation may evolve without rewriting migration
+history; unreviewed runtime changes still fail. Source review remains inconclusive and
+recognition remains not run. No source corpus or saved assessment was changed.
+
+The pinned strict package validator passes with zero errors and zero warnings. All 182 preserved originals, 21 evidence records and 26 historical source checks pass, along with seven integrity regression tests covering runtime changes, migration and snapshot corruption, unresolved support, and ordinary documentation edits.

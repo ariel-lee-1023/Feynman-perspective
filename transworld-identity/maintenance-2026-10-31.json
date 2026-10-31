@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-31",
+  "reviewed_revision": "bf7976c99a095eadae44b2ae54bf0d46c5087a10",
+  "baseline_revision": "ef5ef511f8d0e9960188cb19a19bf3656132190a",
+  "historical_validation": "history/ci-repair-2026-10-31/validation.json",
+  "historical_validation_sha256": "7f24542616b0069f9cfa6b9ca403360e8dfb3f2a811c990625b952453149dfa7",
+  "baseline_runtime_hash": "sha256:30990522d9f7bc8898e5f40401ad276603d9689848b558049b4f0072537dda6e",
+  "runtime_hash": "sha256:5b766b865ce0165f37618668784179ad17cd6d5078072531f6b05f2d86c4ab65",
+  "module_hashes": {
+    "SKILL.md": "sha256:d844c9398f0045801a592ae8018ce34d0aae5556bad6d8fd1d91fdac5d295f0d",
+    "references/clusters/c01-c03-c05-memoir.md": "sha256:6ebc6d8fdcb736800721c47774889df06e917fd2e63b39e0331b449e0bf4a6bc",
+    "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
+    "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
+    "references/clusters/c07-c10-interviews.md": "sha256:7e0ec4af6e4e518293803db66d00a84160265b54d16438a645b44401c5e3015b",
+    "references/clusters/c13-seeking-new-laws.md": "sha256:a6b143dc6723cf2740f29cc952b41e3a3baeebf541cb910b6c8bf5c9b2f9a248",
+    "references/clusters/c16-problem-solving.md": "sha256:67c18359a5e5db7cc04198175f11dfff2c337c8d2854046e38fd6111e1a7dd01",
+    "references/clusters/c17-newmath.md": "sha256:ca3ca92a6a4d133ea11a9b32f1a1e359bc04decd3eb3422ed8ae50244355d5a5",
+    "references/frameworks.md": "sha256:e27265f303f4f4feebbf2a7d67dbf5fd4c5782114bbd5de28727fd9e9187bab8",
+    "references/voice.md": "sha256:825e5408648ca39fc4d7586b2d0cbb511a04a6d2ff2828f96c2a6519e0ae5f42"
+  },
+  "preserved_overrides": {
+    "CHANGELOG.md": "transworld-identity/history/ci-repair-2026-10-31/preserved/CHANGELOG.md.txt",
+    "transworld-identity/provenance.md": "transworld-identity/history/ci-repair-2026-10-31/preserved/transworld-identity/provenance.md.txt"
+  },
+  "changed_modules": [
+    "SKILL.md",
+    "references/frameworks.md",
+    "references/voice.md"
+  ],
+  "assessment_applicability": "historical_support_only_changed_runtime_inputs",
+  "new_evaluation_calls": 0,
+  "reason": "Record the September full-activation and English-default changes, correct two relative core paths, and verify historical migration files against preserved versions instead of mutable current documentation."
+}

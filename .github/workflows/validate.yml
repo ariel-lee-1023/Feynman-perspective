@@ -21,3 +21,5 @@ jobs:
         run: python3 validator/scripts/validate_package.py persona --strict --headings persona/transworld-identity/required-headings.txt
       - name: Check Candidate status and evidence integrity
         run: python3 persona/scripts/check_release.py
+      - name: Test current and historical integrity boundaries
+        run: python3 -B -m unittest discover -s persona/tests -v
