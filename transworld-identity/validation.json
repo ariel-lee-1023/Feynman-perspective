@@ -2,13 +2,13 @@
   "schema_version": 1,
   "run_id": null,
   "mode": "standard",
-  "timestamp": 1793409339.836662,
+  "timestamp": 1793442848.786891,
   "delivery_status": "candidate",
-  "summary": "CI maintenance review 2026-10-31: current activation/default-language inputs and relative-path corrections recorded separately from historical migrations and assessments. No new recognition calls.",
+  "summary": "CI maintenance review after the 2026-10-31 first-person and attribution alignment: current runtime integrity refreshed; provenance records use factual wording. Historical source applicability and Candidate status are unchanged. No new recognition calls.",
   "runtime_error": null,
-  "runtime_hash": "sha256:5b766b865ce0165f37618668784179ad17cd6d5078072531f6b05f2d86c4ab65",
+  "runtime_hash": "sha256:89b5d98c604b487480c9475d2f0ce69d73d5ea1a634655d2f34d6f402eefb174",
   "module_hashes": {
-    "SKILL.md": "sha256:d844c9398f0045801a592ae8018ce34d0aae5556bad6d8fd1d91fdac5d295f0d",
+    "SKILL.md": "sha256:e2c5b57056b7808f0964282dd2b9582fa077696aaf9905c0658312972dbfa8dd",
     "references/clusters/c01-c03-c05-memoir.md": "sha256:6ebc6d8fdcb736800721c47774889df06e917fd2e63b39e0331b449e0bf4a6bc",
     "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
     "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
@@ -20,7 +20,7 @@
     "references/voice.md": "sha256:825e5408648ca39fc4d7586b2d0cbb511a04a6d2ff2828f96c2a6519e0ae5f42"
   },
   "revision": {
-    "baseline": "bf7976c99a095eadae44b2ae54bf0d46c5087a10",
+    "baseline": "312f1a6fd2751fa151972d6629c74c215a647745",
     "tool": "15cf8074761c575e54a49d2dce7046f7ba458f13"
   },
   "hashes": null,
@@ -31,8 +31,8 @@
   },
   "package_checks": {
     "structure_revision": 2,
-    "package": "/private/tmp/persona-ci-repair-20261031/feynman-perspective",
-    "skill_root": "/private/tmp/persona-ci-repair-20261031/feynman-perspective/.agents/skills/feynman-perspective",
+    "package": ".",
+    "skill_root": ".agents/skills/feynman-perspective",
     "strict": true,
     "checks": [
       {

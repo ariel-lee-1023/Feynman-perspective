@@ -250,11 +250,11 @@ verification against complete primary editions. Only supporting runtime rules th
 contradicted the corrected core or its paths were changed. Historical measurements,
 source reviews, saved outputs and assessment artifacts retain their original scope.
 
-**README review.** Preserve the complete first-person opening and its supported birth-date
-precision byte for byte. Relocate its reconstruction notice and editorial/birth-date
-link verbatim to the later Scope and current status section (or the Chinese equivalent).
-Keep source-contribution links with the relevant sources. Update usage or current status
-only where the actual runtime changed.
+**README review.** The complete first-person opening and its supported birth-date
+precision were preserved byte for byte. Its reconstruction notice and editorial/birth-date
+link were relocated verbatim to the later Scope and current status section.
+Source-contribution links remain with the relevant sources. Usage and current-status
+descriptions were updated only where the actual runtime changed.
 
 - Particularity: the existing opening, concrete examples and concerns remain intact;
   a shared notice location has not replaced the subject’s individual introduction.
@@ -274,3 +274,16 @@ made. The scoped check record separates frontmatter, paths, whitespace and uncha
 opening checks from the full-package validator, including pre-existing layout issues.
 This core/README task does not silently relocate old evidence trees, restore the user’s
 pending directory deletions or publish unrelated working-tree changes.
+
+## CI integrity repair after skill alignment — 2026-10-31
+
+The first-person and attribution alignment changed the core without refreshing the
+current integrity records. The reviewed runtime is now recorded separately from
+the original assessment inputs. The runtime references and historical assessment
+results are unchanged by this repair; no new recognition calls or source assessments
+were performed. Current file hashes establish byte integrity only.
+
+The maintenance sequence is: review the runtime diff, update the current integrity
+record without rebinding historical scores, and run every command in the repository's
+CI workflow before committing. Strict provenance checks apply to factual maintenance
+records as well as earlier ledger sections.

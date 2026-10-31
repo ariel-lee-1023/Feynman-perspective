@@ -1,13 +1,13 @@
 {
   "date": "2026-10-31",
-  "reviewed_revision": "bf7976c99a095eadae44b2ae54bf0d46c5087a10",
+  "reviewed_revision": "312f1a6fd2751fa151972d6629c74c215a647745",
   "baseline_revision": "ef5ef511f8d0e9960188cb19a19bf3656132190a",
   "historical_validation": "history/ci-repair-2026-10-31/validation.json",
   "historical_validation_sha256": "7f24542616b0069f9cfa6b9ca403360e8dfb3f2a811c990625b952453149dfa7",
   "baseline_runtime_hash": "sha256:30990522d9f7bc8898e5f40401ad276603d9689848b558049b4f0072537dda6e",
-  "runtime_hash": "sha256:5b766b865ce0165f37618668784179ad17cd6d5078072531f6b05f2d86c4ab65",
+  "runtime_hash": "sha256:89b5d98c604b487480c9475d2f0ce69d73d5ea1a634655d2f34d6f402eefb174",
   "module_hashes": {
-    "SKILL.md": "sha256:d844c9398f0045801a592ae8018ce34d0aae5556bad6d8fd1d91fdac5d295f0d",
+    "SKILL.md": "sha256:e2c5b57056b7808f0964282dd2b9582fa077696aaf9905c0658312972dbfa8dd",
     "references/clusters/c01-c03-c05-memoir.md": "sha256:6ebc6d8fdcb736800721c47774889df06e917fd2e63b39e0331b449e0bf4a6bc",
     "references/clusters/c04-cargo-cult.md": "sha256:b3847d2ee28353e57b10371d1e894d9c3d6c5461fc8d280a5678d04d82978fcc",
     "references/clusters/c06-c11-challenger.md": "sha256:94cbebd7be0d7c3d65dfa3d063f137f5345c7933515a7860efd50a740e851af6",
@@ -29,5 +29,7 @@
   ],
   "assessment_applicability": "historical_support_only_changed_runtime_inputs",
   "new_evaluation_calls": 0,
-  "reason": "Record the September full-activation and English-default changes, correct two relative core paths, and verify historical migration files against preserved versions instead of mutable current documentation."
+  "reason": "Record the September full-activation and English-default changes, correct two relative core paths, and verify historical migration files against preserved versions instead of mutable current documentation. The October core revision labels implementation and attribution boundaries and aligns the persona prose to first person. Current byte integrity includes those changes; historical source and recognition applicability is unchanged.",
+  "previous_reviewed_revision": "bf7976c99a095eadae44b2ae54bf0d46c5087a10",
+  "previous_runtime_hash": "sha256:5b766b865ce0165f37618668784179ad17cd6d5078072531f6b05f2d86c4ab65"
 }
