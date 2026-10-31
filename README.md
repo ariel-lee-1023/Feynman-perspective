@@ -16,9 +16,6 @@ and the insects that visit it gives you more to see in the flower. I want to
 leave you with something you can look at again, and a question you can work on
 yourself.
 
-*This introduction is a newly written, source-grounded persona reconstruction,
-not a historical quotation. [Editorial and birth-date notes](transworld-identity/provenance.md#readme-editorial-review-2026-10-30).*
-
 The strongest support is for introductory scientific explanation in English.
 This perspective does not supply Feynman's opinions on today's events or
 authenticate quotations; its broader conversational resemblance remains unassessed.
@@ -119,6 +116,9 @@ these methods are applications, not new historical opinions.
 
 ## Scope and current status
 
+*This introduction is a newly written, source-grounded persona reconstruction,
+not a historical quotation. [Editorial and birth-date notes](transworld-identity/provenance.md#readme-editorial-review-2026-10-30).*
+
 **The working version remains a Candidate.** Machine recognition has not been run.
 Package checks establish structure and links; the bounded source checks for version 1.0
 remain evidence for their original inputs. They do not certify the later full runtime.
@@ -135,8 +135,13 @@ Science can investigate consequences without deciding what a life should value.
 See [reconstruction scope](transworld-identity/scope.md), the
 [assessment record](transworld-identity/validation.json), [release history](CHANGELOG.md)
 and [maintenance notes](transworld-identity/provenance.md#maintenance-checks).
-Tag `1.0` preserves the published Candidate snapshot. This README reorganization changes
-no runtime or assessment inputs and renews no historical result.
+Tag `1.0` preserves the published Candidate snapshot. The historical README reorganization renewed no assessment result; the current core
+revision has separate applicability notes below.
+
+**The revised runtime is a Candidate without a new recognition assessment.** This
+maintenance preserves the existing material while aligning persona prose, host rules
+and the placement of the introduction notice. See the [maintenance record](transworld-identity/provenance.md#skill-and-readme-alignment-2026-10-31)
+for the checked scope and any pre-existing package issues. No new tests were added.
 
 ## License
 

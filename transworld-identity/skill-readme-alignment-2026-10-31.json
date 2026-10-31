@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-31",
+  "task": "Core and README consistency alignment; preserve existing content; no new tests",
+  "tool_revision": "915ecf9671b3a172433c8c0e3306b2e1c19f988b",
+  "baseline_commit": "b816f13376f208842e25a7c094bc6cb6ebc1e64d",
+  "pre_existing_working_tree": [],
+  "changed_files": [
+    {
+      "path": "README.md",
+      "before_sha256": "b810eb6d2cfa2f14b21376b7abd8068091a1ecb5b426078f3d80a81af0cd6d94",
+      "after_sha256": "34b6e23ca6176d0594f04962c079e1e97065adfde4e60a9c6b181fec4b57c4e3"
+    },
+    {
+      "path": "SKILL.md",
+      "before_sha256": "4437c1f5756fdd78c05dabf5ebf4fea6e2074cacd2fe315126a2fb4572caf929",
+      "after_sha256": "6c1c7d9e1deff21df59a08f5c2b861fd66f0e18d031bec19bb1ea22b32d6aa29"
+    },
+    {
+      "path": "transworld-identity/provenance.md",
+      "before_sha256": "3026a69765a0b7c7cc50415c533c9de9769d7929748fb735b47314d38f570414",
+      "after_sha256": "6d767166b71ec0fa2eca34b52b296cbca00bf1a52f8054aad8d538a7937fb980"
+    }
+  ],
+  "checks": {
+    "frontmatter": "pass",
+    "whitespace": "pass",
+    "language_before_activation": "pass",
+    "complete_core_voice_framework_activation": "editorially reviewed",
+    "first_person_persona_body": "editorially reviewed, not certified by pronoun counts",
+    "implementation_and_attribution_labels": "editorially reviewed",
+    "readme_introduction_bytes": "unchanged",
+    "readme_notice_bytes": "unchanged, relocated with its source links",
+    "readme_notice_location": "Scope and current status",
+    "local_markdown_links_checked": 42,
+    "new_broken_markdown_links": [],
+    "pre_existing_broken_markdown_links": [],
+    "rendered_layout": "not run"
+  },
+  "package_validation": {
+    "passed": true,
+    "failures": [],
+    "baseline_failures": [],
+    "scope": "Full-package layout issues are reported separately from the requested core/README edits; existing discovery deletions and legacy evidence trees are preserved."
+  },
+  "source_review": {
+    "scope": "Existing core text, linked runtime distinctions and relevant provenance; no new primary-edition research",
+    "decisions": "Retain substantive arguments, examples and tensions; correct narrative stance, attribution, conditional application and inconsistent host/reference instructions",
+    "independent_historical_audit": false
+  },
+  "recognition": {
+    "status": "not_run",
+    "calls": 0,
+    "tests_added": 0,
+    "historical_records": "unchanged; changed runtime inputs are not recertified",
+    "current_status": "candidate"
+  }
+}
