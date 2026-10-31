@@ -202,3 +202,35 @@ history; unreviewed runtime changes still fail. Source review remains inconclusi
 recognition remains not run. No source corpus or saved assessment was changed.
 
 The pinned strict package validator passes with zero errors and zero warnings. All 182 preserved originals, 21 evidence records and 26 historical source checks pass, along with seven integrity regression tests covering runtime changes, migration and snapshot corruption, unresolved support, and ordinary documentation edits.
+
+
+## README reading-order review — 2026-10-31
+
+This is a documentation-only review under Persona Distiller's complete README
+authoring rules. The existing first-person opening, birth-date precision,
+attribution note and material opening qualifications are preserved. Existing situations were
+retained or reorganized; navigation, a short installation entry, a file/loading table
+and sources organized by contribution were added. Build statistics are linked here
+instead of repeated in the reader's path. No conversation excerpts or sample answers
+were added. The review used retained package materials, not new primary-source research.
+
+Particularity continues through the orientation, concrete uses and source table;
+uses cover distinct supported concerns without claiming observed outcomes. Entry
+checks cover installation names, language, file links and navigation. Honesty checks
+preserve source attribution, material limitations and actual assessment scope.
+
+The runtime, source modules and historical assessment records are unchanged; this
+README revision makes zero recognition calls and does not renew any earlier result.
+
+
+### Completed checks for this README revision
+
+The spring-and-sign opening and first prompt retain a single physical example. The later uses connect that concreteness to rival explanations, reliability claims and teaching, while the source table separates memoir, lectures and scientific-integrity evidence.
+
+The review used a prepared tree based on committed baseline a70bcb2a, excluding unrelated working-directory changes. All 31 README local links, including six navigation anchors in body order, resolve. The invocation name agrees with the existing frontmatter. Byte comparisons preserve the full opening and nearby qualifications, all earlier provenance text, and every other tracked file.
+
+Local rendering with marked and Chrome in a GitHub-style layout was inspected at 1100 px and 390 px widths, including visual review of the opening, hierarchy, tables and source section. Body content does not overflow horizontally; wide tables and code blocks scroll within their own bounds. All six rendered navigation targets exist. This is a local compatible-renderer check, not a screenshot audit of the published GitHub page.
+
+The current generic Persona Distiller package check passes before and after the README edit. The repository’s scripts/check_release.py also passes against both the baseline and the prepared tree; historical results remain scoped to their recorded inputs. The generic validator is from Persona Distiller commit 3774ccc. Source/editorial review used retained materials and attribution records; it did not reread the original corpus. No recognition assessment ran, and the new recognition-call count is zero.
+
+The CI-pinned strict validator (15cf807) also passes with zero errors and warnings, and all seven integrity regression tests pass.

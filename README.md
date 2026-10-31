@@ -23,7 +23,12 @@ The strongest support is for introductory scientific explanation in English.
 This perspective does not supply Feynman's opinions on today's events or
 authenticate quotations; its broader conversational resemblance remains unassessed.
 
-## Start with something that bothers you
+
+Follow the connection between a physical example, the evidence that can change an explanation, and the pleasure of finding something out.
+
+[Uses](#what-to-bring) · [Getting started](#getting-started) · [Files and loading](#files-and-loading) · [Sources](#sources-and-contributions) · [Scope and status](#scope-and-current-status) · [License](#license)
+
+## What to bring
 
 **Suggested first prompt:**
 
@@ -55,68 +60,85 @@ Questions about curiosity, learning and the pleasure of discovery fit here as
 well. The approach can investigate consequences and clarify a choice; it cannot
 derive what a life should be devoted to from a physical law.
 
-## Activation
-
-Before the first substantive answer, read the complete [SKILL.md](SKILL.md),
-[voice](references/voice.md) and [frameworks](references/frameworks.md), including for
-short replies. The core supplies the perspective, voice supplies its expressive
-system, and frameworks supplies its conceptual and reasoning distinctions. Reuse files
-already fully retained in context; reload missing files after compaction. Add topic,
-work or mode modules when relevant. For a chat without file access, supply all three
-complete texts at the start.
-
-This loading-only update has not been reassessed. Existing assessment results remain
-attached to the runtime inputs and scope originally tested.
-
-## Use it
-
-For the current working version:
+## Getting started
 
 ```sh
 git clone https://github.com/ariel-lee-1023/Feynman-perspective.git feynman-perspective
 ```
 
-Open the cloned folder as a conversation workspace in Codex. Its [AGENTS.md](AGENTS.md)
-sets the Feynman perspective as the default; a request to change voice or work on
-the files takes precedence. The suggested prompt above is also a direct way to
-start. Tag `1.0` preserves the published Candidate snapshot.
+Open the cloned folder as an agent workspace. Its [AGENTS.md](AGENTS.md) activates
+the local Feynman perspective; explicit requests to change voice or maintain the files
+take precedence. For another skill host, install the root under `feynman-perspective`.
+Invoke `feynman-perspective` through your host's skill selector, or ask it to use this perspective with one of the situations above.
 
-For another skill host, install the root [SKILL.md](SKILL.md) together with its
-`references/` directory. The existing discovery link
-`.agents/skills/feynman-perspective -> ../..` points to that same copy.
+Responses default to **English**. Explicitly request another language, for example
+“Answer in Chinese for this conversation,” to change it for that scope. A message
+written in another language alone does not change the default.
 
-## Where the perspective comes from
+### Loading and manual configuration
 
-Seven works supply the record: *Surely You're Joking, Mr. Feynman!*, *What Do You
-Care What Other People Think?*, *The Pleasure of Finding Things Out*, *The Character
-of Physical Law*, *Six Easy Pieces*, *Feynman's Tips on Physics*, and *New Textbooks
-for the “New” Mathematics*.
+Before the first substantive response, including a short answer, read the complete
+[core](SKILL.md), [voice](references/voice.md) and [frameworks](references/frameworks.md).
+The core alone is incomplete. Keep complete texts already in context and reload any
+lost after compaction. Add relevant topic or work modules as the question requires.
+For a chat without file access, supply those three complete texts and the relevant
+module yourself. Maintenance and assessment records are not ordinary conversation inputs.
 
-They include public material from 1955–1986, undergraduate teaching, and memoirs
-published in 1985 and 1988 about earlier events. Lectures, edited interviews and
-later recollections offer different kinds of evidence. Editors' remarks and
-student questions are kept distinct from Feynman's speech. The full books and
-scans are not distributed.
+## Files and loading
 
-The strongest voice support is for introductory scientific explanation in English.
-Chinese conversation is supported as a use, but its resemblance to his voice has
-not been evaluated. Present-day factual questions need current sources; historical
-judgments need their original circumstances. The [scope](transworld-identity/scope.md)
-explains these boundaries, and the [source notes](transworld-identity/provenance.md)
-trace the construction. Existing source rights remain separate from the repository's
-[MIT license](LICENSE); see [NOTICE](NOTICE.md).
+These are file responsibilities and loading relationships, not a fixed sequence of thought.
 
-## How much confidence to place in it
+| File or entry | What it provides | When it is used |
+| --- | --- | --- |
+| [Core](SKILL.md) | Perspective, language and operating instructions | Read in full at setup |
+| [Voice](references/voice.md) | Expression, register and interaction | Read in full at setup |
+| [Frameworks](references/frameworks.md) | Concepts, methods and conditional judgments | Read in full at setup |
+| [Topic and source modules](references/clusters/) | Evidence, examples and work-specific distinctions | Load when relevant to the question |
+| [Maintenance records](transworld-identity/) | Provenance, editorial history and assessment evidence | Outside the ordinary conversation prompt |
+| [.agents/skills/feynman-perspective](.agents/skills/feynman-perspective) | Relative symlink to the repository root | Host discovery; not a second runtime copy |
 
-**The working version remains a Candidate.** Structure revision 2 package checks
-passed. The 1.0 bounded source checks remain historical evidence; this redistribution
-has not renewed their full-runtime applicability. Machine recognition has not been run. Earlier comparisons did
-not establish an improvement over a minimal Feynman prompt, and the broader final
-evaluation remains incomplete. It is a perspective to work with and question;
-consistent resemblance across situations has not been demonstrated.
+## Sources and contributions
 
-The [assessment record](transworld-identity/validation.json) contains the actual
-results and limitations. [Release history](CHANGELOG.md) and
-[maintenance notes](transworld-identity/provenance.md#maintenance-checks) cover the
-migration and reproducible checks. Those checks verify the package, not the presence
-of a person in a conversation.
+The record combines Richard Feynman's lectures, public statements, edited interviews
+and memoirs. This table connects their contributions to questions you can bring;
+repeated tellings of the same episode do not provide independent corroboration.
+
+| Question or concern | Source and period | Contribution and working reference |
+| --- | --- | --- |
+| What would make an explanation wrong? | *The Character of Physical Law*, Cornell lectures (1964) | Guessing, deriving consequences and checking both calculation and experiment. [Physical law](references/clusters/c13-seeking-new-laws.md) |
+| What does a formula let a learner do? | *Six Easy Pieces*, from the 1961–1963 teaching; *Feynman's Tips on Physics*, supplementary lectures of 1961–1962 | Physical signs, prerequisites and usable examples. [Problem solving](references/clusters/c16-problem-solving.md) |
+| When does notation obscure the task? | “New Textbooks for the ‘New’ Mathematics” (1965) | Criticism of the inspected elementary materials, not a ban on formal mathematics. [Mathematics education](references/clusters/c17-newmath.md) |
+| What has actually been inspected? | *Surely You're Joking, Mr. Feynman!* (1985); *What Do You Care What Other People Think?* (1988), recounting earlier events | Curiosity, prestige and the limits of endorsement. [Memoir](references/clusters/c01-c03-c05-memoir.md) |
+| What must a reassuring report disclose? | Scientific-integrity address (1974), reprinted in *Surely You're Joking*; Challenger inquiry (1986), in *What Do You Care* and *The Pleasure of Finding Things Out* | Controls, contrary evidence and the difference between survival and explained safety. [Integrity](references/clusters/c04-cargo-cult.md); [Challenger](references/clusters/c06-c11-challenger.md) |
+| Does understanding diminish wonder? | *The Pleasure of Finding Things Out*: 1955 address and 1979–1981 interview material | Beauty, motivation and uncertainty; reflection does not itself establish a separately calibrated conversational voice. [Interviews](references/clusters/c07-c10-interviews.md) |
+
+Editors' remarks, student questions, Matthew Sands's memoir and the exercise authors'
+contributions are distinguished from Feynman's speech. Exact editions and the source
+inventory are in [provenance](transworld-identity/provenance.md). Contemporary uses of
+these methods are applications, not new historical opinions.
+
+## Scope and current status
+
+**The working version remains a Candidate.** Machine recognition has not been run.
+Package checks establish structure and links; the bounded source checks for version 1.0
+remain evidence for their original inputs. They do not certify the later full runtime.
+Earlier comparisons did not establish improvement over a minimal Feynman prompt, and
+broader conversational resemblance remains unassessed.
+
+The represented public record spans 1955–1986, with teaching from 1961–1963 and memoirs
+published in 1985 and 1988 about earlier events. English introductory scientific
+explanation has the strongest voice support. Other languages can be requested, but
+Chinese conversational resemblance has not been evaluated. Present-day factual
+questions require current evidence; exact quotations require the relevant source.
+Science can investigate consequences without deciding what a life should value.
+
+See [reconstruction scope](transworld-identity/scope.md), the
+[assessment record](transworld-identity/validation.json), [release history](CHANGELOG.md)
+and [maintenance notes](transworld-identity/provenance.md#maintenance-checks).
+Tag `1.0` preserves the published Candidate snapshot. This README reorganization changes
+no runtime or assessment inputs and renews no historical result.
+
+## License
+
+The [MIT license](LICENSE) covers original repository material, not the source books
+or scans, which are not distributed. See [NOTICE](NOTICE.md) for source-rights exclusions.
